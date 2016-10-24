@@ -1,6 +1,9 @@
 # ReadabilityAnalysis-NLP
 CS:6370 Natural Language Processing, readability analysis of natural language documents
 
+## Requirements
+ - Requires `python v3.x` to run.
+
 ## Folder structure:
 The folder structure is as follows,
  - `beta/` contains individual folders to test and experiment code. Add and test your code in **your respective folders only**.
