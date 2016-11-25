@@ -1,0 +1,257 @@
+Original : More than 100 spiders are crawling around a museum in California. 
+PreProc  : MORE_THAN &&100 spiders are crawling around a museum in California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [spiders (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [crawling (INF-MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Natural History Museum created a world just for those spiders in its greenhouse. 
+PreProc  : The Natural History Museum created a world just for those spiders in its greenhouse >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Natural (LEX)(ADJ)]
+    [History (LEX)(N SINGULAR(OTHER))]
+    [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  [just (LEX)(ADJ) (ADV)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [spiders (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [greenhouse (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A Visitors can see many different kinds of spiders, such as the golden silk spider. 
+PreProc  : A Visitors can see many different kinds of spiders >COMMA SUCH_AS the golden silk spider >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [different (LEX)(ADJ)]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: many different kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [spiders (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [golden (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [silk (?)(UNK(ENTITY UNKNOWN))]
+      [spider (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is one of the largest spiders in North and South America. 
+PreProc  : That is one of the largest spiders in North and South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [largest (root: large) (MOR)(ADJ   )]
+      [spiders (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Golden silk spiders build strong webs. 
+PreProc  : Golden silk spiders build strong webs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Golden (?)(UNK(ENTITY UNKNOWN))]
+    [silk (?)(UNK(ENTITY UNKNOWN))]
+    [spiders (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [strong (LEX)(ADJ)]
+    [webs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Their web is so tough, people can make fishing nets out of them," says scientist Brent Karner, also known as the Bug Guy at the museum. 
+PreProc  : >DQUOTE Their web is so tough >COMMA people can make fishing nets out of them >COMMA >DQUOTE says scientist Brent Karner >COMMA also known as the Bug Guy at the museum >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [web (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [tough (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fishing (LEX)(ADJ)]
+    [nets (root: net) (MOR)(N PLURAL(OTHER))]
+
+  [out (LEX)]
+Following PP attaches to: fishing nets
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [Brent (?)(UNK(ENTITY UNKNOWN))]
+    [Karner (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Bug (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Guy (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

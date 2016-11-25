@@ -1,0 +1,466 @@
+Original : Would you like to visit a galaxy far, far away on your next vacation? 
+PreProc  : Would you like to visit a galaxy far >COMMA far away on your next vacation >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [visit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [galaxy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [far (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [far (LEX)(ADJ)]
+  [away (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [next (LEX)(ADJ)]
+      [vacation (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soon, you can! 
+PreProc  : Soon >COMMA you can >EXCLAMATION <EOS 
+CLAUSE:
+  [Soon (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Galactic Suite is the first hotel planned for space. 
+PreProc  : Galactic Suite is the first hotel planned for space >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Galactic (?)(UNK(ENTITY UNKNOWN))]
+    [Suite (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [planned (root: plan) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The hotel is scheduled to open in 2012. 
+PreProc  : The hotel is scheduled to open in &&2012 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [scheduled (root: schedule) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [open (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2012 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : in Barcelona, Spain, are designing the hotel. 
+PreProc  : in Barcelona >COMMA Spain >COMMA are designing the hotel >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Barcelona (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Spain (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [designing (root: design) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An architect is a person who designs buildings. 
+PreProc  : An architect is a person who designs buildings >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [architect (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [designs (root: design) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Galactic Suite will cost $3 billion to build. 
+PreProc  : Galactic Suite will cost >DOLLAR &&3 billion to build >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Galactic (?)(UNK(ENTITY UNKNOWN))]
+    [Suite (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [cost (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [billion (LEX)(N SINGULAR(DENOMINATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's a 3 followed by nine zeros! 
+PreProc  : THAT IS a &&3 followed by &&9 zeros >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [followed (root: follow) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [&&9 (LEX)(NUM)]
+      [zeros (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A three-day stay will cost $4 million. 
+PreProc  : A three-day stay will cost >DOLLAR &&4 million >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [three-day (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [stay (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [cost (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The hotel will have three bedrooms. 
+PreProc  : The hotel will have &&3 bedrooms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [bedrooms (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It will be attached to a shuttle rocket. 
+PreProc  : It will be attached to a shuttle rocket >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [attached (root: attach) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [shuttle (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [rocket (LEX)(N SINGULAR(WEAPON))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is how guests will travel to and from space. 
+PreProc  : That is how guests will travel to and from space >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [travel (LEX)(V BASE)]
+
+  [to (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Before guests can stay at Galactic Suite, they must train at a space camp for eight weeks. 
+PreProc  : Before guests can stay at Galactic Suite >COMMA they must train at a space camp for &&8 weeks >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Before (LEX)(PREP)]
+    NP SEGMENT:
+      [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [stay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [Galactic (?)(UNK(ENTITY UNKNOWN))]
+      [Suite (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [train (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [space (LEX)(N SINGULAR(OTHER))]
+      [camp (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&8 (LEX)(NUM)]
+      [weeks (root: week) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While on board, they will travel around the world in 80 minutes and see 15 sunrises per day. 
+PreProc  : While on board >COMMA they will travel around the world in &&80 minutes and see &&15 sunrises per day >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [board (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&80 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&15 (LEX)(NUM)]
+    [sunrises (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Galactic Suite gives space travel a whole new meaning! 
+PreProc  : Galactic Suite gives space travel a whole new meaning >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Galactic (?)(UNK(ENTITY UNKNOWN))]
+    [Suite (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gives (root: give) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [space (LEX)(N SINGULAR(OTHER))]
+    [travel (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [whole (LEX)(ADJ)]
+    [new (LEX)(ADJ)]
+    [meaning (root: mean) (MOR)(N SINGULAR) (GER)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

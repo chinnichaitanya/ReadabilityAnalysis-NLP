@@ -1,0 +1,566 @@
+Original : If two heads are better than one, a newly discovered turtle is head and shoulders above other turtles. 
+PreProc  : If &&2 heads are better than one >COMMA a newly discovered turtle is head and shoulders above other turtles >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [heads (root: head) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [better (LEX)(ADJ)]
+    [than (LEX)(ADV)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [discovered (root: discover) (MOR)(ADJ)]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [discovered (root: discover) (MOR)(ADJ)]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [head (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [shoulders (root: shoulder) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [above (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : May Toro found a two-headed turtle in Florida. 
+PreProc  : May Toro found a two-headed turtle in Florida >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [Toro (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toro (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [two-headed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Florida (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I was shocked. 
+PreProc  : >DQUOTE I was shocked >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [shocked (root: shock) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I couldn't believe it," Toro said after she picked up the turtle. 
+PreProc  : I COULD NOT believe it >COMMA >DQUOTE Toro said after she picked up the turtle >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [COULD (root: can) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Toro (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toro (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [after (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [picked (root: pick) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Toro works for Mary Kraus, who studies turtles. 
+PreProc  : Toro works for Mary Kraus >COMMA who studies turtles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toro (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [works (root: work) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Mary (?)(UNK(ENTITY UNKNOWN))]
+      [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mary (?)(UNK(ENTITY UNKNOWN))]
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [studies (root: study) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kraus says she has seen the eggs of two headed turtles before. 
+PreProc  : Kraus says she has seen the eggs of &&2 headed turtles before >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [eggs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the eggs
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [eggs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the eggs
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [headed (root: head) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, she has never seen a living two-headed turtle. 
+PreProc  : However >COMMA she has never seen a living two-headed turtle >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [never (LEX)(ADV)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [two-headed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This is the first time I've ever seen one alive, fully developed, and hatched," Kraus said. 
+PreProc  : >DQUOTE This is the first time I HAVE ever seen one alive >COMMA fully developed >COMMA and hatched >COMMA >DQUOTE Kraus said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [ever (LEX)(ADV)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [alive (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fully (LEX)(ADV)]
+    [developed (root: develop) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hatched (INF-MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two-headed turtle is a loggerhead turtle. 
+PreProc  : The two-headed turtle is a loggerhead turtle >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [two-headed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [loggerhead (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The U.S. government says the loggerhead turtle is an endangered species. 
+PreProc  : The U.S. government says the loggerhead turtle is an endangered species >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [loggerhead (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [endangered (root: endanger) (MOR)(ADJ)]
+    [species (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loggerhead turtles can grow to be 3 feet long and weigh up to 350 pounds! 
+PreProc  : Loggerhead turtles can grow to be &&3 feet long and weigh up to &&350 pounds >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loggerhead (?)(UNK(ENTITY UNKNOWN))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [can (LEX)(AUX)]
+    [grow (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loggerhead (?)(UNK(ENTITY UNKNOWN))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weigh (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&350 (LEX)(NUM)]
+      [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After studying the turtle for a couple of days, Toto and Kraus let the turtle go. 
+PreProc  : After studying the turtle for a couple of days >COMMA Toto and Kraus let the turtle go >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [studying (root: study) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [couple (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a couple
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Toto (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [let (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We didn't want it to become a freak in a freak show", Kraus said. 
+PreProc  : >DQUOTE We DID NOT want it to become a freak in a freak show >DQUOTE >COMMA Kraus said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [freak (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [freak (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [freak (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kraus (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

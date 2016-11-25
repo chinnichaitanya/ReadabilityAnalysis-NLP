@@ -1,0 +1,284 @@
+Original : The table shows the longest rivers on each continent, except Antarctica. 
+PreProc  : The table shows the longest rivers on each continent >COMMA except Antarctica >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [longest (root: long) (MOR)(ADJ)]
+    [rivers (root: river) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [continent (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [except (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use the information in the table to answer the questions below. 
+PreProc  : Use the information in the table to answer the questions below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Choose the best answer. 
+PreProc  : Choose the best answer >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On which continent is the longest river in the world located? 
+PreProc  : On which continent is the longest river in the world located >QUESTION <EOS 
+CLAUSE:
+  [On (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [longest (root: long) (MOR)(ADJ)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [located (root: locate) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The distance from Boston, Mass., to Los Angeles, Calif., is 3,026 miles. 
+PreProc  : The distance from Boston >COMMA Mass. >COMMA to Los Angeles >COMMA Calif. >COMMA is &&3,026 miles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Boston (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Mass. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Los (?)(UNK(ENTITY UNKNOWN))]
+      [Angeles (root: angel) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Calif. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3,026 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which of the following rivers is longer than that? 
+PreProc  : Which of the following rivers is longer than that >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [following (root: follow) (MOR)(N SINGULAR) (GER)]
+      [rivers (root: river) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [longer (LEX)(ADJ)]
+
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How much longer is the Murray-Darling River than the Volga River? 
+PreProc  : How much longer is the Murray-Darling River than the Volga River >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [longer (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Murray-Darling (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [Volga (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many miles long are the Nile River and Amazon River combined? 
+PreProc  : How many miles long are the Nile River and Amazon River combined >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+    [long (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Nile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+    [and (LEX)(CONJ)]
+    [Amazon (?)(UNK(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Amazon (?)(UNK(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [combined (root: combine) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How much longer is the Nile River than the Amazon River? 
+PreProc  : How much longer is the Nile River than the Amazon River >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [longer (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Nile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

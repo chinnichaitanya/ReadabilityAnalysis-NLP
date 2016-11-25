@@ -1,0 +1,484 @@
+Original : In 1963, King gave his famous "I Have a Dream" speech in Washington, D.C. Martin Luther King, Jr., at the March on Washington, August 28, 1963. 
+PreProc  : In &&1963 >COMMA King gave his famous >DQUOTE I Have a Dream >DQUOTE speech in Washington >COMMA D.C. Martin Luther King >COMMA Jr. >COMMA at the March on Washington >COMMA August &&28 >COMMA &&1963 >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1963 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  [his (LEX)(ADJ)]
+  [famous (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Dream (LEX)(N SINGULAR(OTHER))]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+    [Martin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [March (LEX)(N SINGULAR(MONTH))]
+
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Time:
+    [August (LEX)(N SINGULAR(MONTH))]
+    [&&28 (LEX)(NUM)]
+    [>COMMA (LEX)]
+    [&&1963 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On January 16, Americans will honor a great leaderÑMartin Luther King Jr. (1929-1968). 
+PreProc  : On January &&16 >COMMA Americans will honor a great leaderÑMartin Luther King Jr. >LPAREN 1929-1968 >RPAREN >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [January (LEX)(N SINGULAR(MONTH))]
+      [&&16 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [honor (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [great (LEX)(ADJ)]
+    [leaderÑMartin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [1929-1968 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year is the 20th anniversary of the King holiday. 
+PreProc  : This year is the 20th anniversary of the King holiday >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [20th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [anniversary (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the 20th anniversary
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [King (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [holiday (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As a leader, King took action to improve his community. 
+PreProc  : As a leader >COMMA King took action to improve his community >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [leader (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [action (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [improve (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [community (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When he was growing up in the South, black people did not have the same rights as white people. 
+PreProc  : When he was growing up in the South >COMMA black people did not have the same rights as white people >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [growing (root: grow) (MOR)(V PARTICIPLE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [black (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [black (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+    [not (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [rights (root: right) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [white (LEX)(ADJ)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When King was older, he gave speeches and led peaceful marches. 
+PreProc  : When King was older >COMMA he gave speeches and led peaceful marches >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [older (root: old) (MOR)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [speeches (root: speech) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [peaceful (LEX)(ADJ)]
+    [marches (root: march) (MOR)(N PLURAL)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As a result of his work, lawmakers passed Those laws protect the rights of all Americans. 
+PreProc  : As a result of his work >COMMA lawmakers passed Those laws protect the rights of all Americans >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [result (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a result
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [lawmakers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [passed (root: pass) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Those (LEX)(DET)]
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rights (root: right) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the rights
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : King encouraged others to work together to make the world a better place. 
+PreProc  : King encouraged others to work together to make the world a better place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [encouraged (root: encourage) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [others (root: other) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [better (LEX)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He once said, "Everybody can be great because everybody can serve." 
+PreProc  : He once said >COMMA >DQUOTE Everybody can be great because everybody can serve >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [once (LEX)(ADV)]
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Everybody (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Everybody (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [great (LEX)(ADJ)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [everybody (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [serve (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By taking part in community service projects, Americans keep Kingâ€™s dream alive. 
+PreProc  : By taking part in community service projects >COMMA Americans keep Kingâ€™s dream alive >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [taking (root: take) (MOR)(N SINGULAR) (GER)]
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [community (LEX)(N SINGULAR(OTHER))]
+      [service (LEX)(N SINGULAR(OTHER))]
+      [projects (root: project) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kingâ€™s (?)(UNK(ENTITY UNKNOWN))]
+    [dream (LEX)(N SINGULAR(OTHER))]
+
+  [alive (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A Look Back at a Leader: Martin Luther King Jr. 
+PreProc  : A Look Back at a Leader >COLON Martin Luther King Jr. <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Look (LEX)(N SINGULAR(OTHER))]
+    [Back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Leader (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Martin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : A Look Back at a Leader: Martin Luther King Jr. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : A Look Back at a Leader >COLON Martin Luther King Jr. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Look (LEX)(N SINGULAR(OTHER))]
+    [Back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Leader (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Martin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

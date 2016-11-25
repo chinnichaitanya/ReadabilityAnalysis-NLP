@@ -1,0 +1,442 @@
+Original : Dixon Dubow, 9, recently gave away some of his Lego bricks. 
+PreProc  : Dixon Dubow >COMMA &&9 >COMMA recently gave away some of his Lego bricks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dixon (?)(UNK(ENTITY UNKNOWN))]
+    [Dubow (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&9 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [gave (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [Lego (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [bricks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The third grader from Raleigh, North Carolina, them to the Lego brick drive. 
+PreProc  : The third grader from Raleigh >COMMA NORTH_CAROLINA >COMMA them to the Lego brick drive >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Raleigh (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [NORTH_CAROLINA (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Lego (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [brick (?)(UNK(ENTITY UNKNOWN))]
+      [drive (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Donate means "to give to a good cause." 
+PreProc  : Donate means >DQUOTE to give to a good cause >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Donate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [cause (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Lego drive was held for kids in New Orleans, Louisiana. 
+PreProc  : The Lego drive was held for kids in New Orleans >COMMA Louisiana >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Lego (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [drive (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Louisiana (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many schools there lost classroom supplies when Hurricane Katrina struck in 2005. 
+PreProc  : Many schools there lost classroom supplies when Hurricane Katrina struck in &&2005 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [classroom (?)(UNK(ENTITY UNKNOWN))]
+    [supplies (root: supply) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Hurricane (?)(UNK(ENTITY UNKNOWN))]
+    [Katrina (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [struck (root: strike) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 1.6 million Lego building bricks were collected. 
+PreProc  : MORE_THAN &&1.6 million Lego building bricks were collected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&1.6 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [Lego (?)(UNK(ENTITY UNKNOWN))]
+    [building (LEX)(N SINGULAR(BUILDING))]
+    [bricks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [collected (root: collect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids like Dixon donated half the amount. 
+PreProc  : Kids like Dixon donated half the amount >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Dixon (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dixon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [donated (root: donate) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [amount (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The rest was supplied by the Lego company. 
+PreProc  : The rest was supplied by the Lego company >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [rest (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [supplied (root: supply) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Lego (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Legos were given to New Orleans schools at a special ceremony. 
+PreProc  : The Legos were given to New Orleans schools at a special ceremony >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Legos (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [given (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [special (LEX)(ADJ)]
+      [ceremony (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Artist Nathan Sawaya also presented a model of New Orleans that he built with Lego bricks. 
+PreProc  : Artist Nathan Sawaya also presented a model of New Orleans that he built with Lego bricks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Artist (?)(UNK(ENTITY UNKNOWN))]
+    [Nathan (?)(UNK(ENTITY UNKNOWN))]
+    [Sawaya (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [presented (root: present) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [model (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a model
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  [built (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Lego (?)(UNK(ENTITY UNKNOWN))]
+      [bricks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dixon was happy to give to other kids. 
+PreProc  : Dixon was happy to give to other kids >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dixon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [happy (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I hope that collecting Lego bricks will help them so they can feel better," he says. 
+PreProc  : >DQUOTE I hope that collecting Lego bricks will help them so they can feel better >COMMA >DQUOTE he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [collecting (root: collect) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [Lego (?)(UNK(ENTITY UNKNOWN))]
+    [bricks (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lego (?)(UNK(ENTITY UNKNOWN))]
+    [bricks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [feel (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,783 @@
+Original : Otis is a type of dog called a boxer. 
+PreProc  : Otis is a type of dog called a boxer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Otis (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [type (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a type
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [dog (LEX)(N SINGULAR(ANIMAL))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [type (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a type
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [dog (LEX)(N SINGULAR(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [boxer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Otis visits children in hospitals. 
+PreProc  : Otis visits children in hospitals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Otis (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visits (root: visit) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [hospitals (root: hospital) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Service dogs such as Otis are trained to help people in many ways. 
+PreProc  : Service dogs SUCH_AS Otis are trained to help people in many ways >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Service (LEX)(N SINGULAR(OTHER))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [Otis (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [trained (root: train) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When Otis visits sick children in a hospital, he cheers them up! 
+PreProc  : When Otis visits sick children in a hospital >COMMA he cheers them up >EXCLAMATION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Otis (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visits (root: visit) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [sick (LEX)(ADJ)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [hospital (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cheers (root: cheer) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [up (LEX)(PART) (PREP)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Doctors believe having dogs visit hospitals and nursing homes helps patients relax and feel better. 
+PreProc  : Doctors believe having dogs visit hospitals and nursing homes helps patients relax and feel better >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visit (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [hospitals (root: hospital) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [nursing (LEX)(ADJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [nursing (LEX)(ADJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [patients (root: patient) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [patients (root: patient) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [relax (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [patients (root: patient) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feel (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Shadow is a border collie who has a job chasing birds! 
+PreProc  : Shadow is a border collie who has a job chasing birds >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Shadow (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [border (LEX)(N SINGULAR(LOCATION))]
+    [collie (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [border (LEX)(N SINGULAR(LOCATION))]
+    [collie (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [job (LEX)(N SINGULAR(OTHER))]
+    [chasing (root: chase) (MOR)(N SINGULAR) (GER)]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At Dover Air Force Base in Delaware, planes are damaged when they or crash into, birds. 
+PreProc  : At Dover Air Force Base in Delaware >COMMA planes are damaged when they or crash into >COMMA birds >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [Dover (?)(UNK(ENTITY UNKNOWN))]
+      [Air (LEX)(N SINGULAR(OTHER))]
+      [Force (LEX)(N SINGULAR(OTHER))]
+      [Base (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Delaware (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [planes (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [damaged (root: damage) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [crash (LEX)(V BASE)]
+
+  [into (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By chasing birds away from the runways, Shadow helps planes land and take off safely. 
+PreProc  : By chasing birds away from the runways >COMMA Shadow helps planes land and take off safely >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [chasing (root: chase) (MOR)(N SINGULAR) (GER)]
+      [birds (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [away (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [runways (root: runway) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Shadow (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [planes (LEX)(N SINGULAR(VEHICLE))]
+    [land (LEX)(N SINGULAR(LOCATION))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Shadow (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+    [off (LEX)(PART) (ADV)]
+    [safely (root: safe) (MOR)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Service dogs such as Otis and Shadow are giving the famous phrase Firefighters and rescue teams train dogs to use their sense of smell to search for lost or injured people. 
+PreProc  : Service dogs SUCH_AS Otis and Shadow are giving the famous phrase Firefighters and rescue teams train dogs to use their sense of smell to search for lost or injured people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Service (LEX)(N SINGULAR(OTHER))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [Otis (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Shadow (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [giving (root: give) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [famous (LEX)(ADJ)]
+    [phrase (LEX)(N SINGULAR(OTHER))]
+    [Firefighters (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Service (LEX)(N SINGULAR(OTHER))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rescue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [train (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [sense (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: their sense
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [smell (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [search (LEX)(V BASE)]
+
+  [for (LEX)(PREP)]
+  [lost (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [injured (root: injure) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dogs help rescuers find people buried under A dog's nose has saved lives in other ways, too. 
+PreProc  : The dogs help rescuers find people buried under A @dog@s nose has saved lives in other ways >COMMA too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rescuers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [rescuers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [buried (root: bury) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [A (LEX)(ART)]
+      [@dog@s (LEX)(ADJ POSSESSIVE)]
+      [nose (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [@dog@s (LEX)(ADJ POSSESSIVE)]
+    [nose (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [saved (root: save) (MOR)(V PAST)]
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During wars, dogs save soldiers' lives by sniffing out bombs and hidden enemy soldiers. 
+PreProc  : During wars >COMMA dogs save @soldiers@ lives by sniffing out bombs and hidden enemy soldiers >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [wars (root: war) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [save (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@soldiers@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@soldiers@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [sniffing (root: sniff) (MOR)(N SINGULAR) (GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sniffing (root: sniff) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [out (LEX)(PART) (ADV)]
+    [bombs (root: bomb) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sniffing (root: sniff) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hidden (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [enemy (LEX)(N SINGULAR(OTHER))]
+    [soldiers (root: soldier) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Police dogs sniff out bombs, weapons, and illegal drugs. 
+PreProc  : Police dogs sniff out bombs >COMMA weapons >COMMA and illegal drugs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Police (?)(UNK(ENTITY UNKNOWN))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sniff (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+    [bombs (root: bomb) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [weapons (root: weapon) (MOR)(N PLURAL(WEAPON))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [illegal (LEX)(ADJ)]
+    [drugs (root: drug) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A dog's sense of smell is so strong that a dog can smell something half a mile away! 
+PreProc  : A @dog@s sense of smell is so strong that a dog can smell something half a mile away >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [@dog@s (LEX)(ADJ POSSESSIVE)]
+    [sense (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A @dog@s sense
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [smell (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [strong (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (IOBJ):
+    [smell (LEX)(N SINGULAR(OTHER))]
+    [something (LEX)(N SINGULAR(OTHER))]
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [away (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Service dogs help out in homes as well. 
+PreProc  : Service dogs help out in homes as well >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Service (LEX)(N SINGULAR(OTHER))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dogs are being trained to help people with disabilities at home and at work. 
+PreProc  : Dogs are being trained to help people with disabilities at home and at work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [trained (root: train) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [disabilities (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Trained dogs can open doors, pull heavy objects, carry tools, and even open and close an umbrella. 
+PreProc  : Trained dogs can open doors >COMMA pull heavy objects >COMMA carry tools >COMMA and even open and close an umbrella >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Trained (root: train) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [open (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [doors (root: door) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pull (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [heavy (LEX)(ADJ)]
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carry (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [tools (root: tool) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [open (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [close (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [umbrella (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Should animals be used to work for people? 
+PreProc  : Should animals be used to work for people >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Should (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

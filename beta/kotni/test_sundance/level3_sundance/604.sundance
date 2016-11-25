@@ -1,0 +1,474 @@
+Original : Talk about a ÒmonsterÓ discovery! 
+PreProc  : Talk about a ÒmonsterÓ discovery >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Talk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [ÒmonsterÓ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [discovery (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists in Colombia recently , or dug up, fossils of the worldÕs largest snake. 
+PreProc  : Scientists in Colombia recently >COMMA or dug up >COMMA fossils of the worldÕs largest snake >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Colombia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [recently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [dug (root: dig) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: fossils
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [worldÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [largest (root: large) (MOR)(ADJ   )]
+      [snake (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Colombia is a country in South America. 
+PreProc  : Colombia is a country in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Colombia (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (ty-ta-noh-BOH-uh sai-rah-HOH-nen-siss). 
+PreProc  : >LPAREN ty-ta-noh-BOH-uh sai-rah-HOH-nen-siss >RPAREN >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [ty-ta-noh-BOH-uh (?)(UNK(ENTITY UNKNOWN))]
+    [sai-rah-HOH-nen-siss (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It weighed 2,500 pounds and measured about 42 feet long. 
+PreProc  : It weighed &&2,500 pounds and measured about &&42 feet long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighed (root: weigh) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&2,500 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [measured (root: measure) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&42 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Its , or huge, body was at least 3 feet wide. 
+PreProc  : Its >COMMA or huge >COMMA body was AT_LEAST &&3 feet wide >PERIOD <EOS 
+CLAUSE:
+  [Its (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [huge (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [AT_LEAST (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [wide (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThis thing ... [was] longer than a city bus,Ó says Jack Conrad, a snake expert. 
+PreProc  : ÒThis thing >ELLIPSES >LBRACKET was >RBRACKET longer than a city bus,Ó says Jack Conrad >COMMA a snake expert >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThis (?)(UNK(ENTITY UNKNOWN))]
+    [thing (LEX)(N SINGULAR(OTHER))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [longer (LEX)(ADJ)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+    [bus,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+    [bus,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Jack (?)(UNK(ENTITY UNKNOWN))]
+    [Conrad (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : lived between 58 million and 60 million years ago, experts believe. 
+PreProc  : lived between &&58 million and &&60 million years ago >COMMA experts believe >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [&&58 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [and (LEX)(CONJ)]
+      [&&60 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So far, a team of scientists has found about 180 fossils from more than 20 snakes. 
+PreProc  : SO_FAR >COMMA a team of scientists has found about &&180 fossils from MORE_THAN &&20 snakes >PERIOD <EOS 
+CLAUSE:
+  [SO_FAR (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&180 (LEX)(NUM)]
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&20 (LEX)(NUM)]
+      [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fossils include backbones and ribs. 
+PreProc  : The fossils include backbones and ribs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fossils (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [backbones (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [ribs (root: rib) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The scientists plan to return to Colombia to look for more bones. 
+PreProc  : The scientists plan to return to Colombia to look for more bones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [scientists (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plan (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [return (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Colombia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [more (LEX)(ADJ)]
+      [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts also hope to learn whatÑand how muchÑ ate. 
+PreProc  : Experts also hope to learn whatÑand how muchÑ ate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [also (LEX)(ADV)]
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [whatÑand (?)(UNK(ENTITY UNKNOWN))]
+
+  [how (LEX)(ADV)]
+  NP SEGMENT:
+    [muchÑ (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [muchÑ (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ate (root: eat) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They think it may have hunted several types of animals, including crocodiles, large fish, and turtles. 
+PreProc  : They think it may have hunted several types of animals >COMMA including crocodiles >COMMA large fish >COMMA and turtles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [hunted (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [several (LEX)(ADJ)]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: several types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [including (LEX)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [crocodiles (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [large (LEX)(ADJ)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒIt could easily eat something the size of a cow,Ó Conrad explains. 
+PreProc  : ÒIt could easily eat something the size of a cow,Ó Conrad explains >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒIt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [easily (root: easy) (MOR)(ADV)]
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cow,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Conrad (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cow,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Conrad (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [explains (root: explain) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒA human would just be toast.Ó All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : ÒA human would just be toast.Ó All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒA (?)(UNK(ENTITY UNKNOWN))]
+    [human (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [just (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [toast.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

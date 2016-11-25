@@ -1,0 +1,716 @@
+Original : Some people are "howling" over gray wolves. 
+PreProc  : Some people are >DQUOTE howling >DQUOTE over gray wolves >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [howling (INF-MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [gray (LEX)(ADJ)]
+      [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Officials say that the number of gray wolves is increasing in the United States. 
+PreProc  : Officials say that the number of gray wolves is increasing in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [gray (LEX)(ADJ)]
+      [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [increasing (root: increase) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 150 years ago, gray wolves almost became , or died out, in most of the country. 
+PreProc  : MORE_THAN &&150 years ago >COMMA gray wolves almost became >COMMA or died out >COMMA in most of the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&150 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [almost (LEX)(ADV)]
+    [became (root: become) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&150 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [died (root: die) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+Following PP attaches to: most
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wolves were killing farm animals. 
+PreProc  : Wolves were killing farm animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [killing (root: kill) (MOR)(V PARTICIPLE)]
+    [farm (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People killed the wolves to protect their farm animals. 
+PreProc  : People killed the wolves to protect their farm animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [killed (root: kill) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [wolves (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [farm (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was created. 
+PreProc  : was created >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [created (root: create) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is a law that protects endangered animals and plants. 
+PreProc  : That is a law that protects endangered animals and plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [endangered (root: endanger) (MOR)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plants (root: plant) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soon after the law was made, gray wolves were added to the list of endangered species. 
+PreProc  : Soon after the law was made >COMMA gray wolves were added to the list of endangered species >PERIOD <EOS 
+CLAUSE:
+  [Soon (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [law (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [made (root: make) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [added (root: add) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the list
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [endangered (root: endanger) (INF-LEX)(ADJ)]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or increase their numbers, in many states. 
+PreProc  : >COMMA or increase their numbers >COMMA in many states >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [increase (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [numbers (root: number) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some of those states include Michigan, Minnesota, and Wisconsin. 
+PreProc  : Some of those states include Michigan >COMMA Minnesota >COMMA and Wisconsin >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Michigan (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Minnesota (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Wisconsin (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Government officials say that gray wolves in some states no longer need to be on the endangered species list. 
+PreProc  : Government officials say that gray wolves in some states NO_LONGER need to be on the endangered species list >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Government (root: govern) (MOR)(N SINGULAR)]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [states (root: state) (MOR)(V PRESENT)]
+    [NO_LONGER (LEX)(ADV)]
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [endangered (root: endanger) (MOR)(ADJ)]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Leigh Haeger; 
+PreProc  : Leigh Haeger >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leigh (?)(UNK(ENTITY UNKNOWN))]
+    [Haeger (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Source: U.S. Fish and Wildlife Service Should gray wolves be taken off the endangered species list? 
+PreProc  : Source >COLON U.S. Fish and Wildlife Service Should gray wolves be taken off the endangered species list >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Source (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [Fish (LEX)(N SINGULAR(ANIMAL))]
+    [and (LEX)(CONJ)]
+    [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+    [Service (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Should (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [be (LEX)(COP)]
+    [taken (root: take) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [endangered (root: endanger) (MOR)(ADJ)]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why or why not? 
+PreProc  : Why or why not >QUESTION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Not all people agree with the plan to remove gray wolves from the endangered species list. 
+PreProc  : Not all people agree with the plan to remove gray wolves from the endangered species list >PERIOD <EOS 
+CLAUSE:
+  [Not (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [agree (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [plan (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [remove (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [endangered (root: endanger) (MOR)(ADJ)]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are especially worried about the recovery of gray wolves in the Northeast. 
+PreProc  : They are especially worried about the recovery of gray wolves in the Northeast >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [especially (LEX)(ADV)]
+    [worried (root: worry) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [recovery (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the recovery
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [gray (LEX)(ADJ)]
+      [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Northeast (LEX)(ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We don't believe there are wolf packs in the Northeast," Peggy Struhsacker told . 
+PreProc  : >DQUOTE We DO NOT believe there are wolf packs in the Northeast >COMMA >DQUOTE Peggy Struhsacker told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [wolf (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [wolf (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [packs (root: pack) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Northeast (LEX)(ADV) (N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Peggy (?)(UNK(ENTITY UNKNOWN))]
+    [Struhsacker (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Peggy (?)(UNK(ENTITY UNKNOWN))]
+    [Struhsacker (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She is a scientist who studies gray wolves. 
+PreProc  : She is a scientist who studies gray wolves >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [studies (root: study) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [gray (LEX)(ADJ)]
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The Endangered Species Act must recover wolves back to their [original] range," she said. 
+PreProc  : >DQUOTE The Endangered Species Act must recover wolves back to their >LBRACKET original >RBRACKET range >COMMA >DQUOTE she said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Endangered (root: endanger) (MOR)(ADJ)]
+    [Species (?)(UNK(ENTITY UNKNOWN))]
+    [Act (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [recover (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+
+
+  [>LBRACKET (LEX)(PUNC)]
+  [original (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [range (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This has not been done. 
+PreProc  : >DQUOTE This has not been done >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [been (root: be) (LEX)(COP)]
+    [done (root: do) (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Right now, wolves only live in a small area of the country." 
+PreProc  : Right now >COMMA wolves only live in a small area of the country >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Right (LEX)(N SINGULAR(OTHER))]
+
+  [now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [wolves (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [only (LEX)(ADV)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [small (LEX)(ADJ)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: a small area
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

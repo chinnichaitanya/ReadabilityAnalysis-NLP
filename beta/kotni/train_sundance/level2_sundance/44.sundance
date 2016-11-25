@@ -1,0 +1,212 @@
+Original : Your heart beats about 100,000 times a day. 
+PreProc  : Your heart beats about &&100,000 times a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [beats (root: beat) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&100,000 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your heart pumps more than 75 gallons of blood an hour. 
+PreProc  : Your heart pumps MORE_THAN &&75 gallons of blood an hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pumps (root: pump) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&75 (LEX)(NUM)]
+    [gallons (root: gallon) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: MORE_THAN &&75 gallons
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [blood (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [hour (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people think the heart is on the left side of the chest. 
+PreProc  : Many people think the heart is on the left side of the chest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [left (LEX)(N SINGULAR(OTHER))]
+      [side (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the left side
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [chest (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your heart is actually in the middle of your chest, between your lungs. 
+PreProc  : Your heart is actually in the middle of your chest >COMMA between your lungs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [actually (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [middle (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the middle
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [chest (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [lungs (root: lung) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your heart is about the size of your fist. 
+PreProc  : Your heart is about the size of your fist >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [size (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [fist (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An adult's heart is the size of both your fists. 
+PreProc  : An @adult@s heart is the size of both your fists >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [@adult@s (LEX)(ADJ POSSESSIVE)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [both (LEX)(ADJ) (N PLURAL(OTHER))]
+      [your (LEX)(ADJ)]
+      [fists (root: fist) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

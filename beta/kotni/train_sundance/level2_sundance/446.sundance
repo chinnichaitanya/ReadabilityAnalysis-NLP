@@ -1,0 +1,808 @@
+Original : More students are growing their own food. 
+PreProc  : More students are growing their own food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [More (LEX)(ADJ)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [growing (root: grow) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Students at Madison Elementary gather around their garden. 
+PreProc  : Students at Madison Elementary gather around their garden >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [Madison (?)(UNK(ENTITY UNKNOWN))]
+      [Elementary (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gather (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [garden (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fruit and vegetable gardens are popping up at schools across the country. 
+PreProc  : Fruit and vegetable gardens are popping up at schools across the country >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Fruit (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [vegetable (?)(UNK(ENTITY UNKNOWN))]
+    [gardens (root: garden) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [popping (root: pop) (MOR)(V PARTICIPLE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How did they get there? 
+PreProc  : How did they get there >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+    [there (LEX)(ADV)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Students planted them. 
+PreProc  : Students planted them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [planted (root: plant) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids plant crops and later harvest them. 
+PreProc  : Kids plant crops and later harvest them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [later (LEX)(ADV)]
+    [harvest (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids at Madison Elementary School in Redondo Beach, California, plant gardens in the fall and the spring. 
+PreProc  : Kids at Madison Elementary School in Redondo Beach >COMMA California >COMMA plant gardens in the fall and the spring >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [Madison (?)(UNK(ENTITY UNKNOWN))]
+      [Elementary (LEX)(ADJ)]
+      [School (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Redondo (?)(UNK(ENTITY UNKNOWN))]
+      [Beach (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [plant (LEX)(V BASE)]
+    [gardens (root: garden) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fall (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [spring (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In October, they planted lettuce, radishes, carrots, broccoli, peas, and cauliflower. 
+PreProc  : In October >COMMA they planted lettuce >COMMA radishes >COMMA carrots >COMMA broccoli >COMMA peas >COMMA and cauliflower >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [October (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [planted (root: plant) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [lettuce (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [radishes (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [carrots (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [broccoli (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [peas (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [cauliflower (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They the crops in January. 
+PreProc  : They the crops in January >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [January (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To harvest is to gather a crop. 
+PreProc  : To harvest is to gather a crop >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [harvest (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [gather (LEX)(V BASE)]
+
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [crop (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The vegetables were washed and served at a salad bar. 
+PreProc  : The vegetables were washed and served at a salad bar >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [vegetables (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [washed (root: wash) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [vegetables (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [served (root: serve) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [salad (LEX)(N SINGULAR(PHYSOBJ))]
+      [bar (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Extra food was sold in the school cafeteria for lunch. 
+PreProc  : Extra food was sold in the school cafeteria for lunch >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Extra (LEX)(ADJ)]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [sold (root: sell) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [cafeteria (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [lunch (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This month, students will plant tomatoes, corn, sunflowers, and strawberries. 
+PreProc  : This month >COMMA students will plant tomatoes >COMMA corn >COMMA sunflowers >COMMA and strawberries >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [plant (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [tomatoes (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [corn (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [sunflowers (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [strawberries (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why are students learning how to grow gardens? 
+PreProc  : Why are students learning how to grow gardens >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+    [learning (root: learn) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (INFINITIVE):
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [gardens (root: garden) (MOR)(N PLURAL(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Teachers want kids to learn healthy eating habits. 
+PreProc  : Teachers want kids to learn healthy eating habits >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Teachers (root: teacher) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [healthy (LEX)(ADJ)]
+    [eating (root: eat) (MOR)(N SINGULAR) (GER)]
+    [habits (root: habit) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Healthy foods give the body the energy it needs to grow and heal. 
+PreProc  : Healthy foods give the body the energy it needs to grow and heal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Healthy (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [needs (root: need) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [heal (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many kids are now trying new foods and learning they like them. 
+PreProc  : Many kids are now trying new foods and learning they like them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learning (root: learn) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Lisa Samuelson is the parent volunteer in charge of the program. 
+PreProc  : Lisa Samuelson is the parent volunteer in charge of the program >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lisa (?)(UNK(ENTITY UNKNOWN))]
+    [Samuelson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [parent (LEX)(N SINGULAR(HUMAN))]
+    [volunteer (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [charge (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: charge
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [program (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She says a lot of students have told her, ÒI like salad. 
+PreProc  : She says a lot of students have told her >COMMA ÒI like salad >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [salad (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I didnÕt think I liked salad!Ó Then those students have gone home and asked their parents to buy vegetables that they have tried at school. 
+PreProc  : I didnÕt think I liked salad!Ó Then those students have gone home and asked their parents to buy vegetables that they have tried at school >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [didnÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [liked (root: like) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [salad!Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  [Then (LEX)(ADV)]
+  NP SEGMENT:
+    [those (LEX)(DET)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [gone (root: go) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [asked (root: ask) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [buy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [tried (root: try) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : SamuelsonÕs daughter, Lucy, is one of those students. 
+PreProc  : SamuelsonÕs daughter >COMMA Lucy >COMMA is one of those students >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [SamuelsonÕs (?)(UNK(ENTITY UNKNOWN))]
+    [daughter (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Lucy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She is in second grade. 
+PreProc  : She is in second grade >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [grade (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒI love the garden,Ó she says. 
+PreProc  : ÒI love the garden,Ó she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+    [love (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [garden,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒI didnÕt really like vegetables before we had the garden. 
+PreProc  : ÒI didnÕt really like vegetables before we had the garden >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+    [didnÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [garden (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then we found out that gardening is cool. 
+PreProc  : Then we found out that gardening is cool >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gardening (root: garden) (MOR)(V PARTICIPLE)]
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [cool (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now I like vegetables. 
+PreProc  : Now I like vegetables >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : My favorite is carrots.Ó All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : My favorite is carrots.Ó All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [My (LEX)(ADJ)]
+    [favorite (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [carrots.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

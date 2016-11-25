@@ -1,0 +1,360 @@
+Original : Richard Rodriguez recently set a new world's record for riding a roller coaster. 
+PreProc  : Richard Rodriguez recently set a new @world@s record for riding a roller coaster >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Richard (?)(UNK(ENTITY UNKNOWN))]
+    [Rodriguez (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [@world@s (LEX)(ADJ POSSESSIVE)]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [roller (root: roll) (MOR)(N SINGULAR)]
+    [coaster (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He rode a coaster for 2,000 bone-rattling hours. 
+PreProc  : He rode a coaster for &&2,000 bone-rattling hours >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rode (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [coaster (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2,000 (LEX)(NUM)]
+      [bone-rattling (INF-MOR)(GER)]
+
+
+  NP SEGMENT:
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's about 22,655 miles. 
+PreProc  : THAT IS about &&22,655 miles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&22,655 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To set the record, Rodriguez (front) rode a roller coaster at Blackpool Pleasure Beach, an amusement park in England, for 22 hours a day for 90 days. 
+PreProc  : To set the record >COMMA Rodriguez >LPAREN front >RPAREN rode a roller coaster at Blackpool Pleasure Beach >COMMA an amusement park in England >COMMA for &&22 hours a day for &&90 days >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Rodriguez (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [front (LEX)(N SINGULAR(OTHER))]
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [rode (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [roller (root: roll) (MOR)(N SINGULAR)]
+    [coaster (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Blackpool (?)(UNK(ENTITY UNKNOWN))]
+      [Pleasure (?)(UNK(ENTITY UNKNOWN))]
+      [Beach (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [amusement (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [amusement (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [park (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&22 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&90 (LEX)(NUM)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After setting the record, Rodriguez said, "It was a small step for me, but a giant roller coaster ride for mankind." 
+PreProc  : After setting the record >COMMA Rodriguez said >COMMA >DQUOTE It was a small step for me >COMMA but a giant roller coaster ride for mankind >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [setting (root: set) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Rodriguez (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [step (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [me (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [roller (root: roll) (MOR)(N SINGULAR)]
+    [coaster (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [mankind (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Setting records for riding roller coasters isn't new to Rodriguez. 
+PreProc  : Setting records for riding roller coasters IS NOT new to Rodriguez >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Setting (root: set) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [records (root: record) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+      [roller (root: roll) (MOR)(N SINGULAR)]
+      [coasters (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+    [roller (root: roll) (MOR)(N SINGULAR)]
+    [coasters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [new (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Rodriguez (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He set his first record in 1977, when he rode a coaster for 103 hours and 55 minutes. 
+PreProc  : He set his first record in &&1977 >COMMA when he rode a coaster for &&103 hours and &&55 minutes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [set (LEX)(N SINGULAR(OTHER))]
+    [his (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1977 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rode (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [coaster (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&103 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+      [and (LEX)(CONJ)]
+      [&&55 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He has broken that record many times in the last 23 years. 
+PreProc  : He has broken that record many times in the last &&23 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [broken (root: break) (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [record (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [last (LEX)(ADJ)]
+      [&&23 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

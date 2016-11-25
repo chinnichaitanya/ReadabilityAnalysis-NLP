@@ -1,0 +1,834 @@
+Original : How can you keep your body healthy? 
+PreProc  : How can you keep your body healthy >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  [healthy (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Move over, junk food! 
+PreProc  : Move over >COMMA junk food >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Move (LEX)(V BASE)]
+
+  [over (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [junk (?)(UNK(ENTITY UNKNOWN))]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Good-bye, lazy bones! 
+PreProc  : Good-bye >COMMA lazy bones >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Good-bye (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [lazy (LEX)(ADJ)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say kids need to eat healthy foods and get more exercise. 
+PreProc  : Experts say kids need to eat healthy foods and get more exercise >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [need (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [healthy (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [exercise (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the past 30 years, the rate of has more than tripled among kids in the United States. 
+PreProc  : In the past &&30 years >COMMA the rate of has MORE_THAN tripled among kids in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [&&30 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [rate (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  [MORE_THAN (LEX)(ADJ)]
+  [tripled (root: triple) (MOR)(ADJ)]
+  PP SEGMENT (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obesity is the condition of being very overweight. 
+PreProc  : Obesity is the condition of being very overweight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obesity (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [condition (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the condition
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+      [very (LEX)(ADV)]
+      [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can lead to health problems. 
+PreProc  : It can lead to health problems >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [lead (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [health (LEX)(N SINGULAR(OTHER))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make good food choices. 
+PreProc  : Make good food choices >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+    [choices (root: choice) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That gives the body the energy it needs to grow and heal. 
+PreProc  : That gives the body the energy it needs to grow and heal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gives (root: give) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [needs (root: need) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [heal (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A healthy breakfast is the best way to start the day. 
+PreProc  : A healthy breakfast is the best way to start the day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [healthy (LEX)(ADJ)]
+    [breakfast (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [start (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other meals should be well-balanced too. 
+PreProc  : Other meals should be well-balanced too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [meals (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [well-balanced (INF-MOR)(V PAST)]
+    [too (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A good diet is made up of foods from these five food groups. 
+PreProc  : A good diet is made up of foods from these &&5 food groups >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [diet (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+Following PP attaches to: is made up
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+      [&&5 (LEX)(NUM)]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : help your heart, eyes, skin, and teeth. 
+PreProc  : help your heart >COMMA eyes >COMMA skin >COMMA and teeth >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Snack on apples, oranges, berries, and grapes. 
+PreProc  : Snack on apples >COMMA oranges >COMMA berries >COMMA and grapes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Snack (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [apples (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [oranges (root: orange) (MOR)(N PLURAL(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [berries (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [grapes (root: grape) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : help your heart, eyes, skin, and teeth too. 
+PreProc  : help your heart >COMMA eyes >COMMA skin >COMMA and teeth too >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Try carrots, broccoli, and red peppers. 
+PreProc  : Try carrots >COMMA broccoli >COMMA and red peppers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Try (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [carrots (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [broccoli (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [red (LEX)(ADJ)]
+    [peppers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : give you energy. 
+PreProc  : give you energy >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure half the grains you eat are whole. 
+PreProc  : Make sure half the grains you eat are whole >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [sure (LEX)(ADJ)]
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [grains (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [whole (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Try whole-grain bread and brown rice. 
+PreProc  : Try whole-grain bread and brown rice >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Try (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [whole-grain (?)(UNK(ENTITY UNKNOWN))]
+    [bread (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [brown (LEX)(ADJ)]
+    [rice (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Eat oatmeal and plain popcorn too. 
+PreProc  : Eat oatmeal and plain popcorn too >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [oatmeal (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [plain (?)(UNK(ENTITY UNKNOWN))]
+    [popcorn (?)(UNK(ENTITY UNKNOWN))]
+
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : builds strong bones and teeth. 
+PreProc  : builds strong bones and teeth >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [builds (root: build) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [strong (LEX)(ADJ)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Enjoy milk, yogurt, and cheese. 
+PreProc  : Enjoy milk >COMMA yogurt >COMMA and cheese >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Enjoy (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [milk (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [yogurt (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [cheese (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mostly choose fat-free or low-fat foods. 
+PreProc  : Mostly choose fat-free or low-fat foods >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Mostly (root: most) (MOR)(ADV)]
+    [choose (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [fat-free (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [low-fat (?)(UNK(ENTITY UNKNOWN))]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : help build strong muscles. 
+PreProc  : help build strong muscles >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [strong (LEX)(ADJ)]
+    [muscles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fish, chicken, and beans are in this group. 
+PreProc  : Fish >COMMA chicken >COMMA and beans are in this group >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Fish (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [chicken (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [beans (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [beans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [group (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Try nuts and seeds too. 
+PreProc  : Try nuts and seeds too >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Try (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [nuts (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [nuts (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [seeds (root: seed) (MOR)(V PRESENT)]
+    [too (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say kids need an hour of exercise each day. 
+PreProc  : Experts say kids need an hour of exercise each day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [need (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [hour (LEX)(N SINGULAR(TIME))]
+
+Following PP attaches to: an hour
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [exercise (LEX)(N SINGULAR(OTHER))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Exercise helps burn body fat. 
+PreProc  : Exercise helps burn body fat >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Exercise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [burn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  [fat (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It also makes your heart and muscles stronger. 
+PreProc  : It also makes your heart and muscles stronger >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [muscles (?)(UNK(ENTITY UNKNOWN))]
+
+  [stronger (root: strong) (MOR)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So what are you waiting for? 
+PreProc  : So what are you waiting for >QUESTION <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [waiting (root: wait) (MOR)(N SINGULAR) (GER)]
+
+  [for (LEX)(PREP)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Take out your jump rope or bicycle. 
+PreProc  : Take out your jump rope or bicycle >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [jump (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [rope (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [bicycle (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Play catch with a friend. 
+PreProc  : Play catch with a friend >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Play (LEX)(V BASE)]
+    [catch (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [friend (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Take a walk. 
+PreProc  : Take a walk >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [walk (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can also play team sports, such as soccer. 
+PreProc  : You can also play team sports >COMMA SUCH_AS soccer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [team (LEX)(N SINGULAR(OTHER))]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [soccer (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It does not matter what you choose. 
+PreProc  : It does not matter what you choose >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [matter (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [choose (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just get moving! 
+PreProc  : Just get moving >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Just (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [moving (root: move) (MOR)(N SINGULAR) (GER)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

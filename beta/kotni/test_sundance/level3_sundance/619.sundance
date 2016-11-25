@@ -1,0 +1,551 @@
+Original : Not so fast, cheetah! 
+PreProc  : Not so fast >COMMA cheetah >EXCLAMATION <EOS 
+CLAUSE:
+  [Not (LEX)(ADV)]
+  [so (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [fast (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [cheetah (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Researchers have finally found a way to keep up. 
+PreProc  : Researchers have finally found a way to keep up >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [finally (root: final) (MOR)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts in Namibia are using a computer system to identify and track the speedy cats by their paw prints. 
+PreProc  : Experts in Namibia are using a computer system to identify and track the speedy cats by their paw prints >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Namibia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [identify (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [track (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [speedy (LEX)(ADJ)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [paw (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Namibia is a country in Africa. 
+PreProc  : Namibia is a country in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Namibia (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : First, researchers find and take pictures of wild cheetahsÕ footprints. 
+PreProc  : First >COMMA researchers find and take pictures of wild cheetahsÕ footprints >PERIOD <EOS 
+CLAUSE:
+  [First (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pictures (root: picture) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: pictures
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wild (LEX)(ADJ)]
+      [cheetahsÕ (?)(UNK(ENTITY UNKNOWN))]
+      [footprints (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Next, they store the photos on a computer. 
+PreProc  : Next >COMMA they store the photos on a computer >PERIOD <EOS 
+CLAUSE:
+  [Next (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [store (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [photos (root: photo) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [computer (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Whenever a new print is added, the computer compares it to all the other prints for a match. 
+PreProc  : Whenever a new print is added >COMMA the computer compares it to all the other prints for a match >PERIOD <EOS 
+CLAUSE:
+  [Whenever (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [print (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [added (root: add) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [compares (root: compare) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prints (root: print) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [match (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : No two cheetah paw prints are the same. 
+PreProc  : No &&2 cheetah paw prints are the same >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [No (LEX)(ADJ)]
+    [&&2 (LEX)(NUM)]
+    [cheetah (?)(UNK(ENTITY UNKNOWN))]
+    [paw (?)(UNK(ENTITY UNKNOWN))]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [same (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That helps researchers know whether they have found the same cat twice. 
+PreProc  : That helps researchers know whether they have found the same cat twice >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  [twice (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why the fancy footwork? 
+PreProc  : Why the fancy footwork >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [fancy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [footwork (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cheetahs are threatened. 
+PreProc  : Cheetahs are threatened >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cheetahs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [threatened (root: threaten) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By knowing how many cats there are and where they live, scientists can help them. 
+PreProc  : By knowing how many cats there are and where they live >COMMA scientists can help them >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [knowing (root: know) (MOR)(N SINGULAR) (GER)]
+      [how (LEX)(ADV)]
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To conserve is to keep safe. 
+PreProc  : To conserve is to keep safe >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [conserve (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [conserve (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [safe (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So far, researchers have recorded the prints of about 15 wild cheetahs, but they hope to find more. 
+PreProc  : SO_FAR >COMMA researchers have recorded the prints of about &&15 wild cheetahs >COMMA but they hope to find more >PERIOD <EOS 
+CLAUSE:
+  [SO_FAR (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [recorded (root: record) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the prints
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&15 (LEX)(NUM)]
+      [wild (LEX)(ADJ)]
+      [cheetahs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒWe need to understand how many there are ... in order to ... protect them,Ó expert Claire Wormley told Courtesy of N/aÕan ku sŽ Lodge & Wildlife Sanctuary Paws up, kitty! 
+PreProc  : ÒWe need to understand how many there are >ELLIPSES in order to >ELLIPSES protect them,Ó expert Claire Wormley told Courtesy of N/aÕan ku sŽ Lodge >AMPERSAND Wildlife Sanctuary Paws up >COMMA kitty >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒWe (?)(UNK(ENTITY UNKNOWN))]
+    [need (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [understand (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [order (LEX)(N SINGULAR(OTHER))]
+
+
+  [to (LEX)(PREP)]
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [order (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Claire (?)(UNK(ENTITY UNKNOWN))]
+    [Wormley (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Claire (?)(UNK(ENTITY UNKNOWN))]
+    [Wormley (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  ADJ SEGMENT:
+    [Courtesy (root: court) (MOR)(ADJ(OTHER))]
+
+Following PP attaches to: told
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [N/aÕan (?)(UNK(ENTITY UNKNOWN))]
+      [ku (?)(UNK(ENTITY UNKNOWN))]
+      [sŽ (?)(UNK(ENTITY UNKNOWN))]
+      [Lodge (LEX)(N SINGULAR(BUILDING))]
+      [>AMPERSAND (LEX)(CONJ)]
+      [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+      [Sanctuary (LEX)(N SINGULAR(OTHER))]
+      [Paws (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [up (LEX)(PART) (PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [kitty (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts need your footprints. 
+PreProc  : Experts need your footprints >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [footprints (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

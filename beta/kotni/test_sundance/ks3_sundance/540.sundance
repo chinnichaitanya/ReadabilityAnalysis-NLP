@@ -1,0 +1,1344 @@
+Original : > Forces - Weight, mass and gravity People often confuse mass and weight. 
+PreProc  : >GREATER Forces >MINUS Weight >COMMA mass and gravity People often confuse mass and weight >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Forces (root: force) (MOR)(V PRESENT)]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Weight (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [mass (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [gravity (?)(UNK(ENTITY UNKNOWN))]
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [gravity (?)(UNK(ENTITY UNKNOWN))]
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [confuse (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [mass (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Remember that weight is a force, and is measured in newtons. 
+PreProc  : Remember that weight is a force >COMMA and is measured in newtons >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Remember (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [measured (root: measure) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [newtons (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mass is measured in kilograms (kg). 
+PreProc  : Mass is measured in kilograms >LPAREN kg >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mass (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [measured (root: measure) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [kilograms (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [kg (LEX)(N SINGULAR(OTHER))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The mass of an object is the or "stuff" it contains. 
+PreProc  : The mass of an object is the or >DQUOTE stuff >DQUOTE it contains >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The mass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stuff (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contains (root: contain) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The more matter an object contains, the greater its mass. 
+PreProc  : The more matter an object contains >COMMA the greater its mass. >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [more (LEX)(ADJ)]
+    [matter (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contains (root: contain) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [its (LEX)(ADJ)]
+    [mass. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An elephant contains more matter than a mouse, so it has a greater mass. Mass is measured in A 100 kg object has a greater mass than a 5 kg object. 
+PreProc  : An elephant contains more matter than a mouse >COMMA so it has a greater mass. Mass is measured in A &&100 kg object has a greater mass than a &&5 kg object >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [elephant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contains (root: contain) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [matter (LEX)(N SINGULAR(OTHER))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [mouse (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [mass. (?)(UNK(ENTITY UNKNOWN))]
+    [Mass (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [mass. (?)(UNK(ENTITY UNKNOWN))]
+    [Mass (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [measured (root: measure) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [A (LEX)(ART)]
+      [&&100 (LEX)(NUM)]
+      [kg (LEX)(N SINGULAR(OTHER))]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [&&100 (LEX)(NUM)]
+    [kg (LEX)(N SINGULAR(OTHER))]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [&&5 (LEX)(NUM)]
+    [kg (LEX)(N SINGULAR(OTHER))]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Remember an object's mass stays the same wherever it is. 
+PreProc  : Remember an @object@s mass stays the same wherever it is >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Remember (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [@object@s (LEX)(ADJ POSSESSIVE)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [@object@s (LEX)(ADJ POSSESSIVE)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stays (root: stay) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [wherever (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All objects have a force that attracts them towards each other. 
+PreProc  : All objects have a force that attracts them towards each other >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attracts (root: attract) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [towards (LEX)(ADV)]
+  NP SEGMENT:
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This is called . 
+PreProc  : This is called >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even you attract other objects to you because of gravity, but you have too little mass for the force to be very strong. 
+PreProc  : Even you attract other objects to you BECAUSE_OF gravity >COMMA but you have too little mass for the force to be very strong >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attract (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [BECAUSE_OF (LEX)(PREP)]
+    NP SEGMENT:
+      [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [too (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [little (LEX)(ADJ)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [force (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [strong (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gravity only becomes noticeable when there is a really massive object like a moon, planet or star. 
+PreProc  : Gravity only becomes noticeable when there is a really massive object like a moon >COMMA planet or star >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gravity (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [only (LEX)(ADV)]
+    [becomes (root: become) (MOR)(V PRESENT)]
+
+  [noticeable (root: notice) (MOR)(ADJ(OTHER))]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [really (root: real) (MOR)(ADV)]
+    [massive (LEX)(ADJ)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [really (root: real) (MOR)(ADV)]
+    [massive (LEX)(ADJ)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [planet (LEX)(N SINGULAR(OTHER))]
+    [or (LEX)(CONJ)]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We are pulled down towards the ground because of gravity. 
+PreProc  : We are pulled down towards the ground BECAUSE_OF gravity >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [pulled (root: pull) (MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+    [towards (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ground (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [BECAUSE_OF (LEX)(PREP)]
+    NP SEGMENT:
+      [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The gravitational force pulls in the direction towards the centre of the Earth. 
+PreProc  : The gravitational force pulls in the direction towards the centre of the Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [gravitational (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pulls (root: pull) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [direction (LEX)(N SINGULAR(OTHER))]
+
+
+  [towards (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [centre (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the centre
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Down" is towards the centre of the Earth, wherever you are on the planet Weight is a force caused by gravity. 
+PreProc  : >DQUOTE Down >DQUOTE is towards the centre of the Earth >COMMA wherever you are on the planet Weight is a force caused by gravity >PERIOD <EOS 
+CLAUSE:
+  [Down (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [towards (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [centre (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the centre
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [wherever (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+      [Weight (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+    [Weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [caused (root: cause) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The weight of an object is the between the object and the Earth. 
+PreProc  : The weight of an object is the between the object and the Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The weight
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [between (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [object (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The more mass the object has the greater its weight will be. 
+PreProc  : The more mass the object has the greater its weight will be >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [more (LEX)(ADJ)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [its (LEX)(ADJ)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [its (LEX)(ADJ)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Weight is a force, so it's measured in . 
+PreProc  : Weight is a force >COMMA so IT IS measured in >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [measured (root: measure) (MOR)(V PAST)]
+
+  [in (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On the surface of the Earth an object with a mass of 1 kg has a weight of about 10 N. 
+PreProc  : On the surface of the Earth an object with a mass of &&1 kg has a weight of about &&10 N. <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the surface
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [mass (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a mass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1 (LEX)(NUM)]
+      [kg (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a weight
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&10 (LEX)(NUM)]
+      [N. (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [<EOS (?)]
+
+Original : The mass of an object stays the same wherever it is, but its weight can change. 
+PreProc  : The mass of an object stays the same wherever it is >COMMA but its weight can change >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The mass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stays (root: stay) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [wherever (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [change (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This happens if the object goes somewhere where gravity is stronger, or weaker, such as the Moon. 
+PreProc  : This happens if the object goes somewhere where gravity is stronger >COMMA or weaker >COMMA SUCH_AS the Moon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happens (root: happen) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [object (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [somewhere (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [stronger (root: strong) (MOR)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [weaker (root: weak) (MOR)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Moon has less mass than the Earth, so its gravity is less than the Earth's gravity. 
+PreProc  : The Moon has less mass than the Earth >COMMA so its gravity is LESS_THAN the @Earth@s gravity >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [less (LEX)(ADJ)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [its (LEX)(ADJ)]
+    [gravity (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [gravity (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [LESS_THAN (LEX)(ADJ)]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [@Earth@s (LEX)(ADJ POSSESSIVE)]
+    [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This means that objects weigh less on the Moon than they do on the Earth. 
+PreProc  : This means that objects weigh less on the Moon than they do on the Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weigh (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [less (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Moon's gravity is one sixth of the Earth's gravity. 
+PreProc  : The @Moon@s gravity is one sixth of the @Earth@s gravity >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@Moon@s (LEX)(ADJ POSSESSIVE)]
+    [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [sixth (LEX)(ADJ)]
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@Earth@s (LEX)(ADJ POSSESSIVE)]
+      [gravity (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A 120 kg astronaut weighs 1200 N on Earth. 
+PreProc  : A &&120 kg astronaut weighs &&1200 N on Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [&&120 (LEX)(NUM)]
+    [kg (LEX)(N SINGULAR(OTHER))]
+    [astronaut (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighs (root: weigh) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&1200 (LEX)(NUM)]
+    [N (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On the Moon they would weigh only 200 N. 
+PreProc  : On the Moon they would weigh only &&200 N. <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [weigh (LEX)(V BASE)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [&&200 (LEX)(NUM)]
+    [N. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : The astronaut's The weight of an object changes if the strength of gravity changes Remember: a mass of 1kg has a weight of about 10N on Earth. 
+PreProc  : The @astronaut@s The weight of an object changes if the strength of gravity changes Remember >COLON a mass of 1kg has a weight of about 10N on Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@astronaut@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The weight
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [changes (root: change) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [strength (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the strength
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [gravity (?)(UNK(ENTITY UNKNOWN))]
+      [changes (root: change) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Remember (LEX)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a mass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [1kg (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [mass (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a mass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [1kg (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [weight (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a weight
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)]
+      [10N (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Something is pulling your mouse towards this link. 
+PreProc  : Something is pulling your mouse towards this link >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [pulling (root: pull) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [mouse (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [towards (LEX)(ADV)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [link (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Join Questionaut's quest to find his friend's hat. 
+PreProc  : Join @Questionaut@s quest to find his @friend@s hat >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Join (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@Questionaut@s (LEX)(ADJ POSSESSIVE)]
+    [quest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [@friend@s (LEX)(ADJ POSSESSIVE)]
+    [hat (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 3000 video clips from BBC programmes. 
+PreProc  : MORE_THAN &&3000 video clips from BBC programmes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3000 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [video (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [clips (root: clip) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [BBC (?)(UNK(ENTITY UNKNOWN))]
+      [programmes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

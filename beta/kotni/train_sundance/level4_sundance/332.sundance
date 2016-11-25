@@ -1,0 +1,682 @@
+Original : A new tennis star has arrived. 
+PreProc  : A new tennis star has arrived >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [tennis (?)(UNK(ENTITY UNKNOWN))]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [arrived (root: arrive) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Andy Roddick claimed his championship trophy in early September. 
+PreProc  : Andy Roddick claimed his championship trophy in early September >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Andy (?)(UNK(ENTITY UNKNOWN))]
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [claimed (root: claim) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [championship (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [trophy (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [September (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He won his first major tennis tournament at the U.S. Open in New York, defeating Spain's Juan Carlos Ferrero. 
+PreProc  : He won his first major tennis tournament at the U.S. Open in NEW_YORK >COMMA defeating @Spain@s Juan Carlos Ferrero >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tennis (?)(UNK(ENTITY UNKNOWN))]
+    [tournament (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [defeating (root: defeat) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [@Spain@s (LEX)(ADJ POSSESSIVE)]
+    [Juan (?)(UNK(ENTITY UNKNOWN))]
+    [Carlos (?)(UNK(ENTITY UNKNOWN))]
+    [Ferrero (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It hasn't sunk in," said an emotional Roddick after the match. 
+PreProc  : >DQUOTE It HAS NOT sunk in >COMMA >DQUOTE said an emotional Roddick after the match >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAS (root: have) (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [sunk (root: sink) (LEX)(V PAST)]
+
+  [in (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [emotional (LEX)(ADJ)]
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [match (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I came to this tournament so many times as a little kid and watched from way up there [in the stands]. 
+PreProc  : >DQUOTE I came to this tournament so many times as a little kid and watched from way up there >LBRACKET in the stands >RBRACKET >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [tournament (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [little (LEX)(ADJ)]
+      [kid (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [watched (root: watch) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [way (LEX)(N SINGULAR(OTHER))]
+
+
+  [up (LEX)(PART) (PREP)]
+  [there (LEX)(ADV)]
+  [>LBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stands (root: stand) (MOR)(N PLURAL(OTHER))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Along with his trophy, Roddick accepted a $1 million winning prize. 
+PreProc  : Along with his trophy >COMMA Roddick accepted a >DOLLAR &&1 million winning prize >PERIOD <EOS 
+CLAUSE:
+  [Along (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [trophy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [accepted (root: accept) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [>DOLLAR (LEX)(ADJ)]
+    [&&1 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [prize (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Because of this championship win, Roddick has risen to number two in the tennis rankings, which is a career record for him. 
+PreProc  : BECAUSE_OF this championship win >COMMA Roddick has risen to number &&2 in the tennis rankings >COMMA which is a career record for him >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [BECAUSE_OF (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [championship (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [championship (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [win (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [risen (root: rise) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [number (LEX)(N SINGULAR(OTHER))]
+      [&&2 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tennis (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [rankings (root: rank) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [tennis (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [rankings (root: rank) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [career (LEX)(N SINGULAR(OTHER))]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, Ferrero, who won the French Open, still holds the top slot. 
+PreProc  : However >COMMA Ferrero >COMMA who won the French Open >COMMA still holds the top slot >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Ferrero (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ferrero (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [still (LEX)(ADV)]
+    [holds (root: hold) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [slot (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The four Grand Slam tournament in tennis are the Australian Open, Wimbledon the French Open, and the U.S. Open. 
+PreProc  : The &&4 Grand Slam tournament in tennis are the Australian Open >COMMA Wimbledon the French Open >COMMA and the U.S. Open >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&4 (LEX)(NUM)]
+    [Grand (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Slam (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [tournament (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [tennis (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tennis (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [Australian (LEX)(ADJ)]
+  [Open (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Wimbledon (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : With Roddick's win, the torch has been passed to a new American tennis generation. 
+PreProc  : With @Roddick@s win >COMMA the torch has been passed to a new American tennis generation >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [With (LEX)(PREP)]
+    NP SEGMENT:
+      [@Roddick@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [@Roddick@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [win (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [passed (root: pass) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [tennis (?)(UNK(ENTITY UNKNOWN))]
+      [generation (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just days before Roddick's victory, American tennis star Pete Sampras announced his retirement from the sport. 
+PreProc  : Just days before @Roddick@s victory >COMMA American tennis star Pete Sampras announced his retirement from the sport >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Just (LEX)(ADJ) (ADV)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [@Roddick@s (LEX)(ADJ POSSESSIVE)]
+      [victory (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [tennis (?)(UNK(ENTITY UNKNOWN))]
+    [star (LEX)(N SINGULAR(OTHER))]
+    [Pete (?)(UNK(ENTITY UNKNOWN))]
+    [Sampras (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [announced (root: announce) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [retirement (root: retire) (MOR)(N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sport (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sampras won the U.S. Open in 2002. 
+PreProc  : Sampras won the U.S. Open in &&2002 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sampras (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2002 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He was just few years younger than the 21-year-old Roddick when he took home his first U.S. Open title in 1990. 
+PreProc  : He was just few years younger than the 21-year-old Roddick when he took home his first U.S. Open title in &&1990 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [just (LEX)(ADJ) (ADV)]
+    [few (LEX)(ADJ)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [younger (root: young) (MOR)(ADJ)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [21-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [his (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [Open (LEX)(ADJ)]
+    [title (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1990 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Last year, Roddick lost the U.S. Open to Sampras. 
+PreProc  : Last year >COMMA Roddick lost the U.S. Open to Sampras >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Last (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Sampras (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For any who questioned his ability, Roddick proved that he is the new U.S. Open champion. 
+PreProc  : For any who questioned his ability >COMMA Roddick proved that he is the new U.S. Open champion >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [questioned (root: question) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [ability (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Roddick (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [proved (root: prove) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [Open (LEX)(ADJ)]
+    [champion (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

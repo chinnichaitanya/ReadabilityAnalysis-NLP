@@ -1,0 +1,430 @@
+Original : This discovery will knock your socks off! 
+PreProc  : This discovery will knock your socks off >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [knock (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [socks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [off (LEX)(PART) (PREP) (ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists recently found footprints that are more than a million years old. 
+PreProc  : Scientists recently found footprints that are MORE_THAN a million years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [footprints (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [footprints (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The footprints are in Kenya. 
+PreProc  : The footprints are in Kenya >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [footprints (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Kenya (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is a country in Africa. 
+PreProc  : That is a country in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An early human , or relative from the past, may have made the prints. 
+PreProc  : An early human >COMMA or relative from the past >COMMA may have made the prints >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+    [human (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [relative (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The feet that made the prints had rounded heels and big toes that point forward, just like people have today. 
+PreProc  : The feet that made the prints had rounded heels and big toes that point forward >COMMA just like people have today >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [rounded (root: round) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [heels (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [big (LEX)(ADJ)]
+    [toes (root: toss) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [heels (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [big (LEX)(ADJ)]
+    [toes (root: toss) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [point (LEX)(V BASE)]
+    [forward (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [heels (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [big (LEX)(ADJ)]
+    [toes (root: toss) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. scientist John Harris helped discover the special prints. 
+PreProc  : U.S. scientist John Harris helped discover the special prints >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [Harris (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+    [discover (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [prints (root: print) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He and his team found four sets of adult footprints in the area. 
+PreProc  : He and his team found &&4 sets of adult footprints in the area >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [his (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&4 (LEX)(NUM)]
+    [sets (root: set) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&4 sets
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [adult (?)(UNK(ENTITY UNKNOWN))]
+      [footprints (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also found tracks of animals such as lions. 
+PreProc  : They also found tracks of animals SUCH_AS lions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: tracks
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [lions (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The footprints could teach people a lot about what Earth was like a million years ago. 
+PreProc  : The footprints could teach people a lot about what Earth was like a million years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [footprints (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Figuring that out is Òlike a giant jigsaw puzzle,Ó Harris told reporters. 
+PreProc  : Figuring that out is Òlike a giant jigsaw puzzle,Ó Harris told reporters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Figuring (root: figure) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Figuring (root: figure) (MOR)(N SINGULAR) (GER)]
+
+  [out (LEX)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [Òlike (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [jigsaw (?)(UNK(ENTITY UNKNOWN))]
+    [puzzle,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Harris (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [jigsaw (?)(UNK(ENTITY UNKNOWN))]
+    [puzzle,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Harris (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists tracked down this ancient footprint in Africa. 
+PreProc  : Scientists tracked down this ancient footprint in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tracked (root: track) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [ancient (LEX)(ADJ)]
+      [footprint (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

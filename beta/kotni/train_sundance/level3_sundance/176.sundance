@@ -1,0 +1,391 @@
+Original : What do you like with your burger? 
+PreProc  : What do you like with your burger >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [burger (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How about ketchup, pickles, and blueberries? 
+PreProc  : How about ketchup >COMMA pickles >COMMA and blueberries >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [ketchup (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [pickles (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [blueberries (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Yes, that's right. 
+PreProc  : Yes >COMMA THAT IS right >PERIOD <EOS 
+CLAUSE:
+  [Yes (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [THAT (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists are adding blueberry powder and (PYOO-ray) to burgers. 
+PreProc  : Scientists are adding blueberry powder and >LPAREN PYOO-ray >RPAREN to burgers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [adding (root: add) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [blueberry (?)(UNK(ENTITY UNKNOWN))]
+    [powder (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [PYOO-ray (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [burgers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Puree is made when fruit is mashed. 
+PreProc  : Puree is made when fruit is mashed >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Puree (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [mashed (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mixing berries and meat may seem odd. 
+PreProc  : Mixing berries and meat may seem odd >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Mixing (root: mix) (MOR)(N SINGULAR) (GER)]
+    [berries (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [meat (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [seem (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [odd (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists, however, have good reasons for the weird mix. 
+PreProc  : Scientists >COMMA however >COMMA have good reasons for the weird mix >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reasons (root: reason) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [weird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [weird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mix (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Blueberries make the burgers juicier and more healthful. 
+PreProc  : Blueberries make the burgers juicier and more healthful >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Blueberries (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [burgers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [juicier (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [more (LEX)(ADJ)]
+    [healthful (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The berries help prevent diseases, such as cancer. 
+PreProc  : The berries help prevent diseases >COMMA SUCH_AS cancer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [berries (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [diseases (root: disease) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [cancer (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Berry burgers may end up on your plate in the near future. 
+PreProc  : Berry burgers may end up on your plate in the near future >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Berry (?)(UNK(ENTITY UNKNOWN))]
+    [burgers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [end (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [plate (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [near (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists hope that they will one day be a part of school lunches. 
+PreProc  : Scientists hope that they will one day be a part of school lunches >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [lunches (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But don't expect the burgers to be blue. 
+PreProc  : But DO NOT expect the burgers to be blue >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [expect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [burgers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [burgers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [blue (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "In beef, you can't see the difference," one scientist told All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : >DQUOTE In beef >COMMA you CAN NOT see the difference >COMMA >DQUOTE one scientist told All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  [In (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [beef (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [CAN (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,654 @@
+Original : When Paul Glover goes to the store, he takes his own money. 
+PreProc  : When Paul Glover goes to the store >COMMA he takes his own money >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Paul (?)(UNK(ENTITY UNKNOWN))]
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [store (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What's so unusual about that? 
+PreProc  : WHAT IS so unusual about that >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [WHAT (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [unusual (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Glover, who lives in Ithaca, New York, actually the money he spends at the store. 
+PreProc  : Glover >COMMA who lives in Ithaca >COMMA NEW_YORK >COMMA actually the money he spends at the store >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  [actually (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spends (root: spend) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [store (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even though Glover pays for items with money the U.S. government didn't print, he's not breaking any laws. 
+PreProc  : Even though Glover pays for items with money the U.S. government DID NOT print >COMMA HE IS not breaking any laws >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+
+CLAUSE:
+  [though (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pays (root: pay) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [items (root: item) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [money (LEX)(N SINGULAR(MONEY))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [print (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [HE (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HE (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [breaking (root: break) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Glover's money is legal as long as it isn't passed off as Glover calls his money Ithaca Hours. 
+PreProc  : @Glover@s money is legal as long as it IS NOT passed off as Glover calls his money Ithaca Hours >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Glover@s (LEX)(ADJ POSSESSIVE)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [legal (LEX)(ADJ)]
+
+  [as (LEX)(PREP)]
+  [long (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+    [passed (root: pass) (MOR)(V PAST)]
+    [off (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [calls (root: call) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+    [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 500 stores and businesses in Ithaca accept Ithaca Hours in exchange for goods or services. 
+PreProc  : About &&500 stores and businesses in Ithaca accept Ithaca Hours in exchange for goods or services >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&500 (LEX)(NUM)]
+    [stores (root: store) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [accept (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [exchange (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [goods (root: good) (MOR)(N PLURAL(OTHER))]
+      [or (LEX)(CONJ)]
+      [services (root: service) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thousands of people in Ithaca now use the local money. 
+PreProc  : Thousands of people in Ithaca now use the local money >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Thousands
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [now (LEX)(ADV)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [local (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One Ithaca Hour is worth $10, or an hour's worth of work. 
+PreProc  : One Ithaca Hour is worth >DOLLAR &&10 >COMMA or an @hour@s worth of work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [Ithaca (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Hour (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [worth (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&10 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [an (LEX)(ART)]
+    [@hour@s (LEX)(ADJ POSSESSIVE)]
+    [worth (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: >DOLLAR &&10 >COMMA or an @hour@s worth
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Half an Ithaca Hour is worth half as much, $5, or a half-hour of work. 
+PreProc  : Half an Ithaca Hour is worth half as much >COMMA >DOLLAR &&5 >COMMA or a half-hour of work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [Ithaca (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Hour (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [worth (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [>DOLLAR (LEX)(ADJ)]
+      [&&5 (LEX)(NUM)]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [half-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: much >COMMA >DOLLAR &&5 >COMMA or a half-hour
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Glover said that he came up with the idea to help people find work. 
+PreProc  : Glover said that he came up with the idea to help people find work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glover (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [idea (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+    [work (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "All my friends have a lot of skills that were not being used, and they had a lot of time," he said. 
+PreProc  : >DQUOTE All my friends have a lot of skills that were not being used >COMMA and they had a lot of time >COMMA >DQUOTE he said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [my (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [used (root: use) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Glover's idea has spread since he introduced it in 1991. 
+PreProc  : @Glover@s idea has spread since he introduced it in &&1991 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Glover@s (LEX)(ADJ POSSESSIVE)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [spread (LEX)(V BASE)]
+
+
+CLAUSE:
+  [since (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [introduced (root: introduce) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1991 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People from New York to Hawaii now use their own local money instead of U.S.-issued money. 
+PreProc  : People from NEW_YORK to Hawaii now use their own local money instead of U.S. >MINUS issued money >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Hawaii (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [now (LEX)(ADV)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [local (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  [instead (LEX)(ADV)]
+Following PP attaches to: their own local money
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [local (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+Following PP attaches to: their own local money
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [issued (root: issue) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At least 60 cities and towns in the United States have adopted their own local money systems. 
+PreProc  : AT_LEAST &&60 cities and towns in the UNITED_STATES have adopted their own local money systems >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [AT_LEAST (LEX)(ADJ)]
+    [&&60 (LEX)(NUM)]
+    [cities (root: city) (MOR)(N PLURAL(CITY))]
+    [and (LEX)(CONJ)]
+    [towns (root: town) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [adopted (root: adopt) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [local (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+    [systems (root: system) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

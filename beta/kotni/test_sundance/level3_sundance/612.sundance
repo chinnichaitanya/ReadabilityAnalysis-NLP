@@ -1,0 +1,479 @@
+Original : Forget crayons and markers. 
+PreProc  : Forget crayons and markers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Forget (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [crayons (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [markers (root: marker) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Lim Ding Wen is taking art to the next levelÑto cell phones! 
+PreProc  : Lim Ding Wen is taking art to the next levelÑto cell phones >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lim (?)(UNK(ENTITY UNKNOWN))]
+    [Ding (?)(UNK(ENTITY UNKNOWN))]
+    [Wen (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [taking (root: take) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [art (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [next (LEX)(ADJ)]
+      [levelÑto (?)(UNK(ENTITY UNKNOWN))]
+      [cell (LEX)(N SINGULAR(OTHER))]
+      [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 9-year-old recently created a drawing program called Doodle Kids. 
+PreProc  : The 9-year-old recently created a drawing program called Doodle Kids >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [9-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [drawing (root: draw) (MOR)(N SINGULAR) (GER)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [drawing (root: draw) (MOR)(N SINGULAR) (GER)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Doodle (?)(UNK(ENTITY UNKNOWN))]
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is used on the Apple iPhone. 
+PreProc  : It is used on the Apple iPhone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Apple (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [iPhone (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The program allows kids to draw shapes in different colors and sizes by touching their fingers to the screen of the iPhone. 
+PreProc  : The program allows kids to draw shapes in different colors and sizes by touching their fingers to the screen of the iPhone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [allows (root: allow) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [draw (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [shapes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [colors (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [sizes (root: size) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [touching (root: touch) (MOR)(N SINGULAR) (GER)]
+      [their (LEX)(ADJ)]
+      [fingers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [screen (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the screen
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [iPhone (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ding Wen lives in Singapore. 
+PreProc  : Ding Wen lives in Singapore >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ding (?)(UNK(ENTITY UNKNOWN))]
+    [Wen (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Singapore (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is an island in Asia. 
+PreProc  : That is an island in Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [island (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He got the idea for Doodle Kids from his younger sisters. 
+PreProc  : He got the idea for Doodle Kids from his younger sisters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Doodle (?)(UNK(ENTITY UNKNOWN))]
+      [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [younger (root: young) (MOR)(ADJ)]
+      [sisters (root: sister) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒSince most young kids love to doodle, I wrote [a program] that lets you ... doodle, with [lots of] colors,Ó he told Ding Wen learned to use a computer when he was 2 years old. 
+PreProc  : ÒSince most young kids love to doodle >COMMA I wrote >LBRACKET a program >RBRACKET that lets you >ELLIPSES doodle >COMMA with >LBRACKET lots of >RBRACKET colors,Ó he told Ding Wen learned to use a computer when he was &&2 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒSince (?)(UNK(ENTITY UNKNOWN))]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [young (LEX)(ADJ)]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [love (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [doodle (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wrote (root: write) (LEX)(V PAST)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [doodle (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [doodle (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [with (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [lots (root: lot) (MOR)(N PLURAL(OTHER))]
+
+  [of (LEX)(PREP)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [colors,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Ding (?)(UNK(ENTITY UNKNOWN))]
+    [Wen (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ding (?)(UNK(ENTITY UNKNOWN))]
+    [Wen (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learned (root: learn) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He became a at age 7. 
+PreProc  : He became a at age &&7 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [at (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [at (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&7 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A programmer is a person who creates programs for computers and other types of technology. 
+PreProc  : A programmer is a person who creates programs for computers and other types of technology >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [programmer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [creates (root: create) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [programs (root: program) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [computers (root: computer) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: computers and other types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [technology (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒI like programming because you can [make whatever] you want,Ó he says. 
+PreProc  : ÒI like programming because you can >LBRACKET make whatever >RBRACKET you want,Ó he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [programming (INF-MOR)(GER)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [whatever (LEX)(PN SINGULAR(ENTITY))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT:
+    [want,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

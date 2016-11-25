@@ -1,0 +1,381 @@
+Original : Secondhand smoke (SHS) comes from burning cigarettes, pipes, or cigars. 
+PreProc  : Secondhand smoke >LPAREN SHS >RPAREN comes from burning cigarettes >COMMA pipes >COMMA or cigars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Secondhand (?)(UNK(ENTITY UNKNOWN))]
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [SHS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [burning (root: burn) (MOR)(N SINGULAR) (GER)]
+      [cigarettes (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [pipes (root: pipe) (MOR)(N PLURAL(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [cigars (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That smoke has many chemicals in it. 
+PreProc  : That smoke has many chemicals in it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say that breathing SHS can harm a person's body. 
+PreProc  : Experts say that breathing SHS can harm a @person@s body >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [breathing (root: breathe) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [SHS (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [SHS (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [harm (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@person@s (LEX)(ADJ POSSESSIVE)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also cause headaches and make some illnesses worse. 
+PreProc  : It can also cause headaches and make some illnesses worse >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [cause (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [headaches (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [illnesses (root: illness) (MOR)(N PLURAL(OTHER))]
+
+  [worse (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People breathe secondhand smoke when that smoke is close by. 
+PreProc  : People breathe secondhand smoke when that smoke is close by >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [breathe (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [secondhand (?)(UNK(ENTITY UNKNOWN))]
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  [when (LEX)(C_M)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [close (LEX)(V BASE)]
+
+  [by (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use this countdown to help you breathe cleaner air! 
+PreProc  : Use this countdown to help you breathe cleaner air >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [countdown (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [breathe (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [cleaner (root: clean) (MOR)(ADJ) (N SINGULAR)]
+    [air (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Open a window to get some fresh air. 
+PreProc  : Open a window to get some fresh air >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Open (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [window (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [fresh (LEX)(ADJ)]
+    [air (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tell the smoker how smoking affects them and YOU! 
+PreProc  : Tell the smoker how smoking affects them and YOU >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Tell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [smoker (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [how (LEX)(ADV)]
+    [smoking (root: smoke) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [smoker (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [how (LEX)(ADV)]
+    [smoking (root: smoke) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [affects (root: affect) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [YOU (LEX)(PN(HUMAN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ...bothers the eyes by making them burn and feel dry. 
+PreProc  : >ELLIPSES bothers the eyes by making them burn and feel dry >PERIOD <EOS 
+CLAUSE:
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [bothers (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [burn (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [bothers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feel (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [dry (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ...raises the chances of getting lung diseases. 
+PreProc  : >ELLIPSES raises the chances of getting lung diseases >PERIOD <EOS 
+CLAUSE:
+  [>ELLIPSES (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [raises (root: raise) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chances (root: chance) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the chances
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [getting (root: get) (MOR)(N SINGULAR) (GER)]
+      [lung (LEX)(N SINGULAR(OTHER))]
+      [diseases (root: disease) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ¥breathe - the act of taking air in and pushing it out ¥secondhand smoke (SHS) - smoke from a burning cigarette, pipe, or cigar All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : ¥breathe >MINUS the act of taking air in and pushing it out ¥secondhand smoke >LPAREN SHS >RPAREN >MINUS smoke from a burning cigarette >COMMA pipe >COMMA or cigar All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [¥breathe (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [act (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the act
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [taking (root: take) (MOR)(N SINGULAR) (GER)]
+      [air (LEX)(N SINGULAR(OTHER))]
+
+
+  [in (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [pushing (root: push) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [out (LEX)(PART) (ADV)]
+  NP SEGMENT:
+    [¥secondhand (?)(UNK(ENTITY UNKNOWN))]
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [SHS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [smoke (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [burning (root: burn) (MOR)(N SINGULAR) (GER)]
+      [cigarette (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [pipe (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [cigar (?)(UNK(ENTITY UNKNOWN))]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

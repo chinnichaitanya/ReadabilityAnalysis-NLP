@@ -1,0 +1,781 @@
+Original : If you want to see the biggest ball of twine, the largest doughnut, the largest model elephant, or just about any other wacky thing, you have to take a road trip. 
+PreProc  : If you want to see the biggest ball of twine >COMMA the largest doughnut >COMMA the largest model elephant >COMMA or just about any other wacky thing >COMMA you have to take a road trip >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [biggest (LEX)(ADJ)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the biggest ball
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [twine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [doughnut (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [model (LEX)(N SINGULAR(OTHER))]
+    [elephant (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [just (LEX)(ADJ) (ADV)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [wacky (?)(UNK(ENTITY UNKNOWN))]
+      [thing (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+    [trip (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : America's roads are lined with some of the wackiest attractions you will ever see. 
+PreProc  : @America@s roads are lined with some of the wackiest attractions you will ever see >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [@America@s (LEX)(ADJ POSSESSIVE)]
+    [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [lined (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [wackiest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [attractions (root: attract) (MOR)(N PLURAL)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [ever (LEX)(ADV)]
+    [see (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The earliest roadside attractions opened at about the time people bought the first cars. 
+PreProc  : The earliest roadside attractions opened at about the time people bought the first cars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [earliest (root: early) (MOR)(ADJ(TIME))]
+    [roadside (?)(UNK(ENTITY UNKNOWN))]
+    [attractions (root: attract) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [opened (root: open) (MOR)(V PAST)]
+
+  [at (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bought (root: buy) (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [cars (root: car) (MOR)(N PLURAL(VEHICLE))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, more people than ever are hitting the road and traveling by car. 
+PreProc  : Today >COMMA more people than ever are hitting the road and traveling by car >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [than (LEX)(ADV)]
+    [ever (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+    [hitting (root: hit) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+    [and (LEX)(CONJ)]
+    [traveling (root: travel) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [car (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many of those people are parking their cars in front of bizarre roadside attractions. 
+PreProc  : Many of those people are parking their cars in front of bizarre roadside attractions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [parking (root: park) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [cars (root: car) (MOR)(N PLURAL(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [front (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: front
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bizarre (LEX)(ADJ)]
+      [roadside (?)(UNK(ENTITY UNKNOWN))]
+      [attractions (root: attract) (MOR)(N PLURAL)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If one of the attractions doesn't meet your expectations as the biggest, longest, tallest, or best something, just drive a little farther. 
+PreProc  : If one of the attractions DOES NOT meet your expectations as the biggest >COMMA longest >COMMA tallest >COMMA or best something >COMMA just drive a little farther >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [attractions (root: attract) (MOR)(N PLURAL)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DOES (root: do) (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [expectations (root: expectation) (MOR)(N PLURAL(OTHER))]
+
+  [as (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [biggest (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [longest (root: long) (MOR)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [tallest (root: tall) (MOR)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [best (LEX)(ADJ)]
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [attractions (root: attract) (MOR)(N PLURAL)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [drive (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [little (LEX)(ADJ)]
+    [farther (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What are some of these wacky wonders? 
+PreProc  : What are some of these wacky wonders >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+      [wacky (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+      [wacky (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wonders (root: wonder) (MOR)(V PRESENT)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you are ever in Cawker City, Kansas, drop by to see the world's largest ball of twine. 
+PreProc  : If you are ever in Cawker City >COMMA Kansas >COMMA drop by to see the @world@s largest ball of twine >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [ever (LEX)(ADV)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Cawker (?)(UNK(ENTITY UNKNOWN))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Kansas (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drop (LEX)(V BASE)]
+
+  [by (LEX)(PREP)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [largest (root: large) (MOR)(ADJ   )]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the @world@s largest ball
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [twine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The ball is made of 7 million feet of twine and weighs 17,320 pounds. 
+PreProc  : The ball is made of &&7 million feet of twine and weighs &&17,320 pounds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+Following PP attaches to: is made
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&7 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: &&7 million feet
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [twine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighs (root: weigh) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&17,320 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And it's still growing. 
+PreProc  : And IT IS still growing >PERIOD <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [still (LEX)(ADV)]
+    [growing (root: grow) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you're tired of riding in the car, you might want to stop in Holbrook, Arizona. 
+PreProc  : If YOU ARE tired of riding in the car >COMMA you might want to stop in Holbrook >COMMA Arizona >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [tired (root: tire) (MOR)(V PAST)]
+
+Following PP attaches to: ARE tired
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [car (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [might (LEX)(AUX)]
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [stop (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Holbrook (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There, you can sleep in a motel room shaped like a teepee. 
+PreProc  : There >COMMA you can sleep in a motel room shaped like a teepee >PERIOD <EOS 
+CLAUSE:
+  [There (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [sleep (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [motel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [room (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [motel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [room (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shaped (INF-MOR)(V PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [teepee (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After a restful night in a teepee, you could go to Margate, New Jersey. 
+PreProc  : After a restful night in a teepee >COMMA you could go to Margate >COMMA NEW_JERSEY >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [restful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [night (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [teepee (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Margate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [NEW_JERSEY (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There, you'll find Lucy the Elephant. 
+PreProc  : There >COMMA YOU WILL find Lucy the Elephant >PERIOD <EOS 
+CLAUSE:
+  [There (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [Lucy (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Elephant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Lucy isn't just any old elephant. 
+PreProc  : Lucy IS NOT just any old elephant >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lucy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [just (LEX)(ADJ) (ADV)]
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [old (LEX)(ADJ)]
+    [elephant (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She's a six-story-high model of an elephant that was built in 1881. 
+PreProc  : SHE IS a six-story-high model of an elephant that was built in &&1881 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [SHE (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [six-story-high (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [model (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a six-story-high model
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [elephant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [six-story-high (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [model (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a six-story-high model
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [elephant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [built (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1881 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So don't miss out on the wacky fun. 
+PreProc  : So DO NOT miss out on the wacky fun >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [So (LEX)(ADV)]
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [miss (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [wacky (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [fun (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Take a road trip with your family, and see what amazingly strange things you can find along the roadside. 
+PreProc  : Take a road trip with your family >COMMA and see what amazingly strange things you can find along the roadside >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+    [trip (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [family (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [amazingly (INF-MOR)(ADV)]
+    [strange (LEX)(ADJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [along (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [roadside (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

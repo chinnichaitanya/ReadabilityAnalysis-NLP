@@ -1,0 +1,289 @@
+Original : Many eggs recently hatched at SeaWorld in San Diego, California. 
+PreProc  : Many eggs recently hatched at SeaWorld in San Diego >COMMA California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [hatched (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [SeaWorld (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [San (?)(UNK(ENTITY UNKNOWN))]
+      [Diego (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The park is now home to 81 baby green sea turtles! 
+PreProc  : The park is now home to &&81 baby green sea turtles >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&81 (LEX)(NUM)]
+      [baby (LEX)(N SINGULAR(HUMAN))]
+      [green (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each turtle was about 3 inches long when it hatched. 
+PreProc  : Each turtle was about &&3 inches long when it hatched >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [turtle (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&3 (LEX)(NUM)]
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  [long (LEX)(ADJ)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hatched (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The baby turtles are fed krill, squid, and shrimps. 
+PreProc  : The baby turtles are fed krill >COMMA squid >COMMA and shrimps >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [fed (?)(UNK(ENTITY UNKNOWN))]
+    [krill (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [squid (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [shrimps (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : SeaWorld has 32 adult green sea turtles. 
+PreProc  : SeaWorld has &&32 adult green sea turtles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [SeaWorld (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&32 (LEX)(NUM)]
+    [adult (?)(UNK(ENTITY UNKNOWN))]
+    [green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are about 40 or 50 years old. 
+PreProc  : They are about &&40 or &&50 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&40 (LEX)(NUM)]
+    [or (LEX)(CONJ)]
+    [&&50 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Green sea turtles can live to be more than 100 years old. 
+PreProc  : Green sea turtles can live to be MORE_THAN &&100 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [can (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒWe are so happy to have this many green sea turtles hatch,Ó says David Koontz. 
+PreProc  : ÒWe are so happy to have this many green sea turtles hatch,Ó says David Koontz >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒWe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [happy (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+    [hatch,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+    [hatch,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Koontz (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is a SeaWorld spokesperson. 
+PreProc  : He is a SeaWorld spokesperson >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [SeaWorld (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThat allows us to study sea turtles as they grow.Ó All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : ÒThat allows us to study sea turtles as they grow.Ó All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThat (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [allows (root: allow) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [study (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [they (LEX)(PN PLURAL(HUMAN))]
+
+
+  NP-CONJ SEGMENT:
+    [grow.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

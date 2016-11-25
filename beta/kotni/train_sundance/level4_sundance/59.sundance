@@ -1,0 +1,723 @@
+Original : Would you know what to do if a fire started in your home? 
+PreProc  : Would you know what to do if a fire started in your home >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Every year, more than 400,000 fires begin in U.S. homes. 
+PreProc  : Every year >COMMA MORE_THAN &&400,000 fires begin in U.S. homes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Every (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&400,000 (LEX)(NUM)]
+    [fires (root: fire) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can prepare for an emergency by making and practicing a home fire escape plan! 
+PreProc  : You can prepare for an emergency by making and practicing a home fire escape plan >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [prepare (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [emergency (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [practicing (root: practice) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : all rooms, doors, windows, and smoke alarms. 
+PreProc  : all rooms >COMMA doors >COMMA windows >COMMA and smoke alarms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [doors (root: door) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [windows (root: window) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [smoke (LEX)(V BASE)]
+    [alarms (root: alarm) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : at least two ways out of each room. 
+PreProc  : AT_LEAST &&2 ways out of each room >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [AT_LEAST (LEX)(ADJ)]
+    [&&2 (LEX)(NUM)]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  [out (LEX)]
+Following PP attaches to: AT_LEAST &&2 ways
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [room (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That way you will know how to escape no matter where you are, and no matter where the fire is. 
+PreProc  : That way you will know how to escape no matter where you are >COMMA and no matter where the fire is >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [know (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [escape (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [matter (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [no (LEX)(ADJ)]
+    [matter (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : a meeting place outside, away from your home, where all members of your household can gather after they have left the building. 
+PreProc  : a meeting place outside >COMMA away from your home >COMMA where all members of your household can gather after they have left the building >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [meeting (LEX)(N SINGULAR(OTHER))]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  [outside (LEX)(PREP) (ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [away (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: all members
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [household (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [gather (LEX)(V BASE)]
+
+
+CLAUSE:
+  [after (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [left (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : any fire escapes or fire stairs in your building if you live in an apartment or high rise. 
+PreProc  : any fire escapes or fire stairs in your building if you live in an apartment or high rise >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escapes (root: escape) (MOR)(V PRESENT)]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fire (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [stairs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [apartment (LEX)(N SINGULAR(BUILDING))]
+
+
+  [or (LEX)(CONJ)]
+  [high (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [apartment (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rise (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (Talk to your building manager or local fire department about what you should do if a fire starts in your building.) the location of a neighbor's house, public phone, or call box to alert the fire department. 
+PreProc  : >LPAREN Talk to your building manager or local fire department about what you should do if a fire starts in your building >PERIOD >RPAREN the location of a @neighbor@s house >COMMA public phone >COMMA or call box to alert the fire department >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Talk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+      [manager (LEX)(N SINGULAR(HUMAN))]
+      [or (LEX)(CONJ)]
+      [local (LEX)(ADJ)]
+      [fire (LEX)(N SINGULAR(OTHER))]
+      [department (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [starts (root: start) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [location (LEX)(N SINGULAR(LOCATION))]
+
+Following PP attaches to: the location
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [@neighbor@s (LEX)(ADJ POSSESSIVE)]
+      [house (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [call (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [box (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [alert (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+    [department (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (Or, assign a family member to bring a portable phone when exiting your home.) "Develop a home fire escape plan with your family. 
+PreProc  : >LPAREN Or >COMMA assign a family member to bring a portable phone when exiting your home >PERIOD >RPAREN >DQUOTE Develop a home fire escape plan with your family >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  [Or (LEX)(CONJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [assign (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [bring (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [portable (LEX)(ADJ)]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [portable (LEX)(ADJ)]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [exiting (root: exit) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Develop (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [family (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Practice your home escape plan at least twice a year. 
+PreProc  : Practice your home escape plan AT_LEAST twice a year >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Practice (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [AT_LEAST (LEX)(ADJ)]
+  [twice (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pretend that some escape routes are blocked by smoke and fire so that you can practice using different exits. 
+PreProc  : Pretend that some escape routes are blocked by smoke and fire so that you can practice using different exits >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Pretend (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [routes (root: route) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [routes (root: route) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [blocked (root: block) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [smoke (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [routes (root: route) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fire (LEX)(V BASE)]
+    [so (LEX)(ADV)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [practice (LEX)(V BASE)]
+    [using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [different (LEX)(ADJ)]
+    [exits (root: exit) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Close all doors behind you as you exit to keep smoke from spreading through your home. 
+PreProc  : Close all doors behind you as you exit to keep smoke from spreading through your home >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Close (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [doors (root: door) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [behind (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [exit (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [smoke (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [spreading (root: spread) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most of all, when your smoke alarm sounds, don't delay! 
+PreProc  : Most of all >COMMA when your smoke alarm sounds >COMMA DO NOT delay >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [smoke (LEX)(N SINGULAR(OTHER))]
+    [alarm (LEX)(N SINGULAR(OTHER))]
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [delay (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use your plan to get out safely." 
+PreProc  : Use your plan to get out safely >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [plan (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+    [safely (root: safe) (MOR)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

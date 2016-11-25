@@ -1,0 +1,328 @@
+Original : Do you ever wonder what it would be like to fly? 
+PreProc  : Do you ever wonder what it would be like to fly >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [wonder (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [would (root: will) (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [fly (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since 1992, the Young Eagles program has been giving kids free airplane rides in the sky. 
+PreProc  : Since &&1992 >COMMA the Young Eagles program has been giving kids free airplane rides in the sky >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1992 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Young (LEX)(ADJ)]
+    [Eagles (?)(UNK(ENTITY UNKNOWN))]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [giving (root: give) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [free (LEX)(ADJ)]
+    [airplane (LEX)(N SINGULAR(VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [free (LEX)(ADJ)]
+    [airplane (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rides (root: ride) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sky (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The program has the goal of giving a million kids a ride before December 17, 2003. 
+PreProc  : The program has the goal of giving a million kids a ride before December &&17 >COMMA &&2003 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the goal
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [giving (root: give) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [ride (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Time (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&17 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&2003 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the 100-year anniversary of the Wright brothers' first flight. 
+PreProc  : That is the 100-year anniversary of the Wright @brothers@ first flight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [100-year (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [anniversary (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the 100-year anniversary
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Wright (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [@brothers@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [first (LEX)(ADJ)]
+      [flight (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Wright brothers made history one day in December 1903. 
+PreProc  : The Wright brothers made history one day in December &&1903 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Wright (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [brothers (root: brother) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [history (LEX)(N SINGULAR(OTHER))]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&1903 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On that day, their dream of flying came true. 
+PreProc  : On that day >COMMA their dream of flying came true >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [dream (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: their dream
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  ADJ SEGMENT:
+    [true (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They flew the first engine-powered airplane. 
+PreProc  : They flew the first engine-powered airplane >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flew (root: fly) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [engine-powered (INF-MOR)(ADJ)]
+    [airplane (LEX)(N SINGULAR(VEHICLE))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, the Young Eagles program lets kids experience that same thrill of flight. 
+PreProc  : Today >COMMA the Young Eagles program lets kids experience that same thrill of flight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Young (LEX)(ADJ)]
+    [Eagles (?)(UNK(ENTITY UNKNOWN))]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [same (LEX)(ADJ)]
+    [thrill (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: same thrill
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flight (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Recreation of the Wrights Flyer at the Wright Brothers National Memorial, North Carolina. 
+PreProc  : Recreation of the Wrights Flyer at the Wright Brothers National Memorial >COMMA NORTH_CAROLINA >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Recreation (root: create) (MOR)(N SINGULAR)]
+
+Following PP attaches to: Recreation
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Wrights (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Flyer (root: fly) (MOR)(N SINGULAR)]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Wright (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Brothers (root: brother) (MOR)(N PLURAL(HUMAN))]
+      [National (LEX)(ADJ)]
+      [Memorial (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [NORTH_CAROLINA (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

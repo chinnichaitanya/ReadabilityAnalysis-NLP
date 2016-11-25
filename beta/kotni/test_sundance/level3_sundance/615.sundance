@@ -1,0 +1,496 @@
+Original : HereÕs a fun holiday gift! 
+PreProc  : HereÕs a fun holiday gift >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HereÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [fun (LEX)(ADJ)]
+    [holiday (?)(UNK(ENTITY UNKNOWN))]
+    [gift (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Alvin, Simon, and Theodore are back in . 
+PreProc  : Alvin >COMMA Simon >COMMA and Theodore are back in >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Alvin (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Simon (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Theodore (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [in (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Actor and singer Jesse McCartney, 22, does the voice of Theodore. 
+PreProc  : Actor and singer Jesse McCartney >COMMA &&22 >COMMA does the voice of Theodore >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Actor (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [singer (root: sing) (MOR)(N SINGULAR)]
+    [Jesse (?)(UNK(ENTITY UNKNOWN))]
+    [McCartney (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&22 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [voice (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the voice
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Theodore (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : student reporter Arin Soileau interviewed McCartney about the movie, which comes out December 25. 
+PreProc  : student reporter Arin Soileau interviewed McCartney about the movie >COMMA which comes out December &&25 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [student (LEX)(N SINGULAR(HUMAN))]
+    [reporter (LEX)(N SINGULAR(HUMAN))]
+    [Arin (?)(UNK(ENTITY UNKNOWN))]
+    [Soileau (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interviewed (root: interview) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [McCartney (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Time:
+    [out (LEX)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&25 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : . 
+PreProc  : >PERIOD <EOS 
+CLAUSE:
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Theodore ... was actually my favorite. 
+PreProc  : Theodore >ELLIPSES was actually my favorite >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Theodore (?)(UNK(ENTITY UNKNOWN))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [actually (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [my (LEX)(ADJ)]
+    [favorite (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : HeÕs easy to like. 
+PreProc  : HeÕs easy to like >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HeÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [easy (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [like (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : HeÕs very friendly. 
+PreProc  : HeÕs very friendly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HeÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [very (LEX)(ADV)]
+  [friendly (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How long did it take you to make the movie? 
+PreProc  : How long did it take you to make the movie >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  [long (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It takes ... about six to eight weeks to record all the voices, but it takes the [or people who draw the scenes] up to two years to animate all of the cartoons. 
+PreProc  : It takes >ELLIPSES about &&6 to &&8 weeks to record all the voices >COMMA but it takes the >LBRACKET or people who draw the scenes >RBRACKET up to &&2 years to animate all of the cartoons >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&6 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&8 (LEX)(NUM)]
+      [weeks (root: week) (MOR)(N PLURAL(TIME))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [record (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [voices (root: voice) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  [the (LEX)(ART)]
+  [>LBRACKET (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [draw (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [scenes (root: scene) (MOR)(N PLURAL(OTHER))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [up (LEX)(PART) (PREP)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [animate (?)(UNK(ENTITY UNKNOWN))]
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+Following PP attaches to: animate all
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [cartoons (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What advice do you have for kids interested in movie or music careers? 
+PreProc  : What advice do you have for kids interested in movie or music careers >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [advice (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interested (root: interest) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [movie (LEX)(N SINGULAR(OTHER))]
+      [or (LEX)(CONJ)]
+      [music (LEX)(N SINGULAR(OTHER))]
+      [careers (root: career) (MOR)(N PLURAL(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is one of those things that ... doesnÕt happen overnight. 
+PreProc  : It is one of those things that >ELLIPSES doesnÕt happen overnight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [doesnÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happen (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [overnight (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You have to put a lot of time into it. 
+PreProc  : You have to put a lot of time into it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ItÕs an amazing experience. 
+PreProc  : ItÕs an amazing experience >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ItÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [amazing (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ItÕs also a lot of hard work. 
+PreProc  : ItÕs also a lot of hard work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ItÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [also (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hard (LEX)(ADJ)]
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I love to cook. 
+PreProc  : I love to cook >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [love (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [cook (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I [also] love classic cars. 
+PreProc  : I >LBRACKET also >RBRACKET love classic cars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [also (LEX)(ADV)]
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [love (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [classic (root: class) (MOR)(ADJ(OTHER))]
+    [cars (root: car) (MOR)(N PLURAL(VEHICLE))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

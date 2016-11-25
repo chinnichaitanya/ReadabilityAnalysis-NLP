@@ -1,0 +1,598 @@
+Original : Forget computers and video games! 
+PreProc  : Forget computers and video games >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Forget (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [computers (root: computer) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [computers (root: computer) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [video (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Two hundred years ago, kids played games such as . 
+PreProc  : &&2 hundred years ago >COMMA kids played games SUCH_AS >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [hundred (LEX)(ADJ) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [played (root: play) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  [SUCH_AS (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In that game, kids raced wooden hoops. 
+PreProc  : In that game >COMMA kids raced wooden hoops >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [game (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [raced (root: race) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [wooden (LEX)(ADJ)]
+    [hoops (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Read below to learn about a kid's life long ago. 
+PreProc  : Read below to learn about a @kid@s life long ago >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Read (LEX)(V BASE)]
+
+  [below (LEX)(PREP)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [@kid@s (LEX)(ADJ POSSESSIVE)]
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  [long (LEX)(ADJ)]
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the day, children learned reading, writing, and math at school. 
+PreProc  : During the day >COMMA children learned reading >COMMA writing >COMMA and math at school >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [reading (root: read) (MOR)(N SINGULAR) (GER)]
+    [>COMMA (LEX)(PUNC)]
+    [writing (root: write) (MOR)(N SINGULAR) (GER)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [math (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most schoolhouses had one room and one teacher. 
+PreProc  : Most schoolhouses had one room and one teacher >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [schoolhouses (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [room (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Students of all ages were in the same classroom. 
+PreProc  : Students of all ages were in the same classroom >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: Students
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [ages (root: age) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [classroom (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After school, children had to do chores. 
+PreProc  : After school >COMMA children had to do chores >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [chores (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Boys usually worked with their fathers in barns and fields. 
+PreProc  : Boys usually worked with their fathers in barns and fields >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [worked (root: work) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [fathers (root: father) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [barns (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [fields (root: field) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Girls usually worked with their mothers, cooking and sewing. 
+PreProc  : Girls usually worked with their mothers >COMMA cooking and sewing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [worked (root: work) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [mothers (root: mother) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [cooking (root: cook) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [sewing (root: sew) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Library of Congress, Prints & Photographs Division, [reproduction number, LC-DIG-ppmsca-05919] In colonial times, children often played with wooden blocks. 
+PreProc  : Library of Congress >COMMA Prints >AMPERSAND Photographs Division >COMMA >LBRACKET reproduction number >COMMA LC-DIG-ppmsca-05919 >RBRACKET In colonial times >COMMA children often played with wooden blocks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: Library
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Prints (root: print) (MOR)(V PRESENT)]
+
+  [>AMPERSAND (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: Library
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Photographs (root: photograph) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Division (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [reproduction (INF-MOR)(N(ENTITY UNKNOWN))]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [LC-DIG-ppmsca-05919 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [colonial (?)(UNK(ENTITY UNKNOWN))]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [played (root: play) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [wooden (LEX)(ADJ)]
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At night, children spent time with their families. 
+PreProc  : At night >COMMA children spent time with their families >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [night (LEX)(N SINGULAR(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spent (root: spend) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Boys might play with their blocks, and girls might play with their dolls. 
+PreProc  : Boys might play with their blocks >COMMA and girls might play with their dolls >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [play (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [play (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [dolls (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most families long ago were made up of many children. 
+PreProc  : Most families long ago were made up of many children >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  [long (LEX)(ADJ)]
+  VP SEGMENT (PASSIVE_VERB):
+    [ago (LEX)(ADV(TIME))]
+    [were (root: be) (LEX)(COP PAST)]
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+Following PP attaches to: ago were made up
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Starting at about age 9, children might learn a from an expert. 
+PreProc  : Starting at about age &&9 >COMMA children might learn a from an expert >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Starting (root: start) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)]
+      [age (LEX)(N SINGULAR(OTHER))]
+      [&&9 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [a (LEX)(ART)]
+    [from (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A trade is a job, such as furniture making, that requires special skills. 
+PreProc  : A trade is a job >COMMA SUCH_AS furniture making >COMMA that requires special skills >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [trade (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [furniture (LEX)(N SINGULAR(PHYSOBJ))]
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [furniture (LEX)(N SINGULAR(PHYSOBJ))]
+    [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [requires (root: require) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [special (LEX)(ADJ)]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A child who learned a trade from an expert was called an Would you like to have lived long ago? 
+PreProc  : A child who learned a trade from an expert was called an Would you like to have lived long ago >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [child (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [child (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [trade (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [an (LEX)(ART)]
+    [Would (root: will) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+    [lived (root: live) (MOR)(V PAST)]
+
+  [long (LEX)(ADJ)]
+  [ago (LEX)(ADV(TIME))]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why or why not? 
+PreProc  : Why or why not >QUESTION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

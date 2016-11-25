@@ -1,0 +1,429 @@
+Original : 1. 
+PreProc  : &&1 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cut the washed vegetables into small pieces. 
+PreProc  : Cut the washed vegetables into small pieces >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [washed (root: wash) (MOR)(ADJ)]
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [small (LEX)(ADJ)]
+      [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 2. 
+PreProc  : &&2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cut the beef into cubes and brown it in a pan. 
+PreProc  : Cut the beef into cubes and brown it in a pan >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [beef (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [cubes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+  [brown (LEX)(ADJ)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pan (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 3. 
+PreProc  : &&3 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Put all ingredients together in a large pot. 
+PreProc  : Put all ingredients together in a large pot >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [ingredients (?)(UNK(ENTITY UNKNOWN))]
+
+  [together (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [large (LEX)(ADJ)]
+      [pot (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 4. 
+PreProc  : &&4 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cook the mixture over low heat until the meat is fully cooked and the vegetables are soft. 
+PreProc  : Cook the mixture over low heat until the meat is fully cooked and the vegetables are soft >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Cook (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [mixture (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [low (LEX)(ADJ)]
+      [heat (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [meat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [meat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [fully (LEX)(ADV)]
+    [cooked (root: cook) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [vegetables (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [vegetables (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [soft (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 5. 
+PreProc  : &&5 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mix flour and hot water to make a paste. 
+PreProc  : Mix flour and hot water to make a paste >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Mix (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [flour (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [hot (LEX)(ADJ)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [paste (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Add the paste slowly to thicken the stew. 
+PreProc  : Add the paste slowly to thicken the stew >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [paste (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [slowly (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [thicken (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [stew (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many different ingredients are in this stew recipe? 
+PreProc  : How many different ingredients are in this stew recipe >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [different (LEX)(ADJ)]
+    [ingredients (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [stew (?)(UNK(ENTITY UNKNOWN))]
+      [recipe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many potatoes does the recipe say to use? 
+PreProc  : How many potatoes does the recipe say to use >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [potatoes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [recipe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [recipe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the recipe, over what kind of heat should you cook the stew? 
+PreProc  : According to the recipe >COMMA over what kind of heat should you cook the stew >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [recipe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: what kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [heat (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: what kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [heat (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cook (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [stew (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you wanted to make this recipe twice, how many pounds of beef would you need? 
+PreProc  : If you wanted to make this recipe twice >COMMA how many pounds of beef would you need >QUESTION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [recipe (?)(UNK(ENTITY UNKNOWN))]
+
+  [twice (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [how (LEX)(ADV)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [recipe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [beef (LEX)(V BASE)]
+    [would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Heading West: Learn About a Pioneer’s Life All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : Heading West >COLON Learn About a Pioneer’s Life All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Heading (root: head) (MOR)(N SINGULAR) (GER)]
+    [West (LEX)(ADJ) (N SINGULAR(LOCATION))]
+
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [About (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Pioneer’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Life (LEX)(N SINGULAR(OTHER))]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

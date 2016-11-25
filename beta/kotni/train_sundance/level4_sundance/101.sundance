@@ -1,0 +1,991 @@
+Original : sets sail from Mystic Seaport in Mystic, Connecticut. 
+PreProc  : sets sail from Mystic Seaport in Mystic >COMMA Connecticut >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sets (root: set) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sail (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Mystic (?)(UNK(ENTITY UNKNOWN))]
+      [Seaport (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Mystic (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Connecticut (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Aboard the are the ship's captain, nine crew members, several TV reporters, visiting officials, and three is sailing to New London, Connecticut, where it will join 40 other tall ships as part of OpSail2000, a parade of ships." 
+PreProc  : Aboard the are the @ship@s captain >COMMA &&9 crew members >COMMA several TV reporters >COMMA visiting officials >COMMA and &&3 is sailing to New London >COMMA Connecticut >COMMA where it will join &&40 other tall ships as part of OpSail2000 >COMMA a parade of ships >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Aboard (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [are (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [@ship@s (LEX)(ADJ POSSESSIVE)]
+    [captain (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&9 (LEX)(NUM)]
+    [crew (LEX)(N SINGULAR(HUMAN))]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [several (LEX)(ADJ)]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [visiting (root: visit) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&3 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [sailing (root: sail) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [London (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Connecticut (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [join (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&40 (LEX)(NUM)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [tall (LEX)(ADJ)]
+    [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [OpSail2000 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [parade (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a parade
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the summer, millions of people gathered at port cities along the East Coast to watch , or Operation Sail. 
+PreProc  : During the summer >COMMA millions of people gathered at port cities along the East Coast to watch >COMMA or Operation Sail >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gathered (root: gather) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [port (LEX)(N SINGULAR(LOCATION))]
+      [cities (root: city) (MOR)(N PLURAL(CITY))]
+
+
+  PP SEGMENT-Location (PREP):
+    [along (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [East (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [Coast (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [watch (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [Operation (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Operation (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Sail (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many of the ships that took part in OpSail2000 were , sailing vessels that have two or more , the tall upright poles to which sails are attached. 
+PreProc  : Many of the ships that took part in OpSail2000 were >COMMA sailing vessels that have &&2 or more >COMMA the tall upright poles to which sails are attached >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [OpSail2000 (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [OpSail2000 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [OpSail2000 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sailing (root: sail) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [vessels (root: vessel) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [vessels (root: vessel) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+  [or (LEX)(CONJ)]
+  [more (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [tall (LEX)(ADJ)]
+    [upright (?)(UNK(ENTITY UNKNOWN))]
+    [poles (root: pole) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [to (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [sails (root: sail) (MOR)(V PRESENT)]
+    [are (root: be) (LEX)(COP)]
+    [attached (root: attach) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was one of the ships that sailed in OpSail2000. 
+PreProc  : was one of the ships that sailed in OpSail2000 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sailed (root: sail) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [OpSail2000 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a , a ship that sailed about 150 years ago. 
+PreProc  : It is a >COMMA a ship that sailed about &&150 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sailed (root: sail) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&150 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was in Havana, Cuba. 
+PreProc  : was in Havana >COMMA Cuba >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Havana (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Cuba (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There, the ship's captain bought 53 people who had been kidnapped from Africa and taken as slaves to Cuba. 
+PreProc  : There >COMMA the @ship@s captain bought &&53 people who had been kidnapped from Africa and taken as slaves to Cuba >PERIOD <EOS 
+CLAUSE:
+  [There (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [@ship@s (LEX)(ADJ POSSESSIVE)]
+    [captain (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bought (root: buy) (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&53 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&53 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [been (root: be) (LEX)(COP)]
+    [kidnapped (root: kidnap) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&53 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taken (root: take) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [slaves (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Cuba (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : planned to sail to another port in Cuba to sell the slaves. 
+PreProc  : planned to sail to another port in Cuba to sell the slaves >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [planned (root: plan) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [sail (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [another (LEX)(ADJ)]
+      [port (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Cuba (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [sell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [slaves (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But three days after leaving Havana, the Africans rebelled and took control of the ship. 
+PreProc  : But &&3 days after leaving Havana >COMMA the Africans rebelled and took control of the ship >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [leaving (root: leave) (MOR)(N SINGULAR) (GER)]
+      [Havana (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Africans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rebelled (INF-MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [control (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: control
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They didn't know how to steer the ship, and ended up sailing north to the United States. 
+PreProc  : They DID NOT know how to steer the ship >COMMA and ended up sailing north to the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [know (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [steer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ended (root: end) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [sailing (root: sail) (MOR)(N SINGULAR) (GER)]
+      [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Two months later, a U.S. ship spotted and took it to New London. 
+PreProc  : &&2 months later >COMMA a U.S. ship spotted and took it to New London >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ship (LEX)(V BASE)]
+    [spotted (root: spot) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [London (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Africans were arrested and put on trial for piracy. 
+PreProc  : The Africans were arrested and put on trial for piracy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Africans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [arrested (root: arrest) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Africans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [put (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [trial (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [piracy (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The court had to decide whether the Africans were pirates and whether they were slaves or free people. 
+PreProc  : The court had to decide whether the Africans were pirates and whether they were slaves or free people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [court (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [decide (LEX)(V BASE)]
+
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Africans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [pirates (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [slaves (?)(UNK(ENTITY UNKNOWN))]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [free (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On March 9, 1841, the court decided that the Africans were not slaves. 
+PreProc  : On March &&9 >COMMA &&1841 >COMMA the court decided that the Africans were not slaves >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [March (LEX)(N SINGULAR(MONTH))]
+      [&&9 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1841 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [court (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [decided (root: decide) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Africans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [slaves (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most of them returned to Africa. 
+PreProc  : Most of them returned to Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [returned (root: return) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a floating classroom that teaches people about history. 
+PreProc  : is a floating classroom that teaches people about history >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [floating (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [classroom (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [floating (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [classroom (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [teaches (root: teach) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bill Pinkney, the captain of the has much to teach people. 
+PreProc  : Bill Pinkney >COMMA the captain of the has much to teach people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Pinkney (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [captain (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the captain
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [has (root: have) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It is a story about freedom. 
+PreProc  : >DQUOTE It is a story about freedom >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [freedom (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a story about right and wrong." 
+PreProc  : It is a story about right and wrong >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+  [wrong (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : . 
+PreProc  : >PERIOD <EOS 
+CLAUSE:
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One visitor, Shanelle Bird, age 10, said, "I learned that sometimes people have to fight for their rights, for their freedom." 
+PreProc  : One visitor >COMMA Shanelle Bird >COMMA age &&10 >COMMA said >COMMA >DQUOTE I learned that sometimes people have to fight for their rights >COMMA for their freedom >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [visitor (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Shanelle (?)(UNK(ENTITY UNKNOWN))]
+    [Bird (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&10 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [visitor (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  [sometimes (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [fight (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [rights (root: right) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [freedom (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

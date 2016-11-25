@@ -1,0 +1,868 @@
+Original : Drinks like soda have caffeine and lots of sugar. 
+PreProc  : Drinks like soda have caffeine and lots of sugar >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [soda (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [soda (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [lots (root: lot) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: caffeine and lots
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soft-drink companies are in fizzy competition. 
+PreProc  : Soft-drink companies are in fizzy competition >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soft-drink (?)(UNK(ENTITY UNKNOWN))]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [fizzy (?)(UNK(ENTITY UNKNOWN))]
+      [competition (INF-MOR)(N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people in the United States are overweight. 
+PreProc  : Many people in the UNITED_STATES are overweight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the face of the nation's growing health and nutrition problems, many schools have banned soft drinks and other high-sugar snacks from vending machines. 
+PreProc  : In the face of the @nation@s growing health and nutrition problems >COMMA many schools have banned soft drinks and other high-sugar snacks from vending machines >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [face (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the face
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@nation@s (LEX)(ADJ POSSESSIVE)]
+      [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+      [health (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [face (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the face
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@nation@s (LEX)(ADJ POSSESSIVE)]
+      [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+      [health (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [banned (root: ban) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [soft (LEX)(ADJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [high-sugar (?)(UNK(ENTITY UNKNOWN))]
+    [snacks (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [vending (INF-MOR)(GER)]
+      [machines (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As a result, the pressure is on for soft-drink companies to find new ways to stay in school. 
+PreProc  : As a result >COMMA the pressure is on for soft-drink companies to find new ways to stay in school >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [result (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [pressure (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [on (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [soft-drink (?)(UNK(ENTITY UNKNOWN))]
+      [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some companies, such as Coca-Cola and Cadbury Schweppes, are introducing new milk-based drinks in different flavors to be sold in schools. 
+PreProc  : Some companies >COMMA SUCH_AS Coca-Cola and Cadbury Schweppes >COMMA are introducing new milk-based drinks in different flavors to be sold in schools >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [Coca-Cola (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Cadbury (?)(UNK(ENTITY UNKNOWN))]
+      [Schweppes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [introducing (root: introduce) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [milk-based (root: milk) (MOR)(ADJ        (PHYSOBJ))]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [flavors (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [different (LEX)(ADJ)]
+    [flavors (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [sold (root: sell) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some experts claim, though, that the milk-based drinks are still too high in sugar. 
+PreProc  : Some experts claim >COMMA though >COMMA that the milk-based drinks are still too high in sugar >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+    [claim (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [though (LEX)(C_M)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [milk-based (root: milk) (MOR)(ADJ        (PHYSOBJ))]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [still (LEX)(ADV)]
+    [too (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [high (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, the U.S. Food and Drug Administration won't allow the makers of those products to use the word in their names. 
+PreProc  : In fact >COMMA the U.S. Food and Drug Administration WILL NOT allow the makers of those products to use the word in their names >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Food (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [Drug (LEX)(N SINGULAR(PHYSOBJ))]
+    [Administration (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [allow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [makers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the makers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [names (root: name) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's because the beverages don't have enough calcium and other minerals in them. 
+PreProc  : THAT IS because the beverages DO NOT have enough calcium and other minerals in them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [beverages (root: beverage) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [calcium (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [minerals (root: mineral) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a mineral found in milk and other dairy products that helps build strong teeth and bones. 
+PreProc  : is a mineral found in milk and other dairy products that helps build strong teeth and bones >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [mineral (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [mineral (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [milk (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [dairy (?)(UNK(ENTITY UNKNOWN))]
+      [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [strong (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soft-drink giants aren't the only beverage companies trying to find their place in school districts. 
+PreProc  : Soft-drink giants ARE NOT the only beverage companies trying to find their place in school districts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soft-drink (?)(UNK(ENTITY UNKNOWN))]
+    [giants (root: giant) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [beverage (LEX)(N SINGULAR(PHYSOBJ))]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [beverage (LEX)(N SINGULAR(PHYSOBJ))]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [districts (root: district) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As part of a deal with New York City, Snapple will be the only drink company to have vending machines in the city's schools. 
+PreProc  : As part of a deal with NEW_YORK City >COMMA Snapple will be the only drink company to have vending machines in the @city@s schools >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [deal (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Snapple (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [drink (LEX)(N SINGULAR(PHYSOBJ))]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [vending (INF-MOR)(GER)]
+    [machines (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@city@s (LEX)(ADJ POSSESSIVE)]
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To meet the city's rules banning high-sugar foods from schools, Snapple had to create four new 100-percent juice drinks. 
+PreProc  : To meet the @city@s rules banning high-sugar foods from schools >COMMA Snapple had to create &&4 new 100-percent juice drinks >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@city@s (LEX)(ADJ POSSESSIVE)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+    [banning (root: ban) (MOR)(GER) (N SINGULAR)]
+    [high-sugar (?)(UNK(ENTITY UNKNOWN))]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Snapple (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [create (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&4 (LEX)(NUM)]
+    [new (LEX)(ADJ)]
+    [100-percent (?)(UNK(ENTITY UNKNOWN))]
+    [juice (?)(UNK(ENTITY UNKNOWN))]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Not good enough, say some nutrition experts who claim the new Snapple drinks have more calories and sugar in them than soft drinks have. 
+PreProc  : Not good enough >COMMA say some nutrition experts who claim the new Snapple drinks have more calories and sugar in them than soft drinks have >PERIOD <EOS 
+CLAUSE:
+  [Not (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [enough (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [claim (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [Snapple (?)(UNK(ENTITY UNKNOWN))]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [Snapple (?)(UNK(ENTITY UNKNOWN))]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [calories (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [soft (LEX)(ADJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [soft (LEX)(ADJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unlike orange juice and grapefruit juice, the new juices contain only small amounts of nutrients and vitamins. 
+PreProc  : Unlike orange juice and grapefruit juice >COMMA the new juices contain only small amounts of nutrients and vitamins >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Unlike (root: like) (MOR)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [juice (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [grapefruit (?)(UNK(ENTITY UNKNOWN))]
+    [juice (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [juices (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [juices (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contain (LEX)(V BASE)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [small (LEX)(ADJ)]
+    [amounts (root: amount) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: small amounts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [nutrients (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [vitamins (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The fact is... they are pretty much the same as a [soft drink]," said one expert. 
+PreProc  : >DQUOTE The fact is >ELLIPSES they are pretty much the same as a >LBRACKET soft drink >RBRACKET >COMMA >DQUOTE said one expert >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fact (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [pretty (LEX)(ADJ)]
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [the (LEX)(ART)]
+  [same (LEX)(ADJ)]
+  [as (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [soft (LEX)(ADJ)]
+    [drink (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why is it important to read food labels carefully? 
+PreProc  : Why is it important to read food labels carefully >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [important (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [labels (root: label) (MOR)(V PRESENT)]
+    [carefully (root: careful) (MOR)(ADV)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other nutritionists disagree. 
+PreProc  : Other nutritionists disagree >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [nutritionists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [disagree (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They say the new juices and milk products are an improvement over previously available choices. 
+PreProc  : They say the new juices and milk products are an improvement over previously available choices >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [juices (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [milk (LEX)(N SINGULAR(PHYSOBJ))]
+    [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [milk (LEX)(N SINGULAR(PHYSOBJ))]
+    [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [improvement (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    [previously (LEX)(ADV)]
+    NP SEGMENT:
+      [available (LEX)(ADJ)]
+      [choices (root: choice) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

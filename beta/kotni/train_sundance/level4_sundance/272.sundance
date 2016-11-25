@@ -1,0 +1,618 @@
+Original : When you are at school or hanging with friends, do you wonder what your dog is doing in your house? 
+PreProc  : When you are at school or hanging with friends >COMMA do you wonder what your dog is doing in your house >QUESTION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [or (LEX)(CONJ)]
+      [hanging (root: hang) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wonder (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [your (LEX)(ADJ)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [your (LEX)(ADJ)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [doing (root: do) (LEX)(AUX) (V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [house (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If so, a new robot might be just what you need. 
+PreProc  : If so >COMMA a new robot might be just what you need >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  [so (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [just (LEX)(ADJ) (ADV)]
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The robot, called Maron-1, is made by a company in Japan. 
+PreProc  : The robot >COMMA called Maron-1 >COMMA is made by a company in Japan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Maron-1 looks like a cartoon copy of R2-D2. 
+PreProc  : Maron-1 looks like a cartoon copy of R2-D2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+    [looks (root: look) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [cartoon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [copy (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a cartoon copy
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [R2-D2 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It weighs about 11 pounds and stands about 2 feet high. 
+PreProc  : It weighs about &&11 pounds and stands about &&2 feet high >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighs (root: weigh) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&11 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stands (root: stand) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&2 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [high (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When it goes on sale in Japan next year, the robot will cost about $1,600. 
+PreProc  : When it goes on sale in Japan next year >COMMA the robot will cost about >DOLLAR &&1,600 >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [sale (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [cost (LEX)(V BASE PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [>DOLLAR (LEX)(ADJ)]
+      [&&1,600 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The makers of Maron-1 say their robot is better than the other kinds of robots that you can buy at toy stores. 
+PreProc  : The makers of Maron-1 say their robot is better than the other kinds of robots that you can buy at toy stores >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [makers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: The makers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the other kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [buy (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [toy (?)(UNK(ENTITY UNKNOWN))]
+      [stores (root: store) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Our robot is different from pet robots. 
+PreProc  : >DQUOTE Our robot is different from pet robots >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Our (LEX)(ADJ)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [different (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [pet (?)(UNK(ENTITY UNKNOWN))]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's useful," said a representative from the company that makes Maron-1. 
+PreProc  : IT IS useful >COMMA >DQUOTE said a representative from the company that makes Maron-1 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [useful (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [representative (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Maron-1 can detect whether someone or something is moving in front of it. 
+PreProc  : Maron-1 can detect whether someone or something is moving in front of it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [detect (LEX)(V BASE)]
+
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [moving (root: move) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [front (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: front
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If it sees" something moving, it says, "An intruder found." 
+PreProc  : If it sees >DQUOTE something moving >COMMA it says >COMMA >DQUOTE An intruder found >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sees (root: see) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+    [moving (root: move) (MOR)(N SINGULAR) (GER)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [An (LEX)(ART)]
+    [intruder (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [intruder (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also call you on a cell phone to tell you about the intruder. 
+PreProc  : It can also call you on a cell phone to tell you about the intruder >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [call (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cell (LEX)(N SINGULAR(OTHER))]
+      [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [tell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [intruder (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The amazing robot can do many other things as well. 
+PreProc  : The amazing robot can do many other things as well >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [amazing (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can turn on electronic equipment, such as a TV and a VCR. 
+PreProc  : It can turn on electronic equipment >COMMA SUCH_AS a TV and a VCR >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [turn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [electronic (LEX)(ADJ)]
+      [equipment (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [TV (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [VCR (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Maron-1 can move around, but it cannot go up or down stairs. 
+PreProc  : Maron-1 can move around >COMMA but it cannot go up or down stairs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Maron-1 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [move (LEX)(V BASE)]
+
+  [around (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cannot (LEX)(AUX) (V BASE)]
+    [go (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [or (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [stairs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,400 @@
+Original : Mark your calendar: Tuesday, November 7, is Election Day. 
+PreProc  : Mark your calendar >COLON Tuesday >COMMA November &&7 >COMMA is Election Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mark (LEX)(N SINGULAR(OTHER))]
+    [your (LEX)(ADJ)]
+    [calendar (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Tuesday (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Time:
+    [November (LEX)(N SINGULAR(MONTH))]
+    [&&7 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Election (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It’s an important day for in the United States. 
+PreProc  : It’s an important day for in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [important (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [for (LEX)(PREP)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Democracy is a system of government in which the citizens vote for the people they want to lead the country. 
+PreProc  : Democracy is a system of government in which the citizens vote for the people they want to lead the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Democracy (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a system
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [citizens (root: citizen) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [lead (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many schools across the country will be closed so the buildings can be used as or voting, places. 
+PreProc  : Many schools across the country will be closed so the buildings can be used as or voting >COMMA places >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [closed (root: close) (MOR)(V PAST)]
+    [so (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  [as (LEX)(PREP)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [voting (root: vote) (MOR)(N SINGULAR) (GER)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [places (root: place) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People will vote for representatives and senators to represent them in Congress is the group of leaders that makes our nation’s laws. 
+PreProc  : People will vote for representatives and senators to represent them in Congress is the group of leaders that makes our nation’s laws >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [representatives (root: representative) (MOR)(N PLURAL(OTHER))]
+      [and (LEX)(CONJ)]
+      [senators (root: senator) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [represent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [our (LEX)(ADJ)]
+    [nation’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This election is called a midterm election because voters are not choosing a new president. 
+PreProc  : This election is called a midterm election because voters are not choosing a new president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [midterm (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [choosing (root: choose) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Voters choose a new president every four years. 
+PreProc  : Voters choose a new president every &&4 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [choose (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+    [every (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The next presidential election will be held in 2008. 
+PreProc  : The next presidential election will be held in &&2008 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [presidential (LEX)(ADJ)]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2008 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You will be allowed to vote when you are 18. 
+PreProc  : You will be allowed to vote when you are &&18 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [allowed (root: allow) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&18 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In what year will you be able to vote? 
+PreProc  : In what year will you be able to vote >QUESTION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

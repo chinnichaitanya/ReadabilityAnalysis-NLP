@@ -1,0 +1,454 @@
+Original : Hello! 
+PreProc  : Hello >EXCLAMATION <EOS 
+CLAUSE:
+  [Hello (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : My name is Eileen Teh. 
+PreProc  : My name is Eileen Teh >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [My (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Eileen (?)(UNK(ENTITY UNKNOWN))]
+    [Teh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I am 11 years old. 
+PreProc  : I am &&11 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [&&11 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I attend the International School of Wuxi in the Jiangsu of China. 
+PreProc  : I attend the International School of Wuxi in the Jiangsu of China >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [International (LEX)(ADJ)]
+    [School (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: the International School
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Wuxi (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Jiangsu (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the Jiangsu
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [China (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A province is an area. 
+PreProc  : A province is an area >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [A (LEX)(ART)]
+    [province (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I have lived in China for about three years. 
+PreProc  : I have lived in China for about &&3 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [China (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&3 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I like my school, my friends, and my teachers. 
+PreProc  : I like my school >COMMA my friends >COMMA and my teachers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [my (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [>COMMA (LEX)(PUNC)]
+    [my (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [my (LEX)(ADJ)]
+    [teachers (root: teacher) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I can speak and write Chinese and English. 
+PreProc  : I can speak and write Chinese and English >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [speak (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [write (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Chinese (LEX)(N SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [English (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I use both languages at school and at home. 
+PreProc  : I use both languages at school and at home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : My family celebrates Chinese New Year (called Spring Festival here), Easter, and Christmas. 
+PreProc  : My family celebrates Chinese New Year >LPAREN called Spring Festival here >RPAREN >COMMA Easter >COMMA and Christmas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [My (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrates (root: celebrate) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Chinese (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [New (LEX)(ADJ)]
+    [Year (LEX)(N SINGULAR(YEAR))]
+
+  [>LPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chinese (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Spring (?)(UNK(ENTITY UNKNOWN))]
+    [Festival (?)(UNK(ENTITY UNKNOWN))]
+
+  [here (LEX)(ADV)]
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Easter (LEX)(N SINGULAR(TIME))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Christmas (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I enjoy shopping and baking with my mother. 
+PreProc  : I enjoy shopping and baking with my mother >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enjoy (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [shopping (root: shop) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [baking (root: bake) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [mother (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We eat a lot of Italian and Korean food. 
+PreProc  : We eat a lot of Italian and Korean food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Italian (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Korean (?)(UNK(ENTITY UNKNOWN))]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I have visited Beijing twice. 
+PreProc  : I have visited Beijing twice >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [visited (root: visit) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [Beijing (LEX)(N SINGULAR(CITY))]
+
+  [twice (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's big and very crowded, but it's a good place for shopping. 
+PreProc  : IT IS big and very crowded >COMMA but IT IS a good place for shopping >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  [big (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [very (LEX)(ADV)]
+    [crowded (root: crowd) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [shopping (root: shop) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Olympics are going to start there in August. 
+PreProc  : The Olympics are going to start there in August >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [start (LEX)(V BASE)]
+    [there (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [August (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I may not be able to attend the events, but my school is taking a field trip to Beijing soon. 
+PreProc  : I may not be able to attend the events >COMMA but my school is taking a field trip to Beijing soon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [my (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [taking (root: take) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [field (LEX)(N SINGULAR(LOCATION))]
+    [trip (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Beijing (LEX)(N SINGULAR(CITY))]
+
+
+  [soon (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

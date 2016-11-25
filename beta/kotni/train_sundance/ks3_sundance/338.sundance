@@ -1,0 +1,533 @@
+Original : > Time - 12-hour and 24-hour clock am is the time from 12 midnight and before 12 noon. 
+PreProc  : >GREATER Time >MINUS 12-hour and 24-hour clock am is the time from &&12 midnight and before &&12 noon >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Time (LEX)(N SINGULAR(OTHER))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [12-hour (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [24-hour (?)(UNK(ENTITY UNKNOWN))]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [midnight (LEX)(N SINGULAR(TIME))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [noon (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : pm is the time from 12 noon and before 12 midnight. 
+PreProc  : pm is the time from &&12 noon and before &&12 midnight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [pm (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [noon (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [midnight (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : means 23 minutes past 6 in the morning means quarter to 8 in the morning The 24-hour clock does not require the use of am or pm. 
+PreProc  : means &&23 minutes past &&6 in the morning means quarter to &&8 in the morning The 24-hour clock does not require the use of am or pm >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+    [&&23 (LEX)(NUM)]
+    [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [&&6 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [morning (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [quarter (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&8 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [morning (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [24-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [24-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [require (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [pm (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Afternoon is indicated by a number bigger than 12. 
+PreProc  : Afternoon is indicated by a number bigger than &&12 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afternoon (LEX)(ADV(TIME)) (N SINGULAR(TIME))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [indicated (root: indicate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [bigger (LEX)(ADJ)]
+      [than (LEX)(ADV)]
+      [&&12 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When converting from the 12-hour clock to the 24-hour clock remember: for any time after 12.59pm, add 12. 
+PreProc  : When converting from the 12-hour clock to the 24-hour clock remember >COLON for any time after 12.59pm >COMMA add &&12 >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [converting (root: convert) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [12-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [24-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [24-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remember (LEX)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [12.59pm (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [24-hour (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&12 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , so for any time before 10:00 a zero is placed at the beginning. 
+PreProc  : >COMMA so for any time before 10:00 a zero is placed at the beginning >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [10:00 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [zero (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [placed (root: place) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Copy and complete the following table, then check your answers. 
+PreProc  : Copy and complete the following table >COMMA then check your answers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Copy (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [complete (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [following (root: follow) (MOR)(N SINGULAR) (GER)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [following (root: follow) (MOR)(N SINGULAR) (GER)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [check (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [answers (root: answer) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Whack and zap mad professors and aliens! 
+PreProc  : Whack and zap mad professors and aliens >EXCLAMATION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Whack (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [zap (?)(UNK(ENTITY UNKNOWN))]
+    [mad (LEX)(ADJ)]
+    [professors (root: professor) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [aliens (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure your maths skills add up. 
+PreProc  : Make sure your maths skills add up >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

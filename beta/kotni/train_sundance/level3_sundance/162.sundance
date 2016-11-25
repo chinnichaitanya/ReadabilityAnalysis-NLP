@@ -1,0 +1,325 @@
+Original : Which invention could you not live without? 
+PreProc  : Which invention could you not live without >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [invention (root: invent) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [not (LEX)(ADV)]
+    [live (LEX)(V BASE)]
+
+  [without (LEX)(PREP)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That was a question Americans were recently asked in a survey. 
+PreProc  : That was a question Americans were recently asked in a survey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [question (LEX)(N SINGULAR(OTHER))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [question (LEX)(N SINGULAR(OTHER))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [recently (LEX)(ADV)]
+    [asked (root: ask) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [survey (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The survey gave five choices: the computer, car, cell phone, microwave, and toothbrush. 
+PreProc  : The survey gave &&5 choices >COLON the computer >COMMA car >COMMA cell phone >COMMA microwave >COMMA and toothbrush >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [survey (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [choices (root: choice) (MOR)(N PLURAL(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [the (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [car (LEX)(N SINGULAR(VEHICLE))]
+    [>COMMA (LEX)(PUNC)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [microwave (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Believe it or not, the toothbrush came in first! 
+PreProc  : Believe it or not >COMMA the toothbrush came in first >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [or (LEX)(CONJ)]
+  [not (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  [in (LEX)(PREP)]
+  [first (LEX)(ADJ)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The toothbrush is both the simplest and oldest invention on the list. 
+PreProc  : The toothbrush is both the simplest and oldest invention on the list >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [simplest (root: simple) (MOR)(ADJ   )]
+    [and (LEX)(CONJ)]
+    [oldest (root: old) (MOR)(ADJ)]
+    [invention (root: invent) (MOR)(N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the American Dental Association, the first toothbrush was invented in 1498. 
+PreProc  : According to the American Dental Association >COMMA the first toothbrush was invented in &&1498 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [Dental (?)(UNK(ENTITY UNKNOWN))]
+      [Association (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [invented (root: invent) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1498 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A Chinese emperor made it out of hog bristles and bone. 
+PreProc  : A Chinese emperor made it out of hog bristles and bone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Chinese (LEX)(N SINGULAR(HUMAN))]
+    [emperor (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [out (LEX)]
+Following PP attaches to: it
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hog (?)(UNK(ENTITY UNKNOWN))]
+      [bristles (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [bone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The results show that [simple] inventions are important to people," said Kristin Joyce, a survey spokesperson. 
+PreProc  : >DQUOTE The results show that >LBRACKET simple >RBRACKET inventions are important to people >COMMA >DQUOTE said Kristin Joyce >COMMA a survey spokesperson >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [simple (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [inventions (root: invent) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [inventions (root: invent) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Kristin (?)(UNK(ENTITY UNKNOWN))]
+    [Joyce (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [survey (LEX)(N SINGULAR(OTHER))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Won't dentists be pleased! 
+PreProc  : WILL NOT dentists be pleased >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [dentists (root: dentist) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dentists (root: dentist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [be (LEX)(COP)]
+    [pleased (root: please) (MOR)(V PAST)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

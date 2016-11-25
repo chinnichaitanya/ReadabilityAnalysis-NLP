@@ -1,0 +1,411 @@
+Original : The planet Mercury recently had a special visitor. 
+PreProc  : The planet Mercury recently had a special visitor >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+    [Mercury (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [visitor (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was a robot named . 
+PreProc  : It was a robot named >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [named (root: name) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The flying robot was the first spacecraft to travel near the planet in more than 30 years. 
+PreProc  : The flying robot was the first spacecraft to travel near the planet in MORE_THAN &&30 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [spacecraft (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&30 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : flew within 125 miles of Mercury's surface. 
+PreProc  : flew within &&125 miles of @Mercury@s surface >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [flew (root: fly) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [within (LEX)(PREP)]
+    NP SEGMENT:
+      [&&125 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: &&125 miles
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@Mercury@s (LEX)(ADJ POSSESSIVE)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The spacecraft took more than 1,200 photographs of the planet. 
+PreProc  : The spacecraft took MORE_THAN &&1,200 photographs of the planet >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [spacecraft (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&1,200 (LEX)(NUM)]
+    [photographs (root: photograph) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: MORE_THAN &&1,200 photographs
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Before, scientists had pictures of less than half of Mercury's surface. 
+PreProc  : Before >COMMA scientists had pictures of LESS_THAN half of @Mercury@s surface >PERIOD <EOS 
+CLAUSE:
+  [Before (LEX)(C_M) (PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [pictures (root: picture) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: pictures
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [LESS_THAN (LEX)(ADJ)]
+      [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: LESS_THAN half
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@Mercury@s (LEX)(ADJ POSSESSIVE)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : will pass the planet in October 2008 and again in September 2009. 
+PreProc  : will pass the planet in October &&2008 and again in September &&2009 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [pass (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&2008 (LEX)(NUM)]
+
+
+  [and (LEX)(CONJ)]
+  [again (LEX)(ADV)]
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&2009 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then the robot will spend a year the planet. 
+PreProc  : Then the robot will spend a year the planet >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To orbit is to travel in a path around an object. 
+PreProc  : To orbit is to travel in a path around an object >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [orbit (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [orbit (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [path (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [object (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists hope studying Mercury will show how the planets formed. 
+PreProc  : Scientists hope studying Mercury will show how the planets formed >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [hope (LEX)(N SINGULAR(OTHER))]
+    [studying (root: study) (MOR)(N SINGULAR) (GER)]
+    [Mercury (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [show (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [formed (root: form) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We really need better information on Mercury to make sure that our ideas on how the Earth and sister planets formed [are correct]," says researcher Sean Solomon. 
+PreProc  : >DQUOTE We really need better information on Mercury to make sure that our ideas on how the Earth and sister planets formed >LBRACKET are correct >RBRACKET >COMMA >DQUOTE says researcher Sean Solomon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [better (LEX)(ADJ)]
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Mercury (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  [sure (LEX)(ADJ)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [our (LEX)(ADJ)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    [how (LEX)(ADV)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [sister (LEX)(N SINGULAR(HUMAN))]
+      [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [formed (root: form) (MOR)(V PAST)]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [our (LEX)(ADJ)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [correct (LEX)(V BASE)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [our (LEX)(ADJ)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [researcher (root: search) (MOR)(N SINGULAR)]
+    [Sean (?)(UNK(ENTITY UNKNOWN))]
+    [Solomon (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

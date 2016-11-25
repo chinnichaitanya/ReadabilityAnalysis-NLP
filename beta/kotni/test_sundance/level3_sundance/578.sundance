@@ -1,0 +1,1108 @@
+Original : The Obamas become the new first family. 
+PreProc  : The Obamas become the new first family >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Obamas (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The White House is getting a new first family! 
+PreProc  : The White House is getting a new first family >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [White (LEX)(ADJ)]
+    [House (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Barack Obama, the next president; 
+PreProc  : Barack Obama >COMMA the next president >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : his wife, Michelle; 
+PreProc  : his wife >COMMA Michelle >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [wife (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Michelle (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : and their daughters, Malia, 10, and Sasha, 7, are moving in on January 20. 
+PreProc  : and their daughters >COMMA Malia >COMMA &&10 >COMMA and Sasha >COMMA &&7 >COMMA are moving in on January &&20 >PERIOD <EOS 
+CLAUSE:
+  [and (LEX)(CONJ)]
+  NP-CONJ SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [daughters (root: daughter) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [Malia (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [&&10 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Sasha (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&7 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [moving (root: move) (MOR)(V PARTICIPLE)]
+
+  [in (LEX)(PREP)]
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [January (LEX)(N SINGULAR(MONTH))]
+      [&&20 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : . 
+PreProc  : >PERIOD <EOS 
+CLAUSE:
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At that event, he will become the 44th president of the United States. 
+PreProc  : At that event >COMMA he will become the 44th president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [event (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [44th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the 44th president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He will also become the countryÕs first African American president. 
+PreProc  : He will also become the countryÕs first African American president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [countryÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [first (LEX)(ADJ)]
+    [African (LEX)(ADJ)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama will make an , or promise, to protect the U.S. Constitution. 
+PreProc  : Obama will make an >COMMA or promise >COMMA to protect the U.S. Constitution >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  [an (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [promise (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Afterward, there will be a big parade in Washington, D.C. Up to 5 million people are expected to attend. 
+PreProc  : Afterward >COMMA there will be a big parade in Washington >COMMA D.C. Up to &&5 million people are expected to attend >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afterward (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [parade (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [Up (LEX)(PART) (PREP)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [expected (root: expect) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [attend (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For Malia and Sasha, January will be a fun-filled month. 
+PreProc  : For Malia and Sasha >COMMA January will be a fun-filled month >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [Malia (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Sasha (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [January (LEX)(N SINGULAR(MONTH))]
+
+  NP SEGMENT (SUBJ):
+    [Malia (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Sasha (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fun-filled (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The girls will start at their new school. 
+PreProc  : The girls will start at their new school >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [start (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [new (LEX)(ADJ)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Once the Obamas are settled in the White House, they will also get a puppy. 
+PreProc  : Once the Obamas are settled in the White House >COMMA they will also get a puppy >PERIOD <EOS 
+CLAUSE:
+  [Once (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Obamas (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [settled (root: settle) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [puppy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama, however, will be too busy for playtime. 
+PreProc  : Obama >COMMA however >COMMA will be too busy for playtime >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [too (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [busy (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [playtime (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He has been working hard since he won the election on November 4. 
+PreProc  : He has been working hard since he won the election on November &&4 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+
+  [hard (LEX)(ADJ)]
+
+CLAUSE:
+  [since (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [November (LEX)(N SINGULAR(MONTH))]
+      [&&4 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama has been choosing his , or helpers. 
+PreProc  : Obama has been choosing his >COMMA or helpers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [choosing (root: choose) (MOR)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [his (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [helpers (root: help) (MOR)(N PLURAL)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Cabinet helps the president make important decisions. 
+PreProc  : The Cabinet helps the president make important decisions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Cabinet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [important (LEX)(ADJ)]
+    [decisions (root: decision) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Cabinet includes Joe Biden, the vice president. 
+PreProc  : The Cabinet includes Joe Biden >COMMA the vice president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Cabinet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [includes (root: include) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Joe (?)(UNK(ENTITY UNKNOWN))]
+    [Biden (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [vice (LEX)(N SINGULAR(OTHER))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama picked Rahm Emanuel to be the White House chief of staff. 
+PreProc  : Obama picked Rahm Emanuel to be the White House chief of staff >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [picked (root: pick) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Rahm (?)(UNK(ENTITY UNKNOWN))]
+    [Emanuel (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Rahm (?)(UNK(ENTITY UNKNOWN))]
+    [Emanuel (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [White (LEX)(ADJ)]
+    [House (LEX)(N SINGULAR(BUILDING))]
+    [chief (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+Following PP attaches to: the White House chief
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [staff (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He will be ObamaÕs closest aide. 
+PreProc  : He will be ObamaÕs closest aide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [ObamaÕs (?)(UNK(ENTITY UNKNOWN))]
+    [closest (root: close) (MOR)(ADJ   )]
+    [aide (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama and members of his Cabinet face many challenges. 
+PreProc  : Obama and members of his Cabinet face many challenges >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: Obama and members
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [Cabinet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [face (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [challenges (root: challenge) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some U.S. companies are struggling. 
+PreProc  : Some U.S. companies are struggling >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [struggling (root: struggle) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many Americans cannot pay for food or their homes. 
+PreProc  : Many Americans cannot pay for food or their homes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cannot (LEX)(AUX) (V BASE)]
+    [pay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [or (LEX)(CONJ)]
+      [their (LEX)(ADJ)]
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama must also decide how to handle the war in Iraq. 
+PreProc  : Obama must also decide how to handle the war in Iraq >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [must (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [decide (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [handle (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is a country in the Middle East. 
+PreProc  : That is a country in the Middle East >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Middle (LEX)(N SINGULAR(OTHER))]
+      [East (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThe challenges we face as a nation are now more ... difficult,Ó Obama says. 
+PreProc  : ÒThe challenges we face as a nation are now more >ELLIPSES difficult,Ó Obama says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [challenges (root: challenge) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [face (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [nation (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [a (LEX)(ART)]
+    [nation (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [difficult,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [difficult,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒBut I have no doubt that we can meet them.Ó Every president makes the same promise at the inaugurationÑto protect the Constitution. 
+PreProc  : ÒBut I have no doubt that we can meet them.Ó Every president makes the same promise at the inaugurationÑto protect the Constitution >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒBut (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [doubt (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Every (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Every (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [promise (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [inaugurationÑto (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [inaugurationÑto (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some presidents still make their celebrations stand out. 
+PreProc  : Some presidents still make their celebrations stand out >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [still (LEX)(ADV)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [celebrations (root: celebration) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [celebrations (root: celebration) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stand (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : HereÕs how. 
+PreProc  : HereÕs how >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HereÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [how (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was the first president to hold an inaugural ball. 
+PreProc  : was the first president to hold an inaugural ball >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hold (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [inaugural (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He and his wife, Dolley, didnÕt dance, though. 
+PreProc  : He and his wife >COMMA Dolley >COMMA didnÕt dance >COMMA though >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [his (LEX)(ADJ)]
+    [wife (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Dolley (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [didnÕt (?)(UNK(ENTITY UNKNOWN))]
+    [dance (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [though (LEX)(C_M)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They watched the 1809 ball from a platform. 
+PreProc  : They watched the &&1809 ball from a platform >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [watched (root: watch) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [&&1809 (LEX)(NUM)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [platform (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : first speech in 1841 was the longest everÑ8,445 words! 
+PreProc  : first speech in &&1841 was the longest everÑ8,445 words >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [first (LEX)(ADJ)]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1841 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [longest (root: long) (MOR)(ADJ)]
+    [everÑ8,445 (?)(UNK(ENTITY UNKNOWN))]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He did not wear a coat that day. 
+PreProc  : He did not wear a coat that day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+    [not (LEX)(ADV)]
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [coat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Harrison got sick and died 31 days later. 
+PreProc  : Harrison got sick and died &&31 days later >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Harrison (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [sick (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [died (root: die) (MOR)(ADJ)]
+    [&&31 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  [later (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : went where no president had gone beforeÑthe Internet! 
+PreProc  : went where no president had gone beforeÑthe Internet >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [no (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [gone (root: go) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [beforeÑthe (?)(UNK(ENTITY UNKNOWN))]
+    [Internet (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His inauguration was the first one shown live online. 
+PreProc  : His inauguration was the first one shown live online >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [inauguration (root: inaugurate) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shown (root: show) (LEX)(V PAST)]
+    [live (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [online (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In what ways might the country change when Barack Obama becomes president? 
+PreProc  : In what ways might the country change when Barack Obama becomes president >QUESTION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+    [change (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [becomes (root: become) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brain Builders: Road to the White House Brain Builders: Road to the White House All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : Brain Builders >COLON Road to the White House Brain Builders >COLON Road to the White House All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Brain (LEX)(N SINGULAR(OTHER))]
+    [Builders (root: build) (MOR)(N PLURAL)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Road (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+      [Brain (LEX)(N SINGULAR(OTHER))]
+      [Builders (root: build) (MOR)(N PLURAL)]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Road (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

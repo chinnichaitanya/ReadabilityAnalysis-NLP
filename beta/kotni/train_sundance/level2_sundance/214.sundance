@@ -1,0 +1,183 @@
+Original : This year, Presidents' Day is on February 21. 
+PreProc  : This year >COMMA @Presidents@ Day is on February &&21 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [@Presidents@ (LEX)(ADJ POSSESSIVE)]
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [February (LEX)(N SINGULAR(MONTH))]
+      [&&21 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On that day, Americans remember Presidents George Washington and Abraham Lincoln. 
+PreProc  : On that day >COMMA Americans remember Presidents George Washington and Abraham Lincoln >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remember (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+    [and (LEX)(CONJ)]
+    [Abraham (?)(UNK(ENTITY UNKNOWN))]
+    [Lincoln (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Read the chart, and then answer the questions below. 
+PreProc  : Read the chart >COMMA and then answer the questions below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chart (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [chart (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ice cream was one of his favorite foods. 
+PreProc  : Ice cream was one of his favorite foods >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ice (LEX)(N SINGULAR(PHYSOBJ))]
+    [cream (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [favorite (LEX)(ADJ)]
+      [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At 6 feet 4 inches, he was the tallest president. 
+PreProc  : At &&6 feet &&4 inches >COMMA he was the tallest president >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [&&6 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+      [&&4 (LEX)(NUM)]
+      [inches (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tallest (root: tall) (MOR)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which president was born in the 1700s? 
+PreProc  : Which president was born in the 1700s >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [born (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1700s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

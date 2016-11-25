@@ -1,0 +1,864 @@
+Original : is the place where the land meets the sea. 
+PreProc  : is the place where the land meets the sea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [land (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [meets (root: meet) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many animals live at the seashore. 
+PreProc  : Many animals live at the seashore >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : are sea animals that have a shell and ten legs. 
+PreProc  : are sea animals that have a shell and &&10 legs >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [shell (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [&&10 (LEX)(NUM)]
+    [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two front legs have claws. 
+PreProc  : The &&2 front legs have claws >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [front (LEX)(N SINGULAR(OTHER))]
+    [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [claws (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A crab uses its claws to hunt, grab food, and defend itself. 
+PreProc  : A crab uses its claws to hunt >COMMA grab food >COMMA and defend itself >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [crab (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [claws (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [hunt (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [crab (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grab (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [crab (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [defend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [itself (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Crabs eat small fish and small plants growing on seashore rocks. 
+PreProc  : Crabs eat small fish and small plants growing on seashore rocks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Crabs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [small (LEX)(ADJ)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+    [and (LEX)(CONJ)]
+    [small (LEX)(ADJ)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+    [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [seashore (?)(UNK(ENTITY UNKNOWN))]
+      [rocks (root: rock) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most crabs can live in and out of water. 
+PreProc  : Most crabs can live in and out of water >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [crabs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+
+  [in (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+  [out (LEX)]
+Following PP attaches to: can live
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : mammal (MAM-uhl) - an animal that drinks milk from its mother are mammals. 
+PreProc  : mammal >LPAREN MAM-uhl >RPAREN >MINUS an animal that drinks milk from its mother are mammals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [mammal (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [MAM-uhl (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drinks (root: drink) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [milk (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [mother (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [mammals (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Seals swim and hunt for food in the ocean. 
+PreProc  : Seals swim and hunt for food in the ocean >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Seals (root: seal) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [swim (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [hunt (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They rest on rocks on the seashore when they are not swimming or hunting for food. 
+PreProc  : They rest on rocks on the seashore when they are not swimming or hunting for food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [rest (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [rocks (root: rock) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [swimming (INF-MOR)(V PARTICIPLE)]
+
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [hunting (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They eat many types of fish and other sea animals. 
+PreProc  : They eat many types of fish and other sea animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: many types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : are round, flat sea animals that have hard skin. 
+PreProc  : are round >COMMA flat sea animals that have hard skin >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [round (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [flat (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [flat (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hard (LEX)(ADJ)]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sometimes sand dollars wash up on the seashore. 
+PreProc  : Sometimes sand dollars wash up on the seashore >PERIOD <EOS 
+CLAUSE:
+  [Sometimes (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [sand (LEX)(N SINGULAR(PHYSOBJ))]
+    [dollars (root: dollar) (MOR)(N PLURAL(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wash (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sand dollars usually bury themselves under sand to hide from their enemies. 
+PreProc  : Sand dollars usually bury themselves under sand to hide from their enemies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sand (LEX)(N SINGULAR(PHYSOBJ))]
+    [dollars (root: dollar) (MOR)(N PLURAL(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [bury (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [themselves (LEX)(PN PLURAL(HUMAN)) (N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [sand (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hide (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [enemies (root: enemy) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sand dollars eat tiny plants and animals that float in the water. 
+PreProc  : Sand dollars eat tiny plants and animals that float in the water >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sand (LEX)(N SINGULAR(PHYSOBJ))]
+    [dollars (root: dollar) (MOR)(N PLURAL(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [tiny (LEX)(ADJ)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [float (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : are birds that usually live by the seashore. 
+PreProc  : are birds that usually live by the seashore >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There are many different types of sea gulls in the United States. 
+PreProc  : There are many different types of sea gulls in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [different (LEX)(ADJ)]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: many different types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [gulls (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sea gulls sometimes make a lot of noise! 
+PreProc  : Sea gulls sometimes make a lot of noise >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sea (LEX)(N SINGULAR(LOCATION))]
+    [gulls (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sometimes (LEX)(ADV)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [noise (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hunt for fish in the sea and insects on the seashore. 
+PreProc  : They hunt for fish in the sea and insects on the seashore >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [hunt (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : are sea animals. 
+PreProc  : are sea animals >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most sea stars have spiny skin and five rays. 
+PreProc  : Most sea stars have spiny skin and &&5 rays >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [stars (root: star) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [spiny (root: spin) (MOR)(ADJ(OTHER))]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&5 (LEX)(NUM)]
+    [rays (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A sea star's rays act as its arms. 
+PreProc  : A sea @star@s rays act as its arms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [@star@s (LEX)(ADJ POSSESSIVE)]
+    [rays (?)(UNK(ENTITY UNKNOWN))]
+    [act (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [arms (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most sea stars live underwater. 
+PreProc  : Most sea stars live underwater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [stars (root: star) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [underwater (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sometimes sea stars wash up on the seashore. 
+PreProc  : Sometimes sea stars wash up on the seashore >PERIOD <EOS 
+CLAUSE:
+  [Sometimes (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [stars (root: star) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wash (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sea stars eat mussels, clams, and other shelled animals. 
+PreProc  : Sea stars eat mussels >COMMA clams >COMMA and other shelled animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sea (LEX)(N SINGULAR(LOCATION))]
+    [stars (root: star) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [mussels (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [clams (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shelled (root: shell) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What other animals might you find at the seashore? 
+PreProc  : What other animals might you find at the seashore >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [seashore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If a human's tracks were deeper at the heel than at the toes, was that person running or walking? 
+PreProc  : If a @human@s tracks were deeper at the heel than at the toes >COMMA was that person running or walking >QUESTION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [@human@s (LEX)(ADJ POSSESSIVE)]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [deeper (root: deep) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [heel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [than (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [toes (root: toss) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [@human@s (LEX)(ADJ POSSESSIVE)]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [person (LEX)(N SINGULAR(HUMAN))]
+    [running (root: run) (MOR)(GER) (N SINGULAR)]
+    [or (LEX)(CONJ)]
+    [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How do you know? 
+PreProc  : How do you know >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,378 @@
+Original : season. 
+PreProc  : season >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [season (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A tornado is a powerful, spinning wind. 
+PreProc  : A tornado is a powerful >COMMA spinning wind >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [powerful (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [spinning (root: spin) (MOR)(GER) (N SINGULAR)]
+    [wind (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most tornadoes happen between March and July. 
+PreProc  : Most tornadoes happen between March and July >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [tornadoes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happen (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [March (LEX)(N SINGULAR(MONTH))]
+      [and (LEX)(CONJ)]
+      [July (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : to get ready. 
+PreProc  : to get ready >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [ready (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A drill lets people practice what to do in case of a tornado. 
+PreProc  : A drill lets people practice what to do in case of a tornado >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [drill (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [practice (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [case (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: case
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During a drill, tornado sirens sound. 
+PreProc  : During a drill >COMMA tornado sirens sound >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [drill (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [tornado (?)(UNK(ENTITY UNKNOWN))]
+    [sirens (?)(UNK(ENTITY UNKNOWN))]
+    [sound (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Weather alerts are given on the radio. 
+PreProc  : Weather alerts are given on the radio >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Weather (LEX)(N SINGULAR(OTHER))]
+    [alerts (root: alert) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [given (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [radio (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They let people know to go to a safe room away from windows. 
+PreProc  : They let people know to go to a safe room away from windows >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [let (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [know (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [safe (LEX)(ADJ)]
+      [room (LEX)(N SINGULAR(OTHER))]
+
+
+  [away (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [windows (root: window) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒTornadoes happen fast,Ó says Cindy Lawrence. 
+PreProc  : ÒTornadoes happen fast,Ó says Cindy Lawrence >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒTornadoes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happen (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fast,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [fast,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Cindy (?)(UNK(ENTITY UNKNOWN))]
+    [Lawrence (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She is the director of the emergency management agency in Lowndes County, Mississippi. 
+PreProc  : She is the director of the emergency management agency in Lowndes County >COMMA Mississippi >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [director (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the director
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [emergency (LEX)(N SINGULAR(OTHER))]
+      [management (LEX)(N SINGULAR(OTHER))]
+      [agency (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Lowndes (?)(UNK(ENTITY UNKNOWN))]
+      [County (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Mississippi (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒSometimes youÕre given a 10-to 15-minute warning,Ó she says. 
+PreProc  : ÒSometimes youÕre given a 10-to 15-minute warning,Ó she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒSometimes (?)(UNK(ENTITY UNKNOWN))]
+    [youÕre (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [given (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [a (LEX)(ART)]
+    [10-to (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [15-minute (?)(UNK(ENTITY UNKNOWN))]
+    [warning,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒIf you are prepared, you know where to go and what to do.Ó A tornado often appears as a spinning, funnel-shaped cloud. 
+PreProc  : ÒIf you are prepared >COMMA you know where to go and what to do.Ó A tornado often appears as a spinning >COMMA funnel-shaped cloud >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒIf (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [prepared (root: prepare) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [go (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [do.Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [A (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [appears (root: appear) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [spinning (root: spin) (MOR)(GER) (N SINGULAR)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [funnel-shaped (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [cloud (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,495 @@
+Original : Choose the best answer for each question. 
+PreProc  : Choose the best answer for each question >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [question (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Melt butter in a pan over low heat. 
+PreProc  : Melt butter in a pan over low heat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Melt (?)(UNK(ENTITY UNKNOWN))]
+    [butter (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pan (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [low (LEX)(ADJ)]
+      [heat (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In a large bowl, combine the melted butter, 2 cups of flour, and the sugar. 
+PreProc  : In a large bowl >COMMA combine the melted butter >COMMA &&2 cups of flour >COMMA and the sugar >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [large (LEX)(ADJ)]
+      [bowl (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [large (LEX)(ADJ)]
+    [bowl (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [combine (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [melted (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [butter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+    [cups (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: &&2 cups
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flour (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Beat in the eggs, one at a time, until well blended. 
+PreProc  : Beat in the eggs >COMMA one at a time >COMMA until well blended >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Beat (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [eggs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blended (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Slowly mix in the remaining 2 cups of flour. 
+PreProc  : Slowly mix in the remaining &&2 cups of flour >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Slowly (LEX)(ADV)]
+    [mix (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [remaining (root: remain) (MOR)(N SINGULAR) (GER)]
+      [&&2 (LEX)(NUM)]
+      [cups (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the remaining &&2 cups
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flour (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Roll out the dough to a thickness of ? 
+PreProc  : Roll out the dough to a thickness of >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Roll (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dough (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [thickness (root: thick) (MOR)(N SINGULAR)]
+
+
+  [of (LEX)(PREP)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : inch. 
+PreProc  : inch >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [inch (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Using cookie cutters, cut out shapes. 
+PreProc  : Using cookie cutters >COMMA cut out shapes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Using (root: use) (MOR)(N SINGULAR) (GER)]
+    [cookie (?)(UNK(ENTITY UNKNOWN))]
+    [cutters (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [cut (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP SEGMENT (DOBJ):
+    [shapes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Place them 1? 
+PreProc  : Place them &&1 >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Place (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : inches apart on cookie sheets. 
+PreProc  : inches apart on cookie sheets >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  [apart (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [cookie (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bake for 12 to 15 minutes. 
+PreProc  : Bake for &&12 to &&15 minutes >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Bake (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&15 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cool cookies on wire rack. 
+PreProc  : Cool cookies on wire rack >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cool (LEX)(ADJ)]
+    [cookies (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [wire (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rack (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Decorate as desired. 
+PreProc  : Decorate as desired >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Decorate (root: rate) (MOR)(V BASE(OTHER))]
+
+  [as (LEX)(PREP)]
+  [desired (root: desire) (INF-LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 1. 
+PreProc  : &&1 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many eggs are used in the recipe? 
+PreProc  : How many eggs are used in the recipe >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [recipe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 2. 
+PreProc  : &&2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When doubling the recipe, how many cups of sugar do you need? 
+PreProc  : When doubling the recipe >COMMA how many cups of sugar do you need >QUESTION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [doubling (root: double) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [recipe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [how (LEX)(ADV)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cups (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: many cups
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cups (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: many cups
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 3. 
+PreProc  : &&3 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many cookies does this recipe make? 
+PreProc  : How many cookies does this recipe make >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cookies (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [recipe (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [recipe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 4. 
+PreProc  : &&4 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After melting the butter, which two ingredients should you add first? 
+PreProc  : After melting the butter >COMMA which &&2 ingredients should you add first >QUESTION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [melting (INF-MOR)(GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [butter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [ingredients (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [first (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

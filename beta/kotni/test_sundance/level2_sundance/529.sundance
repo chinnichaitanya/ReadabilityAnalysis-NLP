@@ -1,0 +1,372 @@
+Original : The sun is scorching hot! 
+PreProc  : The sun is scorching hot >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [scorching (root: scorch) (MOR)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [hot (LEX)(ADJ)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists plan to send a spacecraft there in 2015. 
+PreProc  : Scientists plan to send a spacecraft there in &&2015 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [plan (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [send (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [spacecraft (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [there (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2015 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is called Solar Probe+ (pronounced ÒSolar Probe PlusÓ). 
+PreProc  : It is called Solar Probe >PLUS >LPAREN pronounced ÒSolar Probe PlusÓ >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  ADJ SEGMENT:
+    [Solar (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Probe (LEX)(V BASE)]
+
+  [>PLUS (LEX)(PUNC)]
+  [>LPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pronounced (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [ÒSolar (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒSolar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Probe (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [PlusÓ (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A is a machine used to collect information. 
+PreProc  : A is a machine used to collect information >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [machine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [collect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Solar Probe+ will blast off from Earth in 2015. 
+PreProc  : Solar Probe >PLUS will blast off from Earth in &&2015 >PERIOD <EOS 
+CLAUSE:
+  [Solar (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Probe (LEX)(V BASE)]
+
+  [>PLUS (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [blast (LEX)(N SINGULAR(OTHER))]
+
+  [off (LEX)(PART) (ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2015 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It will reach the sun about three months later. 
+PreProc  : It will reach the sun about &&3 months later >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Time (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&3 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [later (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What will keep the probe from melting? 
+PreProc  : What will keep the probe from melting >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [probe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [melting (INF-MOR)(GER)]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It will have a shield and a coating. 
+PreProc  : It will have a shield and a coating >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [shield (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [coating (root: ate) (MOR)(N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The coating will The probe will be on a seven-year mission. 
+PreProc  : The coating will The probe will be on a seven-year mission >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [coating (root: ate) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [probe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [probe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [seven-year (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [mission (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During that time, it will orbit the sun 24 times. 
+PreProc  : During that time >COMMA it will orbit the sun &&24 times >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (IOBJ):
+    [orbit (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [&&24 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists hope the probe will teach us more about the sun. 
+PreProc  : Scientists hope the probe will teach us more about the sun >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [probe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [more (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What might Earth be like without heat or light from the sun? 
+PreProc  : What might Earth be like without heat or light from the sun >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+    [like (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [heat (LEX)(N SINGULAR(OTHER))]
+      [or (LEX)(CONJ)]
+      [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

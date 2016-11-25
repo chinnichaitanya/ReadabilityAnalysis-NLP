@@ -1,0 +1,341 @@
+Original : Millions of people are allergic to cats. 
+PreProc  : Millions of people are allergic to cats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [allergic (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, they soon may be able to have a pet cat without feeling sick. 
+PreProc  : However >COMMA they soon may be able to have a pet cat without feeling sick >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [soon (LEX)(ADV)]
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [feeling (LEX)(N SINGULAR(OTHER))]
+
+
+  [sick (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A company in California is developing cats that won't cause allergic reactions. 
+PreProc  : A company in California is developing cats that WILL NOT cause allergic reactions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [developing (root: develop) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [cause (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [allergic (LEX)(ADJ)]
+    [reactions (root: reaction) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An allergy is caused by the body's . 
+PreProc  : An allergy is caused by the @body@s >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [allergy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [caused (root: cause) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@body@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The immune system protects the body from disease. 
+PreProc  : The immune system protects the body from disease >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [immune (LEX)(ADJ)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [disease (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The body of a person with allergies mistakes ordinary things, such as cats, for germs. 
+PreProc  : The body of a person with allergies mistakes ordinary things >COMMA SUCH_AS cats >COMMA for germs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: The body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [person (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [allergies (?)(UNK(ENTITY UNKNOWN))]
+      [mistakes (root: mistake) (MOR)(N PLURAL(OTHER))]
+      [ordinary (LEX)(ADJ)]
+      [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [germs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists plan to turn off the part of the cats' cells that make the . 
+PreProc  : Scientists plan to turn off the part of the @cats@ cells that make the >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [plan (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [turn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@cats@ (LEX)(ADJ POSSESSIVE)]
+      [cells (root: cell) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@cats@ (LEX)(ADJ POSSESSIVE)]
+      [cells (root: cell) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  [the (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An allergen is the cause of an allergic reaction. 
+PreProc  : An allergen is the cause of an allergic reaction >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [allergen (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cause (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the cause
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [allergic (LEX)(ADJ)]
+      [reaction (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The company hopes to have the kittens available by the year 2007. 
+PreProc  : The company hopes to have the kittens available by the year &&2007 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [kittens (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [available (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [year (LEX)(N SINGULAR(YEAR))]
+      [&&2007 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

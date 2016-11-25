@@ -1,0 +1,509 @@
+Original : Dig this! 
+PreProc  : Dig this >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Dig (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Archaeologists are preparing to dig up an , or very old, wooden boat in Egypt. 
+PreProc  : Archaeologists are preparing to dig up an >COMMA or very old >COMMA wooden boat in Egypt >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Archaeologists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [preparing (root: prepare) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [dig (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [an (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [very (LEX)(ADV)]
+  [old (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [wooden (LEX)(ADJ)]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An archaeologist is a scientist who digs up old objects and studies them to learn about the past. 
+PreProc  : An archaeologist is a scientist who digs up old objects and studies them to learn about the past >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [archaeologist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [digs (root: dig) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [old (LEX)(ADJ)]
+      [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [studies (root: study) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Egypt is a country in Africa. 
+PreProc  : Egypt is a country in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists plan to dig up another Egyptian boat like this one. 
+PreProc  : Scientists plan to dig up another Egyptian boat like this one >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [plan (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [dig (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+      [Egyptian (?)(UNK(ENTITY UNKNOWN))]
+      [boat (LEX)(N SINGULAR(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The boat is 4,500 years old. 
+PreProc  : The boat is &&4,500 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [&&4,500 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is buried next to the Great Pyramid. 
+PreProc  : It is buried next to the Great Pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [buried (root: bury) (MOR)(V PAST)]
+
+  ADJ SEGMENT:
+    [next (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Great (LEX)(ADJ)]
+      [Pyramid (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the largest pyramid in Egypt. 
+PreProc  : That is the largest pyramid in Egypt >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [pyramid (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Egyptians built the Pyramids thousands of years ago. 
+PreProc  : Egyptians built the Pyramids thousands of years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Egyptians (?)(UNK(ENTITY UNKNOWN))]
+
+  [built (LEX)(ADJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Pyramids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: the Pyramids thousands
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are burial places for The boat is the second one found near the Great Pyramid. 
+PreProc  : They are burial places for The boat is the second one found near the Great Pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [burial (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [burial (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [places (root: place) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [The (LEX)(ART)]
+      [boat (LEX)(N SINGULAR(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Great (LEX)(ADJ)]
+      [Pyramid (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Archaeologists dug up the first boat in 1954. 
+PreProc  : Archaeologists dug up the first boat in &&1954 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Archaeologists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dug (root: dig) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [boat (LEX)(N SINGULAR(VEHICLE))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1954 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is on display in a museum near the Pyramids. 
+PreProc  : It is on display in a museum near the Pyramids >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [on (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [display (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Pyramids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts will begin removing the buried boat this fall to study it. 
+PreProc  : Experts will begin removing the buried boat this fall to study it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [begin (LEX)(V BASE)]
+    [removing (root: remove) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [buried (root: bury) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [fall (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [study (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hope to learn how the Egyptians used the boats. 
+PreProc  : They hope to learn how the Egyptians used the boats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Egyptians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Egyptians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [boats (root: boat) (MOR)(N PLURAL(VEHICLE))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThereÕs a lot of [discussion] as to whether these [boats] ever were used,Ó says scientist John Darnell. 
+PreProc  : ÒThereÕs a lot of >LBRACKET discussion >RBRACKET as to whether these >LBRACKET boats >RBRACKET ever were used,Ó says scientist John Darnell >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThereÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [discussion (LEX)(N SINGULAR(OTHER))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [as (LEX)(PREP)]
+  [to (LEX)(PREP)]
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [boats (root: boat) (MOR)(N PLURAL(VEHICLE))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [used,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [used,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [Darnell (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

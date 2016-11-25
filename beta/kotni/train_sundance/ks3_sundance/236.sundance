@@ -1,0 +1,422 @@
+Original : > More on equations - Equations with brackets More on equations - Equations with brackets To expand a bracket, multiply everything inside the bracket by the number outside. 
+PreProc  : >GREATER More on equations >MINUS Equations with brackets More on equations >MINUS Equations with brackets To expand a bracket >COMMA multiply everything inside the bracket by the number outside >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  [More (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [equations (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Equations (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [brackets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [More (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [equations (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Equations (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [brackets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [expand (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [bracket (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [multiply (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bracket (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+
+
+  [outside (LEX)(PREP) (ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Multiply everything inside the bracket by the number outside to give: 2 × 3a + 2 × 5 Multiply everything inside the bracket by the number outside to give -3 × 2b + -3 × -4 Solve the equation 3(5x - 4) = 2(2x + 5) 15x - 12 = 4x + 10 Up for a challenge? 
+PreProc  : Multiply everything inside the bracket by the number outside to give >COLON &&2 × 3a >PLUS &&2 × &&5 Multiply everything inside the bracket by the number outside to give >MINUS &&3 × 2b >PLUS >MINUS &&3 × >MINUS &&4 Solve the equation 3(5x >MINUS &&4 >RPAREN >EQUALS 2(2x >PLUS &&5 >RPAREN 15x >MINUS &&12 >EQUALS 4x >PLUS &&10 Up for a challenge >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Multiply (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bracket (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [outside (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+    [3a (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+    [&&5 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+    [&&5 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Multiply (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bracket (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [outside (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+    [2b (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PLUS (LEX)(PUNC)]
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&4 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Solve (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [equation (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [3(5x (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&4 (LEX)(NUM)]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [2(2x (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&5 (LEX)(NUM)]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [15x (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&12 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [4x (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&10 (LEX)(NUM)]
+
+  [Up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [challenge (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Head to GCSE Bitesize. 
+PreProc  : Head to GCSE Bitesize >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Head (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [GCSE (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [GCSE (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Bitesize (root: bit) (MOR)(V BASE(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

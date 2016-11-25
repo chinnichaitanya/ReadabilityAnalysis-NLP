@@ -1,0 +1,309 @@
+Original : Some projects take longer than others. 
+PreProc  : Some projects take longer than others >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [projects (root: project) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [longer (LEX)(ADJ)]
+    [than (LEX)(ADV)]
+    [others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Crazy Horse Memorial in South Dakota is one of them. 
+PreProc  : The Crazy Horse Memorial in SOUTH_DAKOTA is one of them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Crazy (LEX)(ADJ)]
+    [Horse (?)(UNK(ENTITY UNKNOWN))]
+    [Memorial (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [SOUTH_DAKOTA (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers started carving the giant rock sculpture in 1948. 
+PreProc  : Workers started carving the giant rock sculpture in &&1948 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+    [carving (root: carve) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [rock (LEX)(N SINGULAR(PHYSOBJ))]
+    [sculpture (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1948 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are still working on it today. 
+PreProc  : They are still working on it today >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [still (LEX)(ADV)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The memorial honors Chief Crazy Horse. 
+PreProc  : The memorial honors Chief Crazy Horse >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [memorial (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [honors (root: honor) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Chief (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Crazy (LEX)(ADJ)]
+    [Horse (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Native American leaders chose to honor him because he was one of their heroes. 
+PreProc  : Native American leaders chose to honor him because he was one of their heroes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [chose (root: choose) (LEX)(V PAST)]
+    [to (LEX)(INF)]
+    [honor (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [heroes (root: hero) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Chief Crazy Horse was a Native American who fought for his people's right to their land and traditions. 
+PreProc  : Chief Crazy Horse was a Native American who fought for his @people@s right to their land and traditions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chief (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Crazy (LEX)(ADJ)]
+    [Horse (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fought (root: fight) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [@people@s (LEX)(ADJ POSSESSIVE)]
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [their (LEX)(ADJ)]
+      [land (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [traditions (root: tradition) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When will the sculpture be finished? 
+PreProc  : When will the sculpture be finished >QUESTION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [sculpture (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [sculpture (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [be (LEX)(COP)]
+    [finished (root: finish) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : No one knows for sure. 
+PreProc  : No one knows for sure >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [No (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knows (root: know) (MOR)(V PRESENT)]
+
+  [for (LEX)(PREP)]
+  [sure (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All that matters is that it's going forward, said the project manager. 
+PreProc  : All that matters is that IT IS going forward >COMMA said the project manager >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [matters (root: matter) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [forward (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [project (LEX)(N SINGULAR(OTHER))]
+    [manager (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

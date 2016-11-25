@@ -1,0 +1,464 @@
+Original : In this scale the difference between 5 and 6 is 1. 
+PreProc  : In this scale the difference between &&5 and &&6 is &&1 >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [scale (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [and (LEX)(CONJ)]
+      [&&6 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And, the space has been divided into 4, so each division represents 1 ÷ 4 = 0.25. 
+PreProc  : And >COMMA the space has been divided into &&4 >COMMA so each division represents &&1 ÷ &&4 >EQUALS &&0.25 >PERIOD <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [space (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [divided (root: divide) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [division (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [division (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [represents (root: present) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+    [÷ (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&0.25 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The arrow is pointing to 5 + 0.25 + 0.25 + 0.25 = 5.75 The difference between 50 and 60 is 10 and the space has been divided into 5. 
+PreProc  : The arrow is pointing to &&5 >PLUS &&0.25 >PLUS &&0.25 >PLUS &&0.25 >EQUALS &&5.75 The difference between &&50 and &&60 is &&10 and the space has been divided into &&5 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [arrow (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [pointing (root: point) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&0.25 (LEX)(NUM)]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&0.25 (LEX)(NUM)]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&0.25 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&5.75 (LEX)(NUM)]
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [&&50 (LEX)(NUM)]
+      [and (LEX)(CONJ)]
+      [&&60 (LEX)(NUM)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&60 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&10 (LEX)(NUM)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [space (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [space (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [divided (root: divide) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So, each division represents 10 ÷ 5 = 2. 
+PreProc  : So >COMMA each division represents &&10 ÷ &&5 >EQUALS &&2 >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [division (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [represents (root: present) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&10 (LEX)(NUM)]
+    [÷ (?)(UNK(ENTITY UNKNOWN))]
+    [&&5 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The arrow is pointing to 50 + 2 + 2 = 54. 
+PreProc  : The arrow is pointing to &&50 >PLUS &&2 >PLUS &&2 >EQUALS &&54 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [arrow (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [pointing (root: point) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&50 (LEX)(NUM)]
+
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+
+  [>PLUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&54 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Can you match Viral Vinnie's appetite for English, Maths and Science? 
+PreProc  : Can you match Viral @Vinnie@s appetite for English >COMMA Maths and Science >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [match (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Viral (?)(UNK(ENTITY UNKNOWN))]
+    [@Vinnie@s (LEX)(ADJ POSSESSIVE)]
+    [appetite (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [English (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Maths (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Science (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure your maths skills add up. 
+PreProc  : Make sure your maths skills add up >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

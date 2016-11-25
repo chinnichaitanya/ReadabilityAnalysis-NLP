@@ -1,0 +1,358 @@
+Original : margarine! 
+PreProc  : margarine >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [margarine (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you think food is getting more colorful, you are right. 
+PreProc  : If you think food is getting more colorful >COMMA you are right >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  [more (LEX)(ADJ)]
+  [colorful (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some companies are giving foods colorful makeovers to make meals more fun. 
+PreProc  : Some companies are giving foods colorful makeovers to make meals more fun >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [giving (root: give) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [colorful (LEX)(ADJ)]
+    [makeovers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [meals (?)(UNK(ENTITY UNKNOWN))]
+
+  [more (LEX)(ADJ)]
+  [fun (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists asked a group of 24 kids to try the foods. 
+PreProc  : Scientists asked a group of &&24 kids to try the foods >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [asked (root: ask) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&24 (LEX)(NUM)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [try (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most of the kids liked what they ate. 
+PreProc  : Most of the kids liked what they ate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [liked (root: like) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ate (root: eat) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But some parents refuse to let their kids eat the foods. 
+PreProc  : But some parents refuse to let their kids eat the foods >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [refuse (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [let (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "They're so fake," said one mother. 
+PreProc  : >DQUOTE THEY ARE so fake >COMMA >DQUOTE said one mother >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [fake (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Food expert Julie Albrecht says, "As far as safety goes, there is not an issue. 
+PreProc  : Food expert Julie Albrecht says >COMMA >DQUOTE As far as safety goes >COMMA there is not an issue >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Food (LEX)(N SINGULAR(PHYSOBJ))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Julie (?)(UNK(ENTITY UNKNOWN))]
+    [Albrecht (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  [As (LEX)(PREP)]
+  [far (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [safety (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [safety (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [issue (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They just don't look like the usual product." 
+PreProc  : They just DO NOT look like the usual product >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [look (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [usual (LEX)(ADJ)]
+    [product (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The next time you are in the grocery store, see how many new colors you can count. 
+PreProc  : The next time you are in the grocery store >COMMA see how many new colors you can count >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [grocery (LEX)(N SINGULAR(BUILDING))]
+      [store (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (IOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [new (LEX)(ADJ)]
+    [colors (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [count (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

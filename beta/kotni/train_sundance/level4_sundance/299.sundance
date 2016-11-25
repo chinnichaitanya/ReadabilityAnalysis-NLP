@@ -1,0 +1,582 @@
+Original : Spy Kids 2 - An Interview With the Stars Two kid reporters got a thrill this past summer. 
+PreProc  : Spy Kids &&2 >MINUS An Interview With the Stars &&2 kid reporters got a thrill this past summer >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Spy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+    [&&2 (LEX)(NUM)]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [An (LEX)(ART)]
+    [Interview (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [With (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Stars (root: star) (MOR)(N PLURAL(OTHER))]
+      [&&2 (LEX)(NUM)]
+      [kid (?)(UNK(ENTITY UNKNOWN))]
+      [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Stars (root: star) (MOR)(N PLURAL(OTHER))]
+    [&&2 (LEX)(NUM)]
+    [kid (?)(UNK(ENTITY UNKNOWN))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [a (LEX)(ART)]
+    [thrill (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They traveled to Hollywood to interview the stars of Spy Kids 2. 
+PreProc  : They traveled to Hollywood to interview the stars of Spy Kids &&2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Hollywood (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [interview (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [stars (root: star) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the stars
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Spy (LEX)(N SINGULAR(HUMAN))]
+      [Kids (?)(UNK(ENTITY UNKNOWN))]
+      [&&2 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The reporters, Lyndi Conradt, a fifth grader from Texas, and Meagan Tromburg, a sixth grader from Washington, were the grand-prize winners in last year's " Reader" essay contest. 
+PreProc  : The reporters >COMMA Lyndi Conradt >COMMA a fifth grader from Texas >COMMA and Meagan Tromburg >COMMA a sixth grader from Washington >COMMA were the grand-prize winners in last @year@s >DQUOTE Reader >DQUOTE essay contest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Lyndi (?)(UNK(ENTITY UNKNOWN))]
+    [Conradt (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [fifth (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Texas (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [Meagan (?)(UNK(ENTITY UNKNOWN))]
+      [Tromburg (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [sixth (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [grand-prize (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [winners (root: winner) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [last (LEX)(ADJ)]
+      [@year@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [essay (?)(UNK(ENTITY UNKNOWN))]
+      [contest (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The contest was sponsored by Dimension Films. 
+PreProc  : The contest was sponsored by Dimension Films >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [sponsored (root: sponsor) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Dimension (LEX)(N SINGULAR(OTHER))]
+      [Films (root: film) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The reporters talked with Alexa Vega (Carmen Cortez in the movie), Emily Osment (Gertie Giggles), and Matthew O'Leary (Gary Giggles). 
+PreProc  : The reporters talked with Alexa Vega >LPAREN Carmen Cortez in the movie >RPAREN >COMMA Emily Osment >LPAREN Gertie Giggles >RPAREN >COMMA and Matthew O'Leary >LPAREN Gary Giggles >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [talked (root: talk) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Alexa (?)(UNK(ENTITY UNKNOWN))]
+      [Vega (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Carmen (?)(UNK(ENTITY UNKNOWN))]
+    [Cortez (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  [Emily (INF-MOR)(ADV)]
+  NP SEGMENT:
+    [Osment (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Gertie (?)(UNK(ENTITY UNKNOWN))]
+    [Giggles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [Matthew (?)(UNK(ENTITY UNKNOWN))]
+    [O'Leary (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Gary (?)(UNK(ENTITY UNKNOWN))]
+    [Giggles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : What part of the movie was the most exciting? 
+PreProc  : >COLON What part of the movie was the most exciting >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: What part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [exciting (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : When I am standing on a cliff fighting the skeletons. 
+PreProc  : >COLON When I am standing on a cliff fighting the skeletons >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+    [standing (root: stand) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cliff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [cliff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fighting (root: fight) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [skeletons (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That was exciting and amazing. 
+PreProc  : That was exciting and amazing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [exciting (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [amazing (INF-MOR)(GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was above the Rio Grande-an 800-foot drop. 
+PreProc  : It was above the Rio Grande-an 800-foot drop >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [above (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Rio (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Grande-an (?)(UNK(ENTITY UNKNOWN))]
+      [800-foot (?)(UNK(ENTITY UNKNOWN))]
+      [drop (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was really up there. 
+PreProc  : It was really up there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [really (root: real) (MOR)(ADV)]
+    [up (LEX)(PART)]
+    [there (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you put your arms out, you felt like you were flying. 
+PreProc  : If you put your arms out >COMMA you felt like you were flying >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [arms (LEX)(N SINGULAR(OTHER))]
+
+  [out (LEX)(PART) (ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [felt (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [flying (root: fly) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How are you like the character you play? 
+PreProc  : >COLON How are you like the character you play >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [character (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [play (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I'm very different from Gary Giggles. 
+PreProc  : >COLON I AM very different from Gary Giggles >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [different (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Gary (?)(UNK(ENTITY UNKNOWN))]
+      [Giggles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I'm not as mean as he is. 
+PreProc  : I AM not as mean as he is >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  [as (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mean (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He can be a jerk sometimes. 
+PreProc  : He can be a jerk sometimes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [jerk (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [sometimes (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : What kind of school do you attend? 
+PreProc  : >COLON What kind of school do you attend >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: What kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attend (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I have a teacher on the set about three hours a day. 
+PreProc  : >COLON I have a teacher on the set about &&3 hours a day >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [set (LEX)(N SINGULAR(OTHER))]
+
+
+  [about (LEX)(ADV)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

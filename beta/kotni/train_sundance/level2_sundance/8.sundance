@@ -1,0 +1,302 @@
+Original : On New Year's Eve, five sailboats took off on a high-speed race around the world. 
+PreProc  : On New @Year@s Eve >COMMA &&5 sailboats took off on a high-speed race around the world >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [@Year@s (LEX)(ADJ POSSESSIVE)]
+      [Eve (LEX)(N SINGULAR PROPER(TIME HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+    [sailboats (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+    [off (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [high-speed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [high-speed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [race (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A sixth boat joined in the adventure, called The Race, on New Year's Day. 
+PreProc  : A sixth boat joined in the adventure >COMMA called The Race >COMMA on New @Year@s Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [sixth (LEX)(ADJ)]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [joined (root: join) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [adventure (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [sixth (LEX)(ADJ)]
+    [boat (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [Race (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [@Year@s (LEX)(ADJ POSSESSIVE)]
+      [Day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Race began in Spain, a country in western Europe. 
+PreProc  : The Race began in Spain >COMMA a country in western Europe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Race (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Spain (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [western (LEX)(ADJ)]
+      [Europe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The teams on boats will try to sail around South America, Australia, and Africa. 
+PreProc  : The teams on boats will try to sail around South America >COMMA Australia >COMMA and Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [boats (root: boat) (MOR)(N PLURAL(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [sail (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The finish line is in France, a country northeast of Spain. 
+PreProc  : The finish line is in France >COMMA a country northeast of Spain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [finish (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [line (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [France (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+    [northeast (LEX)(ADV) (N SINGULAR(LOCATION))]
+
+Following PP attaches to: a country northeast
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Spain (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The teams hope to finish The Race in 65 days or less. 
+PreProc  : The teams hope to finish The Race in &&65 days or less >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [finish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [Race (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&65 (LEX)(NUM)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  [or (LEX)(CONJ)]
+  [less (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want to beat the world record, which is 71 days. 
+PreProc  : They want to beat the world record >COMMA which is &&71 days >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [beat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [&&71 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So The Race should end sometime in March. 
+PreProc  : So The Race should end sometime in March >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Race (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [end (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sometime (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [March (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

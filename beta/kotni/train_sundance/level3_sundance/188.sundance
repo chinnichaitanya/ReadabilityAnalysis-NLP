@@ -1,0 +1,948 @@
+Original : Stay away from drinks that have caffeine, lots of sugar, or carbonation in them - like soda or tea. 
+PreProc  : Stay away from drinks that have caffeine >COMMA lots of sugar >COMMA or carbonation in them >MINUS like soda or tea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Stay (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [lots (root: lot) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: lots
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sugar (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [carbonation (INF-MOR)(N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [soda (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [tea (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Something is happening to kids across the United States. 
+PreProc  : Something is happening to kids across the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [happening (root: happen) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some foods and drinks are making them Two scoops of coffee ice cream. 
+PreProc  : Some foods and drinks are making them &&2 scoops of coffee ice cream >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [scoops (root: scoop) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&2 scoops
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [coffee (LEX)(N SINGULAR(PHYSOBJ))]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+      [cream (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A cold glass of soda pop. 
+PreProc  : A cold glass of soda pop >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [cold (LEX)(ADJ)]
+    [glass (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: A cold glass
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [soda (LEX)(N SINGULAR(PHYSOBJ))]
+      [pop (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A handful of chocolate. 
+PreProc  : A handful of chocolate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [handful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: A handful
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [chocolate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is your mouth watering? 
+PreProc  : Is your mouth watering >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [mouth (LEX)(N SINGULAR(OTHER))]
+    [watering (INF-MOR)(GER)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you are like most kids, you can't get enough of those sweet treats. 
+PreProc  : If you are like most kids >COMMA you CAN NOT get enough of those sweet treats >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [CAN (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [enough (LEX)(ADJ)]
+
+Following PP attaches to: CAN NOT get
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [sweet (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [treats (root: treat) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, those foods contain something that might surprise you-- (KA-feen)! 
+PreProc  : However >COMMA those foods contain something that might surprise you >DASH >LPAREN KA-feen >RPAREN >EXCLAMATION <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [surprise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [>DASH (LEX)(PUNC)]
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [KA-feen (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Caffeine is a chemical found in the fruits, seeds, and leaves of some plants. 
+PreProc  : Caffeine is a chemical found in the fruits >COMMA seeds >COMMA and leaves of some plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [chemical (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [chemical (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fruits (root: fruit) (MOR)(N PLURAL(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: the fruits >COMMA seeds >COMMA and leaves
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A recent study found that kids may have too much caffeine in their diets. 
+PreProc  : A recent study found that kids may have too much caffeine in their diets >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [recent (LEX)(ADJ)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [too (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [diets (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loading up on caffeine can make you sick. 
+PreProc  : Loading up on caffeine can make you sick >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loading (root: load) (MOR)(N SINGULAR) (GER)]
+
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [sick (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You may feel shaky or get an upset stomach. 
+PreProc  : You may feel shaky or get an upset stomach >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [feel (LEX)(V BASE)]
+
+  [shaky (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [upset (LEX)(ADJ)]
+    [stomach (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Too much caffeine before bed can keep you up at night. 
+PreProc  : Too much caffeine before bed can keep you up at night >PERIOD <EOS 
+CLAUSE:
+  [Too (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [bed (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [night (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you are tired, you may have trouble learning in school the next day. 
+PreProc  : If you are tired >COMMA you may have trouble learning in school the next day >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [tired (root: tire) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [trouble (?)(UNK(ENTITY UNKNOWN))]
+    [learning (root: learn) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many kids have a lot of caffeine without knowing it. 
+PreProc  : Many kids have a lot of caffeine without knowing it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [knowing (root: know) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's because few foods and drinks show caffeine amounts on their labels. 
+PreProc  : THAT IS because few foods and drinks show caffeine amounts on their labels >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [few (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+    [amounts (root: amount) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [labels (root: label) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What foods and drinks make up a healthful diet? 
+PreProc  : What foods and drinks make up a healthful diet >QUESTION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [healthful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [diet (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Foods and drinks made with coffee and chocolate have caffeine in them. 
+PreProc  : Foods and drinks made with coffee and chocolate have caffeine in them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [drinks (root: drink) (MOR)(V PRESENT)]
+    [made (root: make) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [coffee (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [chocolate (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [chocolate (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some sodas and iced teas are also made with caffeine. 
+PreProc  : Some sodas and iced teas are also made with caffeine >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [sodas (root: soda) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [iced (?)(UNK(ENTITY UNKNOWN))]
+    [teas (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+    [made (root: make) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There are some easy ways to cut back on caffeine. 
+PreProc  : There are some easy ways to cut back on caffeine >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [easy (LEX)(ADJ)]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Drink less soda pop or look for labels that say . 
+PreProc  : Drink less soda pop or look for labels that say >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Drink (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [less (LEX)(ADJ)]
+    [soda (LEX)(N SINGULAR(PHYSOBJ))]
+    [pop (LEX)(N SINGULAR(OTHER))]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [less (LEX)(ADJ)]
+    [soda (LEX)(N SINGULAR(PHYSOBJ))]
+    [pop (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [labels (root: label) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [labels (root: label) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can also have fewer foods and drinks that are flavored with coffee and chocolate. 
+PreProc  : You can also have fewer foods and drinks that are flavored with coffee and chocolate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [fewer (root: few) (MOR)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [fewer (root: few) (MOR)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [flavored (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [coffee (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [chocolate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you have less caffeine in your diet, experts say you will feel better. 
+PreProc  : If you have less caffeine in your diet >COMMA experts say you will feel better >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [less (LEX)(ADJ)]
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [diet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [feel (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "There's no reason for kids to [have] all that caffeine," said one expert. 
+PreProc  : >DQUOTE THERE IS no reason for kids to >LBRACKET have >RBRACKET all that caffeine >COMMA >DQUOTE said one expert >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THERE (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [to (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most experts say kids should not have more than 100 milligrams (mg) of caffeine each day. 
+PreProc  : Most experts say kids should not have MORE_THAN &&100 milligrams >LPAREN mg >RPAREN of caffeine each day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [milligrams (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [mg (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+Following PP attaches to: mg
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [caffeine (?)(UNK(ENTITY UNKNOWN))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How much caffeine do some foods and drinks contain? 
+PreProc  : How much caffeine do some foods and drinks contain >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [caffeine (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contain (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Take a look at the chart to the right to find out. 
+PreProc  : Take a look at the chart to the right to find out >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [chart (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

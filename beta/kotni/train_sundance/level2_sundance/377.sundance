@@ -1,0 +1,244 @@
+Original : Do you ever wonder how plastic is recycled? 
+PreProc  : Do you ever wonder how plastic is recycled >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [wonder (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [recycled (INF-MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now you can see how it's done! 
+PreProc  : Now you can see how IT IS done >EXCLAMATION <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [done (root: do) (LEX)(AUX) (V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers take the plastic to a recycling plant. 
+PreProc  : Workers take the plastic to a recycling plant >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [recycling (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The plastic is washed, chopped, and dried. 
+PreProc  : The plastic is washed >COMMA chopped >COMMA and dried >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [washed (root: wash) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [chopped (root: chop) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dried (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then the pieces are heated until they melt. 
+PreProc  : Then the pieces are heated until they melt >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [heated (root: heat) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [they (LEX)(PN PLURAL(HUMAN))]
+
+
+  NP SEGMENT (DOBJ):
+    [melt (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The melted plastic is pressed through a screen. 
+PreProc  : The melted plastic is pressed through a screen >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [melted (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [pressed (root: press) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [screen (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Finally, the plastic is cooled in water. 
+PreProc  : Finally >COMMA the plastic is cooled in water >PERIOD <EOS 
+CLAUSE:
+  [Finally (root: final) (MOR)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [cooled (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Companies use the plastic to make new products, such as these backpacks. 
+PreProc  : Companies use the plastic to make new products >COMMA SUCH_AS these backpacks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [plastic (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+      [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,590 @@
+Original : There will soon be a place in Washington, D.C., fit for a King. 
+PreProc  : There will soon be a place in Washington >COMMA D.C. >COMMA fit for a King >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [soon (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [King (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. officials recently gave the OK for construction to begin on the Martin Luther King, Jr. Memorial (right). 
+PreProc  : U.S. officials recently gave the OK for construction to begin on the Martin Luther King >COMMA Jr. Memorial >LPAREN right >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [OK (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [construction (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [begin (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Martin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Luther (?)(UNK(ENTITY UNKNOWN))]
+      [King (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+    [Memorial (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The statue will be built on the National Mall. 
+PreProc  : The statue will be built on the National Mall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [built (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [National (LEX)(ADJ)]
+      [Mall (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : King (1929Ð1968) was born in Georgia. 
+PreProc  : King >LPAREN 1929Ð1968 >RPAREN was born in Georgia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [1929Ð1968 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [born (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At that time, people in the southern United States were separated by race. 
+PreProc  : At that time >COMMA people in the southern UNITED_STATES were separated by race >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [southern (LEX)(ADJ)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [separated (root: separate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [race (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Under the law, black people could not attend the same schools as white people. 
+PreProc  : Under the law >COMMA black people could not attend the same schools as white people >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Under (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [law (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [black (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [white (LEX)(ADJ)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also had to use separate public restrooms. 
+PreProc  : They also had to use separate public restrooms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [also (LEX)(ADV)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [separate (LEX)(ADJ)]
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [restrooms (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : King worked to change the rules in the South. 
+PreProc  : King worked to change the rules in the South >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [worked (root: work) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [change (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He led peaceful marches and gave speeches. 
+PreProc  : He led peaceful marches and gave speeches >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [peaceful (LEX)(ADJ)]
+    [marches (root: march) (MOR)(N PLURAL)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [speeches (root: speech) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 1963, King gave his famous ÒI Have a DreamÓ speech. 
+PreProc  : In &&1963 >COMMA King gave his famous ÒI Have a DreamÓ speech >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1963 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [King (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [famous (LEX)(ADJ)]
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [famous (LEX)(ADJ)]
+    [ÒI (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [DreamÓ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thanks to King and some other leaders, Congress passed . 
+PreProc  : Thanks to King and some other leaders >COMMA Congress passed >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Thanks (root: thank) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [King (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [some (LEX)(DET)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [passed (root: pass) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those laws make sure that all Americans have equal rights. 
+PreProc  : Those laws make sure that all Americans have equal rights >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  [sure (LEX)(ADJ)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [equal (LEX)(ADJ)]
+    [rights (root: right) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Martin Luther King Jr. gives an important speech in Washington, D.C., in 1963. 
+PreProc  : Martin Luther King Jr. gives an important speech in Washington >COMMA D.C. >COMMA in &&1963 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Martin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gives (root: give) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [important (LEX)(ADJ)]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1963 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Officials hope to complete the King memorial in 2011. 
+PreProc  : Officials hope to complete the King memorial in &&2011 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [complete (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [King (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [memorial (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2011 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Christine King Farris is KingÕs sister. 
+PreProc  : Christine King Farris is KingÕs sister >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Christine (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Farris (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [KingÕs (?)(UNK(ENTITY UNKNOWN))]
+    [sister (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She says the memorial is important because it will remind people of the good work her brother did. 
+PreProc  : She says the memorial is important because it will remind people of the good work her brother did >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [memorial (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [remind (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+Following PP attaches to: people
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [work (LEX)(N SINGULAR(OTHER))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [brother (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+Following PP attaches to: people
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [work (LEX)(N SINGULAR(OTHER))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [brother (LEX)(N SINGULAR(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ò[Future people] need to know about Martin Luther King Jr.,Ó Farris explains. 
+PreProc  : Ò[Future people >RBRACKET need to know about Martin Luther King Jr. >COMMA Ó Farris explains >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ò[Future (?)(UNK(ENTITY UNKNOWN))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)]
+    [Martin (?)(UNK(ENTITY UNKNOWN))]
+    [Luther (?)(UNK(ENTITY UNKNOWN))]
+    [King (?)(UNK(ENTITY UNKNOWN))]
+    [Jr. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Farris (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Farris (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [explains (root: explain) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

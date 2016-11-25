@@ -1,0 +1,382 @@
+Original : Talk about a really BIG discovery! 
+PreProc  : Talk about a really BIG discovery >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Talk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [really (root: real) (MOR)(ADV)]
+      [BIG (LEX)(ADJ)]
+      [discovery (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists recently uncovered the bones of a huge dinosaur in Argentina. 
+PreProc  : Scientists recently uncovered the bones of a huge dinosaur in Argentina >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [uncovered (root: cover) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: the bones
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [huge (LEX)(ADJ)]
+      [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Argentina (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is a country in South America. 
+PreProc  : That is a country in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The big dino was about 43 feet tall and 105 feet in length. 
+PreProc  : The big dino was about &&43 feet tall and &&105 feet in length >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [dino (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&43 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [tall (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [&&105 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [length (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Its neck was more than 50 feet long! 
+PreProc  : Its neck was MORE_THAN &&50 feet long >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Its (LEX)(ADJ)]
+    [neck (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&50 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (Let's hope it never got a sore throat!) The dinosaur has a name almost as long as its neck. 
+PreProc  : >LPAREN LET US hope it never got a sore throat >EXCLAMATION >RPAREN The dinosaur has a name almost as long as its neck >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [LET (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [US (LEX)(N SINGULAR(HUMAN))]
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [never (LEX)(ADV)]
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [throat (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [dinosaur (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dinosaur (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  [almost (LEX)(ADV)]
+  [as (LEX)(PREP)]
+  [long (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [neck (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's called . 
+PreProc  : IT IS called >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Its name comes from local words that mean "chief" and "giant." 
+PreProc  : Its name comes from local words that mean >DQUOTE chief >DQUOTE and >DQUOTE giant >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Its (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [local (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [local (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mean (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [chief (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts think the dino is a new dinosaur species because its neck is . 
+PreProc  : Experts think the dino is a new dinosaur species because its neck is >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dino (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [dino (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+    [species (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [neck (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unique means one of a kind. 
+PreProc  : Unique means one of a kind >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Unique (LEX)(ADJ)]
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: Unique means one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists know the dinosaur was an . 
+PreProc  : Scientists know the dinosaur was an >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dinosaur (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [dinosaur (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  [an (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An herbivore eats only plants. 
+PreProc  : An herbivore eats only plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [herbivore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eats (root: eat) (MOR)(V PRESENT)]
+    [only (LEX)(ADV)]
+    [plants (root: plant) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The big plant eater lived about 88 million years ago. 
+PreProc  : The big plant eater lived about &&88 million years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+    [eater (root: eat) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&88 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

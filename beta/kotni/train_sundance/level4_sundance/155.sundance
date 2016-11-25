@@ -1,0 +1,488 @@
+Original : set sail for the first time in the spring of 1912, many people said the ship was unsinkable. 
+PreProc  : set sail for the first time in the spring of &&1912 >COMMA many people said the ship was unsinkable >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [set (LEX)(V BASE PAST)]
+    [sail (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [spring (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the spring
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1912 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [unsinkable (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just a few days into its North Atlantic Ocean journey, however, the slammed into an iceberg and sank to the bottom of the ocean on April 15-- never to sail again. 
+PreProc  : Just a few days into its North Atlantic Ocean journey >COMMA however >COMMA the slammed into an iceberg and sank to the bottom of the ocean on April &&15 >DASH never to sail again >PERIOD <EOS 
+CLAUSE:
+  [Just (LEX)(ADJ) (ADV)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [few (LEX)(ADJ)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [Atlantic (?)(UNK(ENTITY UNKNOWN))]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+      [journey (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [slammed (root: slam) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [iceberg (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [sank (root: sink) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bottom (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the bottom
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [April (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  [>DASH (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [never (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [sail (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now, if a multimillionaire in South Africa has his way, a may sail again. 
+PreProc  : Now >COMMA if a multimillionaire in SOUTH_AFRICA has his way >COMMA a may sail again >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [multimillionaire (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [SOUTH_AFRICA (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [may (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [may (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sail (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sarel Gous plans to raise more than $575 million to build a new version of the . 
+PreProc  : Sarel Gous plans to raise MORE_THAN >DOLLAR &&575 million to build a new version of the >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sarel (?)(UNK(ENTITY UNKNOWN))]
+    [Gous (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [raise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [>DOLLAR (LEX)(ADJ)]
+    [&&575 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [version (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He wants to start building the ship this summer. 
+PreProc  : He wants to start building the ship this summer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wants (root: want) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [start (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : will have many similarities to the ship that sank 89 years ago. 
+PreProc  : will have many similarities to the ship that sank &&89 years ago >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [similarities (root: similar) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sank (root: sink) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [&&89 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gous wants the companies that made the silverware, carpets, tablecloths, and bed linens for the original to supply those items for the replica. 
+PreProc  : Gous wants the companies that made the silverware >COMMA carpets >COMMA tablecloths >COMMA and bed linens for the original to supply those items for the replica >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gous (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wants (root: want) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [silverware (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [carpets (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [tablecloths (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [bed (LEX)(N SINGULAR(PHYSOBJ))]
+    [linens (?)(UNK(ENTITY UNKNOWN))]
+
+  [for (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [original (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [supply (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [items (root: item) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [replica (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The replica will not be exactly like the original , however. 
+PreProc  : The replica will not be exactly like the original >COMMA however >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [replica (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [exactly (LEX)(ADV)]
+    [like (LEX)(V BASE)]
+
+  [the (LEX)(ART)]
+  [original (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It will be 230 feet longer than the original, and it will have modern features, such as movie theaters. 
+PreProc  : It will be &&230 feet longer than the original >COMMA and it will have modern features >COMMA SUCH_AS movie theaters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&230 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [longer (LEX)(ADJ)]
+  [than (LEX)(ADV)]
+  [the (LEX)(ART)]
+  [original (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [modern (LEX)(ADJ)]
+    [features (root: feature) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [movie (LEX)(N SINGULAR(OTHER))]
+      [theaters (root: theater) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cruising aboard the ship will also cost more than it did in 1912. 
+PreProc  : Cruising aboard the ship will also cost MORE_THAN it did in &&1912 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cruising (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [aboard (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [cost (LEX)(V BASE PAST)]
+
+  [MORE_THAN (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1912 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Rooms on the Gous claims that there will be one other difference between the replica and the original ship-- All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : Rooms on the Gous claims that there will be one other difference between the replica and the original ship >DASH All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Gous (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [claims (root: claim) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [replica (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [original (LEX)(ADJ)]
+      [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

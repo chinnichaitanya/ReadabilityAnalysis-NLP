@@ -1,0 +1,780 @@
+Original : Wildfires are a common occurrence in California. 
+PreProc  : Wildfires are a common occurrence in California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wildfires (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [occurrence (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wildfires swept through southern California in early November. 
+PreProc  : Wildfires swept through southern California in early November >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wildfires (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [swept (root: sweep) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [southern (LEX)(ADJ)]
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [November (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fighting wildfires is no easy task. 
+PreProc  : Fighting wildfires is no easy task >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fighting (root: fight) (MOR)(N SINGULAR) (GER)]
+    [wildfires (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [easy (LEX)(ADJ)]
+    [task (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It takes hard work, skill, and bravery. 
+PreProc  : It takes hard work >COMMA skill >COMMA and bravery >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [hard (LEX)(ADJ)]
+    [work (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [skill (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [bravery (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : spoke with Captain Brian Webster. 
+PreProc  : spoke with Captain Brian Webster >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [spoke (root: speak) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Captain (LEX)(N SINGULAR(HUMAN))]
+      [Brian (?)(UNK(ENTITY UNKNOWN))]
+      [Webster (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For 27 years, he has been a firefighter in California. 
+PreProc  : For &&27 years >COMMA he has been a firefighter in California >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [&&27 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [firefighter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here is what he told us: : Were the wildfires difficult to fight? 
+PreProc  : Here is what he told us >COLON >COLON Were the wildfires difficult to fight >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Here (LEX)(ADV)]
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [>COLON (LEX)(PUNC)]
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [wildfires (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [difficult (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [fight (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : Yes! 
+PreProc  : >COLON Yes >EXCLAMATION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  [Yes (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Santa Ana winds blow hot, dry air from the desert at that time of year. 
+PreProc  : The Santa Ana winds blow hot >COMMA dry air from the desert at that time of year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Santa (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Ana (?)(UNK(ENTITY UNKNOWN))]
+    [winds (root: wind) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blow (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [hot (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [dry (LEX)(ADJ)]
+    [air (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [desert (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: that time
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are very strong. 
+PreProc  : They are very strong >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [strong (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Firefighters can't prevent the fires from burning until the winds stop. 
+PreProc  : Firefighters CAN NOT prevent the fires from burning until the winds stop >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Firefighters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [CAN (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fires (root: fire) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [burning (root: burn) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [winds (root: wind) (MOR)(N PLURAL(OTHER))]
+      [stop (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : What is the best part of your job? 
+PreProc  : >COLON What is the best part of your job >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the best part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [job (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The excitement and adventure. 
+PreProc  : The excitement and adventure >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [excitement (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [adventure (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I get to help people and save lives and property. 
+PreProc  : I get to help people and save lives and property >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [get (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [save (LEX)(V BASE)]
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That gives me a good feeling. 
+PreProc  : That gives me a good feeling >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gives (root: give) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [feeling (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : What is the hardest part of your job? 
+PreProc  : >COLON What is the hardest part of your job >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [hardest (root: hard) (MOR)(ADJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the hardest part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [job (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : There is danger. 
+PreProc  : >COLON There is danger >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [danger (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also be sad. 
+PreProc  : It can also be sad >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [sad (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sometimes, people lose their homes. 
+PreProc  : Sometimes >COMMA people lose their homes >PERIOD <EOS 
+CLAUSE:
+  [Sometimes (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some people die. 
+PreProc  : Some people die >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [die (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The long hours, not having enough sleep, and being away from my family are also difficult. 
+PreProc  : The long hours >COMMA not having enough sleep >COMMA and being away from my family are also difficult >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [long (LEX)(ADJ)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [not (LEX)(ADV)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [being (root: be) (LEX)(GER)]
+
+  [away (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [family (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [my (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [difficult (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : Do firefighters work alone or in teams? 
+PreProc  : >COLON Do firefighters work alone or in teams >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [firefighters (?)(UNK(ENTITY UNKNOWN))]
+    [work (LEX)(N SINGULAR(OTHER))]
+
+  [alone (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : Most of the time, we are a big team. 
+PreProc  : >COLON Most of the time >COMMA we are a big team >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We had more than 4,000 firefighters battling a wildfire in San Bernardino. 
+PreProc  : We had MORE_THAN &&4,000 firefighters battling a wildfire in San Bernardino >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&4,000 (LEX)(NUM)]
+    [firefighters (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&4,000 (LEX)(NUM)]
+    [firefighters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [battling (root: battle) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [wildfire (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [San (?)(UNK(ENTITY UNKNOWN))]
+      [Bernardino (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How do you stay brave even when you are scared? 
+PreProc  : >COLON How do you stay brave even when you are scared >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stay (LEX)(V BASE)]
+
+  [brave (LEX)(ADJ)]
+  [even (LEX)(ADV)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [scared (root: scare) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : That comes with experience. 
+PreProc  : >COLON That comes with experience >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  [That (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [experience (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The longer you are a firefighter, the more control you have over your emotions. 
+PreProc  : The longer you are a firefighter >COMMA the more control you have over your emotions >PERIOD <EOS 
+CLAUSE:
+  [The (LEX)(ART)]
+  [longer (LEX)(ADJ)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [firefighter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [more (LEX)(ADJ)]
+    [control (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [emotions (root: emotion) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But even for the old-timers, this fire was a scary one. 
+PreProc  : But even for the old-timers >COMMA this fire was a scary one >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  [even (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [old-timers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [scary (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Would you want to be a firefighter? 
+PreProc  : Would you want to be a firefighter >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [firefighter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why or why not? 
+PreProc  : Why or why not >QUESTION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

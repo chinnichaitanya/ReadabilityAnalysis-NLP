@@ -1,0 +1,474 @@
+Original : > Fractions, Decimals and Percentages - Percentages To write one number as a percentage of another, divide the first number by the second, then multiply by 100 Q1. 
+PreProc  : >GREATER Fractions >COMMA Decimals and Percentages >MINUS Percentages To write one number as a percentage of another >COMMA divide the first number by the second >COMMA then multiply by &&100 Q1 >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Fractions (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Decimals (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Percentages (root: percentage) (MOR)(N PLURAL(OTHER))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Percentages (root: percentage) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [write (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [percentage (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [another (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [divide (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fractions (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [multiply (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [&&100 (LEX)(NUM)]
+      [Q1 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A dress which originally cost £80 is reduced by £10 in the sale. 
+PreProc  : A dress which originally cost £80 is reduced by £10 in the sale >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [dress (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [dress (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [originally (LEX)(ADV)]
+    [cost (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [£80 (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [£80 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [reduced (root: reduce) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [£10 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sale (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What percentage reduction is this? 
+PreProc  : What percentage reduction is this >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [percentage (LEX)(N SINGULAR(OTHER))]
+    [reduction (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Q2. 
+PreProc  : Q2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Q2 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A swimming team has 20 members and 12 of these are boys. 
+PreProc  : A swimming team has &&20 members and &&12 of these are boys >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [swimming (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&20 (LEX)(NUM)]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [&&12 (LEX)(NUM)]
+
+Following PP attaches to: &&20 members and &&12
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [&&20 (LEX)(NUM)]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [&&12 (LEX)(NUM)]
+
+Following PP attaches to: &&20 members and &&12
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What percentage of the swimming team are boys? 
+PreProc  : What percentage of the swimming team are boys >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [percentage (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: What percentage
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [swimming (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [team (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So the dress has been reduced by 12.5% Use your knowledge to help Spherox find his way home. 
+PreProc  : So the dress has been reduced by &&12.5 >PERCENT Use your knowledge to help Spherox find his way home >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [dress (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [reduced (root: reduce) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12.5 (LEX)(NUM)]
+      [>PERCENT (LEX)(N SINGULAR(OTHER))]
+      [Use (LEX)(N SINGULAR(OTHER))]
+      [your (LEX)(ADJ)]
+      [knowledge (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure your maths skills add up. 
+PreProc  : Make sure your maths skills add up >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,558 @@
+Original : Have you heard the well-known tale about George Washington and the cherry tree? 
+PreProc  : Have you heard the well-known tale about George Washington and the cherry tree >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [heard (root: hear) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [well-known (LEX)(ADJ)]
+    [tale (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [George (?)(UNK(ENTITY UNKNOWN))]
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [cherry (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [tree (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to legend, Washington chopped the tree down when he was a boy and told the truth about it. 
+PreProc  : According to legend >COMMA Washington chopped the tree down when he was a boy and told the truth about it >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [legend (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [chopped (root: chop) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tree (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [down (LEX)(PREP)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [boy (LEX)(N SINGULAR(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [truth (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts donÕt think that really happened, but they do know where the chopping would have taken place! 
+PreProc  : Experts donÕt think that really happened >COMMA but they do know where the chopping would have taken place >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+    [donÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+    [donÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [happened (root: happen) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [chopping (root: chop) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [taken (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Washington was the first president of the United States. 
+PreProc  : Washington was the first president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the first president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists recently found and dug up parts of his childhood home. 
+PreProc  : Scientists recently found and dug up parts of his childhood home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dug (root: dig) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [childhood (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The house is near Fredericksburg, Va. 
+PreProc  : The house is near Fredericksburg >COMMA Va >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [Fredericksburg (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Va (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is about 50 miles south of Washington, D.C. 
+PreProc  : That is about &&50 miles south of Washington >COMMA D.C. >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [about (LEX)(ADV)]
+    [&&50 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+    [south (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+Following PP attaches to: about &&50 miles south
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The scientists found the houseÕs base and cellars. 
+PreProc  : The scientists found the houseÕs base and cellars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [scientists (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [houseÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [houseÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [base (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [cellars (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Inside the building, they discovered thousands of . 
+PreProc  : Inside the building >COMMA they discovered thousands of >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+  [of (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those are old objects. 
+PreProc  : Those are old objects >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [old (LEX)(ADJ)]
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The artifacts include tea sets, wig curlers, and toothbrush handles made of bone. 
+PreProc  : The artifacts include tea sets >COMMA wig curlers >COMMA and toothbrush handles made of bone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [artifacts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [tea (?)(UNK(ENTITY UNKNOWN))]
+    [sets (root: set) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [wig (?)(UNK(ENTITY UNKNOWN))]
+    [curlers (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [handles (root: handle) (MOR)(V PRESENT)]
+    [made (root: make) (LEX)(V PAST)]
+
+Following PP attaches to: handles made
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒWhen we found the house, we knew it provided a new way to look at [WashingtonÕs] surroundings,Ó David Muraca told . 
+PreProc  : ÒWhen we found the house >COMMA we knew it provided a new way to look at >LBRACKET WashingtonÕs >RBRACKET surroundings,Ó David Muraca told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒWhen (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knew (root: know) (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [provided (root: provide) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [look (LEX)(V BASE)]
+
+  [at (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [WashingtonÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [surroundings,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Muraca (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [surroundings,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Muraca (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is a scientist with the George Washington Foundation, which owns the land. 
+PreProc  : He is a scientist with the George Washington Foundation >COMMA which owns the land >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [George (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+      [Foundation (root: found) (MOR)(N SINGULAR)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [George (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+    [Foundation (root: found) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [owns (root: own) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [land (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The foundation hopes to one day rebuild WashingtonÕs house and open it to the public as a museum. 
+PreProc  : The foundation hopes to one day rebuild WashingtonÕs house and open it to the public as a museum >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [foundation (root: found) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+    [rebuild (root: build) (MOR)(N SINGULAR)]
+    [WashingtonÕs (?)(UNK(ENTITY UNKNOWN))]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [foundation (root: found) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [open (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

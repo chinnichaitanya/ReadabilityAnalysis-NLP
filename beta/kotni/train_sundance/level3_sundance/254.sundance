@@ -1,0 +1,422 @@
+Original : Many kids play the piñata game on Cinco de Mayo. 
+PreProc  : Many kids play the piñata game on Cinco de Mayo >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [play (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [piñata (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [game (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Cinco (?)(UNK(ENTITY UNKNOWN))]
+      [de (?)(UNK(ENTITY UNKNOWN))]
+      [Mayo (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Piñatas are filled with treats. 
+PreProc  : Piñatas are filled with treats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Piñatas (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [filled (root: fill) (MOR)(V PAST)]
+
+  [with (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Piñatas (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [treats (root: treat) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fifth day of the fifth month of 2005 is no ordinary day. 
+PreProc  : The fifth day of the fifth month of &&2005 is no ordinary day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fifth (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+Following PP attaches to: The fifth day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fifth (LEX)(ADJ)]
+      [month (LEX)(N SINGULAR(MONTH))]
+
+
+Following PP attaches to: the fifth month
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [no (LEX)(ADJ)]
+    [ordinary (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the holiday Cinco de Mayo! 
+PreProc  : It is the holiday Cinco de Mayo >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [holiday (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Cinco (?)(UNK(ENTITY UNKNOWN))]
+    [de (?)(UNK(ENTITY UNKNOWN))]
+    [Mayo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the Spanish name for the fifth of May. 
+PreProc  : That is the Spanish name for the fifth of May >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  [for (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [fifth (LEX)(ADJ)]
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cinco de Mayo marks the victory of the Mexican army over the French army in a battle on May 5, 1862. 
+PreProc  : Cinco de Mayo marks the victory of the Mexican army over the French army in a battle on May &&5 >COMMA &&1862 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cinco (?)(UNK(ENTITY UNKNOWN))]
+    [de (?)(UNK(ENTITY UNKNOWN))]
+    [Mayo (?)(UNK(ENTITY UNKNOWN))]
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [victory (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the victory
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Mexican (LEX)(ADJ)]
+      [army (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [French (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [army (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [battle (LEX)(N SINGULAR(OTHER))]
+
+
+  [on (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1862 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The holiday is not Mexico's Independence Day, as people often believe. 
+PreProc  : The holiday is not @Mexico@s Independence Day >COMMA as people often believe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [holiday (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [@Mexico@s (LEX)(ADJ POSSESSIVE)]
+    [Independence (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people in Mexico and the United States celebrate this holiday with a . 
+PreProc  : Many people in Mexico and the UNITED_STATES celebrate this holiday with a >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [holiday (?)(UNK(ENTITY UNKNOWN))]
+
+  [with (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fiesta is the Spanish word for party. 
+PreProc  : Fiesta is the Spanish word for party >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fiesta (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [party (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At Cinco de Mayo fiestas, kids and adults celebrate Mexican culture through food, music, costume, and dance. 
+PreProc  : At Cinco de Mayo fiestas >COMMA kids and adults celebrate Mexican culture through food >COMMA music >COMMA costume >COMMA and dance >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [Cinco (?)(UNK(ENTITY UNKNOWN))]
+      [de (?)(UNK(ENTITY UNKNOWN))]
+      [Mayo (?)(UNK(ENTITY UNKNOWN))]
+      [fiestas (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [adults (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Mexican (LEX)(ADJ)]
+    [culture (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [music (LEX)(N SINGULAR(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [costume (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [dance (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : names a specific person, place, or thing. 
+PreProc  : names a specific person >COMMA place >COMMA or thing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [names (root: name) (MOR)(N PLURAL(OTHER))]
+
+  NP-CONJ SEGMENT:
+    [a (LEX)(ART)]
+    [specific (LEX)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [place (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [thing (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Proper nouns start with a capital letter. 
+PreProc  : Proper nouns start with a capital letter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Proper (LEX)(ADJ)]
+    [nouns (?)(UNK(ENTITY UNKNOWN))]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [capital (LEX)(N SINGULAR(OTHER))]
+      [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Choose five proper nouns in this story. 
+PreProc  : Choose &&5 proper nouns in this story >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [proper (LEX)(ADJ)]
+    [nouns (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [story (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

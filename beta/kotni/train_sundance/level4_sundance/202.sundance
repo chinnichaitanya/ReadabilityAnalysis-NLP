@@ -1,0 +1,365 @@
+Original : A "cat-tastrophe" recently struck the airport near Providence, Rhode Island. 
+PreProc  : A >DQUOTE cat-tastrophe >DQUOTE recently struck the airport near Providence >COMMA RHODE_ISLAND >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [cat-tastrophe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [struck (root: strike) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [airport (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [Providence (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [RHODE_ISLAND (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Airport officials were forced to cancel a flight when they found a runaway cat named Muffy sitting in the airplane's wheel well, the place where the landing gear is stored during flight. 
+PreProc  : Airport officials were forced to cancel a flight when they found a runaway cat named Muffy sitting in the @airplane@s wheel well >COMMA the place where the landing gear is stored during flight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Airport (LEX)(N SINGULAR(OTHER))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [were (root: be) (LEX)(COP PAST)]
+    [forced (root: force) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [cancel (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [flight (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [runaway (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [runaway (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [named (root: name) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+    [sitting (root: sit) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@airplane@s (LEX)(ADJ POSSESSIVE)]
+      [wheel (?)(UNK(ENTITY UNKNOWN))]
+      [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [landing (root: land) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [gear (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+    [stored (root: store) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [flight (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The wayward cat had been placed in a cage to be put aboard an airplane. 
+PreProc  : The wayward cat had been placed in a cage to be put aboard an airplane >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [wayward (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [been (root: be) (LEX)(COP)]
+    [placed (root: place) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cage (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [cage (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [put (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [aboard (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [airplane (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But somehow Muffy escaped and climbed into the wheel well of a nearby plane. 
+PreProc  : But somehow Muffy escaped and climbed into the wheel well of a nearby plane >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  [somehow (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escaped (root: escape) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [climbed (root: climb) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [wheel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the wheel well
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [nearby (LEX)(ADV)]
+      [plane (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Airport workers spent hours trying to coax the cat down from its hiding place. 
+PreProc  : Airport workers spent hours trying to coax the cat down from its hiding place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Airport (LEX)(N SINGULAR(OTHER))]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spent (root: spend) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [coax (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  [down (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [hiding (root: hid) (MOR)(N SINGULAR) (GER)]
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They even offered Muffy some tasty treats. 
+PreProc  : They even offered Muffy some tasty treats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [offered (root: offer) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [tasty (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [tasty (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [treats (root: treat) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Finally, after seven hours, the workers removed panels from the plane's wing and pulled Muffy to safety. 
+PreProc  : Finally >COMMA after &&7 hours >COMMA the workers removed panels from the @plane@s wing and pulled Muffy to safety >PERIOD <EOS 
+CLAUSE:
+  [Finally (root: final) (MOR)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [&&7 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [removed (root: remove) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [panels (root: panel) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@plane@s (LEX)(ADJ POSSESSIVE)]
+      [wing (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pulled (root: pull) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [safety (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Muffy, the runway runaway, was then reunited with her family. 
+PreProc  : Muffy >COMMA the runway runaway >COMMA was then reunited with her family >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Muffy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [runway (LEX)(N SINGULAR(OTHER))]
+    [runaway (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [then (LEX)(ADV)]
+    [reunited (root: unite) (MOR)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [family (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

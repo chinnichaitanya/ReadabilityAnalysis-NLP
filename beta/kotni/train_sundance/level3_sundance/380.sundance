@@ -1,0 +1,367 @@
+Original : just got bigger. 
+PreProc  : just got bigger >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [got (root: get) (LEX)(V PAST)]
+
+  ADJ SEGMENT:
+    [bigger (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists recently dug up two dinosaur skeletons in China that are believed to be its oldest relatives. 
+PreProc  : Scientists recently dug up &&2 dinosaur skeletons in China that are believed to be its oldest relatives >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [dug (root: dig) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+      [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [China (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [China (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [believed (root: believe) (MOR)(V PAST(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [oldest (root: old) (MOR)(ADJ)]
+    [relatives (root: relative) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The newly discovered dinosaurs lived 160 million years agoÑabout 90 million years before means "crowned dragon" and refers to the or crown, on the dinosaurâ€™s head. 
+PreProc  : The newly discovered dinosaurs lived &&160 million years agoÑabout &&90 million years before means >DQUOTE crowned dragon >DQUOTE and refers to the or crown >COMMA on the dinosaurâ€™s head >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [discovered (root: discover) (MOR)(ADJ)]
+    [dinosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [&&160 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT (DOBJ):
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+    [agoÑabout (?)(UNK(ENTITY UNKNOWN))]
+    [&&90 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crowned (root: crown) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [dragon (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [refers (root: refer) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crown (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dinosaurâ€™s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [head (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The second word, describes the area where the fossils were found. 
+PreProc  : The second word >COMMA describes the area where the fossils were found >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [describes (root: describe) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [fossils (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was a meat eater that walked on two legs. 
+PreProc  : was a meat eater that walked on &&2 legs >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [meat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [eater (root: eat) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [meat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [eater (root: eat) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walked (root: walk) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But was tinyÑonly 10 feet longÑcompared with the 40-foot-long "We knew we had something [important]," James M. Clark, a team leader for the dig, told The discovery will help scientists learn more about the measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : But was tinyÑonly &&10 feet longÑcompared with the 40-foot-long >DQUOTE We knew we had something >LBRACKET important >RBRACKET >COMMA >DQUOTE James M. Clark >COMMA a team leader for the dig >COMMA told The discovery will help scientists learn more about the measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [tinyÑonly (INF-MOR)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [&&10 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&10 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [longÑcompared (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [40-foot-long (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knew (root: know) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [important (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [James (LEX)(N SINGULAR(HUMAN))]
+    [M. (?)(UNK(ENTITY UNKNOWN))]
+    [Clark (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+    [leader (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dig (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

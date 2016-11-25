@@ -1,0 +1,325 @@
+Original : Don't let their tiny size fool you. 
+PreProc  : DO NOT let their tiny size fool you >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [let (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [their (LEX)(ADJ)]
+    [tiny (LEX)(ADJ)]
+    [size (LEX)(N SINGULAR(OTHER))]
+    [fool (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Chipmunks are tougher than they look! 
+PreProc  : Chipmunks are tougher than they look >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chipmunks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [tougher (root: tough) (MOR)(ADJ)]
+
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists recently learned that relatives of modern-day chipmunks survived the last . 
+PreProc  : Scientists recently learned that relatives of modern-day chipmunks survived the last >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [learned (root: learn) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [relatives (root: relative) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: relatives
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [modern-day (?)(UNK(ENTITY UNKNOWN))]
+      [chipmunks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [survived (root: survive) (MOR)(V PAST)]
+
+  [the (LEX)(ART)]
+  [last (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That was a period of time when snow and ice covered much of Earth. 
+PreProc  : That was a period of time when snow and ice covered much of Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [period (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a period
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [snow (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [covered (root: cover) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: much
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The last ice age happened about 18,000 years ago. 
+PreProc  : The last ice age happened about &&18,000 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [last (LEX)(ADJ)]
+    [ice (LEX)(N SINGULAR(PHYSOBJ))]
+    [age (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happened (root: happen) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&18,000 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Until recently, scientists thought that most small animals escaped the cold by moving south to warmer areas. 
+PreProc  : Until recently >COMMA scientists thought that most small animals escaped the cold by moving south to warmer areas >PERIOD <EOS 
+CLAUSE:
+  [Until (LEX)(PREP)]
+  [recently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+    [thought (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [small (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escaped (root: escape) (MOR)(V PAST)]
+
+  [the (LEX)(ART)]
+  [cold (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [moving (root: move) (MOR)(N SINGULAR) (GER)]
+      [south (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [warmer (root: warm) (MOR)(ADJ)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, a new study shows that some chipmunks stayed in the north. 
+PreProc  : However >COMMA a new study shows that some chipmunks stayed in the north >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [chipmunks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stayed (root: stay) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the last ice age, chipmunks lived in areas of forest near the edges of ice sheets. 
+PreProc  : During the last ice age >COMMA chipmunks lived in areas of forest near the edges of ice sheets >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [last (LEX)(ADJ)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+      [age (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [chipmunks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+Following PP attaches to: areas
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [edges (root: edge) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the edges
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those areas escaped being covered by ice, say scientists. 
+PreProc  : Those areas escaped being covered by ice >COMMA say scientists >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Those (LEX)(DET)]
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+  [escaped (root: escape) (MOR)(ADJ)]
+  VP SEGMENT (PASSIVE_VERB):
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [covered (root: cover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Those (LEX)(DET)]
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

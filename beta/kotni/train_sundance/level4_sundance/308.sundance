@@ -1,0 +1,595 @@
+Original : Imagine having a twin that you didn't know existed. 
+PreProc  : Imagine having a twin that you DID NOT know existed >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Imagine (LEX)(V BASE)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [twin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [know (LEX)(V BASE)]
+    [existed (root: exist) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For Tamara Rabi and her sister, Adriana Scott, it was like a fairy tale come true. 
+PreProc  : For Tamara Rabi and her sister >COMMA Adriana Scott >COMMA it was like a fairy tale come true >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [Tamara (?)(UNK(ENTITY UNKNOWN))]
+      [Rabi (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [sister (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Adriana (?)(UNK(ENTITY UNKNOWN))]
+    [Scott (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Tamara (?)(UNK(ENTITY UNKNOWN))]
+    [Rabi (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [sister (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fairy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [tale (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fairy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [tale (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [true (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The twin girls, now 20, were adopted in Mexico by different sets of parents in the United States. 
+PreProc  : The twin girls >COMMA now &&20 >COMMA were adopted in Mexico by different sets of parents in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [twin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [now (LEX)(ADV)]
+  NP SEGMENT:
+    [&&20 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [adopted (root: adopt) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [sets (root: set) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: different sets
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As luck would have it, the girls grew up in the same area in New York and went to different colleges near each other. 
+PreProc  : As luck would have it >COMMA the girls grew up in the same area in NEW_YORK and went to different colleges near each other >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [luck (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [luck (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grew (root: grow) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [colleges (root: college) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A common friend insisted the girls were twins and put them in contact. 
+PreProc  : A common friend insisted the girls were twins and put them in contact >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [friend (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [insisted (root: insist) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [twins (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [contact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The girls exchanged e-mail messages. 
+PreProc  : The girls exchanged e-mail messages >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [exchanged (root: exchange) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [e-mail (?)(UNK(ENTITY UNKNOWN))]
+    [messages (root: message) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tamara had to do a double take when Adriana e-mailed a picture of herself. 
+PreProc  : Tamara had to do a double take when Adriana e-mailed a picture of herself >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tamara (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [double (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [double (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Adriana (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [e-mailed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [picture (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: a picture
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [herself (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The girls were stunned to learn that they each had a sister. 
+PreProc  : The girls were stunned to learn that they each had a sister >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [were (root: be) (LEX)(COP PAST)]
+    [stunned (INF-MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sister (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tamara's adoptive mother was surprised, too. 
+PreProc  : @Tamara@s adoptive mother was surprised >COMMA too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Tamara@s (LEX)(ADJ POSSESSIVE)]
+    [adoptive (?)(UNK(ENTITY UNKNOWN))]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [surprised (root: surprise) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Adriana's adoptive mother was aware that her daughter had a twin, but that was all she knew. 
+PreProc  : @Adriana@s adoptive mother was aware that her daughter had a twin >COMMA but that was all she knew >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Adriana@s (LEX)(ADJ POSSESSIVE)]
+    [adoptive (?)(UNK(ENTITY UNKNOWN))]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [aware (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [daughter (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [twin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [but (LEX)(C_M)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [twin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knew (root: know) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Besides looking alike and being the same height, the girls have a lot in common. 
+PreProc  : Besides looking alike and being the same height >COMMA the girls have a lot in common >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Besides (LEX)(PREP)]
+    NP SEGMENT:
+      [looking (root: look) (MOR)(N SINGULAR) (GER)]
+      [alike (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [looking (root: look) (MOR)(N SINGULAR) (GER)]
+    [alike (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [being (root: be) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [height (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  [in (LEX)(PREP)]
+  [common (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They love to dance, and both started lessons when they were young. 
+PreProc  : They love to dance >COMMA and both started lessons when they were young >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [love (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [dance (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [lessons (root: lesson) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [young (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Upon meeting her sister for the first time, Adriana said, "It was a shock. 
+PreProc  : Upon meeting her sister for the first time >COMMA Adriana said >COMMA >DQUOTE It was a shock >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Upon (LEX)(PREP)]
+    NP SEGMENT:
+      [meeting (LEX)(N SINGULAR(OTHER))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [sister (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Adriana (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [shock (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I saw me." 
+PreProc  : I saw me >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [saw (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

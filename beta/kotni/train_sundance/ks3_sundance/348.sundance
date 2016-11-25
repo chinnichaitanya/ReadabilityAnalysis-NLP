@@ -1,0 +1,536 @@
+Original : > Measures - Speed, distance and time Speed is worked out by dividing the distance travelled by the time taken: If you travel at 70 km in 2 hours. 
+PreProc  : >GREATER Measures >MINUS Speed >COMMA distance and time Speed is worked out by dividing the distance travelled by the time taken >COLON If you travel at &&70 km in &&2 hours >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Measures (root: measure) (MOR)(V PRESENT)]
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Speed (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [distance (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [time (LEX)(N SINGULAR(OTHER))]
+    [Speed (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+    [Speed (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [worked (root: work) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [dividing (root: divide) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [travelled (root: travel) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taken (root: take) (LEX)(V PAST)]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [&&70 (LEX)(NUM)]
+      [km (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is your average speed? 
+PreProc  : What is your average speed >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [average (LEX)(N SINGULAR(OTHER))]
+    [speed (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Speed = 70 ÷ 2 = 35 km/h The distance in km and the time in h, so the units for speed are km/h. 
+PreProc  : Speed >EQUALS &&70 ÷ &&2 >EQUALS &&35 km/h The distance in km and the time in h >COMMA so the units for speed are km/h >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Speed (LEX)(V BASE)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&70 (LEX)(NUM)]
+    [÷ (?)(UNK(ENTITY UNKNOWN))]
+    [&&2 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&35 (LEX)(NUM)]
+    [km/h (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [km (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [h (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [units (root: unit) (MOR)(N PLURAL(OTHER)) (ADJ)]
+
+  [for (LEX)(PREP)]
+  [speed (INF-LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [h (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [km/h (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you know the speed, you can work out the time or the distance by re-arranging the equation. 
+PreProc  : If you know the speed >COMMA you can work out the time or the distance by re-arranging the equation >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [speed (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [work (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+    [or (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [re-arranging (INF-MOR)(GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [equation (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : hours at an average speed of 4 miles/h. 
+PreProc  : hours at an average speed of &&4 miles/h >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [average (LEX)(N SINGULAR(OTHER))]
+      [speed (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: an average speed
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4 (LEX)(NUM)]
+      [miles/h (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How far will you have walked? 
+PreProc  : How far will you have walked >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  [far (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [walked (root: walk) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Distance = 4 × 1.5 = 6 miles Can you match Viral Vinnie's appetite for English, Maths and Science? 
+PreProc  : Distance >EQUALS &&4 × &&1.5 >EQUALS &&6 miles Can you match Viral @Vinnie@s appetite for English >COMMA Maths and Science >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Distance (LEX)(V BASE)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&4 (LEX)(NUM)]
+    [× (?)(UNK(ENTITY UNKNOWN))]
+    [&&1.5 (LEX)(NUM)]
+
+  [>EQUALS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&6 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&6 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [match (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Viral (?)(UNK(ENTITY UNKNOWN))]
+    [@Vinnie@s (LEX)(ADJ POSSESSIVE)]
+    [appetite (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [English (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Maths (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Science (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure your maths skills add up. 
+PreProc  : Make sure your maths skills add up >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

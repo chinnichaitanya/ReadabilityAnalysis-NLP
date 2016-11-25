@@ -1,0 +1,478 @@
+Original : The ice-cream industry is buzzing, and the news isn't sweet. 
+PreProc  : The ice-cream industry is buzzing >COMMA and the news IS NOT sweet >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [ice-cream (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [industry (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [buzzing (INF-MOR)(V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [sweet (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here's the scoop: Honeybees are disappearing, and scientists are not sure why. 
+PreProc  : @Here@s the scoop >COLON Honeybees are disappearing >COMMA and scientists are not sure why >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Here@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [scoop (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Honeybees (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [disappearing (root: disappear) (MOR)(V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That could be bad news for some foods, including ice cream. 
+PreProc  : That could be bad news for some foods >COMMA including ice cream >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [bad (LEX)(ADJ)]
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [including (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [ice (LEX)(N SINGULAR(PHYSOBJ))]
+    [cream (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : many plants that grow ice-cream ingredients such as strawberries and almonds. 
+PreProc  : many plants that grow ice-cream ingredients SUCH_AS strawberries and almonds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [ice-cream (?)(UNK(ENTITY UNKNOWN))]
+    [ingredients (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [strawberries (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [almonds (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To pollinate is to move from one plant to another so the plants can make fruit and seeds. 
+PreProc  : To pollinate is to move from one plant to another so the plants can make fruit and seeds >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [pollinate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [pollinate (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [seeds (root: seed) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pollen is a yellow powder. 
+PreProc  : Pollen is a yellow powder >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pollen (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [yellow (LEX)(ADJ)]
+    [powder (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Without bees to pollinate the plants, some plants can't grow fruit. 
+PreProc  : Without bees to pollinate the plants >COMMA some plants CAN NOT grow fruit >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Without (LEX)(PREP)]
+    NP SEGMENT:
+      [bees (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [pollinate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [some (LEX)(DET)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [CAN (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ice-cream maker Haagen-Dazs is concerned about the missing bees. 
+PreProc  : Ice-cream maker Haagen-Dazs is concerned about the missing bees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ice-cream (?)(UNK(ENTITY UNKNOWN))]
+    [maker (?)(UNK(ENTITY UNKNOWN))]
+    [Haagen-Dazs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [concerned (root: concern) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [missing (root: miss) (MOR)(N SINGULAR) (GER)]
+      [bees (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It uses bee-pollinated ingredients in nearly half its flavors. 
+PreProc  : It uses bee-pollinated ingredients in nearly half its flavors >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [bee-pollinated (INF-MOR)(ADJ)]
+    [ingredients (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [nearly (LEX)(ADJ) (ADV)]
+      [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [its (LEX)(ADJ)]
+      [flavors (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The company recently formed the Haagen-Dazs Loves Honey Bees campaign to raise money for honeybee research. 
+PreProc  : The company recently formed the Haagen-Dazs Loves Honey Bees campaign to raise money for honeybee research >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [formed (root: form) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Haagen-Dazs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Haagen-Dazs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Loves (root: love) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Honey (?)(UNK(ENTITY UNKNOWN))]
+    [Bees (?)(UNK(ENTITY UNKNOWN))]
+    [campaign (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [raise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [honeybee (?)(UNK(ENTITY UNKNOWN))]
+      [research (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's beyond just us and the ice-cream industry," Haagen-Dazs spokesperson Diane McIntyre told . 
+PreProc  : >DQUOTE IT IS beyond just us and the ice-cream industry >COMMA >DQUOTE Haagen-Dazs spokesperson Diane McIntyre told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [beyond (LEX)(PREP)]
+    NP SEGMENT:
+      [just (LEX)(ADJ) (ADV)]
+      [us (LEX)(N SINGULAR(HUMAN))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [ice-cream (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [industry (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Haagen-Dazs (?)(UNK(ENTITY UNKNOWN))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+    [Diane (?)(UNK(ENTITY UNKNOWN))]
+    [McIntyre (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Haagen-Dazs (?)(UNK(ENTITY UNKNOWN))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+    [Diane (?)(UNK(ENTITY UNKNOWN))]
+    [McIntyre (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Everyone likes their fruits and vegetables ... and they just wouldn't exist [without the honeybees]." 
+PreProc  : >DQUOTE Everyone likes their fruits and vegetables >ELLIPSES and they just WOULD NOT exist >LBRACKET without the honeybees >RBRACKET >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Everyone (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [likes (root: like) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [fruits (root: fruit) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [WOULD (root: will) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [exist (LEX)(V BASE)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [honeybees (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

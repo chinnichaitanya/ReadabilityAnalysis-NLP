@@ -1,0 +1,179 @@
+Original : Take a look at the students' work journals to see their idea development, sketch books and final pieces. 
+PreProc  : Take a look at the @students@ work journals to see their idea development >COMMA sketch books and final pieces >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@students@ (LEX)(ADJ POSSESSIVE)]
+      [work (LEX)(N SINGULAR(OTHER))]
+      [journals (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [development (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [sketch (LEX)(N SINGULAR(OTHER))]
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [final (LEX)(ADJ)]
+    [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Running Fence, 1972-76 by Christo and Jeanne-Claude Sandbank on the coast of Whitsunday Island by Sylvie Godard © DACS / Pompidou Museum / RMN / ADAGP Swans Reflecting Elephants, 1937 by Salvador Dali Tiger in a Tropical Storm, 1891 by Henri Rousseau The Haystacks, or The End of Summer, 1891 by Claude Monet Garden Path in Spring, 1944 by Duncan Grant 
+PreProc  : Running Fence >COMMA 1972-76 by Christo and Jeanne-Claude Sandbank on the coast of Whitsunday Island by Sylvie Godard © DACS >SLASH Pompidou Museum >SLASH RMN >SLASH ADAGP Swans Reflecting Elephants >COMMA &&1937 by Salvador Dali Tiger in a Tropical Storm >COMMA &&1891 by Henri Rousseau The Haystacks >COMMA or The End of Summer >COMMA &&1891 by Claude Monet Garden Path in Spring >COMMA &&1944 by Duncan Grant <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Running (root: run) (MOR)(GER) (N SINGULAR)]
+    [Fence (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [1972-76 (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Christo (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Jeanne-Claude (?)(UNK(ENTITY UNKNOWN))]
+      [Sandbank (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the coast
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Whitsunday (?)(UNK(ENTITY UNKNOWN))]
+      [Island (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Sylvie (?)(UNK(ENTITY UNKNOWN))]
+      [Godard (?)(UNK(ENTITY UNKNOWN))]
+      [© (?)(UNK(ENTITY UNKNOWN))]
+      [DACS (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pompidou (?)(UNK(ENTITY UNKNOWN))]
+    [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [RMN (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [ADAGP (?)(UNK(ENTITY UNKNOWN))]
+    [Swans (?)(UNK(ENTITY UNKNOWN))]
+    [Reflecting (root: reflect) (MOR)(N SINGULAR) (GER)]
+    [Elephants (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1937 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Salvador (?)(UNK(ENTITY UNKNOWN))]
+      [Dali (?)(UNK(ENTITY UNKNOWN))]
+      [Tiger (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Tropical (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Storm (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1891 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Henri (?)(UNK(ENTITY UNKNOWN))]
+      [Rousseau (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP-CONJ SEGMENT:
+    [The (LEX)(ART)]
+    [Haystacks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [The (LEX)(ART)]
+    [End (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The Haystacks >COMMA or The End
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Summer (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1891 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Claude (?)(UNK(ENTITY UNKNOWN))]
+      [Monet (?)(UNK(ENTITY UNKNOWN))]
+      [Garden (LEX)(N SINGULAR(OTHER))]
+      [Path (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Spring (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1944 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Duncan (?)(UNK(ENTITY UNKNOWN))]
+      [Grant (LEX)(N SINGULAR(OTHER))]
+
+
+  [<EOS (?)]
+

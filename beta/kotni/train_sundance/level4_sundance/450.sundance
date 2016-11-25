@@ -1,0 +1,912 @@
+Original : The bald eagle is flying high! 
+PreProc  : The bald eagle is flying high >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [flying (root: fly) (MOR)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [high (LEX)(ADJ)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This majestic bird has clawed its way back from the edge of About 40 years ago, the number of bald eagles in the United States was declining rapidly. 
+PreProc  : This majestic bird has clawed its way back from the edge of About &&40 years ago >COMMA the number of bald eagles in the UNITED_STATES was declining rapidly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [majestic (?)(UNK(ENTITY UNKNOWN))]
+    [bird (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [clawed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [edge (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the edge
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [About (LEX)(ADV)]
+      [&&40 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bald (LEX)(ADJ)]
+      [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [declining (root: decline) (MOR)(V PARTICIPLE)]
+    [rapidly (root: rapid) (MOR)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, however, the bald eagle is returning to the skies. 
+PreProc  : Today >COMMA however >COMMA the bald eagle is returning to the skies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [returning (root: return) (MOR)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [skies (root: ski) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wildlife officials hope to remove the bird from the list of threatened species by the end of the year. 
+PreProc  : Wildlife officials hope to remove the bird from the list of threatened species by the end of the year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [remove (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [list (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the list
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [threatened (root: threaten) (INF-LEX)(ADJ)]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the early 1700s, bald eagles were a common sight. 
+PreProc  : In the early 1700s >COMMA bald eagles were a common sight >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [1700s (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [sight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There were about half a million of those birds living in the United States. 
+PreProc  : There were about half a million of those birds living in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+Following PP attaches to: a million
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [birds (?)(UNK(ENTITY UNKNOWN))]
+      [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Over time, their population fell dramatically. 
+PreProc  : Over time >COMMA their population fell dramatically >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Over (LEX)(PREP)]
+    NP SEGMENT:
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fell (root: fall) (LEX)(V PAST)]
+    [dramatically (INF-MOR)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the early 1960s, very few bald eagles remained. 
+PreProc  : In the early 1960s >COMMA very few bald eagles remained >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [1960s (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [very (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [few (LEX)(ADJ)]
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remained (root: remain) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What caused the number to drop? 
+PreProc  : What caused the number to drop >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [caused (root: cause) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [drop (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hunting and the use of harmful chemicals sprayed on crops were largely to blame. 
+PreProc  : Hunting and the use of harmful chemicals sprayed on crops were largely to blame >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Hunting (INF-MOR)(GER)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Hunting and the use
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [harmful (LEX)(ADJ)]
+      [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sprayed (root: spray) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [were (root: be) (LEX)(COP PAST)]
+    [largely (root: large) (MOR)(ADV)]
+    [to (LEX)(INF)]
+    [blame (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those chemicals poisoned the birds and their eggs. 
+PreProc  : Those chemicals poisoned the birds and their eggs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [poisoned (root: poison) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [birds (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [eggs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pollution also contributed to the problem. 
+PreProc  : Pollution also contributed to the problem >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pollution (INF-MOR)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [contributed (root: contribute) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [problem (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bald eagles often became sick after eating fish from polluted waters. 
+PreProc  : Bald eagles often became sick after eating fish from polluted waters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [became (root: become) (LEX)(V PAST)]
+
+  ADJ SEGMENT:
+    [sick (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [eating (root: eat) (MOR)(N SINGULAR) (GER)]
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [polluted (INF-LEX)(ADJ)]
+      [waters (root: water) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : was being destroyed as people cut down trees to build roads and homes. 
+PreProc  : was being destroyed as people cut down trees to build roads and homes >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [destroyed (root: destroy) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [down (LEX)]
+    [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+    [and (LEX)(CONJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A habitat is a place in nature where an animal makes its home. 
+PreProc  : A habitat is a place in nature where an animal makes its home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [habitat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [nature (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although some threats still exist, the future looks hopeful for bald eagles. 
+PreProc  : Although some threats still exist >COMMA the future looks hopeful for bald eagles >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [threats (root: threat) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [still (LEX)(ADV)]
+    [exist (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [looks (root: look) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [hopeful (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [bald (LEX)(ADJ)]
+      [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, there are about 20,000 bald eagles living in the United States. 
+PreProc  : Today >COMMA there are about &&20,000 bald eagles living in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&20,000 (LEX)(NUM)]
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thanks to laws that helped protect bald eagles and banned harmful chemicals, the birds are making a comeback. 
+PreProc  : Thanks to laws that helped protect bald eagles and banned harmful chemicals >COMMA the birds are making a comeback >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Thanks (root: thank) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [laws (root: law) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [banned (root: ban) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [harmful (LEX)(ADJ)]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [birds (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [birds (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [comeback (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or protection, efforts have helped their survival. 
+PreProc  : >COMMA or protection >COMMA efforts have helped their survival >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [protection (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [efforts (root: effort) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [survival (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "There is no doubt that it is the single best conservation story the United States has had," bald eagle expert Bryan Watts told In 1782, the bald eagle was made the national bird of the United States. 
+PreProc  : >DQUOTE There is no doubt that it is the single best conservation story the UNITED_STATES has had >COMMA >DQUOTE bald eagle expert Bryan Watts told In &&1782 >COMMA the bald eagle was made the national bird of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [doubt (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [single (LEX)(ADJ)]
+    [best (LEX)(ADJ)]
+    [conservation (INF-MOR)(N(ENTITY UNKNOWN))]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Bryan (?)(UNK(ENTITY UNKNOWN))]
+    [Watts (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Bryan (?)(UNK(ENTITY UNKNOWN))]
+    [Watts (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1782 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [bald (LEX)(ADJ)]
+    [eagle (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [national (LEX)(ADJ)]
+    [bird (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the national bird
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The nation's founders chose the bird because it symbolized freedom, strength, and courage. 
+PreProc  : The @nation@s founders chose the bird because it symbolized freedom >COMMA strength >COMMA and courage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@nation@s (LEX)(ADJ POSSESSIVE)]
+    [founders (root: founder) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [chose (root: choose) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [symbolized (root: symbol) (MOR)(V PAST(OTHER))]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [freedom (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [strength (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [courage (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the time, some people disagreed about the choice for the national bird. 
+PreProc  : At the time >COMMA some people disagreed about the choice for the national bird >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [disagreed (root: disagree) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [choice (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [national (LEX)(ADJ)]
+      [bird (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Benjamin Franklin, for example, thought the turkey would make a better choice because it was "a much more respectable bird." 
+PreProc  : Benjamin Franklin >COMMA for example >COMMA thought the turkey would make a better choice because it was >DQUOTE a much more respectable bird >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Benjamin (?)(UNK(ENTITY UNKNOWN))]
+    [Franklin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [thought (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [turkey (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [turkey (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [better (LEX)(ADJ)]
+    [choice (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [more (LEX)(ADJ)]
+    [respectable (LEX)(ADJ)]
+    [bird (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

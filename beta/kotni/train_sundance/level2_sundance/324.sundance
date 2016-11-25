@@ -1,0 +1,838 @@
+Original : Is It Time For a New Toothbrush? 
+PreProc  : Is It Time For a New Toothbrush >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [Time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [New (LEX)(ADJ)]
+      [Toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your toothbrush may be too old. 
+PreProc  : Your toothbrush may be too old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [too (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [old (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dentists say you should get a new toothbrush every three months. 
+PreProc  : Dentists say you should get a new toothbrush every &&3 months >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dentists (root: dentist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT-Time:
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+    [every (LEX)(ADJ)]
+    NP SEGMENT-Time:
+      [&&3 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A new toothbrush can mean a healthier you. 
+PreProc  : A new toothbrush can mean a healthier you >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [mean (LEX)(V BASE)]
+
+  [a (LEX)(ART)]
+  [healthier (root: healthy) (MOR)(ADJ)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Did you know that old toothbrushes can be harmful? 
+PreProc  : Did you know that old toothbrushes can be harmful >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [old (LEX)(ADJ)]
+    [toothbrushes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [harmful (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Germs can build up on old toothbrushes. 
+PreProc  : Germs can build up on old toothbrushes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Germs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [build (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [old (LEX)(ADJ)]
+      [toothbrushes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you have been sick, germs can hide in your toothbrush and be passed back to you. 
+PreProc  : If you have been sick >COMMA germs can hide in your toothbrush and be passed back to you >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [sick (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [germs (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [germs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [hide (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [germs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [be (LEX)(COP)]
+    [passed (root: pass) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dentists say you should get a new toothbrush every three months. 
+PreProc  : Dentists say you should get a new toothbrush every &&3 months >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dentists (root: dentist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT-Time:
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+    [every (LEX)(ADJ)]
+    NP SEGMENT-Time:
+      [&&3 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also say a new toothbrush will help you get your teeth cleaner. 
+PreProc  : They also say a new toothbrush will help you get your teeth cleaner >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+    [cleaner (root: clean) (MOR)(ADJ) (N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dentists say you should brush for two to three minutes at least two times a day. 
+PreProc  : Dentists say you should brush for &&2 to &&3 minutes AT_LEAST &&2 times a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dentists (root: dentist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [brush (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&3 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+      [AT_LEAST (LEX)(ADJ)]
+      [&&2 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Put a pea-sized bit of toothpaste on your toothbrush. 
+PreProc  : Put a pea-sized bit of toothpaste on your toothbrush >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pea-sized (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [bit (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a pea-sized bit
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [toothpaste (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Place your brush near your gum. 
+PreProc  : Place your brush near your gum >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Place (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [brush (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [gum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gently move your brush in small circles over one tooth at a time. 
+PreProc  : Gently move your brush in small circles over one tooth at a time >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Gently (root: gentle) (MOR)(ADV)]
+    [move (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [brush (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [small (LEX)(ADJ)]
+      [circles (root: circle) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [tooth (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Move your brush across the tops of your teeth. 
+PreProc  : Move your brush across the tops of your teeth >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Move (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [brush (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tops (root: top) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the tops
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Be sure to get into the grooves. 
+PreProc  : Be sure to get into the grooves >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [sure (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [grooves (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brush your tongue lightly. 
+PreProc  : Brush your tongue lightly >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Brush (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [tongue (LEX)(N SINGULAR(OTHER))]
+
+  [lightly (root: light) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then rinse your mouth with water. 
+PreProc  : Then rinse your mouth with water >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [rinse (?)(UNK(ENTITY UNKNOWN))]
+    [your (LEX)(ADJ)]
+    [mouth (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Floss your teeth. 
+PreProc  : Floss your teeth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Floss (?)(UNK(ENTITY UNKNOWN))]
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Slide the f loss between teeth slowly. 
+PreProc  : Slide the f loss between teeth slowly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Slide (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [f (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [slowly (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you need help, ask a grown-up. 
+PreProc  : If you need help >COMMA ask a grown-up >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [help (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ask (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [grown-up (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is it time for a new toothbrush? 
+PreProc  : Is it time for a new toothbrush >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After you use your toothbrush, rinse it well and shake out the water. 
+PreProc  : After you use your toothbrush >COMMA rinse it well and shake out the water >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [rinse (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shake (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Stand your toothbrush up so it can dry. 
+PreProc  : Stand your toothbrush up so it can dry >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Stand (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [up (LEX)(PART) (PREP)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  ADJ SEGMENT:
+    [dry (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Be sure it does not touch other toothbrushes. 
+PreProc  : Be sure it does not touch other toothbrushes >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [sure (LEX)(ADJ)]
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [touch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [toothbrushes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Germs can pass from one toothbrush to another. 
+PreProc  : Germs can pass from one toothbrush to another >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Germs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [pass (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Get a new toothbrush. 
+PreProc  : Get a new toothbrush >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Replace it at the beginning of winter, spring, summer, and fall. 
+PreProc  : Replace it at the beginning of winter >COMMA spring >COMMA summer >COMMA and fall >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Replace (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+
+Following PP attaches to: the beginning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [winter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [spring (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+Following PP attaches to: the beginning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [winter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fall (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is it time for you to get a new toothbrush? 
+PreProc  : Is it time for you to get a new toothbrush >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is It Time for a New Toothbrush? 
+PreProc  : Is It Time for a New Toothbrush >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [Time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [New (LEX)(ADJ)]
+      [Toothbrush (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,460 @@
+Original : has reported on amazing kids. 
+PreProc  : has reported on amazing kids >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [reported (root: report) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [amazing (INF-MOR)(GER)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here's a story about an amazing delivery. 
+PreProc  : @Here@s a story about an amazing delivery >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Here@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [amazing (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [delivery (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tommy Davidson's family was expecting a baby. 
+PreProc  : Tommy @Davidson@s family was expecting a baby >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+    [@Davidson@s (LEX)(ADJ POSSESSIVE)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [expecting (root: expect) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They weren't expecting the baby's birthday to turn out as it did. 
+PreProc  : They WERE NOT expecting the @baby@s birthday to turn out as it did >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WERE (root: be) (LEX)(COP PAST)]
+    [NOT (LEX)(ADV)]
+    [expecting (root: expect) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@baby@s (LEX)(ADJ POSSESSIVE)]
+    [birthday (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [turn (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On March 7, Tommy's dad left the family's house in Michigan to pick up an aunt to watch the children so he could take Tommy's mother to the hospital. 
+PreProc  : On March &&7 >COMMA @Tommy@s dad left the @family@s house in Michigan to pick up an aunt to watch the children so he could take @Tommy@s mother to the hospital >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [March (LEX)(N SINGULAR(MONTH))]
+      [&&7 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [dad (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [left (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@family@s (LEX)(ADJ POSSESSIVE)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Michigan (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [pick (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [aunt (LEX)(N SINGULAR(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [watch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [hospital (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tommy, age 8, and Malik, age 2, waited at home with their mother. 
+PreProc  : Tommy >COMMA age &&8 >COMMA and Malik >COMMA age &&2 >COMMA waited at home with their mother >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&8 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Malik (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [waited (root: wait) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [mother (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Shortly after Tommy's dad left the house, Tommy's mom told him the baby was coming. 
+PreProc  : Shortly after @Tommy@s dad left the house >COMMA @Tommy@s mom told him the baby was coming >PERIOD <EOS 
+CLAUSE:
+  [Shortly (root: short) (MOR)(ADV)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+      [dad (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [dad (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [left (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [mom (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [mom (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [coming (root: come) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tommy picked up his family's cordless phone and dialed 911. 
+PreProc  : Tommy picked up his @family@s cordless phone and dialed &&911 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [picked (root: pick) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [@family@s (LEX)(ADJ POSSESSIVE)]
+      [cordless (?)(UNK(ENTITY UNKNOWN))]
+      [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dialed (root: dial) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&911 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He told the operator that his mother was having a baby. 
+PreProc  : He told the operator that his mother was having a baby >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [operator (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The emergency operator and Tommy's mother told Tommy how to deliver the baby. 
+PreProc  : The emergency operator and @Tommy@s mother told Tommy how to deliver the baby >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [emergency (LEX)(N SINGULAR(OTHER))]
+    [operator (LEX)(N SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [@Tommy@s (LEX)(ADJ POSSESSIVE)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [deliver (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After the baby was born, Tommy used a shoelace from one of his shoes to tie off the baby's umbilical cord. 
+PreProc  : After the baby was born >COMMA Tommy used a shoelace from one of his shoes to tie off the @baby@s umbilical cord >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [baby (LEX)(N SINGULAR(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [born (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tommy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [shoelace (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [tie (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@baby@s (LEX)(ADJ POSSESSIVE)]
+      [umbilical (?)(UNK(ENTITY UNKNOWN))]
+      [cord (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,910 @@
+Original : is located off the coast of Key Largo, Florida. 
+PreProc  : is located off the coast of Key Largo >COMMA Florida >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the coast
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Key (LEX)(ADJ) (N SINGULAR(PHYSOBJ))]
+      [Largo (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Florida (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Astronauts are diving into a new kind of mission. 
+PreProc  : Astronauts are diving into a new kind of mission >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Astronauts (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [diving (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a new kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [mission (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their special voyage is taking them more than 60 feet beneath the ocean's surface. 
+PreProc  : Their special voyage is taking them MORE_THAN &&60 feet beneath the @ocean@s surface >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [special (LEX)(ADJ)]
+    [voyage (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [taking (root: take) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&60 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [beneath (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@ocean@s (LEX)(ADJ POSSESSIVE)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The astronauts--called "aquanauts"--are training for space missions in an underwater laboratory called . 
+PreProc  : The astronauts >DASH called >DQUOTE aquanauts >DQUOTE >DASH are training for space missions in an underwater laboratory called >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [astronauts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>DASH (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [aquanauts (?)(UNK(ENTITY UNKNOWN))]
+
+  [>DASH (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [aquanauts (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [training (root: train) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+      [missions (root: mission) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [underwater (LEX)(ADJ)]
+      [laboratory (LEX)(N SINGULAR(BUILDING))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [underwater (LEX)(ADJ)]
+    [laboratory (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The lab rests on the ocean floor off the coast of Florida. 
+PreProc  : The lab rests on the ocean floor off the coast of Florida >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [lab (LEX)(N SINGULAR(BUILDING))]
+    [rests (root: rest) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+      [floor (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the coast
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Florida (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The latest ocean mission began October 11, when three astronauts and a doctor from Canada took the plunge. 
+PreProc  : The latest ocean mission began October &&11 >COMMA when &&3 astronauts and a doctor from Canada took the plunge >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [latest (LEX)(ADJ)]
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [mission (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT-Time:
+    [October (LEX)(N SINGULAR(MONTH))]
+    [&&11 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [astronauts (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [doctor (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [plunge (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The crew's job includes testing medical equipment that may be used to treat astronauts when they get sick in space. 
+PreProc  : The @crew@s job includes testing medical equipment that may be used to treat astronauts when they get sick in space >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@crew@s (LEX)(ADJ POSSESSIVE)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [includes (root: include) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [testing (root: test) (MOR)(N SINGULAR) (GER)]
+    [medical (LEX)(ADJ)]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [testing (root: test) (MOR)(N SINGULAR) (GER)]
+    [medical (LEX)(ADJ)]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [treat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [astronauts (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [sick (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The journey marks the seventh mission the U.S. space agency, NASA, has made to . 
+PreProc  : The journey marks the seventh mission the U.S. space agency >COMMA NASA >COMMA has made to >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [seventh (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [mission (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [space (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [agency (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [NASA (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [made (root: make) (LEX)(V PAST)]
+
+  [to (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 10-day mission is referred to as NEEMO 7 (NASA Extreme Environment Mission Operations). 
+PreProc  : The 10-day mission is referred to as NEEMO &&7 >LPAREN NASA Extreme Environment Mission Operations >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [10-day (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [mission (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [referred (root: refer) (MOR)(V PAST)]
+
+  [to (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [NEEMO (?)(UNK(ENTITY UNKNOWN))]
+      [&&7 (LEX)(NUM)]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [NASA (?)(UNK(ENTITY UNKNOWN))]
+    [Extreme (LEX)(ADJ)]
+    [Environment (LEX)(N SINGULAR(OTHER))]
+    [Mission (LEX)(N SINGULAR(OTHER))]
+    [Operations (root: operation) (MOR)(N PLURAL(OTHER))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Astronauts are using the underwater lab to learn what it may be like to live and work in space. 
+PreProc  : Astronauts are using the underwater lab to learn what it may be like to live and work in space >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Astronauts (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [underwater (LEX)(ADJ)]
+    [lab (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [work (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are preparing for extreme environments, such as the moon and the planet Mars. 
+PreProc  : They are preparing for extreme environments >COMMA SUCH_AS the moon and the planet Mars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [preparing (root: prepare) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [extreme (LEX)(ADJ)]
+      [environments (root: environment) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+      [Mars (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The conditions underwater are similar to those in space. 
+PreProc  : The conditions underwater are similar to those in space >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [conditions (root: condition) (MOR)(N PLURAL(OTHER))]
+
+  [underwater (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [similar (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The goal of this latest voyage, or , is to learn how to treat patients in space from a distance. 
+PreProc  : The goal of this latest voyage >COMMA or >COMMA is to learn how to treat patients in space from a distance >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The goal
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [latest (LEX)(ADJ)]
+      [voyage (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [treat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [patients (root: patient) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [distance (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Part of the underwater mission involves performing robotic surgery on a fake patient. 
+PreProc  : Part of the underwater mission involves performing robotic surgery on a fake patient >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [underwater (LEX)(ADJ)]
+      [mission (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [involves (root: involve) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [performing (root: perform) (MOR)(N SINGULAR) (GER)]
+    [robotic (?)(UNK(ENTITY UNKNOWN))]
+    [surgery (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [fake (LEX)(ADJ)]
+      [patient (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Doctors on land have guided the astronauts through the procedure. 
+PreProc  : Doctors on land have guided the astronauts through the procedure >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [land (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [guided (root: guide) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [astronauts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [procedure (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why is exploring this technology important? 
+PreProc  : Why is exploring this technology important >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [exploring (root: explore) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [technology (LEX)(N SINGULAR(OTHER))]
+
+  [important (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Astronauts navigating between planets won't be able to turn around and come home when someone gets sick," said NEEMO's project manager, Bill Todd, "and this undersea mission will help us [respond to medical emergencies in space]." 
+PreProc  : >DQUOTE Astronauts navigating between planets WILL NOT be able to turn around and come home when someone gets sick >COMMA >DQUOTE said @NEEMO@s project manager >COMMA Bill Todd >COMMA >DQUOTE and this undersea mission will help us >LBRACKET respond to medical emergencies in space >RBRACKET >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Astronauts (?)(UNK(ENTITY UNKNOWN))]
+    [navigating (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [turn (LEX)(V BASE)]
+
+  [around (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Astronauts (?)(UNK(ENTITY UNKNOWN))]
+    [navigating (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gets (root: get) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [sick (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [@NEEMO@s (LEX)(ADJ POSSESSIVE)]
+    [project (LEX)(N SINGULAR(OTHER))]
+    [manager (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Todd (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [this (LEX)(DET)]
+    [undersea (?)(UNK(ENTITY UNKNOWN))]
+    [mission (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [undersea (?)(UNK(ENTITY UNKNOWN))]
+    [mission (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [respond (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [medical (LEX)(ADJ)]
+      [emergencies (root: emergency) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the only underwater training center and research laboratory of its kind. 
+PreProc  : is the only underwater training center and research laboratory of its kind >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [underwater (LEX)(ADJ)]
+    [training (root: train) (MOR)(N SINGULAR) (GER)]
+    [center (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [research (LEX)(N SINGULAR(OTHER))]
+    [laboratory (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: the only underwater training center and research laboratory
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The astronauts live, sleep, and work there. 
+PreProc  : The astronauts live >COMMA sleep >COMMA and work there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [astronauts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [astronauts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sleep (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [astronauts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [work (LEX)(V BASE)]
+    [there (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The lab, which is 45 feet long, has some of the comforts of home. 
+PreProc  : The lab >COMMA which is &&45 feet long >COMMA has some of the comforts of home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [lab (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&45 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [lab (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [comforts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the comforts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is equipped with bunks, a shower, computers, and even a refrigerator and microwave. 
+PreProc  : is equipped with bunks >COMMA a shower >COMMA computers >COMMA and even a refrigerator and microwave >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [equipped (root: equip) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [bunks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [shower (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [computers (root: computer) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [even (LEX)(ADV)]
+  NP-CONJ SEGMENT:
+    [a (LEX)(ART)]
+    [refrigerator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [microwave (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Plus it has an ocean view! 
+PreProc  : Plus it has an ocean view >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Plus (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [view (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

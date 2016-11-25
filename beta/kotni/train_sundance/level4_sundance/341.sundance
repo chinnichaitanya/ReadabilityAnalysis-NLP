@@ -1,0 +1,792 @@
+Original : When you think of a museum, what comes to mind? 
+PreProc  : When you think of a museum >COMMA what comes to mind >QUESTION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+Following PP attaches to: think
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [comes (root: come) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [mind (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You may think of science and art, but what about PEZ? 
+PreProc  : You may think of science and art >COMMA but what about PEZ >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [think (LEX)(V BASE)]
+
+Following PP attaches to: may think
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [science (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [art (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [PEZ (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's right, PEZ, the bite-size candies that fit neatly inside colorful dispensers. 
+PreProc  : THAT IS right >COMMA PEZ >COMMA the bite-size candies that fit neatly inside colorful dispensers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bite-size (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [candies (root: candy) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [bite-size (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [candies (root: candy) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fit (LEX)(V BASE)]
+    [neatly (root: neat) (MOR)(ADV)]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [colorful (LEX)(ADJ)]
+      [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A new PEZ museum recently opened in Easton, Pennsylvania. 
+PreProc  : A new PEZ museum recently opened in Easton >COMMA Pennsylvania >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [museum (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [opened (root: open) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Easton (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Pennsylvania (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's the third PEZ museum in the country to display the famous candy dispensers. 
+PreProc  : IT IS the third PEZ museum in the country to display the famous candy dispensers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [museum (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [display (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [famous (LEX)(ADJ)]
+    [candy (LEX)(N SINGULAR(PHYSOBJ))]
+    [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you're looking for a popular character, chances are you'll find it here! 
+PreProc  : If YOU ARE looking for a popular character >COMMA chances are YOU WILL find it here >EXCLAMATION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [looking (root: look) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [character (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [chances (root: chance) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [chances (root: chance) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [here (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The museum is home to 1,500 PEZ dispensers, from SpongeBob SquarePants and Charlie Brown to Garfield and Santa Claus. 
+PreProc  : The museum is home to &&1,500 PEZ dispensers >COMMA from SpongeBob SquarePants and Charlie Brown to Garfield and Santa Claus >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1,500 (LEX)(NUM)]
+      [PEZ (?)(UNK(ENTITY UNKNOWN))]
+      [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [SpongeBob (?)(UNK(ENTITY UNKNOWN))]
+      [SquarePants (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Charlie (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [Brown (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Garfield (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Santa (?)(UNK(ENTITY UNKNOWN))]
+      [Claus (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In addition, Disney-themed PEZ dispensers are displayed in a 10-foot-high castle. 
+PreProc  : In addition >COMMA Disney-themed PEZ dispensers are displayed in a 10-foot-high castle >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [addition (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [addition (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Disney-themed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [displayed (root: display) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [10-foot-high (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [castle (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Visitors can even play a "Where in the World Is Waldo?" 
+PreProc  : Visitors can even play a >DQUOTE Where in the World Is Waldo >QUESTION >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [even (LEX)(ADV)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Where (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Waldo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : game on a wall display of more than 500 dispensers. 
+PreProc  : game on a wall display of MORE_THAN &&500 dispensers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [game (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [wall (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [display (LEX)(V BASE)]
+
+Following PP attaches to: display
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&500 (LEX)(NUM)]
+      [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The museum also has some rare PEZ dispensers that are very valuable. 
+PreProc  : The museum also has some rare PEZ dispensers that are very valuable >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [rare (LEX)(ADJ)]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [rare (LEX)(ADJ)]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [valuable (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A baseball bat, ball, and glove PEZ dispenser from the 1960s sells for about $400! 
+PreProc  : A baseball bat >COMMA ball >COMMA and glove PEZ dispenser from the 1960s sells for about >DOLLAR &&400 >EXCLAMATION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [glove (?)(UNK(ENTITY UNKNOWN))]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [dispenser (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1960s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sells (root: sell) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)]
+      [>DOLLAR (LEX)(ADJ)]
+      [&&400 (LEX)(NUM)]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many children and adults get excited over the plastic PEZ dispensers. 
+PreProc  : Many children and adults get excited over the plastic PEZ dispensers >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [adults (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [excited (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [plastic (LEX)(N SINGULAR(OTHER))]
+      [PEZ (?)(UNK(ENTITY UNKNOWN))]
+      [dispensers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "For me it combines the two favorite elements of childhood... toys and candy," said Jill Cohen, an adult PEZ collector. 
+PreProc  : >DQUOTE For me it combines the &&2 favorite elements of childhood >ELLIPSES toys and candy >COMMA >DQUOTE said Jill Cohen >COMMA an adult PEZ collector >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [me (LEX)(PN SINGULAR(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [combines (root: combine) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [favorite (LEX)(ADJ)]
+    [elements (root: element) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the &&2 favorite elements
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [childhood (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [toys (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [candy (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Jill (?)(UNK(ENTITY UNKNOWN))]
+    [Cohen (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [adult (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [collector (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the Connecticut company that makes PEZ, Americans consume a lot of the tiny candy. 
+PreProc  : According to the Connecticut company that makes PEZ >COMMA Americans consume a lot of the tiny candy >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Connecticut (LEX)(N SINGULAR(LOCATION))]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Connecticut (LEX)(N SINGULAR(LOCATION))]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [consume (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tiny (LEX)(ADJ)]
+      [candy (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 3 billion PEZ candies are eaten each year in the United States! 
+PreProc  : MORE_THAN &&3 billion PEZ candies are eaten each year in the UNITED_STATES >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [billion (LEX)(N SINGULAR(DENOMINATION))]
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+    [candies (root: candy) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [eaten (?)(UNK(ENTITY UNKNOWN))]
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The candy traces its roots back to 1927. 
+PreProc  : The candy traces its roots back to &&1927 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [candy (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traces (root: trace) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [roots (root: root) (MOR)(N PLURAL(OTHER))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1927 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was invented in the European country of Austria as a mint to help people quit smoking. 
+PreProc  : It was invented in the European country of Austria as a mint to help people quit smoking >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [invented (root: invent) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [European (LEX)(ADJ)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the European country
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Austria (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [mint (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [quit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [smoking (root: smoke) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So how exactly did the candy get its name? 
+PreProc  : So how exactly did the candy get its name >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [So (LEX)(ADV)]
+    [how (LEX)(ADV)]
+    [exactly (LEX)(ADV)]
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [candy (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [candy (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : PEZ is derived from the word measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : PEZ is derived from the word measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [PEZ (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [derived (root: derive) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [word (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [measures (root: measure) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [published (root: publish) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

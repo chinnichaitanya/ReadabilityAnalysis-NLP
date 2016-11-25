@@ -1,0 +1,917 @@
+Original : Iraq is a country in the Middle East. 
+PreProc  : Iraq is a country in the Middle East >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Middle (LEX)(N SINGULAR(OTHER))]
+      [East (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If the animals at a Baghdad zoo could talk, they would have a lot to say. 
+PreProc  : If the animals at a Baghdad zoo could talk >COMMA they would have a lot to say >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [Baghdad (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [zoo (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [talk (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When a war began in March, their home turned into a battlefield. 
+PreProc  : When a war began in March >COMMA their home turned into a battlefield >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [March (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [their (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [turned (root: turn) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [battlefield (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Before the war, there were 650 animals. 
+PreProc  : >DQUOTE Before the war >COMMA there were &&650 animals >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Before (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&650 (LEX)(NUM)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Afterward, just 13 remained," said the zoo director. 
+PreProc  : Afterward >COMMA just &&13 remained >COMMA >DQUOTE said the zoo director >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afterward (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [just (LEX)(ADJ) (ADV)]
+    [&&13 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remained (root: remain) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afterward (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+    [director (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many of the animals died. 
+PreProc  : Many of the animals died >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [died (root: die) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Others escaped or were stolen. 
+PreProc  : Others escaped or were stolen >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escaped (root: escape) (MOR)(V PAST)]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [stolen (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The animals that survived were starving and sick. 
+PreProc  : The animals that survived were starving and sick >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [survived (root: survive) (MOR)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [starving (root: starve) (MOR)(V PARTICIPLE)]
+
+  [and (LEX)(CONJ)]
+  [sick (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many of their cages were damaged. 
+PreProc  : Many of their cages were damaged >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [cages (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [damaged (root: damage) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When wildlife groups found out, they offered a helping hand. 
+PreProc  : When wildlife groups found out >COMMA they offered a helping hand >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [groups (root: group) (MOR)(V PRESENT)]
+    [found (root: find) (LEX)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [offered (root: offer) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [helping (root: help) (MOR)(N SINGULAR) (GER)]
+    [hand (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The groups donated money, medicine, and food. 
+PreProc  : The groups donated money >COMMA medicine >COMMA and food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [donated (root: donate) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+    [>COMMA (LEX)(PUNC)]
+    [medicine (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those efforts helped return the animals to good health. 
+PreProc  : Those efforts helped return the animals to good health >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [efforts (root: effort) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [return (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [health (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, the zoo is home to about 80 animals. 
+PreProc  : Today >COMMA the zoo is home to about &&80 animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&80 (LEX)(NUM)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They include lions, monkeys, and bears. 
+PreProc  : They include lions >COMMA monkeys >COMMA and bears >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [lions (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [monkeys (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bears (root: bear) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. soldiers now guard the zoo to protect the animals. 
+PreProc  : U.S. soldiers now guard the zoo to protect the animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [soldiers (root: soldier) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [now (LEX)(ADV)]
+    [guard (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Location: Iraq is a country located in Asia. 
+PreProc  : Location >COLON Iraq is a country located in Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Location (LEX)(N SINGULAR(LOCATION))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is in an area known as the Middle East. 
+PreProc  : It is in an area known as the Middle East >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [an (LEX)(ART)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Middle (LEX)(N SINGULAR(OTHER))]
+      [East (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Language: Most of the people in Iraq are Arabs. 
+PreProc  : Language >COLON Most of the people in Iraq are Arabs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Language (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Arabs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They speak Arabic, the official language of Iraq. 
+PreProc  : They speak Arabic >COMMA the official language of Iraq >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Arabic (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [official (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [language (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the official language
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In July, the zoo reopened its doors to visitors. 
+PreProc  : In July >COMMA the zoo reopened its doors to visitors >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [July (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reopened (root: open) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [doors (root: door) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To the people of Iraq, the zoo is a welcome sight. 
+PreProc  : To the people of Iraq >COMMA the zoo is a welcome sight >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the people
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [welcome (LEX)(ADJ)]
+    [sight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I've been mostly inside the house for the last few months," said an 11-year-old girl in Iraq. 
+PreProc  : >DQUOTE I HAVE been mostly inside the house for the last few months >COMMA >DQUOTE said an 11-year-old girl in Iraq >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [mostly (root: most) (MOR)(ADV)]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [house (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [last (LEX)(ADJ)]
+      [few (LEX)(ADJ)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [11-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [girl (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I missed things like this." 
+PreProc  : >DQUOTE I missed things like this >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [missed (root: miss) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people think the zoo brings hope for Iraq. 
+PreProc  : Many people think the zoo brings hope for Iraq >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [brings (root: bring) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "There's a war going on around us, but here, everything is going well," said one rescue worker. 
+PreProc  : >DQUOTE THERE IS a war going on around us >COMMA but here >COMMA everything is going well >COMMA >DQUOTE said one rescue worker >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THERE (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  [on (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [us (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  [here (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [rescue (LEX)(N SINGULAR(OTHER))]
+    [worker (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's an island of peace in a war zone." 
+PreProc  : >DQUOTE IT IS an island of peace in a war zone >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [island (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: an island
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [peace (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [war (LEX)(N SINGULAR(OTHER))]
+      [zone (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A smaller group of people in Iraq are Kurds. 
+PreProc  : A smaller group of people in Iraq are Kurds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [smaller (root: small) (MOR)(ADJ)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A smaller group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Kurds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most Kurds speak Kurdish. 
+PreProc  : Most Kurds speak Kurdish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Kurds (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kurdish (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How does the zoo bring hope to the people of Iraq? 
+PreProc  : How does the zoo bring hope to the people of Iraq >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [zoo (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bring (LEX)(V BASE)]
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the people
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

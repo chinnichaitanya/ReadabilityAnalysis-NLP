@@ -1,0 +1,347 @@
+Original : In 1971, President Richard Nixon set aside the third Monday in February as Presidents' Day. 
+PreProc  : In &&1971 >COMMA President Richard Nixon set aside the third Monday in February as @Presidents@ Day >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1971 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Richard (?)(UNK(ENTITY UNKNOWN))]
+    [Nixon (?)(UNK(ENTITY UNKNOWN))]
+    [set (LEX)(N SINGULAR(OTHER))]
+    [aside (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [Monday (LEX)(N SINGULAR(DAY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [February (LEX)(N SINGULAR(MONTH))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [@Presidents@ (LEX)(ADJ POSSESSIVE)]
+      [Day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This day is meant to honor the birthdays of President Abraham Lincoln (February 12) and President George Washington (February 22). 
+PreProc  : This day is meant to honor the birthdays of President Abraham Lincoln >LPAREN February &&12 >RPAREN and President George Washington >LPAREN February &&22 >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [meant (root: mean) (LEX)(V PAST)]
+    [to (LEX)(INF)]
+    [honor (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [birthdays (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the birthdays
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [President (LEX)(N SINGULAR(HUMAN))]
+      [Abraham (?)(UNK(ENTITY UNKNOWN))]
+      [Lincoln (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT-Time:
+    [February (LEX)(N SINGULAR(MONTH))]
+    [&&12 (LEX)(NUM)]
+
+  [>RPAREN (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT-Location:
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT-Time:
+    [February (LEX)(N SINGULAR(MONTH))]
+    [&&22 (LEX)(NUM)]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some people observe the birthdays of all past presidents of the United States on Presidents' Day. 
+PreProc  : Some people observe the birthdays of all past presidents of the UNITED_STATES on @Presidents@ Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [observe (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [birthdays (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the birthdays
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: all past presidents
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [@Presidents@ (LEX)(ADJ POSSESSIVE)]
+      [Day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, Presidents' Day is February 19. 
+PreProc  : This year >COMMA @Presidents@ Day is February &&19 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [@Presidents@ (LEX)(ADJ POSSESSIVE)]
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Time:
+    [February (LEX)(N SINGULAR(MONTH))]
+    [&&19 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Including President George W. Bush, 42 people have been president of the United States. 
+PreProc  : Including President George W. Bush >COMMA &&42 people have been president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Including (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&42 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&42 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (President Grover Cleveland served two separate terms. 
+PreProc  : >LPAREN President Grover Cleveland served &&2 separate terms >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Grover (?)(UNK(ENTITY UNKNOWN))]
+    [Cleveland (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [served (root: serve) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [separate (LEX)(V BASE)]
+    [terms (root: term) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is counted as the 22nd and 24th president.) That means that the birthdays of 42 presidents can be remembered on Presidents' Day. 
+PreProc  : He is counted as the 22nd and 24th president >PERIOD >RPAREN That means that the birthdays of &&42 presidents can be remembered on @Presidents@ Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [counted (root: count) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [22nd (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [24th (?)(UNK(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [That (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [birthdays (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the birthdays
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&42 (LEX)(NUM)]
+      [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [remembered (root: remember) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [@Presidents@ (LEX)(ADJ POSSESSIVE)]
+      [Day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : President Bush was born on July 6, 1946. 
+PreProc  : President Bush was born on July &&6 >COMMA &&1946 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [born (LEX)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [July (LEX)(N SINGULAR(MONTH))]
+      [&&6 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1946 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You may send him a birthday card to All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : You may send him a birthday card to All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [send (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [birthday (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [card (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

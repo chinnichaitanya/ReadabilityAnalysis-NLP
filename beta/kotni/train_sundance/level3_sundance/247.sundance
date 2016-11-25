@@ -1,0 +1,356 @@
+Original : Wildlife experts have a reason to cheer. 
+PreProc  : Wildlife experts have a reason to cheer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [cheer (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A recent report says that the number of bald eagles in Maryland is soaring. 
+PreProc  : A recent report says that the number of bald eagles in Maryland is soaring >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [recent (LEX)(ADJ)]
+    [report (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bald (LEX)(ADJ)]
+      [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Maryland (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [soaring (root: soar) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, many states are reporting the same good news. 
+PreProc  : In fact >COMMA many states are reporting the same good news >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [reporting (root: report) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Forty years ago, bald eagles were in danger of disappearing in the United States. 
+PreProc  : Forty years ago >COMMA bald eagles were in danger of disappearing in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Forty (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [danger (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: danger
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [disappearing (root: disappear) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Chemicals used for farming were to blame, say experts. 
+PreProc  : Chemicals used for farming were to blame >COMMA say experts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [farming (root: farm) (MOR)(N SINGULAR) (GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [farming (root: farm) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [were (root: be) (LEX)(COP PAST)]
+    [to (LEX)(INF)]
+    [blame (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [farming (root: farm) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Farmers are no longer allowed to use those chemicals. 
+PreProc  : Farmers are NO_LONGER allowed to use those chemicals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [NO_LONGER (LEX)(ADV)]
+    [allowed (root: allow) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say that is the main reason there are more bald eagles alive today. 
+PreProc  : Experts say that is the main reason there are more bald eagles alive today >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [there (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [more (LEX)(ADJ)]
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+    [alive (LEX)(ADJ)]
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The recovery started slowly and then has increased in leaps and bounds since the 1990s," said one scientist. 
+PreProc  : >DQUOTE The recovery started slowly and then has increased in leaps and bounds since the 1990s >COMMA >DQUOTE said one scientist >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [recovery (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+    [slowly (LEX)(ADV)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [recovery (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [increased (root: increase) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [leaps (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [bounds (root: bound) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1990s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [recovery (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 1977, only 200 bald eagles lived in Maryland. 
+PreProc  : In &&1977 >COMMA only &&200 bald eagles lived in Maryland >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1977 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [only (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [&&200 (LEX)(NUM)]
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Maryland (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today more than 2,000 bald eagles live there! 
+PreProc  : Today MORE_THAN &&2,000 bald eagles live there >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+    [MORE_THAN (LEX)(ADJ)]
+    [&&2,000 (LEX)(NUM)]
+    [bald (LEX)(ADJ)]
+    [eagles (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  [there (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

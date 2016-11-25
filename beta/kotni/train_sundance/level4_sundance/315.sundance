@@ -1,0 +1,911 @@
+Original : One mountaineer set his sights high. 
+PreProc  : One mountaineer set his sights high >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [mountaineer (?)(UNK(ENTITY UNKNOWN))]
+    [set (LEX)(N SINGULAR(OTHER))]
+    [his (LEX)(ADJ)]
+    [sights (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [high (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Keegan Reilly is a (par-ah-PLEE-jik) who climbed to the top of Mount Fuji, Japan's tallest peak, in early September. 
+PreProc  : Keegan Reilly is a >LPAREN par-ah-PLEE-jik >RPAREN who climbed to the top of Mount Fuji >COMMA @Japan@s tallest peak >COMMA in early September >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Keegan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [par-ah-PLEE-jik (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Keegan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [climbed (root: climb) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Fuji (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [@Japan@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [tallest (root: tall) (MOR)(ADJ)]
+    [peak (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [September (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 22-year-old man from Alaska lost the use of his legs seven years ago in a car accident. 
+PreProc  : The 22-year-old man from Alaska lost the use of his legs &&7 years ago in a car accident >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [22-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [man (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the use
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+      [&&7 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [car (LEX)(N SINGULAR(VEHICLE))]
+      [accident (LEX)(N SINGULAR(EVENT))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is believed to be the first paraplegic to climb Mount Fuji. 
+PreProc  : He is believed to be the first paraplegic to climb Mount Fuji >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [believed (root: believe) (MOR)(V PAST(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [paraplegic (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [paraplegic (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Fuji (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I want to show people what I am able to do," Reilly said from the top of Mount Fuji. 
+PreProc  : >DQUOTE I want to show people what I am able to do >COMMA >DQUOTE Reilly said from the top of Mount Fuji >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [show (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Fuji (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Maybe it will inspire them." 
+PreProc  : >DQUOTE Maybe it will inspire them >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  [Maybe (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [inspire (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How exactly did he make his climb? 
+PreProc  : How exactly did he make his climb >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [exactly (LEX)(ADV)]
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [climb (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reilly used a special bike that he powered with his arms. 
+PreProc  : Reilly used a special bike that he powered with his arms >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [bike (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [powered (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [arms (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reilly traveled with a support team of eight people and reached the , or peak, of the mountain within four days. 
+PreProc  : Reilly traveled with a support team of &&8 people and reached the >COMMA or peak >COMMA of the mountain within &&4 days >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [support (LEX)(N SINGULAR(OTHER))]
+      [team (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a support team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&8 (LEX)(NUM)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [support (LEX)(N SINGULAR(OTHER))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a support team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&8 (LEX)(NUM)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reached (root: reach) (MOR)(V PAST)]
+
+  [the (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [peak (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: peak
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [mountain (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [within (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4 (LEX)(NUM)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The climb normally takes about six hours. 
+PreProc  : The climb normally takes about &&6 hours >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [climb (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [normally (LEX)(ADV)]
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&6 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reilly's journey, however, was not without obstacles. 
+PreProc  : @Reilly@s journey >COMMA however >COMMA was not without obstacles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Reilly@s (LEX)(ADJ POSSESSIVE)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [obstacles (root: obstacle) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His team was stopped by a park ranger who said mountain bikes weren't allowed on the trail. 
+PreProc  : His team was stopped by a park ranger who said mountain bikes WERE NOT allowed on the trail >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [stopped (root: stop) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [park (LEX)(N SINGULAR(LOCATION))]
+      [ranger (root: rang) (MOR)(N SINGULAR)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+    [ranger (root: rang) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+    [bikes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [WERE (root: be) (LEX)(COP PAST)]
+    [NOT (LEX)(ADV)]
+    [allowed (root: allow) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [trail (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They managed to persuade the park ranger to allow them to continue their journey. 
+PreProc  : They managed to persuade the park ranger to allow them to continue their journey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [managed (root: manage) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [persuade (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+    [ranger (root: rang) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [allow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [continue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although Reilly's bike was built to climb rocks, the trail was covered with volcanic ash and gravel, making for a difficult ride. 
+PreProc  : Although @Reilly@s bike was built to climb rocks >COMMA the trail was covered with volcanic ash and gravel >COMMA making for a difficult ride >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [@Reilly@s (LEX)(ADJ POSSESSIVE)]
+    [bike (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [built (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rocks (root: rock) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [trail (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [trail (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [covered (root: cover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [volcanic (?)(UNK(ENTITY UNKNOWN))]
+      [ash (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [gravel (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [difficult (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [difficult (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What does Reilly teach people about overcoming challenges to reach their goals? 
+PreProc  : What does Reilly teach people about overcoming challenges to reach their goals >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+    [Reilly (INF-MOR)(ADV)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [overcoming (root: overcome) (MOR)(N SINGULAR) (GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [overcoming (root: overcome) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [challenges (root: challenge) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [goals (root: goal) (MOR)(N PLURAL(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mount Fuji is one of the most-climbed peaks in the world. 
+PreProc  : Mount Fuji is one of the most-climbed peaks in the world >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Fuji (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fuji (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [most-climbed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [peaks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reilly chose the mountain because he wanted to pick one outside the United States. 
+PreProc  : Reilly chose the mountain because he wanted to pick one outside the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [chose (root: choose) (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [pick (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [outside (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since losing the use of his legs, Reilly has also climbed peaks in Colorado and California. 
+PreProc  : Since losing the use of his legs >COMMA Reilly has also climbed peaks in Colorado and California >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT:
+      [losing (root: lose) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the use
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [also (LEX)(ADV)]
+    [climbed (root: climb) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [peaks (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Colorado (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now that he has accomplished his goal, he has already set his sights even higher. 
+PreProc  : Now that he has accomplished his goal >COMMA he has already set his sights even higher >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [accomplished (root: accomplish) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [already (LEX)(ADV)]
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [sights (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [even (LEX)(ADV)]
+  [higher (root: high) (MOR)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He hopes to climb Mount Rainier in Alaska and the tallest peak in South America. 
+PreProc  : He hopes to climb Mount Rainier in Alaska and the tallest peak in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+    [Mount (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [Rainier (root: rain) (MOR)(ADJ)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [tallest (root: tall) (MOR)(ADJ)]
+      [peak (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I hope to climb one mountain every year," he said. 
+PreProc  : >DQUOTE I hope to climb one mountain every year >COMMA >DQUOTE he said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The table shows the mountains that Reilly has climbed since losing the use of his legs in 1996. 
+PreProc  : The table shows the mountains that Reilly has climbed since losing the use of his legs in &&1996 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Reilly (INF-MOR)(ADV)]
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [climbed (root: climb) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [losing (root: lose) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [use (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the use
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1996 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

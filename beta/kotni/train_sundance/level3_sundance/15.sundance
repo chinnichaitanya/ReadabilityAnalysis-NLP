@@ -1,0 +1,445 @@
+Original : Railroad tracks connecting Seoul and Pyongyang should be completed in September 2001. 
+PreProc  : Railroad tracks connecting Seoul and Pyongyang should be completed in September &&2001 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Railroad (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tracks (root: track) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [connecting (root: connect) (MOR)(N SINGULAR) (GER)]
+    [Seoul (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Pyongyang (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pyongyang (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [completed (root: complete) (MOR)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&2001 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Seoul is South Korea's capital. 
+PreProc  : Seoul is @SOUTH_KOREA@s capital >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Seoul (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [@SOUTH_KOREA@s (LEX)(ADJ POSSESSIVE)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pyongyang is North Korea's capital. 
+PreProc  : Pyongyang is @NORTH_KOREA@s capital >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pyongyang (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [@NORTH_KOREA@s (LEX)(ADJ POSSESSIVE)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : North Korea and South Korea are two countries in Asia. 
+PreProc  : NORTH_KOREA and SOUTH_KOREA are &&2 countries in Asia >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [NORTH_KOREA (LEX)(N SINGULAR(COUNTRY))]
+    [and (LEX)(CONJ)]
+    [SOUTH_KOREA (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They have been officially at war for 47 years. 
+PreProc  : They have been officially at war for &&47 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [officially (root: official) (MOR)(ADV)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&47 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now, however, the countries seem to be making tracks toward peace. 
+PreProc  : Now >COMMA however >COMMA the countries seem to be making tracks toward peace >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [seem (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+    [tracks (root: track) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [toward (LEX)(PREP)]
+    NP SEGMENT:
+      [peace (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : South Korean workers have begun rebuilding railroad tracks that will connect South Korea's capital with North Korea's capital. 
+PreProc  : South Korean workers have begun rebuilding railroad tracks that will connect @SOUTH_KOREA@s capital with @NORTH_KOREA@s capital >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+    [Korean (?)(UNK(ENTITY UNKNOWN))]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [begun (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [rebuilding (root: build) (MOR)(N SINGULAR) (GER)]
+    [railroad (LEX)(N SINGULAR(VEHICLE))]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [rebuilding (root: build) (MOR)(N SINGULAR) (GER)]
+    [railroad (LEX)(N SINGULAR(VEHICLE))]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [connect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@SOUTH_KOREA@s (LEX)(ADJ POSSESSIVE)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [@NORTH_KOREA@s (LEX)(ADJ POSSESSIVE)]
+      [capital (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When complete, the tracks will connect the cities for the first time in 50 years. 
+PreProc  : When complete >COMMA the tracks will connect the cities for the first time in &&50 years >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [complete (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [connect (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [cities (root: city) (MOR)(N PLURAL(CITY))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&50 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two countries fought a war against each other from 1950 to 1953. 
+PreProc  : The &&2 countries fought a war against each other from &&1950 to &&1953 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fought (root: fight) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [against (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1950 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1953 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The United States, China, and other countries also fought in the war. 
+PreProc  : The UNITED_STATES >COMMA China >COMMA and other countries also fought in the war >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [China (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [fought (root: fight) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The war ended when North Korea and South Korea agreed to stop fighting. 
+PreProc  : The war ended when NORTH_KOREA and SOUTH_KOREA agreed to stop fighting >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ended (root: end) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [NORTH_KOREA (LEX)(N SINGULAR(COUNTRY))]
+    [and (LEX)(CONJ)]
+    [SOUTH_KOREA (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [agreed (root: agree) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [stop (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fighting (root: fight) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, neither country signed a peace treaty. 
+PreProc  : However >COMMA neither country signed a peace treaty >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [neither (LEX)(ADV)]
+  NP SEGMENT-Location (SUBJ):
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [signed (root: sign) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [peace (LEX)(N SINGULAR(OTHER))]
+    [treaty (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since then, they have been enemies. 
+PreProc  : Since then >COMMA they have been enemies >PERIOD <EOS 
+CLAUSE:
+  [Since (LEX)(C_M) (PREP)]
+  [then (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [enemies (root: enemy) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, 2 million soldiers protect the border between North and South Korea. 
+PreProc  : Today >COMMA &&2 million soldiers protect the border between North and SOUTH_KOREA >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [soldiers (root: soldier) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [border (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [SOUTH_KOREA (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

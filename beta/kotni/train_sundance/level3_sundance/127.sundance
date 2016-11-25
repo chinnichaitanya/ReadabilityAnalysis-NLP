@@ -1,0 +1,378 @@
+Original : Each year, a special award is given to a person or group of people who work for peace. 
+PreProc  : Each year >COMMA a special award is given to a person or group of people who work for peace >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [award (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [given (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [person (LEX)(N SINGULAR(HUMAN))]
+      [or (LEX)(CONJ)]
+      [group (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a person or group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a person or group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [work (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [peace (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The award is called the Nobel Peace Prize. 
+PreProc  : The award is called the Nobel Peace Prize >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [award (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Nobel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Peace (LEX)(N SINGULAR(OTHER))]
+    [Prize (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The first peace prize was given more than 100 years ago. 
+PreProc  : The first peace prize was given MORE_THAN &&100 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [peace (LEX)(N SINGULAR(OTHER))]
+    [prize (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [given (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, Jimmy Carter, a former U.S. president, won the award. 
+PreProc  : This year >COMMA Jimmy Carter >COMMA a former U.S. president >COMMA won the award >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+    [Carter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [former (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [award (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Carter was president from 1977 to 1981. 
+PreProc  : Carter was president from &&1977 to &&1981 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Carter (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1977 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1981 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Later, he founded the Carter Center. 
+PreProc  : Later >COMMA he founded the Carter Center >PERIOD <EOS 
+CLAUSE:
+  [Later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [founded (root: found) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Carter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Center (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The former president works with the Carter Center to bring about peace and to help poor people all over the world. 
+PreProc  : The former president works with the Carter Center to bring about peace and to help poor people all over the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [former (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [works (root: work) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Carter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Carter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [Center (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [bring (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)]
+    [peace (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [poor (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Nobel Peace Prize comes with 1 million dollars. 
+PreProc  : The Nobel Peace Prize comes with &&1 million dollars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Nobel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Peace (LEX)(N SINGULAR(OTHER))]
+    [Prize (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [dollars (root: dollar) (MOR)(N PLURAL(MONEY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The money will almost all go to the Carter Center," said Carter. 
+PreProc  : >DQUOTE The money will almost all go to the Carter Center >COMMA >DQUOTE said Carter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [almost (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Carter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Carter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Carter is the third U.S. president to win the Nobel Peace Prize. 
+PreProc  : Carter is the third U.S. president to win the Nobel Peace Prize >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Carter (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Nobel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Peace (LEX)(N SINGULAR(OTHER))]
+    [Prize (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The other two presidents were Woodrow Wilson and Theodore Roosevelt. 
+PreProc  : The other &&2 presidents were Woodrow Wilson and Theodore Roosevelt >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [&&2 (LEX)(NUM)]
+    [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Woodrow (?)(UNK(ENTITY UNKNOWN))]
+    [Wilson (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Theodore (?)(UNK(ENTITY UNKNOWN))]
+    [Roosevelt (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

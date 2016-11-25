@@ -1,0 +1,442 @@
+Original : Where were you on August 17 at 8 p.m.? 
+PreProc  : Where were you on August &&17 at &&8 p.m. >QUESTION <EOS 
+CLAUSE:
+  [Where (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [August (LEX)(N SINGULAR(MONTH))]
+      [&&17 (LEX)(NUM)]
+
+
+  PP SEGMENT-Time (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&8 (LEX)(NUM)]
+      [p.m. (LEX)(N SINGULAR(TIME))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 17.2 million Americans were sitting in front of their televisions. 
+PreProc  : About &&17.2 million Americans were sitting in front of their televisions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&17.2 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [sitting (root: sit) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [front (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: front
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [televisions (root: television) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They were watching the . 
+PreProc  : They were watching the >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [watching (root: watch) (MOR)(V PARTICIPLE)]
+
+  [the (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to research, that was the most viewers of a cable program ever. 
+PreProc  : According to research >COMMA that was the most viewers of a cable program ever >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [research (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [research (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [viewers (root: view) (MOR)(N PLURAL)]
+
+Following PP attaches to: the most viewers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cable (LEX)(N SINGULAR(OTHER))]
+      [program (LEX)(N SINGULAR(OTHER))]
+
+
+  [ever (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : follows teens Troy, Gabriella, Sharpay, Ryan, Taylor, and friends. 
+PreProc  : follows teens Troy >COMMA Gabriella >COMMA Sharpay >COMMA Ryan >COMMA Taylor >COMMA and friends >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [follows (root: follow) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [teens (?)(UNK(ENTITY UNKNOWN))]
+    [Troy (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Gabriella (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Sharpay (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Taylor (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : School is out for the summer. 
+PreProc  : School is out for the summer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [School (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [out (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The teens take on romance, jobs, and more. 
+PreProc  : The teens take on romance >COMMA jobs >COMMA and more >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [teens (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [romance (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [jobs (root: job) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [more (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : recently talked to Monique Coleman. 
+PreProc  : recently talked to Monique Coleman >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [talked (root: talk) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Monique (?)(UNK(ENTITY UNKNOWN))]
+      [Coleman (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She plays Taylor. 
+PreProc  : She plays Taylor >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plays (root: play) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Taylor (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She is amazed by the success of . 
+PreProc  : She is amazed by the success of >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [amazed (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [success (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I'm excited that the movie managed to [go beyond] all of our expectations," she says. 
+PreProc  : >DQUOTE I AM excited that the movie managed to >LBRACKET go beyond >RBRACKET all of our expectations >COMMA >DQUOTE she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [excited (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [managed (root: manage) (MOR)(V PAST)]
+
+  [to (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  [beyond (LEX)(PREP)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: all
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [expectations (root: expectation) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : movies so popular with kids? 
+PreProc  : movies so popular with kids >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [movies (root: movie) (MOR)(N PLURAL(OTHER))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Allie L., 7, of New York says it's the music. 
+PreProc  : Allie L. >COMMA &&7 >COMMA of NEW_YORK says IT IS the music >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Allie (?)(UNK(ENTITY UNKNOWN))]
+    [L. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&7 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: &&7
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [music (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I think we like singing and dancing, and that's what [the characters] are doing," she says. 
+PreProc  : >DQUOTE I think we like singing and dancing >COMMA and THAT IS what >LBRACKET the characters >RBRACKET are doing >COMMA >DQUOTE she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [singing (root: sing) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [dancing (INF-MOR)(GER)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [characters (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [doing (root: do) (LEX)(AUX) (V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

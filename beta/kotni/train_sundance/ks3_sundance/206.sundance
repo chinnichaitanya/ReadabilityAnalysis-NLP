@@ -1,0 +1,762 @@
+Original : > Structure and paragraphs - Test Bite 1. 
+PreProc  : >GREATER Structure and paragraphs >MINUS Test Bite &&1 >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Structure (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [paragraphs (root: paragraph) (MOR)(N PLURAL(OTHER))]
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Test (LEX)(V BASE)]
+    [Bite (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You've just asked if you can go down to the park to meet your friends and have been given the following answer: "You're not going anywhere near that place. 
+PreProc  : YOU HAVE just asked if you can go down to the park to meet your friends and have been given the following answer >COLON >DQUOTE YOU ARE not going anywhere near that place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [just (LEX)(ADV)]
+
+  [asked (root: ask) (MOR)(ADJ)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [go (LEX)(V BASE)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [park (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [given (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [following (root: follow) (MOR)(N SINGULAR) (GER)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [YOU (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [anywhere (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's full of litter, it's never supervised and the equipment is a total health hazard! 
+PreProc  : IT IS full of litter >COMMA IT IS never supervised and the equipment is a total health hazard >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [full (LEX)(ADV)]
+
+Following PP attaches to: IS full
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [litter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [never (LEX)(ADV)]
+    [supervised (root: supervise) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [total (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [health (LEX)(N SINGULAR(OTHER))]
+    [hazard (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You'll have to find somewhere else to hang around." 
+PreProc  : YOU WILL have to find somewhere else to hang around >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [WILL (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [somewhere (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [else (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [hang (LEX)(V BASE)]
+
+  [around (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Write a letter to Mrs H Devonshire, Parks Department, complaining about the area and requesting that something is done about it. 
+PreProc  : Write a letter to Mrs H Devonshire >COMMA Parks Department >COMMA complaining about the area and requesting that something is done about it >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Write (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Mrs (?)(UNK(ENTITY UNKNOWN))]
+      [H (?)(UNK(ENTITY UNKNOWN))]
+      [Devonshire (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mrs (?)(UNK(ENTITY UNKNOWN))]
+    [H (?)(UNK(ENTITY UNKNOWN))]
+    [Devonshire (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Parks (root: park) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Department (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [complaining (root: complain) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT-Location (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [requesting (root: request) (MOR)(N SINGULAR) (GER)]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [done (root: do) (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Below are five ideas for paragraphs that you could include in your letter. 
+PreProc  : Below are &&5 ideas for paragraphs that you could include in your letter >PERIOD <EOS 
+CLAUSE:
+  [Below (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [paragraphs (root: paragraph) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [include (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are not in the best order, so drag and drop them to improve the structure. 
+PreProc  : They are not in the best order >COMMA so drag and drop them to improve the structure >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [best (LEX)(ADJ)]
+      [order (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [drag (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drop (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [improve (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [structure (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Drag the idea into the best place in the table below: Teenagers can frighten the children and no-one supervises them Say who I am / why I'm writing / where the place is Need proper attendants / railings / new equipment / notices Danger to young children from litter and broken swings In order to see this content you need to have both More from Structure and paragraphs - Test Bite: The importance of beginnings, middles and ends. 
+PreProc  : Drag the idea into the best place in the table below >COLON Teenagers can frighten the children and no-one supervises them Say who I am >SLASH why I AM writing >SLASH where the place is Need proper attendants >SLASH railings >SLASH new equipment >SLASH notices Danger to young children from litter and broken swings In order to see this content you need to have both More from Structure and paragraphs >MINUS Test Bite >COLON The importance of beginnings >COMMA middles and ends >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Drag (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [best (LEX)(ADJ)]
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [below (LEX)(PREP)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Teenagers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [frighten (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [no-one (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [no-one (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [supervises (root: supervise) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [who (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+    [writing (root: write) (MOR)(V PARTICIPLE)]
+
+  [>SLASH (LEX)(PUNC)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [Need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [proper (LEX)(ADJ)]
+    [attendants (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [railings (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [new (LEX)(ADJ)]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+  [>SLASH (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [proper (LEX)(ADJ)]
+    [attendants (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [notices (root: notice) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Danger (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [young (LEX)(ADJ)]
+      [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [litter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [proper (LEX)(ADJ)]
+    [attendants (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [broken (root: break) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [swings (root: swing) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [order (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [More (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Structure (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [paragraphs (root: paragraph) (MOR)(N PLURAL(OTHER))]
+
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Structure (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [paragraphs (root: paragraph) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Test (LEX)(V BASE)]
+    [Bite (LEX)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [importance (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The importance
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [beginnings (root: begin) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [middles (root: middle) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Structure (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [paragraphs (root: paragraph) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ends (root: end) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 3000 video clips from BBC programmes. 
+PreProc  : MORE_THAN &&3000 video clips from BBC programmes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3000 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [video (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [clips (root: clip) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [BBC (?)(UNK(ENTITY UNKNOWN))]
+      [programmes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

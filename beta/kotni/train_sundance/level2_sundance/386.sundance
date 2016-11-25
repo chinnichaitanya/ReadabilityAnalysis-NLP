@@ -1,0 +1,761 @@
+Original : Jody Naranjo (nah-RON-hoh) is a potter. 
+PreProc  : Jody Naranjo >LPAREN nah-RON-hoh >RPAREN is a potter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jody (?)(UNK(ENTITY UNKNOWN))]
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [nah-RON-hoh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [potter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She makes pots out of clay. 
+PreProc  : She makes pots out of clay >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [pots (?)(UNK(ENTITY UNKNOWN))]
+
+  [out (LEX)]
+Following PP attaches to: pots
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [clay (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her mother, grandmother, and aunts make pottery too. 
+PreProc  : Her mother >COMMA grandmother >COMMA and aunts make pottery too >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [grandmother (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [aunts (root: aunt) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pottery (?)(UNK(ENTITY UNKNOWN))]
+
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Naranjo is a Native American from the Santa Clara Pueblo group. 
+PreProc  : Naranjo is a Native American from the Santa Clara Pueblo group >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Santa (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Clara (?)(UNK(ENTITY UNKNOWN))]
+      [Pueblo (?)(UNK(ENTITY UNKNOWN))]
+      [group (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She lives in New Mexico. 
+PreProc  : She lives in NEW_MEXICO >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_MEXICO (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her work can be seen in museums across the country. 
+PreProc  : Her work can be seen in museums across the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [work (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [museums (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Naranjo enjoys being a potter. 
+PreProc  : Naranjo enjoys being a potter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enjoys (root: enjoy) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [being (root: be) (LEX)(GER)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [potter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's a fun job," she says. 
+PreProc  : >DQUOTE IT IS a fun job >COMMA >DQUOTE she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fun (LEX)(ADJ)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She plans to teach pottery to her daughters, ages 4, 11, and 17. 
+PreProc  : She plans to teach pottery to her daughters >COMMA ages &&4 >COMMA &&11 >COMMA and &&17 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pottery (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [daughters (root: daughter) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ages (root: age) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&4 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [&&11 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&17 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I want to keep the tradition going," she adds. 
+PreProc  : >DQUOTE I want to keep the tradition going >COMMA >DQUOTE she adds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tradition (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [tradition (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [adds (root: add) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A is an idea or a way of life handed down from the past. 
+PreProc  : A is an idea or a way of life handed down from the past >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP-CONJ SEGMENT:
+    [an (LEX)(ART)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [or (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: an idea or a way
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [handed (root: hand) (MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 4? 
+PreProc  : About &&4 >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&4 (LEX)(NUM)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : million people in the United States are Native American. 
+PreProc  : million people in the UNITED_STATES are Native American >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They live in cities and towns across the country. 
+PreProc  : They live in cities and towns across the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [cities (root: city) (MOR)(N PLURAL(CITY))]
+      [and (LEX)(CONJ)]
+      [towns (root: town) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some Native Americans live on A reservation is land set aside for Native Americans by the U.S. government. 
+PreProc  : Some Native Americans live on A reservation is land set aside for Native Americans by the U.S. government >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [A (LEX)(ART)]
+      [reservation (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [reservation (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [land (LEX)(V BASE)]
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [aside (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Native Americans belong to more than 500 different groups. 
+PreProc  : Native Americans belong to MORE_THAN &&500 different groups >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [belong (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&500 (LEX)(NUM)]
+      [different (LEX)(ADJ)]
+      [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each group has its own traditions. 
+PreProc  : Each group has its own traditions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [traditions (root: tradition) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How does Jody Naranjo make her pottery? 
+PreProc  : How does Jody Naranjo make her pottery >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Jody (?)(UNK(ENTITY UNKNOWN))]
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jody (?)(UNK(ENTITY UNKNOWN))]
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [pottery (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She digs three different clays out of the ground and mixes them together. 
+PreProc  : She digs &&3 different clays out of the ground and mixes them together >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [digs (root: dig) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [different (LEX)(ADJ)]
+    [clays (?)(UNK(ENTITY UNKNOWN))]
+
+  [out (LEX)]
+Following PP attaches to: &&3 different clays
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ground (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mixes (root: mix) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [together (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "That makes a very strong clay," says Naranjo. 
+PreProc  : >DQUOTE That makes a very strong clay >COMMA >DQUOTE says Naranjo >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [very (LEX)(ADV)]
+    [strong (LEX)(ADJ)]
+    [clay (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Naranjo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She uses the coil method to make the pots. 
+PreProc  : She uses the coil method to make the pots >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [coil (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [method (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [pots (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's like rolling snakes out of clay and joining them," she says. 
+PreProc  : >DQUOTE IT IS like rolling snakes out of clay and joining them >COMMA >DQUOTE she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rolling (root: roll) (MOR)(N SINGULAR) (GER)]
+    [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+
+  [out (LEX)]
+Following PP attaches to: rolling snakes
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [clay (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [joining (root: join) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then she rubs the pots with a stone to make them shiny. 
+PreProc  : Then she rubs the pots with a stone to make them shiny >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [rubs (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [pots (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [shiny (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She puts the pots over a fire to make them hard. 
+PreProc  : She puts the pots over a fire to make them hard >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [puts (root: put) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [pots (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [fire (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [hard (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Afterward, she carves designs into them. 
+PreProc  : Afterward >COMMA she carves designs into them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afterward (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carves (root: carve) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [designs (root: design) (MOR)(N PLURAL(OTHER)) (ADJ(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

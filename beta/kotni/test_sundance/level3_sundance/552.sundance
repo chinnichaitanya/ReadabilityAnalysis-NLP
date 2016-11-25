@@ -1,0 +1,1004 @@
+Original : Who kisses babies, flies coast to coast, and toots his or her own horn? 
+PreProc  : Who kisses babies >COMMA flies coast to coast >COMMA and toots his or her own horn >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [kisses (root: kiss) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flies (root: fly) (MOR)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [coast (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [coast (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [toots (?)(UNK(ENTITY UNKNOWN))]
+      [his (LEX)(ADJ)]
+      [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [own (LEX)(ADJ)]
+      [horn (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A A candidate is a person who runs for office. 
+PreProc  : A A candidate is a person who runs for office >PERIOD <EOS 
+CLAUSE:
+  [A (LEX)(ART)]
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [candidate (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [runs (root: run) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And thereÕs no bigger office than that of the president of the United States. 
+PreProc  : And thereÕs no bigger office than that of the president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [thereÕs (?)(UNK(ENTITY UNKNOWN))]
+    [no (LEX)(ADJ)]
+    [bigger (LEX)(ADJ)]
+    [office (LEX)(N SINGULAR(BUILDING))]
+
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+Following PP attaches to: thereÕs no bigger office
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+Following PP attaches to: the president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or choose, a president every four years. 
+PreProc  : >COMMA or choose >COMMA a president every &&4 years >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [choose (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+    [every (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The main presidential candidates for this election are John McCain and Barack Obama. 
+PreProc  : The main presidential candidates for this election are John McCain and Barack Obama >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [presidential (LEX)(ADJ)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [election (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They both want to become the next president. 
+PreProc  : They both want to become the next president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McCain is a senator from Arizona. 
+PreProc  : McCain is a senator from Arizona >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [senator (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is a member of the Republican Party. 
+PreProc  : He is a member of the Republican Party >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a member
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Republican (LEX)(N SINGULAR(HUMAN))]
+      [Party (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is one of the two major political parties in the country. 
+PreProc  : That is one of the &&2 major political parties in the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&2 (LEX)(NUM)]
+      [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [political (LEX)(ADJ)]
+      [parties (root: party) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A political party is group of people who share similar beliefs. 
+PreProc  : A political party is group of people who share similar beliefs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [political (LEX)(ADJ)]
+    [party (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [group (LEX)(V BASE)]
+
+Following PP attaches to: is group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [political (LEX)(ADJ)]
+    [party (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [share (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [similar (LEX)(ADJ)]
+    [beliefs (root: belief) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Obama is a senator from Illinois. 
+PreProc  : Obama is a senator from Illinois >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [senator (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Illinois (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is a member of the Democratic Party. 
+PreProc  : He is a member of the Democratic Party >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a member
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Democratic (LEX)(ADJ)]
+      [Party (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the other major U.S. political party. 
+PreProc  : That is the other major U.S. political party >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [political (LEX)(ADJ)]
+    [party (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Americans are eager to learn about the candidates. 
+PreProc  : Americans are eager to learn about the candidates >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [eager (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want to know what McCain and Obama will do about problems, such as high food and gas prices. 
+PreProc  : They want to know what McCain and Obama will do about problems >COMMA SUCH_AS high food and gas prices >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [know (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [high (LEX)(ADJ)]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [gas (LEX)(N SINGULAR(PHYSOBJ))]
+      [prices (root: price) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McCain and Obama will spend the next two months . 
+PreProc  : McCain and Obama will spend the next &&2 months >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT-Time:
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    NP SEGMENT-Time:
+      [&&2 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That means they will hold events to win votes. 
+PreProc  : That means they will hold events to win votes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [hold (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [votes (root: vote) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Both candidates will give speeches about their ideas. 
+PreProc  : Both candidates will give speeches about their ideas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [speeches (root: speech) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They will also meet with people across the country. 
+PreProc  : They will also meet with people across the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [meet (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒTheyÕre trying to reach different kinds of voters in different states,Ó political expert Kenneth Bickers told . 
+PreProc  : ÒTheyÕre trying to reach different kinds of voters in different states,Ó political expert Kenneth Bickers told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒTheyÕre (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [different (LEX)(ADJ)]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: different kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [states,Ó (?)(UNK(ENTITY UNKNOWN))]
+      [political (LEX)(ADJ)]
+      [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [Kenneth (?)(UNK(ENTITY UNKNOWN))]
+      [Bickers (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [different (LEX)(ADJ)]
+    [states,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [political (LEX)(ADJ)]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Kenneth (?)(UNK(ENTITY UNKNOWN))]
+    [Bickers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThey use lots of different tools to try to reach people.Ó On November 4, the candidates will find out who did a better job campaigning. 
+PreProc  : ÒThey use lots of different tools to try to reach people.Ó On November &&4 >COMMA the candidates will find out who did a better job campaigning >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThey (?)(UNK(ENTITY UNKNOWN))]
+    [use (LEX)(N SINGULAR(OTHER))]
+    [lots (root: lot) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: ÒThey use lots
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [tools (root: tool) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people.Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [November (LEX)(N SINGULAR(MONTH))]
+      [&&4 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [November (LEX)(N SINGULAR(MONTH))]
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [better (LEX)(ADJ)]
+    [job (LEX)(N SINGULAR(OTHER))]
+    [campaigning (INF-MOR)(GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That day is Election Day, when Americans vote for president. 
+PreProc  : That day is Election Day >COMMA when Americans vote for president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Election (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Campaigning for president is a full-time job. 
+PreProc  : Campaigning for president is a full-time job >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Campaigning (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [full-time (LEX)(ADJ)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here are some of the ways McCain and Obama will try to win votes this fall. 
+PreProc  : Here are some of the ways McCain and Obama will try to win votes this fall >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Here (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+      [McCain (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [votes (root: vote) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [fall (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McCain and Obama star in television and print ads. 
+PreProc  : McCain and Obama star in television and print ads >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [television (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [print (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [ads (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The ads could sway voters to elect them. 
+PreProc  : The ads could sway voters to elect them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [ads (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [sway (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [elect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Candidates travel coast to coast making speeches about important issues. 
+PreProc  : Candidates travel coast to coast making speeches about important issues >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [travel (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [coast (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [coast (LEX)(N SINGULAR(LOCATION))]
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+      [speeches (root: speech) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [important (LEX)(ADJ)]
+      [issues (root: issue) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also meet with leaders in other countries. 
+PreProc  : They also meet with leaders in other countries >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [meet (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McCain and Obama reach millions of voters through Web sites. 
+PreProc  : McCain and Obama reach millions of voters through Web sites >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [Web (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Internet lets them share their ideas quickly. 
+PreProc  : The Internet lets them share their ideas quickly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Internet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [share (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  [quickly (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What are some qualities voters should look for when electing the next U.S. president? 
+PreProc  : What are some qualities voters should look for when electing the next U.S. president >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [qualities (root: quality) (MOR)(N PLURAL(OTHER))]
+    [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [qualities (root: quality) (MOR)(N PLURAL(OTHER))]
+    [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [look (LEX)(V BASE)]
+
+  [for (LEX)(PREP)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [qualities (root: quality) (MOR)(N PLURAL(OTHER))]
+    [voters (root: voter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [electing (root: elect) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,356 @@
+Original : A big hurricane hit the United States in 2005. 
+PreProc  : A big hurricane hit the UNITED_STATES in &&2005 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [hurricane (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was called Hurricane Katrina. 
+PreProc  : It was called Hurricane Katrina >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Hurricane (?)(UNK(ENTITY UNKNOWN))]
+    [Katrina (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That hurricane caused a lot of damage to homes and schools in New Orleans, a city in Louisiana. 
+PreProc  : That hurricane caused a lot of damage to homes and schools in New Orleans >COMMA a city in Louisiana >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [hurricane (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [caused (root: cause) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [damage (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+      [and (LEX)(CONJ)]
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Louisiana (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A new school is opening in New Orleans this fall. 
+PreProc  : A new school is opening in New Orleans this fall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [opening (root: open) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [fall (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is Langston Hughes Academy Charter School. 
+PreProc  : It is Langston Hughes Academy Charter School >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Langston (?)(UNK(ENTITY UNKNOWN))]
+    [Hughes (?)(UNK(ENTITY UNKNOWN))]
+    [Academy (LEX)(N SINGULAR(OTHER))]
+    [Charter (LEX)(N SINGULAR(OTHER))]
+    [School (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : John Alford is in charge of the company that is managing the school. 
+PreProc  : John Alford is in charge of the company that is managing the school >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [Alford (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [charge (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: charge
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [charge (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: charge
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [managing (root: manage) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒIt is the first new public school in New Orleans since the stormÓ, he says. 
+PreProc  : ÒIt is the first new public school in New Orleans since the stormÓ >COMMA he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒIt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [new (LEX)(ADJ)]
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stormÓ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒWe are going to be better than we were before the storm!Ó John Alford and students in New Orleans are excited about the opening of a new school. 
+PreProc  : ÒWe are going to be better than we were before the storm!Ó John Alford and students in New Orleans are excited about the opening of a new school >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒWe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [storm!Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [John (?)(UNK(ENTITY UNKNOWN))]
+      [Alford (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [New (LEX)(ADJ)]
+    [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [excited (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [opening (root: open) (MOR)(N SINGULAR) (GER)]
+
+
+Following PP attaches to: the opening
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might students be excited about their new school? 
+PreProc  : Why might students be excited about their new school >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [excited (LEX)(ADJ)]
+    [about (LEX)]
+    [their (LEX)(ADJ)]
+    [new (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

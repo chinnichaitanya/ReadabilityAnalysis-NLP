@@ -1,0 +1,524 @@
+Original : Happy fall! 
+PreProc  : Happy fall >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Happy (LEX)(ADJ)]
+    [fall (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkins are ready to be picked in the fall. 
+PreProc  : Pumpkins are ready to be picked in the fall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fall (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Keep reading to learn how pumpkins grow in a patch. 
+PreProc  : Keep reading to learn how pumpkins grow in a patch >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [reading (root: read) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [patch (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkin seeds are planted in May and June. 
+PreProc  : Pumpkin seeds are planted in May and June >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [planted (root: plant) (MOR)(V PAST)]
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [June (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkin seeds are planted in a patch during May and June. 
+PreProc  : Pumpkin seeds are planted in a patch during May and June >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [planted (root: plant) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [patch (LEX)(N SINGULAR(OTHER))]
+
+
+  [during (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [patch (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [June (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 10 days later, a tiny plant called a The sprouts grow leaves, and the plant becomes a vine. 
+PreProc  : About &&10 days later >COMMA a tiny plant called a The sprouts grow leaves >COMMA and the plant becomes a vine >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&10 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  [a (LEX)(ART)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [sprouts (root: sprout) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [sprouts (root: sprout) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+    [leaves (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [becomes (root: become) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [vine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This orange pumpkin is ready to be picked. 
+PreProc  : This orange pumpkin is ready to be picked >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In about four weeks, a bright yellow flower forms. 
+PreProc  : In about &&4 weeks >COMMA a bright yellow flower forms >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&4 (LEX)(NUM)]
+      [weeks (root: week) (MOR)(N PLURAL(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [bright (LEX)(ADJ)]
+    [yellow (LEX)(ADJ)]
+    [flower (LEX)(N SINGULAR(PHYSOBJ))]
+    [forms (root: form) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A small, green pumpkin appears on the stem of each pumpkin plant. 
+PreProc  : A small >COMMA green pumpkin appears on the stem of each pumpkin plant >PERIOD <EOS 
+CLAUSE:
+  [A (LEX)(ART)]
+  [small (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [green (LEX)(ADJ)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [appears (root: appear) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stem (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the stem
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By October, an orange pumpkin is ready to be picked. 
+PreProc  : By October >COMMA an orange pumpkin is ready to be picked >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [October (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There are more than 50 different kinds of pumpkins. 
+PreProc  : There are MORE_THAN &&50 different kinds of pumpkins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&50 (LEX)(NUM)]
+    [different (LEX)(ADJ)]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: MORE_THAN &&50 different kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkins come in colors other than orange, such as white and green. 
+PreProc  : Pumpkins come in colors other than orange >COMMA SUCH_AS white and green >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [colors (?)(UNK(ENTITY UNKNOWN))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [than (LEX)(ADV)]
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [SUCH_AS (LEX)(PREP)]
+  [white (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  [green (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkins grow all over the world except in Antarctica. 
+PreProc  : Pumpkins grow all over the world except in Antarctica >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [except (LEX)(ADV)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It takes about four months for a pumpkin to grow. 
+PreProc  : It takes about &&4 months for a pumpkin to grow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Time (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&4 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People once used pumpkins as a pie shell, not as the filling. 
+PreProc  : People once used pumpkins as a pie shell >COMMA not as the filling >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [once (LEX)(ADV)]
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pie (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [shell (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [not (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [filling (root: fill) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkins are made up mostly of water. 
+PreProc  : Pumpkins are made up mostly of water >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+    [mostly (root: most) (MOR)(ADV)]
+
+Following PP attaches to: are made up mostly
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might a pumpkin need plenty of water as it grows? 
+PreProc  : Why might a pumpkin need plenty of water as it grows >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grows (root: grow) (MOR)(V PRESENT)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

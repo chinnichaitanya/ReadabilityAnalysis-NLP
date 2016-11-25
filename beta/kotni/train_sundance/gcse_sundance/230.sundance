@@ -1,0 +1,184 @@
+Original : Take a look at the students' work journals to see their idea development, sketch books and final pieces. 
+PreProc  : Take a look at the @students@ work journals to see their idea development >COMMA sketch books and final pieces >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@students@ (LEX)(ADJ POSSESSIVE)]
+      [work (LEX)(N SINGULAR(OTHER))]
+      [journals (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [development (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [sketch (LEX)(N SINGULAR(OTHER))]
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [final (LEX)(ADJ)]
+    [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : © DACS / Phillips Collection, Washington DC / Bridgeman The Round Table, 1929 by Georges Braque The Kitchen Interior, 1728 by Jean-Baptiste Simeon Chardin © Courtesy of MuHKA Museum - Belgium © Artist / Photo courtesy Becca Dorstek Still Life with Skull, 1895-1900 by Paul Cezanne © The Andy Warhol Foundation for the Visual Arts Campbell's Soup Cans, 1965 by Andy Warhol The Vegetable Gardener, 1590 by Giuseppe Arcimboldo 
+PreProc  : © DACS >SLASH Phillips Collection >COMMA Washington DC >SLASH Bridgeman The Round Table >COMMA &&1929 by Georges Braque The Kitchen Interior >COMMA &&1728 by Jean-Baptiste Simeon Chardin © Courtesy of MuHKA Museum >MINUS Belgium © Artist >SLASH Photo courtesy Becca Dorstek Still Life with Skull >COMMA 1895-1900 by Paul Cezanne © The Andy Warhol Foundation for the Visual Arts @Campbell@s Soup Cans >COMMA &&1965 by Andy Warhol The Vegetable Gardener >COMMA &&1590 by Giuseppe Arcimboldo <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [© (?)(UNK(ENTITY UNKNOWN))]
+    [DACS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [Phillips (?)(UNK(ENTITY UNKNOWN))]
+    [Collection (root: collect) (MOR)(N SINGULAR)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+    [DC (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [Bridgeman (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Round (LEX)(ADJ)]
+    [Table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1929 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Georges (?)(UNK(ENTITY UNKNOWN))]
+      [Braque (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Kitchen (LEX)(N SINGULAR(OTHER))]
+    [Interior (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1728 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Jean-Baptiste (?)(UNK(ENTITY UNKNOWN))]
+      [Simeon (?)(UNK(ENTITY UNKNOWN))]
+      [Chardin (?)(UNK(ENTITY UNKNOWN))]
+      [© (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [Courtesy (root: court) (MOR)(ADJ(OTHER))]
+Following PP attaches to: Jean-Baptiste Simeon Chardin ©
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [MuHKA (?)(UNK(ENTITY UNKNOWN))]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Belgium (LEX)(N SINGULAR(COUNTRY))]
+    [© (?)(UNK(ENTITY UNKNOWN))]
+    [Artist (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SLASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [Photo (LEX)(N SINGULAR(PHYSOBJ))]
+    [courtesy (root: court) (MOR)(ADJ(OTHER))]
+    [Becca (?)(UNK(ENTITY UNKNOWN))]
+    [Dorstek (?)(UNK(ENTITY UNKNOWN))]
+
+  [Still (LEX)(ADV)]
+  NP SEGMENT:
+    [Life (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Skull (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [1895-1900 (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Paul (?)(UNK(ENTITY UNKNOWN))]
+      [Cezanne (?)(UNK(ENTITY UNKNOWN))]
+      [© (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Andy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Warhol (?)(UNK(ENTITY UNKNOWN))]
+    [Foundation (root: found) (MOR)(N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Visual (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Arts (root: art) (MOR)(N PLURAL(OTHER))]
+      [@Campbell@s (LEX)(ADJ POSSESSIVE)]
+      [Soup (?)(UNK(ENTITY UNKNOWN))]
+      [Cans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1965 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Andy (?)(UNK(ENTITY UNKNOWN))]
+      [Warhol (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Vegetable (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Gardener (root: garden) (MOR)(N SINGULAR)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1590 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Giuseppe (?)(UNK(ENTITY UNKNOWN))]
+      [Arcimboldo (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [<EOS (?)]
+

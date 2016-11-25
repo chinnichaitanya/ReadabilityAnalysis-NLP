@@ -1,0 +1,446 @@
+Original : Do you have a fire escape plan? 
+PreProc  : Do you have a fire escape plan >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the theme of this year's Fire Prevention Week. 
+PreProc  : That is the theme of this @year@s Fire Prevention Week >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [theme (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the theme
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [@year@s (LEX)(ADJ POSSESSIVE)]
+      [Fire (LEX)(N SINGULAR(OTHER))]
+      [Prevention (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [Week (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It lasts from October 7 to 13. 
+PreProc  : It lasts from October &&7 to &&13 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lasts (root: last) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Time (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&7 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&13 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The National Fire Protection Association (NFPA) plans the week to teach kids and their families about fire safety. 
+PreProc  : The National Fire Protection Association >LPAREN NFPA >RPAREN plans the week to teach kids and their families about fire safety >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Fire (LEX)(N SINGULAR(OTHER))]
+    [Protection (LEX)(N SINGULAR(OTHER))]
+    [Association (LEX)(N SINGULAR(ORGANIZATION))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [NFPA (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [plans (root: plan) (MOR)(V PRESENT)]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [week (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [fire (LEX)(N SINGULAR(OTHER))]
+      [safety (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The NFPA wants to sound the alarm about the need for a home fire escape plan. 
+PreProc  : The NFPA wants to sound the alarm about the need for a home fire escape plan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [NFPA (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wants (root: want) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [sound (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [alarm (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [need (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+      [fire (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want people across the country to practice their fire escape plans this month. 
+PreProc  : They want people across the country to practice their fire escape plans this month >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [practice (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plans (root: plan) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The group is calling the project the Great American Fire Drill. 
+PreProc  : The group is calling the project the Great American Fire Drill >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [calling (root: call) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [project (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Great (LEX)(ADJ)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Fire (LEX)(N SINGULAR(OTHER))]
+    [Drill (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Only one out of four Americans has planned and practiced a fire escape plan, says the NFPA. 
+PreProc  : Only one out of &&4 Americans has planned and practiced a fire escape plan >COMMA says the NFPA >PERIOD <EOS 
+CLAUSE:
+  [Only (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [out (LEX)]
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4 (LEX)(NUM)]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [planned (root: plan) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4 (LEX)(NUM)]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [practiced (root: practice) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [NFPA (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's important for everyone in your family to know how to escape in case of a fire," says NFPA spokesperson Judy Comoletti. 
+PreProc  : >DQUOTE IT IS important for everyone in your family to know how to escape in case of a fire >COMMA >DQUOTE says NFPA spokesperson Judy Comoletti >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [everyone (LEX)(PN SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [family (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [know (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [escape (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [case (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: case
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [fire (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [NFPA (?)(UNK(ENTITY UNKNOWN))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+    [Judy (?)(UNK(ENTITY UNKNOWN))]
+    [Comoletti (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why is it important to practice a fire escape plan? 
+PreProc  : Why is it important to practice a fire escape plan >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [important (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [practice (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fire (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [escape (LEX)(V BASE)]
+    [plan (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,321 @@
+Original : Asian swamp eels are no ordinary eels. 
+PreProc  : Asian swamp eels are no ordinary eels >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Asian (?)(UNK(ENTITY UNKNOWN))]
+    [swamp (?)(UNK(ENTITY UNKNOWN))]
+    [eels (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [ordinary (LEX)(ADJ)]
+    [eels (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are fierce hunters. 
+PreProc  : They are fierce hunters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [fierce (LEX)(ADJ)]
+    [hunters (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can live on land and in the water. 
+PreProc  : They can live on land and in the water >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [land (LEX)(N SINGULAR(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now scientists are worried that the eels may take control of Everglades National Park in Florida. 
+PreProc  : Now scientists are worried that the eels may take control of Everglades National Park in Florida >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [worried (root: worry) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [control (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: control
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Everglades (?)(UNK(ENTITY UNKNOWN))]
+      [National (LEX)(ADJ)]
+      [Park (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Florida (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The eels came from Vietnam, a country in Asia. 
+PreProc  : The eels came from Vietnam >COMMA a country in Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Vietnam (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists believe someone accidentally released some of the eels in waters near the park. 
+PreProc  : Scientists believe someone accidentally released some of the eels in waters near the park >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [accidentally (INF-MOR)(ADV)]
+    [released (root: release) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [waters (root: water) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT-Location (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [park (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The eels feed on the plants and animals that many Everglades animals eat to survive. 
+PreProc  : The eels feed on the plants and animals that many Everglades animals eat to survive >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [feed (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Everglades (?)(UNK(ENTITY UNKNOWN))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [eat (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [survive (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists hope to catch the eels before they reach the park's waters. 
+PreProc  : Scientists hope to catch the eels before they reach the @park@s waters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [catch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@park@s (LEX)(ADJ POSSESSIVE)]
+    [waters (root: water) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They plan to stun the eels with an electric stick and then catch them with nets. 
+PreProc  : They plan to stun the eels with an electric stick and then catch them with nets >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plan (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [stun (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [eels (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [electric (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [stick (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [catch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [nets (root: net) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

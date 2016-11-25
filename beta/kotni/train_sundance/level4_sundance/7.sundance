@@ -1,0 +1,363 @@
+Original : Last month, water flooded the ancient city of Zeugma in Turkey. 
+PreProc  : Last month >COMMA water flooded the ancient city of Zeugma in Turkey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Last (LEX)(ADJ)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flooded (INF-MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [ancient (LEX)(ADJ)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+Following PP attaches to: the ancient city
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Zeugma (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Turkey (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Turkey is a country in the Middle East. 
+PreProc  : Turkey is a country in the Middle East >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Turkey (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Middle (LEX)(N SINGULAR(OTHER))]
+      [East (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the summer, Turkish officials had opened a dam, which led to the flood. 
+PreProc  : During the summer >COMMA Turkish officials had opened a dam >COMMA which led to the flood >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Turkish (?)(UNK(ENTITY UNKNOWN))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [opened (root: open) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [dam (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [dam (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [flood (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The water poured into the city at the rate of a foot a day. 
+PreProc  : The water poured into the city at the rate of a foot a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [poured (root: pour) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [city (LEX)(N SINGULAR(CITY))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rate (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the rate
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [foot (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Parts of Zeugma were built 2,300 years ago. 
+PreProc  : Parts of Zeugma were built &&2,300 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Zeugma (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [&&2,300 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ancient artists had painted scenes of daily life on many of the city's buildings. 
+PreProc  : Ancient artists had painted scenes of daily life on many of the @city@s buildings >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ancient (LEX)(ADJ)]
+    [artists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [painted (root: paint) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [scenes (root: scene) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: scenes
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [daily (LEX)(ADJ) (ADV)]
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+Following PP attaches to: many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@city@s (LEX)(ADJ POSSESSIVE)]
+      [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The rising water threatened to destroy the ancient art. 
+PreProc  : The rising water threatened to destroy the ancient art >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [rising (root: rise) (MOR)(N SINGULAR) (GER)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [threatened (root: threaten) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [destroy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ancient (LEX)(ADJ)]
+    [art (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 250 scientists sprang into action to save the art. 
+PreProc  : MORE_THAN &&250 scientists sprang into action to save the art >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&250 (LEX)(NUM)]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+    [sprang (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [action (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [save (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [art (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They carefully took down some of the art-covered walls and carried them to safety. 
+PreProc  : They carefully took down some of the art-covered walls and carried them to safety >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carefully (root: careful) (MOR)(ADV)]
+    [took (root: take) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [art-covered (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [walls (root: wall) (MOR)(N PLURAL(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carried (root: carry) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [safety (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They saved many art treasures, which they plan to study to learn more about ancient Turkey. 
+PreProc  : They saved many art treasures >COMMA which they plan to study to learn more about ancient Turkey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [saved (root: save) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [art (LEX)(N SINGULAR(OTHER))]
+    [treasures (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plan (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [study (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [more (LEX)(ADJ)]
+    [about (LEX)]
+    [ancient (LEX)(ADJ)]
+    [Turkey (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

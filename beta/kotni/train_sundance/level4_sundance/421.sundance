@@ -1,0 +1,636 @@
+Original : It’s a bird! 
+PreProc  : It’s a bird >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [bird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It’s a plane! 
+PreProc  : It’s a plane >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [plane (LEX)(N SINGULAR(VEHICLE))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It’s "Fearless Felix"! 
+PreProc  : It’s >DQUOTE Fearless Felix >DQUOTE >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+    [Fearless (?)(UNK(ENTITY UNKNOWN))]
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Felix is not a fictional superhero like Superman. 
+PreProc  : Felix is not a fictional superhero like Superman >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fictional (LEX)(ADJ)]
+    [superhero (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [fictional (LEX)(ADJ)]
+    [superhero (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Superman (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He’s a stuntman from Austria, a country in Europe. 
+PreProc  : He’s a stuntman from Austria >COMMA a country in Europe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He’s (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [stuntman (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Austria (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Europe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the end of July, Felix broke a world record. 
+PreProc  : At the end of July >COMMA Felix broke a world record >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [July (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  [broke (root: break) (LEX)(ADJ)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He became the first person to fly across the English Channel without an aircraft. 
+PreProc  : He became the first person to fly across the English Channel without an aircraft >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [fly (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [English (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Channel (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [aircraft (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The English Channel is a body of water that separates England from France. 
+PreProc  : The English Channel is a body of water that separates England from France >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [English (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Channel (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [separates (root: separate) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [England (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [France (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Felix began his adventure by jumping from a plane 30,000 feet above the coast of England. 
+PreProc  : Felix began his adventure by jumping from a plane &&30,000 feet above the coast of England >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [adventure (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [jumping (root: jump) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [plane (LEX)(N SINGULAR(VEHICLE))]
+      [&&30,000 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [above (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the coast
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is about as high as Mount Everest. 
+PreProc  : That is about as high as Mount Everest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [about (LEX)(PREP)]
+  [as (LEX)(PREP)]
+  [high (LEX)(ADJ)]
+  [as (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Everest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Felix parachuted down until he landed in a town on the coast of France. 
+PreProc  : Felix parachuted down until he landed in a town on the coast of France >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [parachuted (INF-MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [landed (root: land) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the coast
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [France (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It took him about 14 minutes to cross the Channel, flying at speeds of up to 200 miles per hour. 
+PreProc  : It took him about &&14 minutes to cross the Channel >COMMA flying at speeds of up to &&200 miles per hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&14 (LEX)(NUM)]
+    [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [cross (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Channel (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [speeds (root: speed) (MOR)(N PLURAL(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&200 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Felix wore a special suit and had a gliding wing strapped to his back. 
+PreProc  : Felix wore a special suit and had a gliding wing strapped to his back >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wore (root: wear) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [suit (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [gliding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [wing (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [gliding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [wing (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [strapped (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He carried oxygen with him to help him breathe. 
+PreProc  : He carried oxygen with him to help him breathe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carried (root: carry) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [oxygen (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [breathe (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That’s because the air that high up is very thin. 
+PreProc  : That’s because the air that high up is very thin >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That’s (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [air (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [air (LEX)(N SINGULAR(OTHER))]
+
+  [high (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [up (LEX)(PART)]
+    [is (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [thin (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Felix, who began parachuting as a teenager, referred to another piece of flying history. 
+PreProc  : Felix >COMMA who began parachuting as a teenager >COMMA referred to another piece of flying history >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [parachuting (INF-MOR)(GER)]
+
+  [as (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [teenager (root: teenage) (MOR)(ADJ   )]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Felix (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [referred (root: refer) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+      [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+Following PP attaches to: another piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It’s [100 years ago] that the Wright brothers were doing the first flight with a plane," he said, "and now I’m here, with my little wing." 
+PreProc  : >DQUOTE It’s >LBRACKET &&100 years ago >RBRACKET that the Wright brothers were doing the first flight with a plane >COMMA >DQUOTE he said >COMMA >DQUOTE and now I’m here >COMMA with my little wing >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&100 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Wright (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [brothers (root: brother) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [doing (root: do) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [flight (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [plane (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [now (LEX)(ADV)]
+  NP SEGMENT:
+    [I’m (?)(UNK(ENTITY UNKNOWN))]
+
+  [here (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [little (LEX)(ADJ)]
+      [wing (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

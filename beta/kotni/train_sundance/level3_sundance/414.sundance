@@ -1,0 +1,510 @@
+Original : How can two boys who live halfway around the world become friends? 
+PreProc  : How can &&2 boys who live halfway around the world become friends >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [halfway (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ask Ryan Hreljac (HURL-jak) of Ontario, Canada, and Akana Jimmy of Uganda, a country in Africa. 
+PreProc  : Ask Ryan Hreljac >LPAREN HURL-jak >RPAREN of Ontario >COMMA Canada >COMMA and Akana Jimmy of Uganda >COMMA a country in Africa >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Ask (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+    [Hreljac (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [HURL-jak (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+Following PP attaches to: HURL-jak
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Ontario (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [Akana (?)(UNK(ENTITY UNKNOWN))]
+      [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: Ontario >COMMA Canada >COMMA and Akana Jimmy
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Uganda (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A new book shares their story. 
+PreProc  : A new book shares their story >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shares (root: share) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is called Ryan and Jimmy and the Well in Africa That Brought Them Together. 
+PreProc  : It is called Ryan and Jimmy and the Well in Africa That Brought Them Together >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Brought (root: bring) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Them (LEX)(PN PLURAL(HUMAN))]
+
+  [Together (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When Ryan was 6, he learned about the lack of clean drinking water in some parts of the world. 
+PreProc  : When Ryan was &&6 >COMMA he learned about the lack of clean drinking water in some parts of the world >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&6 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [lack (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the lack
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [clean (LEX)(ADJ)]
+      [drinking (root: drink) (MOR)(N SINGULAR) (GER)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: some parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ryan raised money to help build a well in Jimmy’s village. 
+PreProc  : Ryan raised money to help build a well in Jimmy’s village >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [raised (root: raise) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Jimmy’s (?)(UNK(ENTITY UNKNOWN))]
+      [village (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two boys became pen pals, then friends when Ryan traveled to Uganda in 2000 to see the well. 
+PreProc  : The &&2 boys became pen pals >COMMA then friends when Ryan traveled to Uganda in &&2000 to see the well >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [pen (LEX)(N SINGULAR(PHYSOBJ))]
+    [pals (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [then (LEX)(ADV)]
+  NP SEGMENT:
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Uganda (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2000 (LEX)(NUM)]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Four years ago, Ryan’s family arranged to bring Jimmy to live at their home in Canada. 
+PreProc  : &&4 years ago >COMMA Ryan’s family arranged to bring Jimmy to live at their home in Canada >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Ryan’s (?)(UNK(ENTITY UNKNOWN))]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [arranged (root: arrange) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [bring (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We used to live as friends," Jimmy told Ryan has raised more than $1.5 million. 
+PreProc  : >DQUOTE We used to live as friends >COMMA >DQUOTE Jimmy told Ryan has raised MORE_THAN >DOLLAR &&1.5 million >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ryan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [raised (root: raise) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [>DOLLAR (LEX)(ADJ)]
+    [&&1.5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The money has helped build more than 200 wells in 11 countries, most in Africa. 
+PreProc  : The money has helped build MORE_THAN &&200 wells in &&11 countries >COMMA most in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [helped (root: help) (MOR)(V PAST)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [wells (root: well) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&11 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For information about how to help support Ryan’s dream of water for all, visit measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : For information about how to help support Ryan’s dream of water for all >COMMA visit measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [information (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [about (LEX)(ADV)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [support (LEX)(N SINGULAR(OTHER))]
+    [Ryan’s (?)(UNK(ENTITY UNKNOWN))]
+    [dream (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: support Ryan’s dream
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visit (LEX)(V BASE)]
+    [measures (root: measure) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [published (root: publish) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

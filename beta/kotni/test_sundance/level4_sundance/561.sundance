@@ -1,0 +1,270 @@
+Original : Aochan, a rat snake, and Gohan, a dwarf hamster, are an unlikely pair of friends. 
+PreProc  : Aochan >COMMA a rat snake >COMMA and Gohan >COMMA a dwarf hamster >COMMA are an unlikely pair of friends >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Aochan (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [a (LEX)(ART)]
+    [rat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Gohan (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [dwarf (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [hamster (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [unlikely (LEX)(ADJ)]
+    [pair (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: an unlikely pair
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two share a cage at a zoo in Tokyo, Japan. 
+PreProc  : The &&2 share a cage at a zoo in Tokyo >COMMA Japan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [share (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [cage (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [zoo (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Tokyo (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Zookeepers placed the hamster, whose name is Japanese for "meal," in the snake’s cage as a tasty snack. 
+PreProc  : Zookeepers placed the hamster >COMMA whose name is Japanese for >DQUOTE meal >COMMA >DQUOTE in the snake’s cage as a tasty snack >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Zookeepers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [placed (root: place) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [hamster (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [whose (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [whose (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Japanese (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [meal (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [snake’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [cage (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [tasty (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [snack (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Instead of chowing down on Gohan, the snake befriended the furry rodent. 
+PreProc  : Instead of chowing down on Gohan >COMMA the snake befriended the furry rodent >PERIOD <EOS 
+CLAUSE:
+  [Instead (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [chowing (INF-MOR)(GER)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Gohan (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [befriended (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [furry (LEX)(ADJ)]
+    [rodent (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I’ve never seen anything like it," says zookeeper Kazuya Yamamoto. 
+PreProc  : >DQUOTE I’ve never seen anything like it >COMMA >DQUOTE says zookeeper Kazuya Yamamoto >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I’ve (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [never (LEX)(ADV)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [zookeeper (?)(UNK(ENTITY UNKNOWN))]
+    [Kazuya (?)(UNK(ENTITY UNKNOWN))]
+    [Yamamoto (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Gohan sometimes even climbs onto Aochan to take a nap on his back." 
+PreProc  : >DQUOTE Gohan sometimes even climbs onto Aochan to take a nap on his back >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gohan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sometimes (LEX)(ADV)]
+    [even (LEX)(ADV)]
+    [climbs (root: climb) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [onto (LEX)(PREP)]
+    NP SEGMENT:
+      [Aochan (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [nap (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

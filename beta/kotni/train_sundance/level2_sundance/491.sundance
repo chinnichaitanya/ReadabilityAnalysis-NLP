@@ -1,0 +1,260 @@
+Original : Some pumpkins are supersized. 
+PreProc  : Some pumpkins are supersized >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [supersized (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Farmers grow them to win contests that are held each October. 
+PreProc  : Farmers grow them to win contests that are held each October >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [contests (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [contests (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [October (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A pumpkin contest is held each year in California. 
+PreProc  : A pumpkin contest is held each year in California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [contest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The winner of last yearÕs contest was Thad Starr. 
+PreProc  : The winner of last yearÕs contest was Thad Starr >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [winner (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The winner
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [last (LEX)(ADJ)]
+      [yearÕs (?)(UNK(ENTITY UNKNOWN))]
+      [contest (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Thad (?)(UNK(ENTITY UNKNOWN))]
+    [Starr (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is a farmer in Oregon. 
+PreProc  : He is a farmer in Oregon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [farmer (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Oregon (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His pumpkin weighed 1,528 pounds! 
+PreProc  : His pumpkin weighed &&1,528 pounds >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighed (root: weigh) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&1,528 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Starr won the year before too. 
+PreProc  : Starr won the year before too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Starr (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is his secret? 
+PreProc  : What is his secret >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [his (LEX)(ADJ)]
+    [secret (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He says he uses good soil for his pumpkins. 
+PreProc  : He says he uses good soil for his pumpkins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [pumpkins (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒWe really Thad Starr shows off his giant pumpkin. 
+PreProc  : ÒWe really Thad Starr shows off his giant pumpkin >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒWe (?)(UNK(ENTITY UNKNOWN))]
+
+  [really (root: real) (MOR)(ADV)]
+  NP SEGMENT:
+    [Thad (?)(UNK(ENTITY UNKNOWN))]
+    [Starr (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [off (LEX)]
+    [his (LEX)(ADJ)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

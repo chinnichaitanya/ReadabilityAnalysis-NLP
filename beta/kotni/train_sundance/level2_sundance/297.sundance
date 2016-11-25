@@ -1,0 +1,252 @@
+Original : Move over, extra-cheese pizza! 
+PreProc  : Move over >COMMA extra-cheese pizza >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Move (LEX)(V BASE)]
+
+  [over (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [extra-cheese (?)(UNK(ENTITY UNKNOWN))]
+    [pizza (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now some schools are making healthier choices. 
+PreProc  : Now some schools are making healthier choices >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [healthier (root: healthy) (MOR)(ADJ)]
+    [choices (root: choice) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Former President Bill Clinton has teamed up with about 200 U.S. schools to fight childhood Obesity is the state of being very overweight. 
+PreProc  : Former President Bill Clinton has teamed up with about &&200 U.S. schools to fight childhood Obesity is the state of being very overweight >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Former (LEX)(ADJ)]
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [teamed (INF-MOR)(V PAST)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&200 (LEX)(NUM)]
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [fight (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [childhood (?)(UNK(ENTITY UNKNOWN))]
+    [Obesity (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [childhood (?)(UNK(ENTITY UNKNOWN))]
+    [Obesity (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [state (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the state
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+      [very (LEX)(ADV)]
+      [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now some schools are offering healthy foods and regular exercise to students. 
+PreProc  : Now some schools are offering healthy foods and regular exercise to students >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [offering (root: offer) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [healthy (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [regular (LEX)(ADJ)]
+    [exercise (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Clinton plans to reward participating schools. 
+PreProc  : Clinton plans to reward participating schools >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [reward (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [participating (root: participate) (MOR)(N SINGULAR) (GER)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Teachers are excited about this program. 
+PreProc  : Teachers are excited about this program >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Teachers (root: teacher) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [excited (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [program (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I wanted to educate parents and children on the healthy choices they can make," says Lillie Carter, principal of a participating school in Arkansas. 
+PreProc  : >DQUOTE I wanted to educate parents and children on the healthy choices they can make >COMMA >DQUOTE says Lillie Carter >COMMA principal of a participating school in Arkansas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [educate (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [healthy (LEX)(ADJ)]
+      [choices (root: choice) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Lillie (?)(UNK(ENTITY UNKNOWN))]
+    [Carter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [principal (LEX)(ADJ)]
+Following PP attaches to: Lillie Carter
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [participating (root: participate) (MOR)(N SINGULAR) (GER)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Arkansas (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "There All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : >DQUOTE There All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [There (LEX)(ADV)]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

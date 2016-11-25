@@ -1,0 +1,671 @@
+Original : Have you ever stayed up late to finish watching a movie? 
+PreProc  : Have you ever stayed up late to finish watching a movie >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [stayed (root: stay) (MOR)(V PAST)]
+    [up (LEX)(PART)]
+
+  ADJ SEGMENT:
+    [late (LEX)(ADJ(TIME))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [finish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If so, you know that not getting enough sleep can leave you tired, grouchy, and unable to think clearly the next day. 
+PreProc  : If so >COMMA you know that not getting enough sleep can leave you tired >COMMA grouchy >COMMA and unable to think clearly the next day >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  [so (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [not (LEX)(ADV)]
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [enough (LEX)(ADJ)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [leave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tired (root: tire) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [grouchy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [unable (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [think (LEX)(V BASE)]
+    [clearly (root: clear) (MOR)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists have long known that getting a good night's sleep helps kids perform their best during the day. 
+PreProc  : Scientists have long known that getting a good @night@s sleep helps kids perform their best during the day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [long (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@night@s (LEX)(ADJ POSSESSIVE)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@night@s (LEX)(ADJ POSSESSIVE)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [perform (LEX)(V BASE)]
+
+  [their (LEX)(ADJ)]
+  [best (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now, a new study from German scientists shows that getting a good night's sleep helps improve problem-solving skills and creative thinking. 
+PreProc  : Now >COMMA a new study from German scientists shows that getting a good @night@s sleep helps improve problem-solving skills and creative thinking >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [German (LEX)(ADJ)]
+      [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [German (LEX)(ADJ)]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@night@s (LEX)(ADJ POSSESSIVE)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@night@s (LEX)(ADJ POSSESSIVE)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [improve (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [problem-solving (INF-MOR)(GER)]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [creative (LEX)(ADJ)]
+    [thinking (root: think) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For the study, scientists divided volunteers into two groups to complete a math problem. 
+PreProc  : For the study >COMMA scientists divided volunteers into &&2 groups to complete a math problem >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [study (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [divided (root: divide) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [volunteers (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [complete (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [math (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The group that received eight hours of sleep solved the problem more often than the group that didn't get enough sleep. 
+PreProc  : The group that received &&8 hours of sleep solved the problem more often than the group that DID NOT get enough sleep >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [received (root: receive) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [&&8 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+Following PP attaches to: &&8 hours
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sleep (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&8 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+Following PP attaches to: &&8 hours
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sleep (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [solved (root: solve) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  [more (LEX)(ADJ)]
+  [often (LEX)(ADV)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you sleep, your brain is busy doing its "homework," sorting out information from your day. 
+PreProc  : While you sleep >COMMA your brain is busy doing its >DQUOTE homework >COMMA >DQUOTE sorting out information from your day >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sleep (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [your (LEX)(ADJ)]
+    [brain (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [brain (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [busy (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [brain (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [doing (root: do) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [homework (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [sorting (INF-MOR)(GER)]
+
+  [out (LEX)(PART) (ADV)]
+  NP SEGMENT:
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Getting enough sleep each night can boost your brainpower and help you perform your best in school. 
+PreProc  : Getting enough sleep each night can boost your brainpower and help you perform your best in school >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Getting (root: get) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [sleep (LEX)(N SINGULAR(OTHER))]
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [night (LEX)(N SINGULAR(TIME))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [night (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [boost (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [brainpower (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [night (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [perform (LEX)(V BASE)]
+
+  [your (LEX)(ADJ)]
+  [best (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say that, in turn, can lead to better grades. 
+PreProc  : Experts say that >COMMA in turn >COMMA can lead to better grades >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [turn (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [lead (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [better (LEX)(ADJ)]
+      [grades (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : that elementary-school children need at least nine hours of sleep a night. 
+PreProc  : that elementary-school children need AT_LEAST &&9 hours of sleep a night >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [that (LEX)(DET)]
+    [elementary-school (?)(UNK(ENTITY UNKNOWN))]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [AT_LEAST (LEX)(ADJ)]
+    [&&9 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+Following PP attaches to: AT_LEAST &&9 hours
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sleep (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [night (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "You'll be able to do your best if you are well rested," he said. 
+PreProc  : >DQUOTE YOU WILL be able to do your best if you are well rested >COMMA >DQUOTE he said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  [your (LEX)(ADJ)]
+  [best (LEX)(ADJ)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rested (INF-MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So next time you're stumped by a problem, try sleeping on it! 
+PreProc  : So next time YOU ARE stumped by a problem >COMMA try sleeping on it >EXCLAMATION <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [stumped (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [problem (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [try (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sleeping (root: sleep) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

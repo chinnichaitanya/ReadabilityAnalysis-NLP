@@ -1,0 +1,770 @@
+Original : Let's learn some fun facts about our world's continents! 
+PreProc  : LET US learn some fun facts about our @world@s continents >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [LET (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [US (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [US (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [fun (LEX)(ADJ)]
+    [facts (root: fact) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [our (LEX)(ADJ)]
+      [@world@s (LEX)(ADJ POSSESSIVE)]
+      [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Earth has seven continents, or landmasses. 
+PreProc  : Earth has &&7 continents >COMMA or landmasses >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [&&7 (LEX)(NUM)]
+    [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [landmasses (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When you look at a globe or a map, you will see the continents. 
+PreProc  : When you look at a globe or a map >COMMA you will see the continents >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [globe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [or (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [map (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Look at the map as you read seven special facts about seven special continents. 
+PreProc  : Look at the map as you read &&7 special facts about &&7 special continents >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [map (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&7 (LEX)(NUM)]
+    [special (LEX)(ADJ)]
+    [facts (root: fact) (MOR)(N PLURAL(OTHER))]
+
+  [about (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [&&7 (LEX)(NUM)]
+    [special (LEX)(ADJ)]
+    [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is where we live. 
+PreProc  : is where we live >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the continent that produces the most corn. 
+PreProc  : It is the continent that produces the most corn >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [produces (root: produce) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [corn (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Corn is used to feed people and animals. 
+PreProc  : Corn is used to feed people and animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Corn (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [feed (?)(UNK(ENTITY UNKNOWN))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+      [and (LEX)(CONJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also be used as fuel to heat homes and help automobiles run. 
+PreProc  : It can also be used as fuel to heat homes and help automobiles run >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [fuel (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [heat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [automobiles (root: automobile) (MOR)(N PLURAL(VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [automobiles (root: automobile) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [run (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (MAH-choo PEEchoo). 
+PreProc  : >LPAREN MAH-choo PEEchoo >RPAREN >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [MAH-choo (?)(UNK(ENTITY UNKNOWN))]
+    [PEEchoo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That city was built hundreds of years ago by people called the Incas. 
+PreProc  : That city was built hundreds of years ago by people called the Incas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [That (LEX)(DET)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Incas (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That ancient city is high in the That is a famous tower in Italy. 
+PreProc  : That ancient city is high in the That is a famous tower in Italy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [That (LEX)(DET)]
+    [ancient (LEX)(ADJ)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [high (LEX)(ADJ)]
+
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [That (LEX)(DET)]
+    [ancient (LEX)(ADJ)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [famous (LEX)(ADJ)]
+    [tower (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Italy (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The tower was built on soil made up of sand and clay. 
+PreProc  : The tower was built on soil made up of sand and clay >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [tower (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [built (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [soil (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+Following PP attaches to: made up
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sand (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [clay (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some parts of the building have sunk into the ground more than others. 
+PreProc  : Some parts of the building have sunk into the ground MORE_THAN others >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Some parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [sunk (root: sink) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ground (LEX)(N SINGULAR(OTHER))]
+      [MORE_THAN (LEX)(ADJ)]
+      [others (root: other) (LEX)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the largest continent and is the site of the salty That body of water is a lake not a sea. 
+PreProc  : is the largest continent and is the site of the salty That body of water is a lake not a sea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [site (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the site
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [salty (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [That (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lake (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nothing can live in the water because it is so salty. 
+PreProc  : Nothing can live in the water because it is so salty >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nothing (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [salty (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The high levels of salt help people float easily. 
+PreProc  : The high levels of salt help people float easily >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [high (LEX)(ADJ)]
+    [levels (root: level) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: The high levels
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [salt (?)(UNK(ENTITY UNKNOWN))]
+      [help (LEX)(N SINGULAR(OTHER))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+      [float (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [easily (root: easy) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the hottest continent. 
+PreProc  : is the hottest continent >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [hottest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [continent (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is also home to some of the biggest animals in the world. 
+PreProc  : It is also home to some of the biggest animals in the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [biggest (LEX)(ADJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The is the largest living land mammal, and the ostrich is the largest living bird. 
+PreProc  : The is the largest living land mammal >COMMA and the ostrich is the largest living bird >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP-CONJ SEGMENT:
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+    [land (LEX)(N SINGULAR(LOCATION))]
+    [mammal (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [ostrich (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+    [bird (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those animals can really take the heat! 
+PreProc  : Those animals can really take the heat >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [really (root: real) (MOR)(ADV)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [heat (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the coldest place on Earth. 
+PreProc  : is the coldest place on Earth >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [coldest (root: cold) (MOR)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Animals in Antarctica, such as whales, and seals, have a thick layer of fat called blubber. 
+PreProc  : Animals in Antarctica >COMMA SUCH_AS whales >COMMA and seals >COMMA have a thick layer of fat called blubber >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [whales (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [seals (root: seal) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [thick (LEX)(ADJ)]
+    [layer (root: lay) (MOR)(N SINGULAR)]
+
+Following PP attaches to: a thick layer
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fat (LEX)(ADJ)]
+      [called (root: call) (MOR)(ADJ)]
+      [blubber (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That helps them survive the cold weather. 
+PreProc  : That helps them survive the cold weather >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [survive (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cold (LEX)(ADJ)]
+    [weather (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

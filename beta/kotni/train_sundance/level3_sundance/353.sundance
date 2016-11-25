@@ -1,0 +1,514 @@
+Original : What would you tell President George W. Bush? 
+PreProc  : What would you tell President George W. Bush >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nearly 4,000 third and fourth graders had a lot to say to the president. 
+PreProc  : Nearly &&4,000 third and fourth graders had a lot to say to the president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nearly (LEX)(ADJ) (ADV)]
+    [&&4,000 (LEX)(NUM)]
+
+  [third (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [fourth (LEX)(ADJ)]
+    [graders (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The kids wrote letters that were printed on a , or roll of paper. 
+PreProc  : The kids wrote letters that were printed on a >COMMA or roll of paper >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wrote (root: write) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [letters (root: letter) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [letters (root: letter) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [printed (root: print) (MOR)(V PAST)]
+
+  [on (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [letters (root: letter) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [roll (LEX)(V BASE)]
+
+Following PP attaches to: roll
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [paper (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is being called the longest letter in the world. 
+PreProc  : It is being called the longest letter in the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [longest (root: long) (MOR)(ADJ)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The giant letter was rolled out in September on the National Mall. 
+PreProc  : The giant letter was rolled out in September on the National Mall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [rolled (root: roll) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [September (LEX)(N SINGULAR(MONTH))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [National (LEX)(ADJ)]
+      [Mall (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The National Mall is a park in Washington, D.C. 
+PreProc  : The National Mall is a park in Washington >COMMA D.C. <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Mall (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : The letter stretched for half a mile! 
+PreProc  : The letter stretched for half a mile >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stretched (root: stretch) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the letter, the students expressed their ideas, hopes, and concerns for the country. 
+PreProc  : In the letter >COMMA the students expressed their ideas >COMMA hopes >COMMA and concerns for the country >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [expressed (root: express) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [hopes (root: hope) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [concerns (root: concern) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Topics included the war in Iraq, taxes, health care, and the environment. 
+PreProc  : Topics included the war in Iraq >COMMA taxes >COMMA health care >COMMA and the environment >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Topics (root: topic) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [included (root: include) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [war (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+      [>COMMA (LEX)(PUNC)]
+      [taxes (root: tax) (MOR)(N PLURAL)]
+      [>COMMA (LEX)(PUNC)]
+      [health (LEX)(N SINGULAR(OTHER))]
+      [care (LEX)(N SINGULAR(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [environment (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The letter may be finished, but thanks to the Internet, kids can still make their voices heard. 
+PreProc  : The letter may be finished >COMMA but thanks to the Internet >COMMA kids can still make their voices heard >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [finished (root: finish) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thanks (root: thank) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Internet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [still (LEX)(ADV)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [voices (root: voice) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [voices (root: voice) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [heard (root: hear) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To learn more about how you can participate, visit A contraction is a short way of saying or writing two or more words. 
+PreProc  : To learn more about how you can participate >COMMA visit A contraction is a short way of saying or writing &&2 or more words >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    [how (LEX)(ADV)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [participate (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [visit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [A (LEX)(ART)]
+    [contraction (root: contract) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [contraction (root: contract) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [short (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a short way
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [saying (root: say) (MOR)(N SINGULAR(COMMUNICATION_VERB)) (GER(COMMUNICATION_VERB))]
+      [or (LEX)(CONJ)]
+      [writing (root: write) (MOR)(N SINGULAR) (GER)]
+      [&&2 (LEX)(NUM)]
+      [or (LEX)(CONJ)]
+      [more (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An apostrophe is the mark that takes the place of the missing letters. 
+PreProc  : An apostrophe is the mark that takes the place of the missing letters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [apostrophe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [mark (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [mark (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the place
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [missing (root: miss) (MOR)(N SINGULAR) (GER)]
+      [letters (root: letter) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For example, . 
+PreProc  : For example >COMMA >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Find and circle four contractions in this issue. 
+PreProc  : Find and circle &&4 contractions in this issue >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Find (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [circle (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&4 (LEX)(NUM)]
+    [contractions (root: contract) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [issue (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

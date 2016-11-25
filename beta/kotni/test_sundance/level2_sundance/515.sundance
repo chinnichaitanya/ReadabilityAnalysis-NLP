@@ -1,0 +1,416 @@
+Original : Fall is here. 
+PreProc  : Fall is here >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fall (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [here (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ItÕs time to pick pumpkins. 
+PreProc  : ItÕs time to pick pumpkins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ItÕs (?)(UNK(ENTITY UNKNOWN))]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [pick (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Read the steps to learn the life cycle of a pumpkin. 
+PreProc  : Read the steps to learn the life cycle of a pumpkin >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [steps (root: step) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [life (LEX)(N SINGULAR(OTHER))]
+    [cycle (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the life cycle
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkins begin as seeds. 
+PreProc  : Pumpkins begin as seeds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The seeds are planted in the ground in May and June. 
+PreProc  : The seeds are planted in the ground in May and June >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [planted (root: plant) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ground (LEX)(N SINGULAR(OTHER))]
+
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ground (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [June (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : grows. 
+PreProc  : grows >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [grows (root: grow) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A sprout is a tiny plant. 
+PreProc  : A sprout is a tiny plant >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [sprout (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : . 
+PreProc  : >PERIOD <EOS 
+CLAUSE:
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A vine is a long stem. 
+PreProc  : A vine is a long stem >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [vine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [long (LEX)(ADJ)]
+    [stem (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can grow more than 20 feet long! 
+PreProc  : It can grow MORE_THAN &&20 feet long >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&20 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : grow. 
+PreProc  : grow >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the bottom of some blossoms is a tiny pumpkin. 
+PreProc  : At the bottom of some blossoms is a tiny pumpkin >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bottom (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the bottom
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [blossoms (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [bottom (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the bottom
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [blossoms (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tiny green pumpkins start to grow. 
+PreProc  : Tiny green pumpkins start to grow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tiny (LEX)(ADJ)]
+    [green (LEX)(ADJ)]
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They grow bigger and bigger. 
+PreProc  : They grow bigger and bigger >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  [bigger (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  [bigger (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By October, itÕs time to pick big, orange pumpkins. 
+PreProc  : By October >COMMA itÕs time to pick big >COMMA orange pumpkins >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [October (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [itÕs (?)(UNK(ENTITY UNKNOWN))]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [pick (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [big (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The seeds inside can be used to grow more pumpkins. 
+PreProc  : The seeds inside can be used to grow more pumpkins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [inside (LEX)(PREP)]
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might a pumpkin need plenty of water as it grows? 
+PreProc  : Why might a pumpkin need plenty of water as it grows >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grows (root: grow) (MOR)(V PRESENT)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

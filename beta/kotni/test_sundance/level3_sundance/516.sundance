@@ -1,0 +1,431 @@
+Original : Talk about ideas that pop! 
+PreProc  : Talk about ideas that pop >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Talk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pop (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids across the country recently entered the Bubble Wrap Competition for Young Inventors. 
+PreProc  : Kids across the country recently entered the Bubble Wrap Competition for Young Inventors >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [entered (root: enter) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Bubble (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Bubble (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Wrap (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Competition (INF-MOR)(N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Young (LEX)(ADJ)]
+      [Inventors (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They created inventions with Bubble Wrap. 
+PreProc  : They created inventions with Bubble Wrap >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [inventions (root: invent) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Wrap (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is packing material. 
+PreProc  : That is packing material >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [packing (root: pack) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [material (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The semifinalists were announced, and the grand prize winner will be named during the week of January 28. 
+PreProc  : The semifinalists were announced >COMMA and the grand prize winner will be named during the week of January &&28 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [semifinalists (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [announced (root: announce) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [grand (LEX)(ADJ)]
+    [prize (LEX)(N SINGULAR(OTHER))]
+    [winner (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [grand (LEX)(ADJ)]
+    [prize (LEX)(N SINGULAR(OTHER))]
+    [winner (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [named (root: name) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [week (LEX)(N SINGULAR(TIME))]
+
+
+Following PP attaches to: the week
+  PP SEGMENT-Time (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [January (LEX)(N SINGULAR(MONTH))]
+      [&&28 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Andy Boler, 9, is a semifinalist. 
+PreProc  : Andy Boler >COMMA &&9 >COMMA is a semifinalist >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Andy (?)(UNK(ENTITY UNKNOWN))]
+    [Boler (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&9 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [semifinalist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He used Bubble Wrap to build a plant , or covering, to protect plants. 
+PreProc  : He used Bubble Wrap to build a plant >COMMA or covering >COMMA to protect plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [Wrap (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [covering (root: cover) (MOR)(N SINGULAR) (GER)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I like building things that help people," Andy told Sealed Air, the company that makes Bubble Wrap, sponsors the contest. 
+PreProc  : >DQUOTE I like building things that help people >COMMA >DQUOTE Andy told Sealed Air >COMMA the company that makes Bubble Wrap >COMMA sponsors the contest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Andy (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Andy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+    [Sealed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Air (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Wrap (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bubble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sponsors (root: sponsor) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The National Museum of Education organizes it. 
+PreProc  : The National Museum of Education organizes it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: The National Museum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Education (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [organizes (root: organize) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Spokesperson Nicholas Frankovits says the contest encourages kids to be creative. 
+PreProc  : Spokesperson Nicholas Frankovits says the contest encourages kids to be creative >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Spokesperson (LEX)(N SINGULAR(HUMAN))]
+    [Nicholas (?)(UNK(ENTITY UNKNOWN))]
+    [Frankovits (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [encourages (root: encourage) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [creative (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "One of the main goals is to get young students thinking," he says. 
+PreProc  : >DQUOTE One of the main goals is to get young students thinking >COMMA >DQUOTE he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [main (LEX)(ADJ)]
+      [goals (root: goal) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [young (LEX)(ADJ)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+    [thinking (root: think) (MOR)(N SINGULAR) (GER)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

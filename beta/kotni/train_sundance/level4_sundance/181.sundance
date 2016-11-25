@@ -1,0 +1,922 @@
+Original : If you listen to music, you are probably like millions of other kids--you turn up the volume when you hear your favorite song. 
+PreProc  : If you listen to music >COMMA you are probably like millions of other kids >DASH you turn up the volume when you hear your favorite song >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [listen (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [music (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [probably (LEX)(ADV)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>DASH (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [turn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [volume (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [favorite (LEX)(ADJ)]
+    [song (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Listening to loud music may be fun, but a government study shows it may also be dangerous. 
+PreProc  : Listening to loud music may be fun >COMMA but a government study shows it may also be dangerous >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Listening (root: listen) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [loud (?)(UNK(ENTITY UNKNOWN))]
+      [music (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [dangerous (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the study, which was paid for by the U.S. government, more than 5 million kids, ages 6 to 19, have suffered some hearing loss. 
+PreProc  : According to the study >COMMA which was paid for by the U.S. government >COMMA MORE_THAN &&5 million kids >COMMA ages &&6 to &&19 >COMMA have suffered some hearing loss >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [study (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [paid (LEX)(V PAST)]
+
+  [for (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ages (root: age) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&6 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&19 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [suffered (root: suffer) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's more than one out of every ten kids. 
+PreProc  : THAT IS MORE_THAN one out of every &&10 kids >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [out (LEX)]
+Following PP attaches to: MORE_THAN one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [every (LEX)(ADJ)]
+      [&&10 (LEX)(NUM)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Out of the kids with hearing loss, more than 250,000 have moderate to severe hearing loss. 
+PreProc  : Out of the kids with hearing loss >COMMA MORE_THAN &&250,000 have moderate to severe hearing loss >PERIOD <EOS 
+CLAUSE:
+  [Out (LEX)]
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [hearing (LEX)(N SINGULAR(OTHER))]
+      [loss (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&250,000 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [moderate (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [severe (LEX)(ADJ)]
+      [hearing (LEX)(N SINGULAR(OTHER))]
+      [loss (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Amanda Niskar, of the Centers for Disease Control and Prevention in Atlanta, Georgia, conducted the study. 
+PreProc  : Amanda Niskar >COMMA of the Centers for Disease Control and Prevention in Atlanta >COMMA Georgia >COMMA conducted the study >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Amanda (?)(UNK(ENTITY UNKNOWN))]
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: Amanda Niskar
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Centers (root: center) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Disease (LEX)(N SINGULAR(OTHER))]
+      [Control (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [Prevention (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Atlanta (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [conducted (root: conduct) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She was surprised by the results. 
+PreProc  : She was surprised by the results >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [surprised (root: surprise) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It was assumed in the past that children wouldn't have noise-induced hearing loss at an early stage," Niskar said. 
+PreProc  : >DQUOTE It was assumed in the past that children WOULD NOT have noise-induced hearing loss at an early stage >COMMA >DQUOTE Niskar said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [assumed (root: assume) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [that (LEX)(DET)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [that (LEX)(DET)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WOULD (root: will) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+    [noise-induced (INF-MOR)(V PAST)]
+    [hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [stage (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Niskar blames the hearing problems on loud noises. 
+PreProc  : Niskar blames the hearing problems on loud noises >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blames (root: blame) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [hearing (LEX)(N SINGULAR(OTHER))]
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [loud (?)(UNK(ENTITY UNKNOWN))]
+      [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loud noises are a "problem for children," she said. 
+PreProc  : Loud noises are a >DQUOTE problem for children >COMMA >DQUOTE she said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loud (?)(UNK(ENTITY UNKNOWN))]
+    [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loud music, fireworks, emergency sirens, and construction noise can all cause hearing problems. 
+PreProc  : Loud music >COMMA fireworks >COMMA emergency sirens >COMMA and construction noise can all cause hearing problems >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Loud (?)(UNK(ENTITY UNKNOWN))]
+    [music (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [fireworks (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [emergency (LEX)(N SINGULAR(OTHER))]
+    [sirens (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [construction (LEX)(N SINGULAR(OTHER))]
+    [noise (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cause (LEX)(V BASE)]
+    [hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hearing loss affects kids for the rest of their lives. 
+PreProc  : Hearing loss affects kids for the rest of their lives >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [affects (root: affect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rest (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the rest
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [lives (root: live) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In addition, not being able to hear well can cause kids all kinds of other problems. 
+PreProc  : In addition >COMMA not being able to hear well can cause kids all kinds of other problems >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [addition (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [not (LEX)(ADV)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [cause (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: kids all kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For example, hearing loss "can influence [a] child's ability to learn in the classroom," Niskar said. 
+PreProc  : For example >COMMA hearing loss >DQUOTE can influence >LBRACKET a >RBRACKET @child@s ability to learn in the classroom >COMMA >DQUOTE Niskar said >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [influence (LEX)(V BASE)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [a (LEX)(ART)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [@child@s (LEX)(ADJ POSSESSIVE)]
+    [ability (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [classroom (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If a child cannot hear the teacher or classmates well, he or she might have a hard time understanding lessons and following instructions. 
+PreProc  : If a child cannot hear the teacher or classmates well >COMMA he or she might have a hard time understanding lessons and following instructions >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [child (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cannot (LEX)(AUX) (V BASE)]
+    [hear (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [classmates (?)(UNK(ENTITY UNKNOWN))]
+    [well (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [hard (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+    [understanding (root: understand) (MOR)(N SINGULAR) (GER)]
+    [lessons (root: lesson) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [following (root: follow) (MOR)(N SINGULAR) (GER)]
+    [instructions (root: instruction) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Niskar said the best way to prevent hearing loss is either to stay away from loud noises or to wear hearing protection, such as earplugs and protective headphones. 
+PreProc  : Niskar said the best way to prevent hearing loss is either to stay away from loud noises or to wear hearing protection >COMMA SUCH_AS earplugs and protective headphones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Niskar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hearing (LEX)(N SINGULAR(OTHER))]
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hearing (LEX)(N SINGULAR(OTHER))]
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [either (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [loud (?)(UNK(ENTITY UNKNOWN))]
+      [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+
+  [or (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hearing (LEX)(N SINGULAR(OTHER))]
+    [protection (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [earplugs (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [protective (LEX)(ADJ)]
+      [headphones (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So the next time you want to pump up the volume, turn it down instead. 
+PreProc  : So the next time you want to pump up the volume >COMMA turn it down instead >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [pump (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [volume (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [turn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [down (LEX)(PREP)]
+  [instead (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Listen Up! 
+PreProc  : Listen Up >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Listen (LEX)(V BASE)]
+    [Up (LEX)(PART)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This diagram shows the parts of your ear. 
+PreProc  : This diagram shows the parts of your ear >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [diagram (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [ear (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loud noises can damage the cochlea and cause hearing loss. 
+PreProc  : Loud noises can damage the cochlea and cause hearing loss >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loud (?)(UNK(ENTITY UNKNOWN))]
+    [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [damage (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cochlea (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loud (?)(UNK(ENTITY UNKNOWN))]
+    [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cause (LEX)(V BASE)]
+    [hearing (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Teacher's Guide: What? 
+PreProc  : @Teacher@s Guide >COLON What >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Teacher@s (LEX)(ADJ POSSESSIVE)]
+    [Guide (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Are You Going Deaf? 
+PreProc  : Are You Going Deaf >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [You (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Going (root: go) (LEX)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [Deaf (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,379 @@
+Original : What famous piece of writing starts with the words "We the People"? 
+PreProc  : What famous piece of writing starts with the words >DQUOTE We the People >DQUOTE >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [famous (LEX)(ADJ)]
+    [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: What famous piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [writing (root: write) (MOR)(N SINGULAR) (GER)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [starts (root: start) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's the Constitution of the United States. 
+PreProc  : IT IS the Constitution of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the Constitution
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Constitution tells how our government works. 
+PreProc  : The Constitution tells how our government works >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tells (root: tell) (MOR)(V PRESENT)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [our (LEX)(ADJ)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [works (root: work) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a set of rules that is the highest law in the country. 
+PreProc  : It is a set of rules that is the highest law in the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [set (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a set
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [set (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a set
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [highest (root: high) (MOR)(ADJ)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The week of September 17 is Constitution Week. 
+PreProc  : The week of September &&17 is Constitution Week >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [week (LEX)(N SINGULAR(TIME))]
+
+Following PP attaches to: The week
+  PP SEGMENT-Time (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&17 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Week (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the week, kids across the United States will learn about the Constitution. 
+PreProc  : During the week >COMMA kids across the UNITED_STATES will learn about the Constitution >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [week (LEX)(N SINGULAR(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Constitution (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Constitution is more than 200 years old! 
+PreProc  : The Constitution is MORE_THAN &&200 years old >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was written by a group of people known as the framers. 
+PreProc  : It was written by a group of people known as the framers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [written (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [group (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [framers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They signed the Constitution on September 17, 1787. 
+PreProc  : They signed the Constitution on September &&17 >COMMA &&1787 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [signed (root: sign) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&17 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1787 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At that time, the United States was a new country. 
+PreProc  : At that time >COMMA the UNITED_STATES was a new country >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+      [>COMMA (LEX)]
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT-Location (SUBJ):
+    [that (LEX)(DET)]
+    [time (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)]
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How much do you know about the Constitution of the United States? 
+PreProc  : How much do you know about the Constitution of the UNITED_STATES >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Constitution (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the Constitution
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

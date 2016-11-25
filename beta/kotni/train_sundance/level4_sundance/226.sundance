@@ -1,0 +1,388 @@
+Original : Most people want their wedding to be a special day. 
+PreProc  : Most people want their wedding to be a special day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [wedding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [wedding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : David Leibowitz and Kimberly Miller chose to start their marriage with a voyage to the bottom of the sea. 
+PreProc  : David Leibowitz and Kimberly Miller chose to start their marriage with a voyage to the bottom of the sea >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Leibowitz (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+  [Kimberly (INF-MOR)(ADV)]
+  NP SEGMENT:
+    [Miller (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [chose (root: choose) (LEX)(V PAST)]
+    [to (LEX)(INF)]
+    [start (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [marriage (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [voyage (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bottom (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the bottom
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As part of a contest, Leibowitz won a submarine trip to see the . 
+PreProc  : As part of a contest >COMMA Leibowitz won a submarine trip to see the >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Leibowitz (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [submarine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [submarine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trip (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  [the (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Titanic was a passenger ship that sank on April 15, 1912, after hitting an iceberg in the North Atlantic Ocean. 
+PreProc  : The Titanic was a passenger ship that sank on April &&15 >COMMA &&1912 >COMMA after hitting an iceberg in the North Atlantic Ocean >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Titanic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [passenger (LEX)(N SINGULAR(HUMAN))]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [passenger (LEX)(N SINGULAR(HUMAN))]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sank (root: sink) (LEX)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [April (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1912 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [hitting (root: hit) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [iceberg (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [Atlantic (?)(UNK(ENTITY UNKNOWN))]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On their wedding day, the couple boarded a small sub and traveled to the ocean floor. 
+PreProc  : On their wedding day >COMMA the couple boarded a small sub and traveled to the ocean floor >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [wedding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [couple (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [boarded (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [sub (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [couple (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+      [floor (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The sub stopped on the bow of the Titanic. 
+PreProc  : The sub stopped on the bow of the Titanic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [sub (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stopped (root: stop) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bow (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+Following PP attaches to: the bow
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Titanic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Standing inside the sub, the couple were married. 
+PreProc  : Standing inside the sub >COMMA the couple were married >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Standing (root: stand) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sub (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [couple (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [married (root: marry) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Critics are not happy about the wedding. 
+PreProc  : Critics are not happy about the wedding >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Critics (root: critic) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [happy (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [wedding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They say that the ship is a monument to a horrific event. 
+PreProc  : They say that the ship is a monument to a horrific event >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [monument (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [horrific (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [event (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It sank on its first voyage, killing 1,500 people. 
+PreProc  : It sank on its first voyage >COMMA killing &&1,500 people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sank (root: sink) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [first (LEX)(ADJ)]
+      [voyage (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [killing (root: kill) (MOR)(N SINGULAR) (GER)]
+    [&&1,500 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

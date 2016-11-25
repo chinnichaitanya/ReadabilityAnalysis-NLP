@@ -1,0 +1,285 @@
+Original : was launched from Kodiak, Alaska. 
+PreProc  : was launched from Kodiak >COMMA Alaska >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [launched (root: launch) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Kodiak (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The table lists some facts about Alaska. 
+PreProc  : The table lists some facts about Alaska >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lists (root: list) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [facts (root: fact) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use the information to answer the questions below. 
+PreProc  : Use the information to answer the questions below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Circle your answers. 
+PreProc  : Circle your answers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Circle (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [answers (root: answer) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mount McKinley, located in Alaska, is the highest mountain in the United States. 
+PreProc  : Mount McKinley >COMMA located in Alaska >COMMA is the highest mountain in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [McKinley (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKinley (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKinley (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [highest (root: high) (MOR)(ADJ)]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the state flower of Alaska? 
+PreProc  : What is the state flower of Alaska >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [state (LEX)(N SINGULAR(OTHER))]
+    [flower (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: the state flower
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In which year did Alaska become a state? 
+PreProc  : In which year did Alaska become a state >QUESTION <EOS 
+CLAUSE:
+  [In (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [state (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ____ is the tallest mountain in the United States. 
+PreProc  : >USCORE >USCORE >USCORE >USCORE is the tallest mountain in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [tallest (root: tall) (MOR)(ADJ)]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the state tree of Alaska? 
+PreProc  : What is the state tree of Alaska >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [state (LEX)(N SINGULAR(OTHER))]
+    [tree (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: the state tree
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "North to the future" is the Alaska state ____. 
+PreProc  : >DQUOTE North to the future >DQUOTE is the Alaska state >USCORE >USCORE >USCORE >USCORE >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Alaska (LEX)(N SINGULAR(LOCATION))]
+    [state (LEX)(N SINGULAR(OTHER))]
+
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

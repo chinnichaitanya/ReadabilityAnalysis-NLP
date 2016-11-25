@@ -1,0 +1,524 @@
+Original : It's a Bird... It's a Plane... It's a Meteor! 
+PreProc  : IT IS a Bird >ELLIPSES IT IS a Plane >ELLIPSES IT IS a Meteor >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Bird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Plane (LEX)(N SINGULAR(VEHICLE))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Meteor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When a meteor hits the ground, it is called a . 
+PreProc  : When a meteor hits the ground >COMMA it is called a >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [meteor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hits (root: hit) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ground (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [a (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When a meteor is in space, it is called a Tom Lawson, a truck driver, was cruising on Interstate 8 in Arizona recently when he saw a "green light with a kind of orange tail going [through the] sky." 
+PreProc  : When a meteor is in space >COMMA it is called a Tom Lawson >COMMA a truck driver >COMMA was cruising on Interstate &&8 in Arizona recently when he saw a >DQUOTE green light with a kind of orange tail going >LBRACKET through the >RBRACKET sky >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [meteor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Tom (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Lawson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [truck (LEX)(N SINGULAR(VEHICLE))]
+    [driver (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [cruising (INF-MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Interstate (LEX)(ADJ) (N SINGULAR(LOCATION))]
+      [&&8 (LEX)(NUM)]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+
+  [recently (LEX)(ADV)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [saw (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [green (LEX)(ADJ)]
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [tail (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: a kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [tail (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [through (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [sky (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People more than 100 miles away saw the bright light. 
+PreProc  : People MORE_THAN &&100 miles away saw the bright light >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [away (LEX)(ADV)]
+    [saw (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bright (LEX)(ADJ)]
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most observers didn't know what had caused the flash. 
+PreProc  : Most observers DID NOT know what had caused the flash >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [observers (root: observer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [caused (root: cause) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [flash (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some thought they had seen a strange new airplane or even a flying saucer. 
+PreProc  : Some thought they had seen a strange new airplane or even a flying saucer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thought (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [strange (LEX)(ADJ)]
+    [new (LEX)(ADJ)]
+    [airplane (LEX)(N SINGULAR(VEHICLE))]
+
+  [or (LEX)(CONJ)]
+  [even (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+    [saucer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Frank So, an astronomer, is fairly sure he knows what caused the flash. 
+PreProc  : Frank So >COMMA an astronomer >COMMA is fairly sure he knows what caused the flash >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Frank (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [So (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [astronomer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [fairly (root: fair) (MOR)(ADV)]
+
+  ADJ SEGMENT:
+    [sure (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knows (root: know) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [caused (root: cause) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [flash (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "From the description, it sounds like a very bright meteor," said So, who works at the Griffith Observatory in Los Angeles. 
+PreProc  : >DQUOTE From the description >COMMA it sounds like a very bright meteor >COMMA >DQUOTE said So >COMMA who works at the Griffith Observatory in Los Angeles >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [From (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [description (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [very (LEX)(ADV)]
+    [bright (LEX)(ADJ)]
+    [meteor (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+    [So (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [very (LEX)(ADV)]
+    [bright (LEX)(ADJ)]
+    [meteor (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [works (root: work) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Griffith (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Observatory (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Los (?)(UNK(ENTITY UNKNOWN))]
+      [Angeles (root: angel) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : California. 
+PreProc  : California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a rock from space that people see as a streak of light as it hurtles through Earth's atmosphere. 
+PreProc  : is a rock from space that people see as a streak of light as it hurtles through @Earth@s atmosphere >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [rock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [streak (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: a streak
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  NP SEGMENT:
+    [hurtles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [@Earth@s (LEX)(ADJ POSSESSIVE)]
+      [atmosphere (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A meteor is also called a shooting star. 
+PreProc  : A meteor is also called a shooting star >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [meteor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [shooting (root: shoot) (MOR)(N SINGULAR) (GER)]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 100 million meteors pass through Earth's atmosphere each year. 
+PreProc  : About &&100 million meteors pass through @Earth@s atmosphere each year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&100 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [meteors (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pass (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [@Earth@s (LEX)(ADJ POSSESSIVE)]
+      [atmosphere (LEX)(N SINGULAR(OTHER))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

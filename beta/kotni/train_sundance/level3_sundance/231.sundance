@@ -1,0 +1,736 @@
+Original : Soda. 
+PreProc  : Soda >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soda (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pop. 
+PreProc  : Pop >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Pop (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cola. 
+PreProc  : Cola >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cola (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fizz. 
+PreProc  : Fizz >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fizz (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Whatever name it's called, millions of kids across the country are drinking it. 
+PreProc  : Whatever name IT IS called >COMMA millions of kids across the country are drinking it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Whatever (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [drinking (root: drink) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Could that be bad for kids' health? 
+PreProc  : Could that be bad for @kids@ health >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Could (root: can) (LEX)(AUX)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [bad (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [@kids@ (LEX)(ADJ POSSESSIVE)]
+      [health (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A group of 57,000 doctors thinks so. 
+PreProc  : A group of &&57,000 doctors thinks so >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&57,000 (LEX)(NUM)]
+      [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thinks (root: think) (MOR)(V PRESENT)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In January, the doctors warned school officials of the dangers of sugared drinks. 
+PreProc  : In January >COMMA the doctors warned school officials of the dangers of sugared drinks >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [January (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [warned (root: warn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: school officials
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dangers (root: danger) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the dangers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sugared (INF-LEX)(ADJ)]
+      [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The doctors say those drinks are part of the reason so many kids are very overweight, or . 
+PreProc  : The doctors say those drinks are part of the reason so many kids are very overweight >COMMA or >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [reason (LEX)(N SINGULAR(OTHER))]
+
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Studies show that more than three times as many kids are overweight today as were 30 years ago. 
+PreProc  : Studies show that MORE_THAN &&3 times as many kids are overweight today as were &&30 years ago >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Studies (root: study) (MOR)(V BASE)]
+    [show (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [as (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [&&30 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or stop, the sale of soft drinks in vending machines. 
+PreProc  : >COMMA or stop >COMMA the sale of soft drinks in vending machines >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [stop (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [sale (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the sale
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [soft (LEX)(ADJ)]
+      [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [vending (INF-MOR)(GER)]
+      [machines (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They suggest that the vending machines offer more healthful choices-such as water, real fruit and vegetable juices, and low-fat milk. 
+PreProc  : They suggest that the vending machines offer more healthful choices-such as water >COMMA real fruit and vegetable juices >COMMA and low-fat milk >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [suggest (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [vending (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [machines (?)(UNK(ENTITY UNKNOWN))]
+    [offer (LEX)(N SINGULAR(OTHER))]
+    [more (LEX)(ADJ)]
+    [healthful (?)(UNK(ENTITY UNKNOWN))]
+    [choices-such (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [real (LEX)(ADJ)]
+    [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [vegetable (?)(UNK(ENTITY UNKNOWN))]
+    [juices (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [low-fat (?)(UNK(ENTITY UNKNOWN))]
+    [milk (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soft-drink makers see the obesity problem differently. 
+PreProc  : Soft-drink makers see the obesity problem differently >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soft-drink (?)(UNK(ENTITY UNKNOWN))]
+    [makers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [obesity (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  [differently (root: different) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They say the main reason that kids are overweight is a lack of exercise. 
+PreProc  : They say the main reason that kids are overweight is a lack of exercise >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lack (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lack
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [exercise (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Soft drinks can be part of a balanced lifestyle and are a nice treat," said one spokesperson. 
+PreProc  : >DQUOTE Soft drinks can be part of a balanced lifestyle and are a nice treat >COMMA >DQUOTE said one spokesperson >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soft (LEX)(ADJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [balanced (root: balance) (MOR)(ADJ)]
+      [lifestyle (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soft (LEX)(ADJ)]
+    [drinks (root: drink) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [nice (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [nice (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [treat (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [nice (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The chart shows the percentage of overweight kids in certain years. 
+PreProc  : The chart shows the percentage of overweight kids in certain years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [chart (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [percentage (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the percentage
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [overweight (?)(UNK(ENTITY UNKNOWN))]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [certain (LEX)(ADJ)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For example, from 1971 to 1974, four of every 100 kids were overweight. 
+PreProc  : For example >COMMA from &&1971 to &&1974 >COMMA &&4 of every &&100 kids were overweight >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1971 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1974 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+
+Following PP attaches to: &&4
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [every (LEX)(ADJ)]
+      [&&100 (LEX)(NUM)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [overweight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At lunchtime today, my friends and I heard some fifth graders swearing. 
+PreProc  : At lunchtime today >COMMA my friends and I heard some fifth graders swearing >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [lunchtime (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [my (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [heard (root: hear) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [fifth (LEX)(ADJ)]
+    [graders (?)(UNK(ENTITY UNKNOWN))]
+    [swearing (root: swear) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We think we should tell the principal, but we're afraid that the older kids will find out. 
+PreProc  : We think we should tell the principal >COMMA but WE ARE afraid that the older kids will find out >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [tell (LEX)(V BASE)]
+
+  [the (LEX)(ART)]
+  [principal (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [WE (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [afraid (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [older (root: old) (MOR)(ADJ)]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They might become angry and pick on us. 
+PreProc  : They might become angry and pick on us >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [become (LEX)(V BASE)]
+
+  [angry (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pick (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [us (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What should we do? 
+PreProc  : What should we do >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

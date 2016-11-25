@@ -1,0 +1,606 @@
+Original : Wind can help fly a kite, power a sailboat, or spread seeds. 
+PreProc  : Wind can help fly a kite >COMMA power a sailboat >COMMA or spread seeds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+    [fly (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [kite (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [sailboat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spread (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Around the world, wind has also become an increasingly popular and inexpensive source of energy that is converted into electricity. 
+PreProc  : Around the world >COMMA wind has also become an increasingly popular and inexpensive source of energy that is converted into electricity >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [also (LEX)(ADV)]
+    [become (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [increasingly (LEX)(ADV)]
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [inexpensive (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: an increasingly popular and inexpensive source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [increasingly (LEX)(ADV)]
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [inexpensive (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: an increasingly popular and inexpensive source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [converted (root: convert) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [electricity (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the National Wind Technology Center in Colorado, scientists are working to advance wind-power technology. 
+PreProc  : At the National Wind Technology Center in Colorado >COMMA scientists are working to advance wind-power technology >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [National (LEX)(ADJ)]
+      [Wind (LEX)(N SINGULAR(OTHER))]
+      [Technology (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Colorado (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [advance (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [wind-power (?)(UNK(ENTITY UNKNOWN))]
+    [technology (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wind is often considered an environmentally friendly source of power. 
+PreProc  : Wind is often considered an environmentally friendly source of power >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [considered (root: consider) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [environmentally (root: environmental) (MOR)(ADV)]
+    [friendly (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: an environmentally friendly source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [power (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wind doesn't pollute the environment and is a renewable source of energy that can't be used up like , such as coal, oil, and natural gas. 
+PreProc  : Wind DOES NOT pollute the environment and is a renewable source of energy that CAN NOT be used up like >COMMA SUCH_AS coal >COMMA oil >COMMA and natural gas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DOES (root: do) (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (IOBJ):
+    [pollute (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [environment (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [renewable (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a renewable source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [renewable (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a renewable source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [CAN (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [up (LEX)(PART)]
+    [like (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [coal (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [oil (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [natural (LEX)(ADJ)]
+      [gas (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Harnessing power from wind is nothing new. 
+PreProc  : Harnessing power from wind is nothing new >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Harnessing (INF-MOR)(GER)]
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [wind (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [nothing (LEX)(N SINGULAR(OTHER))]
+
+  [new (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some of the first windmills were used in Europe more than 5,000 years ago. 
+PreProc  : Some of the first windmills were used in Europe MORE_THAN &&5,000 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [windmills (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Europe (?)(UNK(ENTITY UNKNOWN))]
+      [MORE_THAN (LEX)(ADJ)]
+      [&&5,000 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, modern windmills, called , resemble airplane propellers and are grouped together in wind farms. 
+PreProc  : Today >COMMA modern windmills >COMMA called >COMMA resemble airplane propellers and are grouped together in wind farms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [modern (LEX)(ADJ)]
+    [windmills (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [resemble (?)(UNK(ENTITY UNKNOWN))]
+    [airplane (LEX)(N SINGULAR(VEHICLE))]
+    [propellers (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [modern (LEX)(ADJ)]
+    [windmills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [grouped (root: group) (MOR)(V PAST)]
+    [together (LEX)(ADV)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [wind (LEX)(N SINGULAR(OTHER))]
+      [farms (root: farm) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Despite the benefits, wind power is far from perfect. 
+PreProc  : Despite the benefits >COMMA wind power is far from perfect >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Despite (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [benefits (root: benefit) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [benefits (root: benefit) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wind (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [power (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [far (LEX)(ADJ)]
+
+  [from (LEX)(PREP)]
+  [perfect (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Opponents of wind farms say the biggest problem is unreliabilityÑwhen the wind doesn't blow, there is no power. 
+PreProc  : Opponents of wind farms say the biggest problem is unreliabilityÑwhen the wind DOES NOT blow >COMMA there is no power >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Opponents (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Opponents
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [wind (LEX)(N SINGULAR(OTHER))]
+      [farms (root: farm) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [biggest (LEX)(ADJ)]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [unreliabilityÑwhen (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [wind (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [wind (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DOES (root: do) (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [blow (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also argue that wind turbines can be an eyesore and threaten birds and other wildlife that fly into the blades. 
+PreProc  : They also argue that wind turbines can be an eyesore and threaten birds and other wildlife that fly into the blades >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [argue (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wind (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [turbines (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [turbines (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [eyesore (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [turbines (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [threaten (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fly (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [blades (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Currently, 27 states have wind farms. 
+PreProc  : Currently >COMMA &&27 states have wind farms >PERIOD <EOS 
+CLAUSE:
+  [Currently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&27 (LEX)(NUM)]
+    [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [wind (LEX)(N SINGULAR(OTHER))]
+    [farms (root: farm) (MOR)(N PLURAL(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those turbines provide enough power for more than a million homes. 
+PreProc  : Those turbines provide enough power for MORE_THAN a million homes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [turbines (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [provide (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  [for (LEX)(PREP)]
+  [MORE_THAN (LEX)(ADJ)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

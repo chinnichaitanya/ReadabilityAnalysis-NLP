@@ -1,0 +1,316 @@
+Original : What are both strong and light? 
+PreProc  : What are both strong and light >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [strong (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your bones! 
+PreProc  : Your bones >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some bones give your body its shape. 
+PreProc  : Some bones give your body its shape >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [its (LEX)(ADJ)]
+    [shape (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Without them, you would be as squishy as a jellyfish! 
+PreProc  : Without them >COMMA you would be as squishy as a jellyfish >EXCLAMATION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Without (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [squishy (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [jellyfish (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other bones protect parts inside your body. 
+PreProc  : Other bones protect parts inside your body >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [body (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All the bones together make up your An X-ray lets doctors see the bones inside a personÕs body. 
+PreProc  : All the bones together make up your An X-ray lets doctors see the bones inside a personÕs body >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [together (LEX)(ADV)]
+    [make (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [your (LEX)(ADJ)]
+  NP SEGMENT:
+    [An (LEX)(ART)]
+    [X-ray (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [X-ray (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [personÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [body (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A babyÕs body has 300 bones. 
+PreProc  : A babyÕs body has &&300 bones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [babyÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&300 (LEX)(NUM)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As babies get older, some of those bones grow together. 
+PreProc  : As babies get older >COMMA some of those bones grow together >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [older (root: old) (MOR)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An adult has about 206 bones. 
+PreProc  : An adult has about &&206 bones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [adult (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&206 (LEX)(NUM)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might it be important to have bones that are strong and light? 
+PreProc  : Why might it be important to have bones that are strong and light >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [strong (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

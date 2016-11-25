@@ -1,0 +1,516 @@
+Original : Have you ever heard someone speak Eyak, Navajo, or Udihe? 
+PreProc  : Have you ever heard someone speak Eyak >COMMA Navajo >COMMA or Udihe >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [heard (root: hear) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Eyak (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Navajo (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [Udihe (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You probably have not, but they are among the 6,800 languages spoken worldwide. 
+PreProc  : You probably have not >COMMA but they are among the &&6,800 languages spoken worldwide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [probably (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&6,800 (LEX)(NUM)]
+      [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+
+  [spoken (root: spoke) (MOR)(ADJ)]
+  [worldwide (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The three languages are among many that may soon die out. 
+PreProc  : The &&3 languages are among many that may soon die out >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [soon (LEX)(ADV)]
+    [die (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to officials at the Worldwatch Institute, half of the world's languages are spoken by fewer than 2,500 people. 
+PreProc  : According to officials at the Worldwatch Institute >COMMA half of the @world@s languages are spoken by fewer than &&2,500 people >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Worldwatch (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: half
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(ADJ POSSESSIVE)]
+      [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: half
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(ADJ POSSESSIVE)]
+      [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [spoken (root: spoke) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [fewer (root: few) (MOR)(ADJ)]
+      [than (LEX)(ADV)]
+      [&&2,500 (LEX)(NUM)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those languages may die out by the end of this century. 
+PreProc  : Those languages may die out by the end of this century >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [die (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [century (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 100 people in Russia speak Udihe. 
+PreProc  : About &&100 people in Russia speak Udihe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&100 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Russia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Udihe (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Six people in South America speak Arikapú, and only one person, Marie Smith of Alaska, speaks Eyak. 
+PreProc  : &&6 people in South America speak Arikapú >COMMA and only one person >COMMA Marie Smith of Alaska >COMMA speaks Eyak >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&6 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Arikapú (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [only (LEX)(ADV)]
+  NP SEGMENT:
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Marie (?)(UNK(ENTITY UNKNOWN))]
+    [Smith (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Marie Smith
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&6 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speaks (root: speak) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Eyak (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As people move from their homelands, they learn new languages and often forget their native languages. 
+PreProc  : As people move from their homelands >COMMA they learn new languages and often forget their native languages >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [their (LEX)(ADJ)]
+      [homelands (root: homeland) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [forget (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As increasing numbers of people move, their languages die out. 
+PreProc  : As increasing numbers of people move >COMMA their languages die out >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [increasing (root: increase) (MOR)(N SINGULAR) (GER)]
+      [numbers (root: number) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: increasing numbers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+      [move (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [die (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Manx, a language from the Isle of Man in the Irish Sea, died out in 1974. 
+PreProc  : Manx >COMMA a language from the ISLE_OF_MAN in the Irish Sea >COMMA died out in &&1974 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Manx (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [language (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ISLE_OF_MAN (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Irish (LEX)(ADJ)]
+      [Sea (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [died (root: die) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1974 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ubykh, an ancient language from Europe, disappeared when the last man who spoke it died in 1992. 
+PreProc  : Ubykh >COMMA an ancient language from Europe >COMMA disappeared when the last man who spoke it died in &&1992 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ubykh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [ancient (LEX)(ADJ)]
+    [language (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Europe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [disappeared (root: disappear) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [last (LEX)(ADJ)]
+    [man (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [last (LEX)(ADJ)]
+    [man (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spoke (root: speak) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [died (root: die) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1992 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

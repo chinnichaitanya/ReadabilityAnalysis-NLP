@@ -1,0 +1,176 @@
+Original : ______ live in the southern part of the world. 
+PreProc  : >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE live in the southern part of the world >PERIOD <EOS 
+CLAUSE:
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [southern (LEX)(ADJ)]
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the southern part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Polar bear ______ usually stay with their mothers for two years. 
+PreProc  : Polar bear >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE usually stay with their mothers for &&2 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Polar (?)(UNK(ENTITY UNKNOWN))]
+    [bear (LEX)(N SINGULAR(ANIMAL))]
+
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [stay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [mothers (root: mother) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pandas live in damp, cold ______ in China. 
+PreProc  : Pandas live in damp >COMMA cold >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE in China >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pandas (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [damp (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [cold (LEX)(ADJ)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [China (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dolphins live in most oceans and usually eat ______. 
+PreProc  : Dolphins live in most oceans and usually eat >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dolphins (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [oceans (root: ocean) (MOR)(N PLURAL(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [eat (LEX)(V BASE)]
+
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Koalas eat the leaves of ______ trees. 
+PreProc  : Koalas eat the leaves of >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE trees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Koalas (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+  [of (LEX)(PREP)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  NP SEGMENT:
+    [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

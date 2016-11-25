@@ -1,0 +1,239 @@
+Original : The inauguration usually takes place on January 20. 
+PreProc  : The inauguration usually takes place on January &&20 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [inauguration (root: inaugurate) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [January (LEX)(N SINGULAR(MONTH))]
+      [&&20 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It marks the beginning of a new presidential term. 
+PreProc  : It marks the beginning of a new presidential term >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+Following PP attaches to: the beginning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [presidential (LEX)(ADJ)]
+      [term (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The table shows information about the last five U.S. presidents. 
+PreProc  : The table shows information about the last &&5 U.S. presidents >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [last (LEX)(ADJ)]
+      [&&5 (LEX)(NUM)]
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use the table to answer the questions. 
+PreProc  : Use the table to answer the questions >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Choose the best answer. 
+PreProc  : Choose the best answer >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which U.S. presidents served more than four years as president? 
+PreProc  : Which U.S. presidents served MORE_THAN &&4 years as president >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [served (root: serve) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Who was the oldest person to serve as U.S. president? 
+PreProc  : Who was the oldest person to serve as U.S. president >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [oldest (root: old) (MOR)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [serve (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which president served fewer than four years as U.S. president? 
+PreProc  : Which president served fewer than &&4 years as U.S. president >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [served (root: serve) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [fewer (root: few) (MOR)(ADJ)]
+    [than (LEX)(ADV)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Who first served as vice president before becoming U.S. president? 
+PreProc  : Who first served as vice president before becoming U.S. president >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  [first (LEX)(ADJ)]
+  [served (root: serve) (MOR)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [vice (LEX)(N SINGULAR(OTHER))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [becoming (root: become) (MOR)(N SINGULAR) (GER)]
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

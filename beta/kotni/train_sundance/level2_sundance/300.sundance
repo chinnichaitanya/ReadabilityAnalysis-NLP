@@ -1,0 +1,802 @@
+Original : Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune! 
+PreProc  : Mercury >COMMA Venus >COMMA Earth >COMMA Mars >COMMA Jupiter >COMMA Saturn >COMMA Uranus >COMMA and Neptune >EXCLAMATION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Mercury (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [Venus (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Mars (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Saturn (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Uranus (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Neptune (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : or revolve around, the sun. 
+PreProc  : or revolve around >COMMA the sun >PERIOD <EOS 
+CLAUSE:
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [revolve (LEX)(V BASE)]
+
+  [around (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The planets and the sun are parts of our solar system. 
+PreProc  : The planets and the sun are parts of our solar system >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [solar (LEX)(ADJ)]
+      [system (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a star. 
+PreProc  : is a star >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a giant ball of hot gas. 
+PreProc  : It is a giant ball of hot gas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a giant ball
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hot (LEX)(ADJ)]
+      [gas (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the closest planet to the sun. 
+PreProc  : is the closest planet to the sun >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [closest (root: close) (MOR)(ADJ   )]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It has mountains, cliffs, and plains. 
+PreProc  : It has mountains >COMMA cliffs >COMMA and plains >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [cliffs (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [plains (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the hottest planet. 
+PreProc  : is the hottest planet >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [hottest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can reach up to 850 degrees. 
+PreProc  : It can reach up to &&850 degrees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [reach (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&850 (LEX)(NUM)]
+      [degrees (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is hot enough to melt a rocket ship! 
+PreProc  : That is hot enough to melt a rocket ship >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [hot (LEX)(ADJ)]
+    [enough (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [melt (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [rocket (LEX)(N SINGULAR(WEAPON))]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the planet pictured on the cover. 
+PreProc  : is the planet pictured on the cover >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pictured (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [cover (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is our home. 
+PreProc  : It is our home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [our (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the only planet that has the oxygen and water that people, animals, and plants need to live. 
+PreProc  : It is the only planet that has the oxygen and water that people >COMMA animals >COMMA and plants need to live >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [oxygen (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a cold planet. 
+PreProc  : is a cold planet >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [cold (LEX)(ADJ)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is sometimes called the Red Planet because it has reddish soil. 
+PreProc  : It is sometimes called the Red Planet because it has reddish soil >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [sometimes (LEX)(ADV)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Red (LEX)(ADJ)]
+    [Planet (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [reddish (?)(UNK(ENTITY UNKNOWN))]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the largest planet. 
+PreProc  : is the largest planet >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is made of thick gases. 
+PreProc  : It is made of thick gases >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+Following PP attaches to: is made
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [thick (LEX)(ADJ)]
+      [gases (root: gas) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you tried to land a rocket ship, you would sink into the planet! 
+PreProc  : If you tried to land a rocket ship >COMMA you would sink into the planet >EXCLAMATION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [tried (root: try) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [land (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [rocket (LEX)(N SINGULAR(WEAPON))]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [sink (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is the second-largest planet. 
+PreProc  : is the second-largest planet >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [second-largest (LEX)(ADJ)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Like Jupiter, it is made mostly of gases. 
+PreProc  : Like Jupiter >COMMA it is made mostly of gases >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+    [mostly (root: most) (MOR)(ADV)]
+
+Following PP attaches to: is made mostly
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [gases (root: gas) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Its rings are made up of rock, ice, and dust. 
+PreProc  : Its rings are made up of rock >COMMA ice >COMMA and dust >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Its (LEX)(ADJ)]
+    [rings (root: ring) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+Following PP attaches to: are made up
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rock (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [dust (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is cold and windy. 
+PreProc  : is cold and windy >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [cold (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [windy (root: wind) (MOR)(ADJ(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was the first planet to be discovered with a telescope, in 1781. 
+PreProc  : It was the first planet to be discovered with a telescope >COMMA in &&1781 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [telescope (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1781 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is called the Blue Planet. 
+PreProc  : is called the Blue Planet >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Blue (LEX)(ADJ)]
+    [Planet (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the coldest planet because it is farthest from the sun. 
+PreProc  : It is the coldest planet because it is farthest from the sun >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [coldest (root: cold) (MOR)(ADJ)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [farthest (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sun (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Jupiter, Saturn, Uranus, and Neptune are gas planets. 
+PreProc  : Jupiter >COMMA Saturn >COMMA Uranus >COMMA and Neptune are gas planets >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Saturn (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Uranus (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Neptune (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [gas (LEX)(N SINGULAR(PHYSOBJ))]
+    [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They all have rings. 
+PreProc  : They all have rings >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rings (root: ring) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Only Saturn’s rings are thick enough to be seen easily from Earth. 
+PreProc  : Only Saturn’s rings are thick enough to be seen easily from Earth >PERIOD <EOS 
+CLAUSE:
+  [Only (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [Saturn’s (?)(UNK(ENTITY UNKNOWN))]
+    [rings (root: ring) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [thick (LEX)(ADJ)]
+    [enough (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Saturn’s (?)(UNK(ENTITY UNKNOWN))]
+    [rings (root: ring) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [seen (root: see) (LEX)(V PAST)]
+    [easily (root: easy) (MOR)(ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To remember the order and names of the planets, repeat this silly sentence: My very excellent mother just served us nachos. 
+PreProc  : To remember the order and names of the planets >COMMA repeat this silly sentence >COLON My very excellent mother just served us nachos >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [remember (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [order (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [names (root: name) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the order and names
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [order (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [names (root: name) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the order and names
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [planets (root: planet) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [repeat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [silly (LEX)(ADJ)]
+    [sentence (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [My (LEX)(ADJ)]
+    [very (LEX)(ADV)]
+    [excellent (LEX)(ADJ)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [My (LEX)(ADJ)]
+    [very (LEX)(ADV)]
+    [excellent (LEX)(ADJ)]
+    [mother (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [served (root: serve) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+    [nachos (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

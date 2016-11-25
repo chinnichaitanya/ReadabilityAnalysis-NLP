@@ -1,0 +1,448 @@
+Original : Imagine if boys made all the rules. 
+PreProc  : Imagine if boys made all the rules >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Imagine (LEX)(V BASE)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's how it was in 1776, when the United States was founded. 
+PreProc  : THAT IS how it was in &&1776 >COMMA when the UNITED_STATES was founded >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [how (LEX)(ADV)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1776 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [founded (root: found) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Women were not allowed to vote until 1920! 
+PreProc  : Women were not allowed to vote until &&1920 >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [were (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+    [allowed (root: allow) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1920 (LEX)(NUM)]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year is the 85th anniversary of that important event. 
+PreProc  : This year is the 85th anniversary of that important event >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [85th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [anniversary (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the 85th anniversary
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [important (LEX)(ADJ)]
+      [event (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Library of Congress, George Grantham Bain Collection Thousands of women marched in New York City for the right to vote. 
+PreProc  : Library of Congress >COMMA George Grantham Bain Collection Thousands of women marched in NEW_YORK City for the right to vote >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: Library
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Grantham (?)(UNK(ENTITY UNKNOWN))]
+    [Bain (?)(UNK(ENTITY UNKNOWN))]
+    [Collection (root: collect) (MOR)(N SINGULAR)]
+    [Thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: George Grantham Bain Collection Thousands
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [marched (root: march) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : movement began in the 1800s. 
+PreProc  : movement began in the 1800s >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [movement (root: move) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1800s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Suffrage is the right to vote. 
+PreProc  : Suffrage is the right to vote >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Suffrage (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To win this right, women held protests and marches. 
+PreProc  : To win this right >COMMA women held protests and marches >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [protests (root: protest) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [marches (root: march) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hundreds of those women were arrested and jailed. 
+PreProc  : Hundreds of those women were arrested and jailed >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [arrested (root: arrest) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [jailed (root: jail) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Women's groups across the country are honoring those who fought for this right with special events throughout the year. 
+PreProc  : @Women@s groups across the country are honoring those who fought for this right with special events throughout the year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Women@s (LEX)(ADJ POSSESSIVE)]
+    [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [honoring (root: honor) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fought (root: fight) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [special (LEX)(ADJ)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [throughout (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Learning how women's actions changed America is important. 
+PreProc  : >DQUOTE Learning how @women@s actions changed America is important >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Learning (root: learn) (MOR)(N SINGULAR) (GER)]
+    [how (LEX)(ADV)]
+    [@women@s (LEX)(ADJ POSSESSIVE)]
+    [actions (root: action) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [changed (root: change) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [America (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It encourages us to understand that we can make a better world," said Molly Murphy MacGregor, the president of the National Women's History Project. 
+PreProc  : It encourages us to understand that we can make a better world >COMMA >DQUOTE said Molly Murphy MacGregor >COMMA the president of the National @Women@s History Project >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [encourages (root: encourage) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [understand (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [better (LEX)(ADJ)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+    [Molly (INF-MOR)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [Murphy (?)(UNK(ENTITY UNKNOWN))]
+    [MacGregor (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the president
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [National (LEX)(ADJ)]
+      [@Women@s (LEX)(ADJ POSSESSIVE)]
+      [History (LEX)(N SINGULAR(OTHER))]
+      [Project (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

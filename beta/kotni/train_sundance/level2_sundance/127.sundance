@@ -1,0 +1,927 @@
+Original : It took 100,000 people about 20 years to build the Great Pyramid. 
+PreProc  : It took &&100,000 people about &&20 years to build the Great Pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&100,000 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [about (LEX)(ADV)]
+  NP SEGMENT:
+    [&&20 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Great (LEX)(ADJ)]
+    [Pyramid (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is made of more than 2 million blocks of stone. 
+PreProc  : It is made of MORE_THAN &&2 million blocks of stone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+Following PP attaches to: is made
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&2 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: MORE_THAN &&2 million blocks
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most of the blocks weigh about 6,000 pounds each! 
+PreProc  : Most of the blocks weigh about &&6,000 pounds each >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weigh (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&6,000 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers poured water onto the logs so the blocks would roll more easily. 
+PreProc  : Workers poured water onto the logs so the blocks would roll more easily >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [poured (root: pour) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [onto (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [logs (root: log) (MOR)(N PLURAL(OTHER))]
+
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [roll (LEX)(V BASE)]
+
+  [more (LEX)(ADJ)]
+  [easily (root: easy) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Earth has many mysteries, or things that are not known or explained. 
+PreProc  : The Earth has many mysteries >COMMA or things that are not known or explained >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [mysteries (root: mystery) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [mysteries (root: mystery) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [known (root: know) (LEX)(V PAST)]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [mysteries (root: mystery) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [explained (root: explain) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People use science to try to understand those mysteries. 
+PreProc  : People use science to try to understand those mysteries >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [science (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [science (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [understand (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [mysteries (root: mystery) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The pyramids are giant tombs, or graves, for Egyptian kings. 
+PreProc  : The pyramids are giant tombs >COMMA or graves >COMMA for Egyptian kings >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [pyramids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tombs (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [graves (root: grave) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Egyptian (?)(UNK(ENTITY UNKNOWN))]
+      [kings (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pyramids are made of huge stone blocks. 
+PreProc  : Pyramids are made of huge stone blocks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pyramids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+
+Following PP attaches to: are made
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [huge (LEX)(ADJ)]
+      [stone (LEX)(N SINGULAR(PHYSOBJ))]
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts know that the Egyptians didn't have the same tools that we have today. 
+PreProc  : Experts know that the Egyptians DID NOT have the same tools that we have today >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Egyptians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [tools (root: tool) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So, how were those heavy blocks moved and lifted? 
+PreProc  : So >COMMA how were those heavy blocks moved and lifted >QUESTION <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [how (LEX)(ADV)]
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [heavy (LEX)(ADJ)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [heavy (LEX)(ADJ)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [moved (root: move) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [heavy (LEX)(ADJ)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lifted (root: lift) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some experts believe that the Egyptians pushed and pulled them into place. 
+PreProc  : Some experts believe that the Egyptians pushed and pulled them into place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Egyptians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pushed (root: push) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Egyptians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pulled (root: pull) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 1. 
+PreProc  : &&1 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers cut and shaped the stone into blocks. 
+PreProc  : Workers cut and shaped the stone into blocks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cut (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shaped (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 2. 
+PreProc  : &&2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The workers floated the blocks down the Nile River on big barges. 
+PreProc  : The workers floated the blocks down the Nile River on big barges >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [floated (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Nile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [big (LEX)(ADJ)]
+      [barges (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 3. 
+PreProc  : &&3 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The workers rolled the blocks over logs from the river to the pyramid. 
+PreProc  : The workers rolled the blocks over logs from the river to the pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rolled (root: roll) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [logs (root: log) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [river (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [pyramid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 4. 
+PreProc  : &&4 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&4 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The workers built dirt ramps so the blocks could be rolled to the top of the pyramid. 
+PreProc  : The workers built dirt ramps so the blocks could be rolled to the top of the pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [dirt (LEX)(N SINGULAR(OTHER))]
+    [ramps (?)(UNK(ENTITY UNKNOWN))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [blocks (root: block) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [rolled (root: roll) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the top
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [pyramid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 5. 
+PreProc  : &&5 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers carefully fit the stone blocks into place on the pyramid. 
+PreProc  : Workers carefully fit the stone blocks into place on the pyramid >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carefully (root: careful) (MOR)(ADV)]
+    [fit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blocks (root: block) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [pyramid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : No one knows for sure what the dinosaurs looked like. 
+PreProc  : No one knows for sure what the dinosaurs looked like >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [No (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knows (root: know) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [sure (LEX)(ADJ)]
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dinosaurs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [dinosaurs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [looked (root: look) (MOR)(V PAST)]
+    [like (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some experts think that dinosaur skin might have looked and felt like the scaly skin of reptiles today. 
+PreProc  : Some experts think that dinosaur skin might have looked and felt like the scaly skin of reptiles today >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [looked (root: look) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [felt (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [scaly (root: scale) (MOR)(ADJ(OTHER))]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the scaly skin
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [reptiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts study how animals today use skin color to survive. 
+PreProc  : Experts study how animals today use skin color to survive >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [study (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (IOBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  NP SEGMENT (DOBJ):
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+    [use (LEX)(N SINGULAR(OTHER))]
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [color (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [survive (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some animals, like the chameleon, can change skin color in order to hide. 
+PreProc  : Some animals >COMMA like the chameleon >COMMA can change skin color in order to hide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chameleon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [change (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [color (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [order (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hide (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts also say that other animals, like poison arrow frogs, have brightly colored skin to keep away their enemies. 
+PreProc  : Experts also say that other animals >COMMA like poison arrow frogs >COMMA have brightly colored skin to keep away their enemies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+    [poison (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [arrow (?)(UNK(ENTITY UNKNOWN))]
+    [frogs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [brightly (root: bright) (MOR)(ADV)]
+    [colored (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [enemies (root: enemy) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is likely that dinosaurs also used skin color to survive, say experts. 
+PreProc  : It is likely that dinosaurs also used skin color to survive >COMMA say experts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [likely (LEX)(ADV)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [dinosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [skin (?)(UNK(ENTITY UNKNOWN))]
+    [color (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [survive (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dinosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For example, some experts say that Stegosaurus's plates might have changed color and size to scare its enemies. 
+PreProc  : For example >COMMA some experts say that @Stegosaurus@s plates might have changed color and size to scare its enemies >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [@Stegosaurus@s (LEX)(ADJ POSSESSIVE)]
+    [plates (root: plate) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [changed (root: change) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [color (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [scare (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [enemies (root: enemy) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

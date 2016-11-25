@@ -1,0 +1,704 @@
+Original : What is black and white and wet all over? 
+PreProc  : What is black and white and wet all over >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [black (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [white (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [wet (LEX)(ADJ)]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [over (LEX)(PREP)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A penguin going for a swim! 
+PreProc  : A penguin going for a swim >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [penguin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [swim (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Penguins are birds. 
+PreProc  : Penguins are birds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Penguins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They have feathers and lay eggs. 
+PreProc  : They have feathers and lay eggs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [feathers (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lay (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unlike most birds, penguins donÕt fly. 
+PreProc  : Unlike most birds >COMMA penguins donÕt fly >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Unlike (root: like) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+    [donÕt (?)(UNK(ENTITY UNKNOWN))]
+    [fly (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They use their wings as flippers. 
+PreProc  : They use their wings as flippers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [wings (root: wing) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [flippers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Penguins flap their flippers to swim underwater. 
+PreProc  : Penguins flap their flippers to swim underwater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Penguins (?)(UNK(ENTITY UNKNOWN))]
+    [flap (?)(UNK(ENTITY UNKNOWN))]
+    [their (LEX)(ADJ)]
+    [flippers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [swim (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [underwater (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their webbed feet help them steer. 
+PreProc  : Their webbed feet help them steer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [webbed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [steer (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Penguins look for food in the ocean. 
+PreProc  : Penguins look for food in the ocean >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Penguins (?)(UNK(ENTITY UNKNOWN))]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They use their beaks to catch Prey is an animal that is eaten by another animal. 
+PreProc  : They use their beaks to catch Prey is an animal that is eaten by another animal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [beaks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [catch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Prey (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Prey (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [eaten (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Penguins eat fish, squid, and Krill are tiny animals that look like shrimps. 
+PreProc  : Penguins eat fish >COMMA squid >COMMA and Krill are tiny animals that look like shrimps >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Penguins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+    [fish (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [squid (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Krill (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Krill (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [tiny (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tiny (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [shrimps (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Emperor penguins slide on their bellies across the snow. 
+PreProc  : Emperor penguins slide on their bellies across the snow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Emperor (?)(UNK(ENTITY UNKNOWN))]
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+    [slide (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [bellies (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [snow (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On land, penguins walk with a waddle or a hop. 
+PreProc  : On land >COMMA penguins walk with a waddle or a hop >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [land (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [waddle (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [or (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [hop (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They often slide on their bellies to travel over ice or snow. 
+PreProc  : They often slide on their bellies to travel over ice or snow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  [often (LEX)(ADV)]
+  NP SEGMENT:
+    [slide (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [bellies (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+      [or (LEX)(CONJ)]
+      [snow (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They use their flippers and feet to help them slide. 
+PreProc  : They use their flippers and feet to help them slide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [flippers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [slide (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Female penguins lay eggs on land. 
+PreProc  : Female penguins lay eggs on land >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Female (LEX)(N SINGULAR(HUMAN))]
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lay (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [land (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Both parents raise the chicks. 
+PreProc  : Both parents raise the chicks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [raise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chicks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The parents take turns finding food in the ocean. 
+PreProc  : The parents take turns finding food in the ocean >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [turns (root: turn) (MOR)(N PLURAL(OTHER))]
+    [finding (root: find) (MOR)(N SINGULAR) (GER)]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They throw up food and feed that to their chicks. 
+PreProc  : They throw up food and feed that to their chicks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [throw (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [feed (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [chicks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the part of Earth below the The equator is the make-believe line around the center of Earth. 
+PreProc  : That is the part of Earth below the The equator is the make-believe line around the center of Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [below (LEX)(PREP)]
+  [the (LEX)(ART)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [equator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [equator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [make-believe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [line (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [center (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the center
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most penguins live in Antarctica, where it is cold. 
+PreProc  : Most penguins live in Antarctica >COMMA where it is cold >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [cold (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some live near the equator. 
+PreProc  : Some live near the equator >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [equator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is warm there. 
+PreProc  : It is warm there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [warm (LEX)(ADJ)]
+
+  [there (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might penguins travel over ice by sliding on their bellies? 
+PreProc  : Why might penguins travel over ice by sliding on their bellies >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [penguins (?)(UNK(ENTITY UNKNOWN))]
+    [travel (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [sliding (INF-MOR)(GER)]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [bellies (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

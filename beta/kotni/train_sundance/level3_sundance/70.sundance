@@ -1,0 +1,312 @@
+Original : This summer was the worst wildfire season in 50 years, according to the U.S. Forest Service. 
+PreProc  : This summer was the worst wildfire season in &&50 years >COMMA according to the U.S. Forest Service >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [worst (LEX)(ADJ)]
+    [wildfire (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&50 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [according (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Forest (?)(UNK(ENTITY UNKNOWN))]
+      [Service (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 6 million acres of forest and public lands were destroyed by wildfires. 
+PreProc  : MORE_THAN &&6 million acres of forest and public lands were destroyed by wildfires >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&6 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [acres (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: MORE_THAN &&6 million acres
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [forest (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [lands (root: land) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [destroyed (root: destroy) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [wildfires (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many trees and plants were burned. 
+PreProc  : Many trees and plants were burned >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [burned (root: burn) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their roots can no longer hold the soil in place. 
+PreProc  : Their roots can NO_LONGER hold the soil in place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [roots (root: root) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [NO_LONGER (LEX)(ADV)]
+    [hold (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Much soil is in danger of being washed away. 
+PreProc  : Much soil is in danger of being washed away >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [danger (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: danger
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [danger (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: danger
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [washed (root: wash) (MOR)(V PAST)]
+    [away (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Workers are planting seeds in the burned areas and covering the soil with mats. 
+PreProc  : Workers are planting seeds in the burned areas and covering the soil with mats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [planting (root: plant) (MOR)(V PARTICIPLE)]
+    [seeds (root: seed) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [burned (root: burn) (MOR)(ADJ)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [covering (root: cover) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [mats (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The mats will keep the dirt and soil from washing away. 
+PreProc  : The mats will keep the dirt and soil from washing away >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [mats (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [keep (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dirt (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [soil (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [washing (root: wash) (MOR)(N SINGULAR) (GER)]
+
+
+  [away (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Nature is going to heal," said a U.S. Forest Service official. 
+PreProc  : >DQUOTE Nature is going to heal >COMMA >DQUOTE said a U.S. Forest Service official >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nature (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [heal (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nature (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Forest (?)(UNK(ENTITY UNKNOWN))]
+    [Service (LEX)(N SINGULAR(OTHER))]
+    [official (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : States such as Idaho, Utah, and Montana suffered the worst wildfires. 
+PreProc  : States SUCH_AS Idaho >COMMA Utah >COMMA and Montana suffered the worst wildfires >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [States (root: state) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Idaho (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [Utah (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [Montana (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [suffered (root: suffer) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [worst (LEX)(ADJ)]
+    [wildfires (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

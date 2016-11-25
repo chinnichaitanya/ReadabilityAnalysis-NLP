@@ -1,0 +1,595 @@
+Original : Josh Kay knows a thing or two about making a joke. 
+PreProc  : Josh Kay knows a thing or &&2 about making a joke >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+    [Kay (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knows (root: know) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [thing (LEX)(N SINGULAR(OTHER))]
+    [or (LEX)(CONJ)]
+    [&&2 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [joke (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 10-year-old recently went onstage at a comedy club in New York City. 
+PreProc  : The 10-year-old recently went onstage at a comedy club in NEW_YORK City >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [10-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [went (root: go) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [onstage (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [comedy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [comedy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [club (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He did a short standup routine that had the crowd howling. 
+PreProc  : He did a short standup routine that had the crowd howling >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [short (LEX)(ADJ)]
+    [standup (?)(UNK(ENTITY UNKNOWN))]
+    [routine (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [short (LEX)(ADJ)]
+    [standup (?)(UNK(ENTITY UNKNOWN))]
+    [routine (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [crowd (LEX)(N SINGULAR(HUMAN))]
+    [howling (INF-MOR)(GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fifth grader was so funny that he won the Bazooka Joe Wisecracking Kid Contest. 
+PreProc  : The fifth grader was so funny that he won the Bazooka Joe Wisecracking Kid Contest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fifth (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [funny (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Bazooka (LEX)(N SINGULAR(WEAPON))]
+    [Joe (?)(UNK(ENTITY UNKNOWN))]
+    [Wisecracking (INF-MOR)(GER)]
+    [Kid (?)(UNK(ENTITY UNKNOWN))]
+    [Contest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He beat 11 other finalists and won a year's supply of Bazooka Bubble Gum and a $5,000 savings bond. 
+PreProc  : He beat &&11 other finalists and won a @year@s supply of Bazooka Bubble Gum and a >DOLLAR &&5,000 savings bond >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [beat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&11 (LEX)(NUM)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [finalists (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@year@s (LEX)(ADJ POSSESSIVE)]
+    [supply (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a @year@s supply
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Bazooka (LEX)(N SINGULAR(WEAPON))]
+      [Bubble (?)(UNK(ENTITY UNKNOWN))]
+      [Gum (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [>DOLLAR (LEX)(ADJ)]
+      [&&5,000 (LEX)(NUM)]
+      [savings (LEX)(N SINGULAR(OTHER))]
+      [bond (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even cooler is that Josh will get his name and one of his jokes printed on a Bazooka Joe comic strip. 
+PreProc  : Even cooler is that Josh will get his name and one of his jokes printed on a Bazooka Joe comic strip >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+  [cooler (root: cool) (MOR)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [get (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: his name and one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [jokes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [name (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: his name and one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [jokes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [printed (root: print) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Bazooka (LEX)(N SINGULAR(WEAPON))]
+      [Joe (?)(UNK(ENTITY UNKNOWN))]
+      [comic (?)(UNK(ENTITY UNKNOWN))]
+      [strip (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A cartoonist will also sketch a humorous picture, called a , of Josh to include on the comic strip. 
+PreProc  : A cartoonist will also sketch a humorous picture >COMMA called a >COMMA of Josh to include on the comic strip >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [cartoonist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+
+  NP SEGMENT (IOBJ):
+    [sketch (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [humorous (LEX)(ADJ)]
+    [picture (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [cartoonist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  [a (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: called
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [include (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [comic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [strip (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The contest celebrated the 50th birthday of Bazooka Joe. 
+PreProc  : The contest celebrated the 50th birthday of Bazooka Joe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrated (root: celebrate) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [50th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [birthday (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the 50th birthday
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Bazooka (LEX)(N SINGULAR(WEAPON))]
+      [Joe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He's that eye patch-wearing kid whose jokes come wrapped around pieces of bubble gum. 
+PreProc  : HE IS that eye patch-wearing kid whose jokes come wrapped around pieces of bubble gum >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HE (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HE (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eye (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [patch-wearing (INF-MOR)(GER)]
+    [kid (?)(UNK(ENTITY UNKNOWN))]
+    [whose (LEX)(ADJ)]
+    [jokes (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [patch-wearing (INF-MOR)(GER)]
+    [kid (?)(UNK(ENTITY UNKNOWN))]
+    [whose (LEX)(ADJ)]
+    [jokes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+    [wrapped (root: wrap) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: pieces
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bubble (?)(UNK(ENTITY UNKNOWN))]
+      [gum (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I don't really do jokes; 
+PreProc  : >DQUOTE I DO NOT really do jokes >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [really (root: real) (MOR)(ADV)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [jokes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I do impressions," Josh told . 
+PreProc  : I do impressions >COMMA >DQUOTE Josh told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [impressions (root: impression) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Josh did a good impression of Darth Vader from Although Josh won the contest, a 9-year-old contestant from Florida cracked up the audience with this joke: "A three-legged dog walks into a saloon. 
+PreProc  : Josh did a good impression of Darth Vader from Although Josh won the contest >COMMA a 9-year-old contestant from Florida cracked up the audience with this joke >COLON >DQUOTE A three-legged dog walks into a saloon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [impression (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a good impression
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Darth (?)(UNK(ENTITY UNKNOWN))]
+      [Vader (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [from (LEX)(PREP)]
+
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Josh (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [9-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [contestant (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Florida (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Florida (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cracked (root: crack) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [audience (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [joke (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [A (LEX)(ART)]
+    [three-legged (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [three-legged (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walks (root: walk) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [saloon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He tells the people, 'I'm looking for the man who shot my paw.' " All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : He tells the people >COMMA >SQUOTE I AM looking for the man who shot my paw >PERIOD >SQUOTE >DQUOTE All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tells (root: tell) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [>SQUOTE (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+    [looking (root: look) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [man (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [man (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shot (root: shoot) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [my (LEX)(ADJ)]
+    [paw (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>SQUOTE (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,890 @@
+Original : President George W. Bush is running for a second term in office. 
+PreProc  : President George W. Bush is running for a second term in office >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [running (root: run) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [term (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The race for president of the United States has begun. 
+PreProc  : The race for president of the UNITED_STATES has begun >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [race (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+Following PP attaches to: president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [begun (root: begin) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The election is less than a year away. 
+PreProc  : The election is LESS_THAN a year away >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [LESS_THAN (LEX)(ADJ)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [away (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Who will call the White House home for the next four years? 
+PreProc  : Who will call the White House home for the next &&4 years >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [call (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [White (LEX)(ADJ)]
+    [House (LEX)(N SINGULAR(BUILDING))]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [next (LEX)(ADJ)]
+      [&&4 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Every four years, Americans make a big decision. 
+PreProc  : Every &&4 years >COMMA Americans make a big decision >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Every (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [decision (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They vote for the person they want to be the president of the United States. 
+PreProc  : They vote for the person they want to be the president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [person (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The president will be elected on November 2. 
+PreProc  : The president will be elected on November &&2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [elected (root: elect) (MOR)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [November (LEX)(N SINGULAR(MONTH))]
+      [&&2 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is Election Day. 
+PreProc  : That is Election Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Election (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even though that day is months away, are busy trying to win votes. 
+PreProc  : Even though that day is months away >COMMA are busy trying to win votes >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+  [though (LEX)(C_M)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+  [away (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [busy (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [votes (root: vote) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those candidates are people running for the office of the presidency. 
+PreProc  : Those candidates are people running for the office of the presidency >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [running (root: run) (MOR)(GER) (N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+Following PP attaches to: the office
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [presidency (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Chances are you are already familiar with one of the candidates. 
+PreProc  : Chances are you are already familiar with one of the candidates >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chances (root: chance) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [already (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [familiar (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is the current U.S. president, George W. Bush. 
+PreProc  : He is the current U.S. president >COMMA George W. Bush >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [current (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is serving a four-year term. 
+PreProc  : He is serving a four-year term >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [serving (root: serve) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [four-year (LEX)(ADJ)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The president can be elected to serve up to two terms in office. 
+PreProc  : The president can be elected to serve up to &&2 terms in office >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [elected (root: elect) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [serve (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [terms (root: term) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : candidate. 
+PreProc  : candidate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [candidate (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Republican party is one of the two major political groups in our country. 
+PreProc  : The Republican party is one of the &&2 major political groups in our country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Republican (LEX)(N SINGULAR(HUMAN))]
+    [party (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&2 (LEX)(NUM)]
+      [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [political (LEX)(ADJ)]
+      [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [our (LEX)(ADJ)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The other major party is the Nine people want to be the one chosen as the Democratic candidate for president. 
+PreProc  : The other major party is the &&9 people want to be the one chosen as the Democratic candidate for president >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [party (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [&&9 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [&&9 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [chosen (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Democratic (LEX)(ADJ)]
+      [candidate (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To do so, they have to beat the other Democratic candidates in special, smaller elections that begin this January. 
+PreProc  : To do so >COMMA they have to beat the other Democratic candidates in special >COMMA smaller elections that begin this January >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [beat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [Democratic (LEX)(ADJ)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  [in (LEX)(PREP)]
+  [special (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [smaller (root: small) (MOR)(ADJ)]
+    [elections (root: election) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [smaller (root: small) (MOR)(ADJ)]
+    [elections (root: election) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [January (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The candidate the Democrats choose will run against President Bush in November. 
+PreProc  : The candidate the Democrats choose will run against President Bush in November >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [candidate (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Democrats (root: democrat) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [choose (LEX)(V BASE)]
+    [will (LEX)(AUX)]
+    [run (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [against (LEX)(PREP)]
+    NP SEGMENT:
+      [President (LEX)(N SINGULAR(HUMAN))]
+      [Bush (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [November (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then it will be up to the American people to decide. 
+PreProc  : Then it will be up to the American people to decide >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [decide (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Every U.S. president except George Washington, the first U.S. president, has lived in the White House. 
+PreProc  : Every U.S. president except George Washington >COMMA the first U.S. president >COMMA has lived in the White House >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Every (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [except (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The White House took eight years to build, from 1792 to 1800. 
+PreProc  : The White House took &&8 years to build >COMMA from &&1792 to &&1800 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [White (LEX)(ADJ)]
+    [House (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [&&8 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1792 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1800 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is more than 200 years ago! 
+PreProc  : That is MORE_THAN &&200 years ago >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The house has 132 rooms, including a bowling alley and a movie theater. 
+PreProc  : The house has &&132 rooms >COMMA including a bowling alley and a movie theater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&132 (LEX)(NUM)]
+    [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [including (LEX)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [bowling (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [alley (LEX)(N SINGULAR(LOCATION))]
+    [and (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+    [theater (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It even has an indoor pool! 
+PreProc  : It even has an indoor pool >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [indoor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [pool (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many pets have lived there over the years. 
+PreProc  : Many pets have lived there over the years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [pets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [lived (root: live) (MOR)(V PAST)]
+    [there (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They include dogs, cats, birds, sheep, ponies, and even an alligator! 
+PreProc  : They include dogs >COMMA cats >COMMA birds >COMMA sheep >COMMA ponies >COMMA and even an alligator >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [sheep (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [ponies (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [even (LEX)(ADV)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [alligator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What qualities should a president have to be a strong leader? 
+PreProc  : What qualities should a president have to be a strong leader >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [qualities (root: quality) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [strong (LEX)(ADJ)]
+    [leader (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,381 @@
+Original : Most bats nap in caves or trees. 
+PreProc  : Most bats nap in caves or trees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bats (root: bat) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [nap (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [caves (?)(UNK(ENTITY UNKNOWN))]
+      [or (LEX)(CONJ)]
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One kind of bat naps in a strange place. 
+PreProc  : One kind of bat naps in a strange place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+      [naps (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [strange (LEX)(ADJ)]
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It snoozes inside the leaves of a bug-eating plant! 
+PreProc  : It snoozes inside the leaves of a bug-eating plant >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [snoozes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [inside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: the leaves
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [bug-eating (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is what scientists recently discovered. 
+PreProc  : That is what scientists recently discovered >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A HardwickeÕs woolly bat naps in a pitcher plant leaf. 
+PreProc  : A HardwickeÕs woolly bat naps in a pitcher plant leaf >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [HardwickeÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [woolly (INF-MOR)(ADV)]
+    [bat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [naps (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pitcher (LEX)(N SINGULAR(HUMAN PHYSOBJ))]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+      [leaf (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Can you spot the bat? 
+PreProc  : Can you spot the bat >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spot (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The plantÕs leaves are shaped like cups. 
+PreProc  : The plantÕs leaves are shaped like cups >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [plantÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [shaped (INF-MOR)(V PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [cups (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They trap bugs inside. 
+PreProc  : They trap bugs inside >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [trap (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [bugs (?)(UNK(ENTITY UNKNOWN))]
+
+  [inside (LEX)(PREP) (ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The bat is safe there. 
+PreProc  : The bat is safe there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [safe (LEX)(ADJ)]
+
+  [there (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It stays hidden from . 
+PreProc  : It stays hidden from >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [stays (root: stay) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hidden (LEX)(V BASE)]
+
+  [from (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A predator is an animal that eats another animal for food. 
+PreProc  : A predator is an animal that eats another animal for food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [predator (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eats (root: eat) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The bat leaves behind something that helps the plantÑpoop. 
+PreProc  : The bat leaves behind something that helps the plantÑpoop >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+    [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [behind (LEX)(PREP)]
+    NP SEGMENT:
+      [something (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [plantÑpoop (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It becomes food for the plant. 
+PreProc  : It becomes food for the plant >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [becomes (root: become) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The HardwickeÕs woolly bat is tiny. 
+PreProc  : The HardwickeÕs woolly bat is tiny >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [HardwickeÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [woolly (INF-MOR)(ADV)]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [tiny (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is about the size of a car key. 
+PreProc  : It is about the size of a car key >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [size (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [car (LEX)(N SINGULAR(VEHICLE))]
+      [key (LEX)(ADJ) (N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

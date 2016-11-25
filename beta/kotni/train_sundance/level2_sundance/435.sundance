@@ -1,0 +1,598 @@
+Original : November 4 is Election Day. 
+PreProc  : November &&4 is Election Day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [November (LEX)(N SINGULAR(MONTH))]
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Election (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On that day, Americans will vote for the person to be the countryÕs top leader. 
+PreProc  : On that day >COMMA Americans will vote for the person to be the countryÕs top leader >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [vote (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [person (LEX)(N SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [countryÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [countryÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [top (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [leader (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They will , or choose, the next president of the United States. 
+PreProc  : They will >COMMA or choose >COMMA the next president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [choose (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the next president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : John McCain and Barack Obama are running for president. 
+PreProc  : John McCain and Barack Obama are running for president >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [running (root: run) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Learn more about them below. 
+PreProc  : Learn more about them below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Learn (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McCain with wife and dogs: courtesy of JohnMcCain.com John McCain and his wife, Cindy, sit with their two dogs, Coco and Sam. 
+PreProc  : McCain with wife and dogs >COLON courtesy of JohnMcCain.com John McCain and his wife >COMMA Cindy >COMMA sit with their &&2 dogs >COMMA Coco and Sam >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [wife (LEX)(N SINGULAR(HUMAN))]
+      [and (LEX)(CONJ)]
+      [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COLON (LEX)(PUNC)]
+  [courtesy (root: court) (MOR)(ADJ(OTHER))]
+Following PP attaches to: wife and dogs
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [JohnMcCain.com (?)(UNK(ENTITY UNKNOWN))]
+      [John (?)(UNK(ENTITY UNKNOWN))]
+      [McCain (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [his (LEX)(ADJ)]
+      [wife (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Cindy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [sit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [&&2 (LEX)(NUM)]
+      [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Coco (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Sam (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is married to Cindy McCain. 
+PreProc  : He is married to Cindy McCain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [married (root: marry) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Cindy (?)(UNK(ENTITY UNKNOWN))]
+      [McCain (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They have four sons and three daughters. 
+PreProc  : They have &&4 sons and &&3 daughters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&4 (LEX)(NUM)]
+    [sons (root: son) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [&&3 (LEX)(NUM)]
+    [daughters (root: daughter) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If John McCain wins, he will be the oldest person to become president. 
+PreProc  : If John McCain wins >COMMA he will be the oldest person to become president >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wins (root: win) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [oldest (root: old) (MOR)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : John McCain has many petsÑthree parakeets, two dogs, two turtles, a cat, a ferret, and 13 fish. 
+PreProc  : John McCain has many petsÑthree parakeets >COMMA &&2 dogs >COMMA &&2 turtles >COMMA a cat >COMMA a ferret >COMMA and &&13 fish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [McCain (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [petsÑthree (?)(UNK(ENTITY UNKNOWN))]
+    [parakeets (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [&&2 (LEX)(NUM)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [&&2 (LEX)(NUM)]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [a (LEX)(ART)]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [a (LEX)(ART)]
+    [ferret (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&13 (LEX)(NUM)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He loves watching sports. 
+PreProc  : He loves watching sports >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [loves (root: love) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His favorites are basketball, football, and baseball. 
+PreProc  : His favorites are basketball >COMMA football >COMMA and baseball >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [favorites (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [basketball (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Barack Obama, his wife, Michelle, and their daughters, Malia and Sasha, wave to a crowd. 
+PreProc  : Barack Obama >COMMA his wife >COMMA Michelle >COMMA and their daughters >COMMA Malia and Sasha >COMMA wave to a crowd >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [his (LEX)(ADJ)]
+    [wife (LEX)(N SINGULAR(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [Michelle (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [daughters (root: daughter) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Malia (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Sasha (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [wave (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [crowd (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is married to Michelle Obama. 
+PreProc  : He is married to Michelle Obama >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [married (root: marry) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Michelle (?)(UNK(ENTITY UNKNOWN))]
+      [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They have two daughters. 
+PreProc  : They have &&2 daughters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [daughters (root: daughter) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If Barack Obama wins, he will be the first African American to become president. 
+PreProc  : If Barack Obama wins >COMMA he will be the first African American to become president >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wins (root: win) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [African (LEX)(ADJ)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Barack Obama is left-handed. 
+PreProc  : Barack Obama is left-handed >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Barack (?)(UNK(ENTITY UNKNOWN))]
+    [Obama (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [left-handed (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He loves hot sauce. 
+PreProc  : He loves hot sauce >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [loves (root: love) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [hot (LEX)(ADJ)]
+    [sauce (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His favorite meal to cook is chili. 
+PreProc  : His favorite meal to cook is chili >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [favorite (LEX)(ADJ)]
+    [meal (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [cook (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [chili (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He exercises every morning. 
+PreProc  : He exercises every morning >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [exercises (root: exercise) (MOR)(V PRESENT)]
+
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [morning (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He likes to jog and play basketball. 
+PreProc  : He likes to jog and play basketball >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [likes (root: like) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [jog (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [basketball (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why is it important for people to vote? 
+PreProc  : Why is it important for people to vote >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [important (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [vote (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,543 @@
+Original : When do 4,100 cans of food turn into a giant octopus? 
+PreProc  : When do &&4,100 cans of food turn into a giant octopus >QUESTION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&4,100 (LEX)(NUM)]
+    [cans (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: &&4,100 cans
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+      [turn (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [octopus (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During a recent Canstruction contest in New York City! 
+PreProc  : During a recent Canstruction contest in NEW_YORK City >EXCLAMATION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [recent (LEX)(ADJ)]
+      [Canstruction (INF-MOR)(N(ENTITY UNKNOWN))]
+      [contest (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The contest is held each year in cities across North America. 
+PreProc  : The contest is held each year in cities across North America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [cities (root: city) (MOR)(N PLURAL(CITY))]
+
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All of the food used in the contest is later donated to needy people. 
+PreProc  : All of the food used in the contest is later donated to needy people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: All
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [later (LEX)(ADV)]
+    [donated (root: donate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [needy (LEX)(ADJ)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Teams can build anything they wantÑhot dogs, castles, even Snoopy. 
+PreProc  : Teams can build anything they wantÑhot dogs >COMMA castles >COMMA even Snoopy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Teams (root: team) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [wantÑhot (?)(UNK(ENTITY UNKNOWN))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [castles (root: castle) (MOR)(N PLURAL(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  [even (LEX)(ADV)]
+  NP SEGMENT:
+    [Snoopy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The one rule is they must build with cans, bottles, and bags of food. 
+PreProc  : The one rule is they must build with cans >COMMA bottles >COMMA and bags of food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [rule (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [build (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [cans (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [bottles (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [bags (root: bag) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: cans >COMMA bottles >COMMA and bags
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Glue is not allowed,but rubber bands, string, and wire get the OK. 
+PreProc  : Glue is not allowed,but rubber bands >COMMA string >COMMA and wire get the OK >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glue (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [allowed,but (?)(UNK(ENTITY UNKNOWN))]
+    [rubber (?)(UNK(ENTITY UNKNOWN))]
+    [bands (root: band) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [string (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Glue (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wire (LEX)(V BASE)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [OK (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Elementary school students in Tampa, Florida, built spooky sculptures. 
+PreProc  : Elementary school students in Tampa >COMMA Florida >COMMA built spooky sculptures >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Elementary (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Tampa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Florida (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [spooky (?)(UNK(ENTITY UNKNOWN))]
+    [sculptures (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They used cans of beans and boxes of spaghetti. 
+PreProc  : They used cans of beans and boxes of spaghetti >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [cans (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: cans
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [beans (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [boxes (root: box) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: beans and boxes
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [spaghetti (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Alexis Carrasco, 10, told reporters, "Youâ€™re helping someone get a can of food. 
+PreProc  : Alexis Carrasco >COMMA &&10 >COMMA told reporters >COMMA >DQUOTE Youâ€™re helping someone get a can of food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Alexis (?)(UNK(ENTITY UNKNOWN))]
+    [Carrasco (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&10 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Youâ€™re (?)(UNK(ENTITY UNKNOWN))]
+    [helping (root: help) (MOR)(N SINGULAR) (GER)]
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Youâ€™re (?)(UNK(ENTITY UNKNOWN))]
+    [helping (root: help) (MOR)(N SINGULAR) (GER)]
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [can (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: a can
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This is fun for us and helpful to them." 
+PreProc  : This is fun for us and helpful to them >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [us (LEX)(N SINGULAR(HUMAN))]
+
+
+  [and (LEX)(CONJ)]
+  [helpful (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Explore More main idea All news stories have a main idea and details to support the main idea. 
+PreProc  : Explore More main idea All news stories have a main idea and details to support the main idea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Explore (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [More (LEX)(ADJ)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [news (LEX)(N SINGULAR(MEDIA))]
+    [stories (root: story) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [More (LEX)(ADJ)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [news (LEX)(N SINGULAR(MEDIA))]
+    [stories (root: story) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [details (root: detail) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [support (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A main idea tells what the story is about. 
+PreProc  : A main idea tells what the story is about >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tells (root: tell) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [about (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the main idea of each story on this page? 
+PreProc  : What is the main idea of each story on this page >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the main idea
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [story (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Find and underline details that support that idea. 
+PreProc  : Find and underline details that support that idea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Find (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [underline (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [details (root: detail) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [support (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

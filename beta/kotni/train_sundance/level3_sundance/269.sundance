@@ -1,0 +1,452 @@
+Original : Tony Blair is the prime minister of the United Kingdom. 
+PreProc  : Tony Blair is the prime minister of the UNITED_KINGDOM >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tony (root: ton) (MOR)(ADJ(OTHER))]
+    [Blair (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [prime (LEX)(ADJ)]
+    [minister (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the prime minister
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_KINGDOM (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This summer, more than 300 third graders in Georgia had a special job to do. 
+PreProc  : This summer >COMMA MORE_THAN &&300 third graders in Georgia had a special job to do >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&300 (LEX)(NUM)]
+    [third (LEX)(ADJ)]
+    [graders (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They helped greet world leaders! 
+PreProc  : They helped greet world leaders >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+    [greet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [world (LEX)(N SINGULAR(OTHER))]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The leaders were taking part in the A summit is a meeting. 
+PreProc  : The leaders were taking part in the A summit is a meeting >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [taking (root: take) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+  NP SEGMENT:
+    [A (LEX)(ART)]
+    [summit (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [summit (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [meeting (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : G8 stands for . 
+PreProc  : G8 stands for >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [G8 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stands (root: stand) (MOR)(V PRESENT)]
+
+  [for (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is made up of the leaders of eight countries: Canada, France, Germany, Italy, Japan, Russia, the United Kingdom, and the United States. 
+PreProc  : It is made up of the leaders of &&8 countries >COLON Canada >COMMA France >COMMA Germany >COMMA Italy >COMMA Japan >COMMA Russia >COMMA the UNITED_KINGDOM >COMMA and the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [made (root: make) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+Following PP attaches to: is made up
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the leaders
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&8 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT-Location:
+    [Canada (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [France (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Germany (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Italy (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Japan (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Russia (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [the (LEX)(ART)]
+    [UNITED_KINGDOM (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each year, the leaders of those countries meet to discuss issues facing the world. 
+PreProc  : Each year >COMMA the leaders of those countries meet to discuss issues facing the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: the leaders
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [those (LEX)(DET)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [meet (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [discuss (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [issues (root: issue) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [issues (root: issue) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [facing (root: face) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those issues include peace, freedom, and health. 
+PreProc  : Those issues include peace >COMMA freedom >COMMA and health >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [issues (root: issue) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [peace (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [freedom (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [health (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The leaders work together to come up with ways to make the world a safer and better place. 
+PreProc  : The leaders work together to come up with ways to make the world a safer and better place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [work (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [come (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [safer (root: safe) (MOR)(ADJ   )]
+    [and (LEX)(CONJ)]
+    [better (LEX)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's important that the world leaders get together to talk about problems," said third grader Dustin Stewart. 
+PreProc  : >DQUOTE IT IS important that the world leaders get together to talk about problems >COMMA >DQUOTE said third grader Dustin Stewart >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [get (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [talk (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)]
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [third (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+    [Dustin (?)(UNK(ENTITY UNKNOWN))]
+    [Stewart (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The leaders take turns hosting the G8 Summit in their home countries. 
+PreProc  : The leaders take turns hosting the G8 Summit in their home countries >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [turns (root: turn) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [turns (root: turn) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hosting (root: host) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [G8 (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Summit (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [their (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, George W. Bush was the host. 
+PreProc  : This year >COMMA George W. Bush was the host >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [host (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 2005, the leader of the United Kingdom will host the meeting. 
+PreProc  : In &&2005 >COMMA the leader of the UNITED_KINGDOM will host the meeting >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [leader (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the leader
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_KINGDOM (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [host (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [meeting (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,384 @@
+Original : Colin Carlson may be young, but heÕs got a big message: Save energy to save the world. 
+PreProc  : Colin Carlson may be young >COMMA but heÕs got a big message >COLON Save energy to save the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Colin (?)(UNK(ENTITY UNKNOWN))]
+    [Carlson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [young (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [heÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [message (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [message (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Save (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [save (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 12-year-old from Coventry, Conn., runs the Cool Coventry Club. 
+PreProc  : The 12-year-old from Coventry >COMMA Conn >PERIOD >COMMA runs the Cool Coventry Club >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [12-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Coventry (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Conn (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [runs (root: run) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Cool (LEX)(ADJ)]
+    [Coventry (?)(UNK(ENTITY UNKNOWN))]
+    [Club (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The club teaches people how to , or save, energy. 
+PreProc  : The club teaches people how to >COMMA or save >COMMA energy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [club (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [teaches (root: teach) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [how (LEX)(ADV)]
+  [to (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [club (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [save (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 600 families have joined ColinÕs club. 
+PreProc  : MORE_THAN &&600 families have joined ColinÕs club >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&600 (LEX)(NUM)]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [joined (root: join) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [ColinÕs (?)(UNK(ENTITY UNKNOWN))]
+    [club (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The student recently won a Gloria Barron Prize for Young Heroes for his work. 
+PreProc  : The student recently won a Gloria Barron Prize for Young Heroes for his work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [student (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Gloria (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Barron (?)(UNK(ENTITY UNKNOWN))]
+    [Prize (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Young (LEX)(ADJ)]
+      [Heroes (root: hero) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each member of the Cool Coventry Club has to promise to use less energy in at least three ways. 
+PreProc  : Each member of the Cool Coventry Club has to promise to use less energy in AT_LEAST &&3 ways >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: Each member
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Cool (LEX)(ADJ)]
+      [Coventry (?)(UNK(ENTITY UNKNOWN))]
+      [Club (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [promise (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [less (LEX)(ADJ)]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [AT_LEAST (LEX)(ADJ)]
+      [&&3 (LEX)(NUM)]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The changes can help people save money and Earth at the same time, Colin says. 
+PreProc  : The changes can help people save money and Earth at the same time >COMMA Colin says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [changes (root: change) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [save (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+    [and (LEX)(CONJ)]
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Colin (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Colin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒTurn off the light when you leave a room. 
+PreProc  : ÒTurn off the light when you leave a room >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒTurn (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [leave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [room (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Turn off the water when youÕre brushing your teeth,Ó Colin told . 
+PreProc  : Turn off the water when youÕre brushing your teeth,Ó Colin told >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Turn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [youÕre (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [brushing (root: brush) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Colin (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [teeth,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Colin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒItÕs little things like that that really make a big difference.Ó All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : ÒItÕs little things like that that really make a big difference.Ó All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒItÕs (?)(UNK(ENTITY UNKNOWN))]
+    [little (LEX)(ADJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  [that (LEX)(C_M)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒItÕs (?)(UNK(ENTITY UNKNOWN))]
+    [little (LEX)(ADJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [make (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [difference.Ó (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

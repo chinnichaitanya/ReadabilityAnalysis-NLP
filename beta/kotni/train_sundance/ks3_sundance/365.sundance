@@ -1,0 +1,664 @@
+Original : > Decimals - Adding and subtracting decimals When adding and subtracting decimals, remember is to keep the decimal points in line in the question and the answer. 
+PreProc  : >GREATER Decimals >MINUS Adding and subtracting decimals When adding and subtracting decimals >COMMA remember is to keep the decimal points in line in the question and the answer >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Decimals (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [Adding (root: add) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [subtracting (INF-MOR)(GER)]
+    [decimals (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [adding (root: add) (MOR)(V PARTICIPLE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [subtracting (INF-MOR)(GER)]
+    [decimals (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Adding (root: add) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [subtracting (INF-MOR)(GER)]
+    [decimals (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [remember (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [decimal (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [decimal (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [points (root: point) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [line (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [question (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [answer (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : David is doing some DIY. 
+PreProc  : David is doing some DIY >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [doing (root: do) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [DIY (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He buys a 2m length of wood. 
+PreProc  : He buys a 2m length of wood >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [buys (root: buy) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [2m (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: a 2m length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He needs to cut two pieces of wood - one of length 0.6m and one of length 1.02m. 
+PreProc  : He needs to cut &&2 pieces of wood >MINUS one of length 0.6m and one of length 1.02m >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [needs (root: need) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: &&2 pieces
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [length (?)(UNK(ENTITY UNKNOWN))]
+      [0.6m (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: length 0.6m and one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [length (?)(UNK(ENTITY UNKNOWN))]
+      [1.02m (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the total length of wood that David needs to cut? 
+PreProc  : What is the total length of wood that David needs to cut >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [total (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the total length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [needs (root: need) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [cut (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So the total length of wood that David needs to cut is 1.62m. 
+PreProc  : So the total length of wood that David needs to cut is 1.62m >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [total (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the total length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [needs (root: need) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [cut (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [1.62m (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can add zeros to the end of a decimal without affecting its value, so 0.6 is the same as 0.60. 
+PreProc  : You can add zeros to the end of a decimal without affecting its value >COMMA so &&0.6 is the same as &&0.60 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [zeros (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [decimal (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [affecting (root: affect) (MOR)(N SINGULAR) (GER)]
+      [its (LEX)(ADJ)]
+      [value (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [&&0.6 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&0.6 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [same (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [&&0.60 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : David originally had 2m of wood. 
+PreProc  : David originally had 2m of wood >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [originally (LEX)(ADV)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [2m (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: 2m
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the length of the piece of wood that is left? 
+PreProc  : What is the length of the piece of wood that is left >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [length (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+Following PP attaches to: the piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [length (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [left (LEX)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : David cut off 1.62m, so we need to calculate 2 - 1.62 So there is 0.38m of wood left. 
+PreProc  : David cut off 1.62m >COMMA so we need to calculate &&2 >MINUS &&1.62 So there is 0.38m of wood left >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [cut (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [1.62m (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [calculate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1.62 (LEX)(NUM)]
+
+  [So (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [0.38m (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: 0.38m
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [wood (LEX)(N SINGULAR(PHYSOBJ))]
+      [left (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Connect the dots with this decimals activity. 
+PreProc  : Connect the dots with this decimals activity >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Connect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dots (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [decimals (?)(UNK(ENTITY UNKNOWN))]
+      [activity (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Whack and zap mad professors and aliens! 
+PreProc  : Whack and zap mad professors and aliens >EXCLAMATION <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Whack (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [zap (?)(UNK(ENTITY UNKNOWN))]
+    [mad (LEX)(ADJ)]
+    [professors (root: professor) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [aliens (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make sure your maths skills add up. 
+PreProc  : Make sure your maths skills add up >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [your (LEX)(ADJ)]
+    [maths (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

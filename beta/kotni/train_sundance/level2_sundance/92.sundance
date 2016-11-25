@@ -1,0 +1,223 @@
+Original : The table shows five types of bats. 
+PreProc  : The table shows &&5 types of bats >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&5 types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The measurements show each bat's . 
+PreProc  : The measurements show each @bat@s >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [measurements (root: measure) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@bat@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A wingspan is the distance between the tip of one wing and the tip of the other wing. 
+PreProc  : A wingspan is the distance between the tip of one wing and the tip of the other wing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [wingspan (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tip (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the tip
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [wing (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [tip (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: one wing and the tip
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [wing (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Choose the answer to each question below. 
+PreProc  : Choose the answer to each question below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [question (LEX)(N SINGULAR(OTHER))]
+
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which bat's wingspan is about 1/2 inch longer than the greater horseshoe bat's? 
+PreProc  : Which @bat@s wingspan is about 1/2 inch longer than the greater horseshoe bat's >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [@bat@s (LEX)(ADJ POSSESSIVE)]
+    [wingspan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [1/2 (?)(UNK(ENTITY UNKNOWN))]
+      [inch (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [longer (LEX)(ADJ)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [greater (root: great) (MOR)(ADJ)]
+    [horseshoe (?)(UNK(ENTITY UNKNOWN))]
+    [bat's (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How long is the Jamaican fruit bat's wingspan? 
+PreProc  : How long is the Jamaican fruit @bat@s wingspan >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  [long (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Jamaican (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+    [@bat@s (LEX)(ADJ POSSESSIVE)]
+    [wingspan (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : 'Bat Lady' to the Rescue!: Lollar is Batty About Bats! 
+PreProc  : >SQUOTE Bat Lady >SQUOTE to the Rescue >EXCLAMATION >COLON Lollar is Batty About Bats >EXCLAMATION <EOS 
+CLAUSE:
+  [>SQUOTE (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Bat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Lady (LEX)(N SINGULAR(HUMAN))]
+
+  [>SQUOTE (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Rescue (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Lollar (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lollar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Batty (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [About (LEX)(PREP)]
+    NP SEGMENT:
+      [Bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

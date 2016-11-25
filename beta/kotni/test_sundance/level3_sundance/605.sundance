@@ -1,0 +1,426 @@
+Original : Tyler Smith, 11, loves football. 
+PreProc  : Tyler Smith >COMMA &&11 >COMMA loves football >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+    [Smith (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&11 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [loves (root: love) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He plays football with his friends for fun. 
+PreProc  : He plays football with his friends for fun >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plays (root: play) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [for (LEX)(PREP)]
+  [fun (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He watches his favorite team, the New England Patriots, on TV. 
+PreProc  : He watches his favorite team >COMMA the New England Patriots >COMMA on TV >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [watches (root: watch) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [favorite (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [New (LEX)(ADJ)]
+    [England (?)(UNK(ENTITY UNKNOWN))]
+    [Patriots (root: patriot) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He even collects football cards. 
+PreProc  : He even collects football cards >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [collects (root: collect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+    [cards (root: card) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And soon Tyler will get to attend footballÕs most important gameÑthe Super Bowl! 
+PreProc  : And soon Tyler will get to attend footballÕs most important gameÑthe Super Bowl >EXCLAMATION <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  [soon (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [get (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [footballÕs (?)(UNK(ENTITY UNKNOWN))]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [important (LEX)(ADJ)]
+    [gameÑthe (?)(UNK(ENTITY UNKNOWN))]
+    [Super (LEX)(ADJ)]
+    [Bowl (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The big matchup will take place on February 1 in Tampa, Fla. Tyler is going to cover the super sporting event for As a student reporter, Tyler will interview football players before the Super Bowl. 
+PreProc  : The big matchup will take place on February &&1 in Tampa >COMMA Fla. Tyler is going to cover the super sporting event for As a student reporter >COMMA Tyler will interview football players before the Super Bowl >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [matchup (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+    [place (LEX)(V BASE)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [February (LEX)(N SINGULAR(MONTH))]
+      [&&1 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Tampa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Fla. (?)(UNK(ENTITY UNKNOWN))]
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fla. (?)(UNK(ENTITY UNKNOWN))]
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [cover (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [super (LEX)(ADJ)]
+    [sporting (INF-MOR)(GER)]
+    [event (LEX)(N SINGULAR(OTHER))]
+
+  [for (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [student (LEX)(N SINGULAR(HUMAN))]
+      [reporter (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [interview (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+    [players (root: play) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Super (LEX)(ADJ)]
+      [Bowl (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then heÕll watch the game from a in the stadium. 
+PreProc  : Then heÕll watch the game from a in the stadium >PERIOD <EOS 
+CLAUSE:
+  [Then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [heÕll (?)(UNK(ENTITY UNKNOWN))]
+    [watch (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [game (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [in (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [stadium (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A press box is a place where professional reporters sit during a game. 
+PreProc  : A press box is a place where professional reporters sit during a game >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [press (LEX)(N SINGULAR(OTHER))]
+    [box (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [professional (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [game (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is Tyler looking forward to most about covering the Super Bowl? 
+PreProc  : What is Tyler looking forward to most about covering the Super Bowl >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Tyler (?)(UNK(ENTITY UNKNOWN))]
+    [looking (root: look) (MOR)(N SINGULAR) (GER)]
+
+  [forward (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [covering (root: cover) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Super (LEX)(ADJ)]
+    [Bowl (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒInterviewing the players and getting their [thoughts about] the game,Ó he says. 
+PreProc  : ÒInterviewing the players and getting their >LBRACKET thoughts about >RBRACKET the game,Ó he says >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [ÒInterviewing (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [players (root: play) (MOR)(N PLURAL)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [players (root: play) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+
+  ADJ SEGMENT:
+    [their (LEX)(ADJ)]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [players (root: play) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thoughts (root: thought) (MOR)(V PRESENT)]
+
+  [about (LEX)(PREP)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [game,Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : to read and see photos of TylerÕs interviews with Super Bowl players. 
+PreProc  : to read and see photos of TylerÕs interviews with Super Bowl players >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [read (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [photos (root: photo) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: photos
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [TylerÕs (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [photos (root: photo) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: photos
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [TylerÕs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interviews (root: interview) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Super (LEX)(ADJ)]
+      [Bowl (?)(UNK(ENTITY UNKNOWN))]
+      [players (root: play) (MOR)(N PLURAL)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,157 @@
+Original : --Smoking kills parts of the lungs that allow a person to breathe. 
+PreProc  : >DASH Smoking kills parts of the lungs that allow a person to breathe >PERIOD <EOS 
+CLAUSE:
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Smoking (root: smoke) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [kills (root: kill) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [lungs (root: lung) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [lungs (root: lung) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [allow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [breathe (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It also causes illnesses, such as bronchitis and emphysema. 
+PreProc  : It also causes illnesses >COMMA SUCH_AS bronchitis and emphysema >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [causes (root: cause) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [illnesses (root: illness) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [bronchitis (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [emphysema (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : --Smoking blocks vessels carrying blood to and from the heart. 
+PreProc  : >DASH Smoking blocks vessels carrying blood to and from the heart >PERIOD <EOS 
+CLAUSE:
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Smoking (root: smoke) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blocks (root: block) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [vessels (root: vessel) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [vessels (root: vessel) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carrying (root: carry) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [blood (LEX)(N SINGULAR(OTHER))]
+
+  [to (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [heart (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also lead to heart attacks. 
+PreProc  : It can also lead to heart attacks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [lead (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [heart (LEX)(N SINGULAR(OTHER))]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

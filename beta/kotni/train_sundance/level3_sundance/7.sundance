@@ -1,0 +1,351 @@
+Original : In 1914, a group of explorers, led by Sir Ernest Shackleton, wanted to cross Antarctica. 
+PreProc  : In &&1914 >COMMA a group of explorers >COMMA led by Sir Ernest Shackleton >COMMA wanted to cross Antarctica >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1914 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [explorers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [Sir (?)(UNK(ENTITY UNKNOWN))]
+      [Ernest (?)(UNK(ENTITY UNKNOWN))]
+      [Shackleton (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [explorers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [cross (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, after two months of sailing, they never even made it to Antarctica's shore. 
+PreProc  : However >COMMA after &&2 months of sailing >COMMA they never even made it to @Antarctica@s shore >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Time (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&2 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+Following PP attaches to: &&2 months
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [sailing (root: sail) (MOR)(N SINGULAR) (GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [never (LEX)(ADV)]
+    [even (LEX)(ADV)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [@Antarctica@s (LEX)(ADJ POSSESSIVE)]
+      [shore (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their ship became trapped in floating ice blocks for nine months. 
+PreProc  : Their ship became trapped in floating ice blocks for &&9 months >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+    [trapped (root: trap) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [floating (INF-MOR)(GER)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [floating (INF-MOR)(GER)]
+    [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [blocks (root: block) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Time (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&9 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Later, when their ship, was crushed by the closing ice, Shackleton and 28 men were forced to camp on the ice. 
+PreProc  : Later >COMMA when their ship >COMMA was crushed by the closing ice >COMMA Shackleton and &&28 men were forced to camp on the ice >PERIOD <EOS 
+CLAUSE:
+  [Later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [crushed (root: crush) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [closing (root: close) (MOR)(N SINGULAR) (GER)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Shackleton (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&28 (LEX)(NUM)]
+    [men (root: man) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&28 (LEX)(NUM)]
+    [men (root: man) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [forced (root: force) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [camp (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After camping on the ice for five months, Shackleton and five men sailed 800 miles in a tiny lifeboat to get help. 
+PreProc  : After camping on the ice for &&5 months >COMMA Shackleton and &&5 men sailed &&800 miles in a tiny lifeboat to get help >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [camping (INF-MOR)(GER)]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT-Time (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&5 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [Shackleton (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&5 (LEX)(NUM)]
+    [men (root: man) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sailed (root: sail) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&800 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [tiny (LEX)(ADJ)]
+      [lifeboat (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [help (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The remaining crew was later rescued. 
+PreProc  : The remaining crew was later rescued >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [remaining (root: remain) (MOR)(N SINGULAR) (GER)]
+    [crew (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [later (LEX)(ADV)]
+    [rescued (root: rescue) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Amazingly, all 29 men on the survived being stranded for 17 months on Antarctica's ice. 
+PreProc  : Amazingly >COMMA all &&29 men on the survived being stranded for &&17 months on @Antarctica@s ice >PERIOD <EOS 
+CLAUSE:
+  [Amazingly (INF-MOR)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [&&29 (LEX)(NUM)]
+    [men (root: man) (LEX)(N PLURAL(HUMAN))]
+
+  [on (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [survived (root: survive) (MOR)(ADJ)]
+  VP SEGMENT (PASSIVE_VERB):
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [stranded (INF-MOR)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&17 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [@Antarctica@s (LEX)(ADJ POSSESSIVE)]
+      [ice (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

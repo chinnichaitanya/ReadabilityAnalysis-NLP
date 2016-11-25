@@ -1,0 +1,445 @@
+Original : to new places twice a year. 
+PreProc  : to new places twice a year >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [new (LEX)(ADJ)]
+      [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+
+  [twice (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They move to stay away from freezing weather. 
+PreProc  : They move to stay away from freezing weather >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [move (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [freezing (root: freeze) (MOR)(N SINGULAR) (GER)]
+      [weather (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Learn about monarchs during the four seasons! 
+PreProc  : Learn about monarchs during the &&4 seasons >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [monarchs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&4 (LEX)(NUM)]
+      [seasons (root: season) (MOR)(N PLURAL(TIME))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , millions of monarch butterflies migrate. 
+PreProc  : >COMMA millions of monarch butterflies migrate >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [monarch (?)(UNK(ENTITY UNKNOWN))]
+      [butterflies (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [migrate (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some monarchs fly west to California, but most fly south to Mexico. 
+PreProc  : Some monarchs fly west to California >COMMA but most fly south to Mexico >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Some (LEX)(DET)]
+    [monarchs (?)(UNK(ENTITY UNKNOWN))]
+    [fly (LEX)(N SINGULAR(ANIMAL))]
+    [west (LEX)(ADJ) (N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fly (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [south (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some butterflies migrate more than 2,000 miles! 
+PreProc  : Some butterflies migrate MORE_THAN &&2,000 miles >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [butterflies (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [migrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&2,000 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During winter, monarch butterflies huddle close together on trees. 
+PreProc  : During winter >COMMA monarch butterflies huddle close together on trees >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [winter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [monarch (?)(UNK(ENTITY UNKNOWN))]
+    [butterflies (?)(UNK(ENTITY UNKNOWN))]
+    [huddle (?)(UNK(ENTITY UNKNOWN))]
+
+  [close (LEX)(ADJ)]
+  [together (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : in high mountains. 
+PreProc  : in high mountains >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [high (LEX)(ADJ)]
+      [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The butterflies huddle close together on trees. 
+PreProc  : The butterflies huddle close together on trees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [butterflies (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [huddle (?)(UNK(ENTITY UNKNOWN))]
+
+  [close (LEX)(ADJ)]
+  [together (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That helps monarchs stay safe from wind, rain, and cold. 
+PreProc  : That helps monarchs stay safe from wind >COMMA rain >COMMA and cold >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [monarchs (?)(UNK(ENTITY UNKNOWN))]
+    [stay (LEX)(N SINGULAR(OTHER))]
+
+  [safe (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [wind (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [rain (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [cold (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , monarchs take flight again! 
+PreProc  : >COMMA monarchs take flight again >EXCLAMATION <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [monarchs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [flight (LEX)(N SINGULAR(OTHER))]
+
+  [again (LEX)(ADV)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The butterflies begin their journey north. 
+PreProc  : The butterflies begin their journey north >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [butterflies (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [their (LEX)(ADJ)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+    [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Female butterflies stop to lay eggs along the way. 
+PreProc  : Female butterflies stop to lay eggs along the way >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Female (LEX)(N SINGULAR(HUMAN))]
+    [butterflies (?)(UNK(ENTITY UNKNOWN))]
+    [stop (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [lay (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [along (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [way (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The new baby butterflies finish the trip. 
+PreProc  : The new baby butterflies finish the trip >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [butterflies (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [finish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [trip (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : fluttering and flying in fields of milkweed. 
+PreProc  : fluttering and flying in fields of milkweed >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [fluttering (INF-MOR)(GER)]
+    [and (LEX)(CONJ)]
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [fields (root: field) (MOR)(N PLURAL(LOCATION))]
+
+
+  [of (LEX)(PREP)]
+  [milkweed (INF-LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They stay in parts of Canada and the United States! 
+PreProc  : They stay in parts of Canada and the UNITED_STATES >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: parts
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The monarchs drink nectar from milkweed plants. 
+PreProc  : The monarchs drink nectar from milkweed plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [monarchs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drink (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [nectar (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [milkweed (INF-LEX)(ADJ)]
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nectar is a sweet liquid food. 
+PreProc  : Nectar is a sweet liquid food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nectar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sweet (LEX)(ADJ)]
+    [liquid (?)(UNK(ENTITY UNKNOWN))]
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Monarchs spend the summer flying in the fields. 
+PreProc  : Monarchs spend the summer flying in the fields >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Monarchs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [fields (root: field) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

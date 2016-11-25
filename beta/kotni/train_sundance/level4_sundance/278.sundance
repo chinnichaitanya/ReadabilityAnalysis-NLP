@@ -1,0 +1,738 @@
+Original : Does the classic tale about a woodworker whose puppet becomes a live boy sound familiar? 
+PreProc  : Does the classic tale about a woodworker whose puppet becomes a live boy sound familiar >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [classic (root: class) (MOR)(ADJ(OTHER))]
+    [tale (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [woodworker (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [whose (LEX)(ADJ)]
+      [puppet (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [woodworker (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [whose (LEX)(ADJ)]
+    [puppet (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [becomes (root: become) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [live (LEX)(ADJ)]
+    [boy (LEX)(N SINGULAR(HUMAN))]
+    [sound (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [familiar (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Do you remember the name of the puppet from that story? 
+PreProc  : Do you remember the name of the puppet from that story >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remember (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the name
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [puppet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [story (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you answered Pinocchio, you are correct. 
+PreProc  : If you answered Pinocchio >COMMA you are correct >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [answered (root: answer) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [correct (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many kids are unaware that the original Pinocchio story was not written in America. 
+PreProc  : Many kids are unaware that the original Pinocchio story was not written in America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [unaware (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [original (LEX)(ADJ)]
+    [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+    [written (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pinocchio's roots can be traced back to Tuscany, an area of Italy. 
+PreProc  : @Pinocchio@s roots can be traced back to Tuscany >COMMA an area of Italy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Pinocchio@s (LEX)(ADJ POSSESSIVE)]
+    [roots (root: root) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [traced (root: trace) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Tuscany (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+Following PP attaches to: an area
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Italy (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Carlo Collodi wrote the original story in Italy in 1881. 
+PreProc  : Carlo Collodi wrote the original story in Italy in &&1881 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Carlo (?)(UNK(ENTITY UNKNOWN))]
+    [Collodi (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wrote (root: write) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [original (LEX)(ADJ)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Italy (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1881 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since then the book has been translated into more than 250 languages. 
+PreProc  : Since then the book has been translated into MORE_THAN &&250 languages >PERIOD <EOS 
+CLAUSE:
+  [Since (LEX)(C_M) (PREP)]
+  [then (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [translated (root: translate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&250 (LEX)(NUM)]
+      [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or changed, many times since Collodi's original version. 
+PreProc  : >COMMA or changed >COMMA many times since @Collodi@s original version >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [changed (root: change) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [@Collodi@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [original (LEX)(ADJ)]
+      [version (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now the puppet-turned-boy is about to embark on a new journey in the movie . 
+PreProc  : Now the puppet-turned-boy is about to embark on a new journey in the movie >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [puppet-turned-boy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [about (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [embark (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [journey (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The plot of the movie has an interesting twist. 
+PreProc  : The plot of the movie has an interesting twist >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [plot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The plot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [interesting (root: interest) (MOR)(N SINGULAR) (GER)]
+    [twist (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pinocchio is turned back from a boy into a puppet! 
+PreProc  : Pinocchio is turned back from a boy into a puppet >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [turned (root: turn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [boy (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [puppet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The movie appears on HBO Family in February and comes out on video and DVD in April. 
+PreProc  : The movie appears on HBO Family in February and comes out on video and DVD in April >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [appears (root: appear) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [HBO (?)(UNK(ENTITY UNKNOWN))]
+      [Family (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [February (LEX)(N SINGULAR(MONTH))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  [out (LEX)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [video (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [DVD (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [April (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Playing the part of Pinocchio is 16-year-old Gabriel Thomson, who lives in England. 
+PreProc  : Playing the part of Pinocchio is 16-year-old Gabriel Thomson >COMMA who lives in England >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Playing (root: play) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [16-year-old (?)(UNK(ENTITY UNKNOWN))]
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+    [Thomson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [16-year-old (?)(UNK(ENTITY UNKNOWN))]
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+    [Thomson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gabriel starred in the movie when he was 12 years old. 
+PreProc  : Gabriel starred in the movie when he was &&12 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [starred (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [&&12 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gabriel described his experience as "incredible." 
+PreProc  : Gabriel described his experience as >DQUOTE incredible >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [described (root: describe) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [as (LEX)(PREP)]
+  [incredible (root: credible) (MOR)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During filming, he attended school for three hours each day and worked with different tutors. 
+PreProc  : During filming >COMMA he attended school for &&3 hours each day and worked with different tutors >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [filming (root: film) (MOR)(N SINGULAR) (GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attended (root: attend) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&3 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [worked (root: work) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [tutors (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just as Pinocchio learns lessons about growing up, Gabriel learned some of his own lessons. 
+PreProc  : Just as Pinocchio learns lessons about growing up >COMMA Gabriel learned some of his own lessons >PERIOD <EOS 
+CLAUSE:
+  [Just (LEX)(ADJ) (ADV)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [Pinocchio (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learns (root: learn) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [lessons (root: lesson) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+
+
+  [up (LEX)(PART) (PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Gabriel (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [own (LEX)(ADJ)]
+      [lessons (root: lesson) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I learned a lot about acting from Martin Landau, [the actor who plays Geppetto]. 
+PreProc  : >DQUOTE I learned a lot about acting from Martin Landau >COMMA >LBRACKET the actor who plays Geppetto >RBRACKET >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [acting (root: act) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Martin (?)(UNK(ENTITY UNKNOWN))]
+      [Landau (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [actor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [actor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plays (root: play) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Geppetto (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He taught me how to relax on the set." 
+PreProc  : He taught me how to relax on the set >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taught (root: teach) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [relax (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [set (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

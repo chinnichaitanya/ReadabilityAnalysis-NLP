@@ -1,0 +1,953 @@
+Original : The 2000 Summer Olympics in Sydney, Australia, will be a place of many firsts. 
+PreProc  : The &&2000 Summer Olympics in Sydney >COMMA Australia >COMMA will be a place of many firsts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2000 (LEX)(NUM)]
+    [Summer (?)(UNK(ENTITY UNKNOWN))]
+    [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Sydney (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a place
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [firsts (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Games, which start on September 15, are the first Olympic Games to take place in the 21st century. 
+PreProc  : The Games >COMMA which start on September &&15 >COMMA are the first Olympic Games to take place in the 21st century >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [start (LEX)(V BASE)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [21st (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [century (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And, for the first time in Olympic history, people will hear such words as People will hear those words because the sports in which those terms are used--trampoline and tae kwon do (TIGH KWAHN DOH)--are being played for the first time officially at a Summer Olympics. 
+PreProc  : And >COMMA for the first time in Olympic history >COMMA people will hear such words as People will hear those words because the sports in which those terms are used >DASH trampoline and tae kwon do >LPAREN TIGH KWAHN DOH >RPAREN >DASH are being played for the first time officially at a Summer Olympics >PERIOD <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Olympic (LEX)(ADJ)]
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [hear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [such (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [hear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [terms (root: term) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  [>DASH (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [trampoline (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [TIGH (?)(UNK(ENTITY UNKNOWN))]
+    [KWAHN (?)(UNK(ENTITY UNKNOWN))]
+    [DOH (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>DASH (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [played (root: play) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [officially (root: official) (MOR)(ADV)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Another sport, triathlon, is also making its first Olympic appearance this year. 
+PreProc  : Another sport >COMMA triathlon >COMMA is also making its first Olympic appearance this year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Another (LEX)(ADJ)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [triathlon (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [first (LEX)(ADJ)]
+    [Olympic (LEX)(ADJ)]
+    [appearance (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The triathlon is a race that includes swimming, bicycling, and running. 
+PreProc  : The triathlon is a race that includes swimming >COMMA bicycling >COMMA and running >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [triathlon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [race (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [race (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [includes (root: include) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [swimming (INF-MOR)(GER)]
+    [>COMMA (LEX)(PUNC)]
+    [bicycling (INF-MOR)(GER)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [running (root: run) (MOR)(GER) (N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although new to the Olympics, tae kwon do, trampoline, and triathlon are not new sports. 
+PreProc  : Although new to the Olympics >COMMA tae kwon do >COMMA trampoline >COMMA and triathlon are not new sports >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  [new (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [trampoline (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [triathlon (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [triathlon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, tae kwon do, which is similar to karate, has been around for more than 1,000 years. 
+PreProc  : In fact >COMMA tae kwon do >COMMA which is similar to karate >COMMA has been around for MORE_THAN &&1,000 years >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [similar (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [karate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tae (?)(UNK(ENTITY UNKNOWN))]
+    [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  [around (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&1,000 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (In Korean, The athletes who compete in the newly admitted Olympic sports are very excited about going to Sydney. 
+PreProc  : >LPAREN In Korean >COMMA The athletes who compete in the newly admitted Olympic sports are very excited about going to Sydney >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [Korean (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [athletes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Korean (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [newly (root: new) (MOR)(ADV)]
+      [admitted (root: admit) (MOR)(ADJ)]
+      [Olympic (LEX)(ADJ)]
+      [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [admitted (root: admit) (MOR)(ADJ)]
+    [Olympic (LEX)(ADJ)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [excited (LEX)(ADJ)]
+
+  [about (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [admitted (root: admit) (MOR)(ADJ)]
+    [Olympic (LEX)(ADJ)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Sydney (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It is an awesome feeling, and I don't even know how to explain it." 
+PreProc  : >DQUOTE It is an awesome feeling >COMMA and I DO NOT even know how to explain it >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [awesome (LEX)(ADJ)]
+    [feeling (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [even (LEX)(ADV)]
+    [know (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [explain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : said Barbara Kunkel. 
+PreProc  : said Barbara Kunkel >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Barbara (?)(UNK(ENTITY UNKNOWN))]
+    [Kunkel (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kunkel is a member of the U.S. tae kwon do team. 
+PreProc  : Kunkel is a member of the U.S. tae kwon do team >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kunkel (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a member
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [tae (?)(UNK(ENTITY UNKNOWN))]
+      [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: a member
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [tae (?)(UNK(ENTITY UNKNOWN))]
+      [kwon (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A sport must meet certain rules to become a part of the Olympic Games. 
+PreProc  : A sport must meet certain rules to become a part of the Olympic Games >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [certain (LEX)(ADJ)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympic (LEX)(ADJ)]
+      [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Leaders of a sport must apply to be a part of the Olympics seven years before the sport can be included in any Olympic Games. 
+PreProc  : Leaders of a sport must apply to be a part of the Olympics &&7 years before the sport can be included in any Olympic Games >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: Leaders
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [sport (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [must (LEX)(AUX)]
+    [apply (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [&&7 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sport (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [included (root: include) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+      [Olympic (LEX)(ADJ)]
+      [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In addition, a men's sport must be "widely practiced in at least 75 countries," and a women's sport must be practiced "in at least 40 countries and on three continents." 
+PreProc  : In addition >COMMA a @men@s sport must be >DQUOTE widely practiced in AT_LEAST &&75 countries >COMMA >DQUOTE and a @women@s sport must be practiced >DQUOTE in AT_LEAST &&40 countries and on &&3 continents >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [addition (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [@men@s (LEX)(ADJ POSSESSIVE)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [must (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [widely (root: wide) (MOR)(ADV)]
+    [practiced (root: practice) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [AT_LEAST (LEX)(ADJ)]
+      [&&75 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [@women@s (LEX)(ADJ POSSESSIVE)]
+      [sport (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [@women@s (LEX)(ADJ POSSESSIVE)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [must (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [practiced (root: practice) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [AT_LEAST (LEX)(ADJ)]
+      [&&40 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&3 (LEX)(NUM)]
+      [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The United States is sending more than 200 athletes to the Games in Sydney. 
+PreProc  : The UNITED_STATES is sending MORE_THAN &&200 athletes to the Games in Sydney >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [sending (root: send) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Sydney (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those athletes are competing against athletes from more than 190 nations. 
+PreProc  : Those athletes are competing against athletes from MORE_THAN &&190 nations >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [competing (root: compete) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [against (LEX)(PREP)]
+    NP SEGMENT:
+      [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&190 (LEX)(NUM)]
+      [nations (root: nation) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other Summer Olympic events include track and field, swimming, baseball, and sailing. 
+PreProc  : Other Summer Olympic events include track and field >COMMA swimming >COMMA baseball >COMMA and sailing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [Summer (?)(UNK(ENTITY UNKNOWN))]
+    [Olympic (LEX)(ADJ)]
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+    [track (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP-CONJ SEGMENT-Location:
+    [field (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [swimming (INF-MOR)(GER)]
+    [>COMMA (LEX)(PUNC)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [sailing (root: sail) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The last Summer Olympics took place in the United States in 1996. 
+PreProc  : The last Summer Olympics took place in the UNITED_STATES in &&1996 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [last (LEX)(ADJ)]
+    [Summer (?)(UNK(ENTITY UNKNOWN))]
+    [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1996 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 1996 Games were held in Atlanta, Georgia, and the United States won 101 medals, the most won in the 1996 Games. 
+PreProc  : The &&1996 Games were held in Atlanta >COMMA Georgia >COMMA and the UNITED_STATES won &&101 medals >COMMA the most won in the &&1996 Games >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&1996 (LEX)(NUM)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Atlanta (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&101 (LEX)(NUM)]
+    [medals (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&1996 (LEX)(NUM)]
+      [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, U.S. athletes, including Barbara Kunkel, are trying for a Olympic repeat. 
+PreProc  : This year >COMMA U.S. athletes >COMMA including Barbara Kunkel >COMMA are trying for a Olympic repeat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [including (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [Barbara (?)(UNK(ENTITY UNKNOWN))]
+    [Kunkel (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [trying (root: try) (LEX)(V PARTICIPLE)]
+
+  [for (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [Olympic (LEX)(ADJ)]
+  [repeat (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

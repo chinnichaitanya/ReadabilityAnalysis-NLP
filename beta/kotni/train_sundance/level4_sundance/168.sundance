@@ -1,0 +1,269 @@
+Original : In 1916, Jeanette Rankin became the first woman elected to Congress. 
+PreProc  : In &&1916 >COMMA Jeanette Rankin became the first woman elected to Congress >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1916 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Jeanette (?)(UNK(ENTITY UNKNOWN))]
+    [Rankin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [woman (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [woman (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [elected (root: elect) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, 61 women serve in the 435-member House, and 13 of the 100 members of the Senate are women. 
+PreProc  : Today >COMMA &&61 women serve in the 435-member House >COMMA and &&13 of the &&100 members of the Senate are women >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&61 (LEX)(NUM)]
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [serve (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [435-member (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [House (LEX)(N SINGULAR(BUILDING))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [&&13 (LEX)(NUM)]
+
+
+Following PP attaches to: the 435-member House >COMMA and &&13
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&100 (LEX)(NUM)]
+      [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the &&100 members
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Senate (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [435-member (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [House (LEX)(N SINGULAR(BUILDING))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&13 (LEX)(NUM)]
+
+Following PP attaches to: the 435-member House >COMMA and &&13
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&100 (LEX)(NUM)]
+      [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (Five are in the photo.) Hillary Rodham Clinton, wife of former President Bill Clinton, is a senator from New York. 
+PreProc  : >LPAREN &&5 are in the photo >PERIOD >RPAREN Hillary Rodham Clinton >COMMA wife of former President Bill Clinton >COMMA is a senator from NEW_YORK >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [photo (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Hillary (?)(UNK(ENTITY UNKNOWN))]
+    [Rodham (?)(UNK(ENTITY UNKNOWN))]
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [wife (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: wife
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [former (LEX)(ADJ)]
+      [President (LEX)(N SINGULAR(HUMAN))]
+      [Bill (LEX)(N SINGULAR(OTHER))]
+      [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [senator (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She recently said, "I intend to work as hard as I can and to represent the people of New York to the best of my ability." 
+PreProc  : She recently said >COMMA >DQUOTE I intend to work as hard as I can and to represent the people of NEW_YORK to the best of my ability >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [intend (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+
+  [as (LEX)(PREP)]
+  [hard (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [represent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+Following PP attaches to: the people
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+
+
+  [best (LEX)(ADJ)]
+Following PP attaches to: the
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [ability (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

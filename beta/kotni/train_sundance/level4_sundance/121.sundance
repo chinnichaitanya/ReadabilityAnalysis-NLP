@@ -1,0 +1,339 @@
+Original : Last summer, lightning flashed and thunder boomed in Great Yarmouth, England. 
+PreProc  : Last summer >COMMA lightning flashed and thunder boomed in Great Yarmouth >COMMA England >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Last (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [lightning (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [lightning (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flashed (root: flash) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [thunder (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [thunder (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [boomed (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Great (LEX)(ADJ)]
+      [Yarmouth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [England (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then fish, yes, fish, rained from the sky. 
+PreProc  : Then fish >COMMA yes >COMMA fish >COMMA rained from the sky >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Then (LEX)(ADV)]
+    [fish (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [yes (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [fish (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [rained (root: rain) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sky (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "At first I thought I might have something wrong with my eyes," said Fred Hodgkins. 
+PreProc  : >DQUOTE At first I thought I might have something wrong with my eyes >COMMA >DQUOTE said Fred Hodgkins >PERIOD <EOS 
+CLAUSE:
+  [At (LEX)(PREP)]
+  [first (LEX)(ADJ)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thought (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [wrong (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Fred (?)(UNK(ENTITY UNKNOWN))]
+    [Hodgkins (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The fish were all dead, but they looked fresh, as if they had come out of the sea." 
+PreProc  : >DQUOTE The fish were all dead >COMMA but they looked fresh >COMMA as if they had come out of the sea >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [dead (LEX)(ADJ PLURAL) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [looked (root: look) (MOR)(V PAST)]
+
+  ADJ SEGMENT:
+    [fresh (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  [as (LEX)(PREP)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [come (LEX)(V BASE)]
+
+  [out (LEX)]
+Following PP attaches to: had come
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : come from the sea--the North Sea. 
+PreProc  : come from the sea >DASH the North Sea >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+    [Sea (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A small tornado had picked up the fish, carried them 2 miles, and dropped them on the town. 
+PreProc  : A small tornado had picked up the fish >COMMA carried them &&2 miles >COMMA and dropped them on the town >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [tornado (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [tornado (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carried (root: carry) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [tornado (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dropped (root: drop) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although the story may sound fishy, weather forecasters in England say it definitely is not a fish tale. 
+PreProc  : Although the story may sound fishy >COMMA weather forecasters in England say it definitely is not a fish tale >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [sound (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [fishy (root: fish) (MOR)(ADJ(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [weather (LEX)(N SINGULAR(OTHER))]
+    [forecasters (root: forecast) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [England (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [definitely (LEX)(ADV)]
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+    [tale (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

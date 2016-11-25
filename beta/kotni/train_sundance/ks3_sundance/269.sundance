@@ -1,0 +1,706 @@
+Original : > Linear sequences - More on finding the nth term Linear sequences - More on finding the nth term So the sequence of numbers in the 5 times table has a common difference of 5 and an n But what happens if things get more complicated? 
+PreProc  : >GREATER Linear sequences >MINUS More on finding the nth term Linear sequences >MINUS More on finding the nth term So the sequence of numbers in the &&5 times table has a common difference of &&5 and an n But what happens if things get more complicated >QUESTION <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Linear (?)(UNK(ENTITY UNKNOWN))]
+    [sequences (root: sequence) (MOR)(N PLURAL(OTHER))]
+
+  [>MINUS (LEX)(PUNC)]
+  [More (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [finding (root: find) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [nth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [term (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Linear (?)(UNK(ENTITY UNKNOWN))]
+    [sequences (root: sequence) (MOR)(N PLURAL(OTHER))]
+
+  [>MINUS (LEX)(PUNC)]
+  [More (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [finding (root: find) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [nth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [nth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [term (LEX)(V BASE)]
+    [So (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [sequence (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the sequence
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [numbers (root: number) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&5 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [&&5 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a common difference
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [and (LEX)(CONJ)]
+      [an (LEX)(ART)]
+      [n (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happens (root: happen) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  [more (LEX)(ADJ)]
+  [complicated (root: complicate) (MOR)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The common difference is still 5, but it's not the 5 times table. 
+PreProc  : The common difference is still &&5 >COMMA but IT IS not the &&5 times table >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [still (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [&&5 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 5 times table is 5, 10, 15, ... 
+PreProc  : The &&5 times table is &&5 >COMMA &&10 >COMMA &&15 >COMMA >ELLIPSES <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&5 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&10 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&15 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>ELLIPSES (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The sequence is 7, 12, 17, ... 
+PreProc  : The sequence is &&7 >COMMA &&12 >COMMA &&17 >COMMA >ELLIPSES <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [sequence (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&7 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&12 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&17 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>ELLIPSES (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each term in the sequence is 2 more than the corresponding term in the 5 times table, so the n term of the Sequence: 8, 11, 14, ... ? 
+PreProc  : Each term in the sequence is &&2 MORE_THAN the corresponding term in the &&5 times table >COMMA so the n term of the Sequence >COLON &&8 >COMMA &&11 >COMMA &&14 >COMMA >ELLIPSES >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sequence (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+  [MORE_THAN (LEX)(ADJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [corresponding (root: correspond) (MOR)(N SINGULAR) (GER)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&5 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [n (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the n term
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Sequence (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&8 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&11 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&14 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>ELLIPSES (LEX)(PUNC)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The common difference is 3, so it must be related to the 3 times table (3n) The 3 times table is 3, 6, 9, ... 
+PreProc  : The common difference is &&3 >COMMA so it must be related to the &&3 times table >LPAREN 3n >RPAREN The &&3 times table is &&3 >COMMA &&6 >COMMA &&9 >COMMA >ELLIPSES <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [related (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&3 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [3n (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&6 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&9 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>ELLIPSES (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The sequence is 8, 11, 14, .... Every term in the sequence is 5 more than the corresponding term in the 3 times table, so the n What comes next? 
+PreProc  : The sequence is &&8 >COMMA &&11 >COMMA &&14 >COMMA >ELLIPSES >PERIOD Every term in the sequence is &&5 MORE_THAN the corresponding term in the &&3 times table >COMMA so the n What comes next >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [sequence (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&8 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&11 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&14 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>ELLIPSES (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  NP SEGMENT:
+    [Every (LEX)(ADJ)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sequence (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [sequence (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+
+  [MORE_THAN (LEX)(ADJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [corresponding (root: correspond) (MOR)(N SINGULAR) (GER)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&3 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+      [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [n (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [n (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [next (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Try this activity to find out! 
+PreProc  : Try this activity to find out >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Try (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [activity (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use your knowledge to help Spherox find his way home. 
+PreProc  : Use your knowledge to help Spherox find his way home >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [knowledge (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Up for a challenge? 
+PreProc  : Up for a challenge >QUESTION <EOS 
+CLAUSE:
+  [Up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [challenge (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Head to GCSE Bitesize. 
+PreProc  : Head to GCSE Bitesize >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Head (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [GCSE (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [GCSE (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Bitesize (root: bit) (MOR)(V BASE(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

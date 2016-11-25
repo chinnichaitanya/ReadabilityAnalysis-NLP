@@ -1,0 +1,564 @@
+Original : With a dino-like head, this fierce ancient crocodile might have looked like the computer image (above the skull), scientists say. 
+PreProc  : With a dino-like head >COMMA this fierce ancient crocodile might have looked like the computer image >LPAREN above the skull >RPAREN >COMMA scientists say >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [With (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [dino-like (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [head (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [fierce (LEX)(ADJ)]
+    [ancient (LEX)(ADJ)]
+    [crocodile (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [looked (root: look) (MOR)(V PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [image (LEX)(N SINGULAR(OTHER))]
+
+  [>LPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [above (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [skull (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists have reported the discovery of a terrifying ancient sea creature. 
+PreProc  : Scientists have reported the discovery of a terrifying ancient sea creature >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [reported (root: report) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the discovery
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [terrifying (root: terrify) (MOR)(N SINGULAR) (GER)]
+      [ancient (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [creature (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 13-foot-long monster appears to be part crocodile and part T. rex. 
+PreProc  : The 13-foot-long monster appears to be part crocodile and part T. rex >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [13-foot-long (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [monster (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [appears (root: appear) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+    [crocodile (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+    [T. (?)(UNK(ENTITY UNKNOWN))]
+    [rex (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The creature likely roamed the Pacific Ocean about 135 million years ago, during the Age of the Dinosaurs. 
+PreProc  : The creature likely roamed the Pacific Ocean about &&135 million years ago >COMMA during the Age of the Dinosaurs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [creature (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [likely (LEX)(ADV)]
+    [roamed (root: roam) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+    [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+  [about (LEX)(ADV)]
+  NP SEGMENT:
+    [&&135 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Age (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the Age
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Dinosaurs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists nicknamed the crocodile "Godzilla," after the film monster. 
+PreProc  : Scientists nicknamed the crocodile >DQUOTE Godzilla >COMMA >DQUOTE after the film monster >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [nicknamed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [crocodile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [film (LEX)(N SINGULAR(OTHER))]
+      [monster (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : of the skull, scientists created a computer image of Godzilla. 
+PreProc  : of the skull >COMMA scientists created a computer image of Godzilla >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [skull (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [image (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a computer image
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fossils are ancient remains of plants and animal preserved in rock. 
+PreProc  : Fossils are ancient remains of plants and animal preserved in rock >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [ancient (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remains (root: remain) (MOR)(V PRESENT)]
+
+Following PP attaches to: remains
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [preserved (root: preserve) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [rock (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The croc’s fossil was discovered in 1996 in Argentina, a country in South America. 
+PreProc  : The croc’s fossil was discovered in &&1996 in Argentina >COMMA a country in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [croc’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [fossil (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1996 (LEX)(NUM)]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Argentina (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After studying the fossil for 10 years, scientists recently published their research. 
+PreProc  : After studying the fossil for &&10 years >COMMA scientists recently published their research >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [studying (root: study) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [fossil (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&10 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [published (root: publish) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [research (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unlike other ocean crocs of the time, Godzilla had a short, high snout and a mouthful of large, jagged teeth for devouring other animals. 
+PreProc  : Unlike other ocean crocs of the time >COMMA Godzilla had a short >COMMA high snout and a mouthful of large >COMMA jagged teeth for devouring other animals >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Unlike (root: like) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [crocs (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: other ocean crocs
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  [a (LEX)(ART)]
+  [short (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [high (LEX)(ADJ)]
+    [snout (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [mouthful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [of (LEX)(PREP)]
+  [large (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [jagged (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [devouring (INF-MOR)(GER)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other crocodiles had long, thin snouts and smaller teeth. 
+PreProc  : Other crocodiles had long >COMMA thin snouts and smaller teeth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [crocodiles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  ADJ SEGMENT:
+    [long (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [thin (LEX)(ADJ)]
+    [snouts (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [smaller (root: small) (MOR)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists say Godzilla was a top ocean an animal that feeds on other animals. 
+PreProc  : Scientists say Godzilla was a top ocean an animal that feeds on other animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Godzilla (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT-Location (IOBJ):
+    [a (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [feeds (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It most likely dined on other large creatures rather than small fish. 
+PreProc  : It most likely dined on other large creatures rather than small fish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [likely (LEX)(ADJ) (ADV)]
+  [dined (root: dine) (MOR)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [large (LEX)(ADJ)]
+      [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [rather (LEX)(ADV)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [small (LEX)(ADJ)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We are calling him the chico malo�‘bad boy’ of the ocean," says one of the researchers. 
+PreProc  : >DQUOTE We are calling him the chico malo�‘bad boy’ of the ocean >COMMA >DQUOTE says one of the researchers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [calling (root: call) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chico (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [malo�‘bad (?)(UNK(ENTITY UNKNOWN))]
+    [boy’ (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the chico malo�‘bad boy’
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [researchers (root: search) (MOR)(N PLURAL)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

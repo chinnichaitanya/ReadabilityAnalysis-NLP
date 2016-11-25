@@ -1,0 +1,353 @@
+Original : Scientists recently studied black bears in Alaska. 
+PreProc  : Scientists recently studied black bears in Alaska >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [studied (root: study) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [black (LEX)(ADJ)]
+    [bears (root: bear) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The bears hibernated for about six months. 
+PreProc  : The bears hibernated for about &&6 months >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bears (root: bear) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hibernated (INF-MOR)(V PAST)]
+
+  [for (LEX)(PREP)]
+  PP SEGMENT-Time (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&6 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During that time, the bearsÕ breathing slowed down. 
+PreProc  : During that time >COMMA the bearsÕ breathing slowed down >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [bearsÕ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [breathing (root: breathe) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [slowed (root: slow) (MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their heartbeats slowed too. 
+PreProc  : Their heartbeats slowed too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [heartbeats (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [slowed (root: slow) (MOR)(V PAST)]
+    [too (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What barely changed? 
+PreProc  : What barely changed >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [barely (LEX)(ADV)]
+    [changed (root: change) (MOR)(V PAST)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The bearsÕ body temperature! 
+PreProc  : The bearsÕ body temperature >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bearsÕ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It dropped only a few degrees. 
+PreProc  : It dropped only a few degrees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dropped (root: drop) (MOR)(V PAST)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [few (LEX)(ADJ)]
+    [degrees (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That surprised scientists. 
+PreProc  : That surprised scientists >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [surprised (root: surprise) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most animals that hibernate have a large drop in temperature. 
+PreProc  : Most animals that hibernate have a large drop in temperature >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [hibernate (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [large (LEX)(ADJ)]
+    [drop (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [temperature (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒAs body temperature drops, the body slows down and uses less energy. 
+PreProc  : ÒAs body temperature drops >COMMA the body slows down and uses less energy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒAs (?)(UNK(ENTITY UNKNOWN))]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature (?)(UNK(ENTITY UNKNOWN))]
+    [drops (root: drop) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [slows (root: slow) (MOR)(V PRESENT)]
+
+  [down (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒAs (?)(UNK(ENTITY UNKNOWN))]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature (?)(UNK(ENTITY UNKNOWN))]
+    [drops (root: drop) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [less (LEX)(ADJ)]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was surprising that hibernating bears were able to save so much energy without a large drop in body temperature,Ó says Oivind Toien. 
+PreProc  : It was surprising that hibernating bears were able to save so much energy without a large drop in body temperature,Ó says Oivind Toien >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [surprising (root: surprise) (MOR)(V PARTICIPLE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hibernating (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [bears (root: bear) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [bears (root: bear) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [save (LEX)(V BASE)]
+    [so (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [large (LEX)(ADJ)]
+      [drop (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [body (LEX)(N SINGULAR(HUMAN))]
+      [temperature,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Oivind (?)(UNK(ENTITY UNKNOWN))]
+    [Toien (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is the scientist who led the study. 
+PreProc  : He is the scientist who led the study >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [study (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A black bear hibernates in a den. 
+PreProc  : A black bear hibernates in a den >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [black (LEX)(ADJ)]
+    [bear (LEX)(N SINGULAR(ANIMAL))]
+    [hibernates (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [den (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

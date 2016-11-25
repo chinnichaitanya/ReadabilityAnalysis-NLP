@@ -1,0 +1,347 @@
+Original : Who will become the next president? 
+PreProc  : Who will become the next president >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You tell us! 
+PreProc  : You tell us >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Weekly Reader students have picked the president in 12 of the past 13 elections. 
+PreProc  : Weekly Reader students have picked the president in &&12 of the past &&13 elections >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+    [Reader (root: read) (MOR)(N SINGULAR)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+
+
+Following PP attaches to: &&12
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [&&13 (LEX)(NUM)]
+      [elections (root: election) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Weekly Reader Presidential Election Poll is one of the most talked-about presidential . 
+PreProc  : The Weekly Reader Presidential Election Poll is one of the most talked-about presidential >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+    [Reader (root: read) (MOR)(N SINGULAR)]
+    [Presidential (LEX)(ADJ)]
+    [Election (LEX)(N SINGULAR(OTHER))]
+    [Poll (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [talked-about (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [presidential (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A predictor is a person or thing that guesses how something will turn out. 
+PreProc  : A predictor is a person or thing that guesses how something will turn out >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [predictor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [thing (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [thing (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [guesses (root: guess) (MOR)(V PRESENT)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [turn (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Weekly Reader students have been correct more than 90 percent of the time. 
+PreProc  : Weekly Reader students have been correct MORE_THAN &&90 percent of the time >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+    [Reader (root: read) (MOR)(N SINGULAR)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [correct (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&90 (LEX)(NUM)]
+    [percent (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: MORE_THAN &&90 percent
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now you can be part of Weekly ReaderÕs poll. 
+PreProc  : Now you can be part of Weekly ReaderÕs poll >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [ReaderÕs (?)(UNK(ENTITY UNKNOWN))]
+      [poll (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Who do you want to be the next president? 
+PreProc  : Who do you want to be the next president >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [next (LEX)(ADJ)]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You and your classmates can vote. 
+PreProc  : You and your classmates can vote >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+    [and (LEX)(CONJ)]
+    [your (LEX)(ADJ)]
+    [classmates (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [vote (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your teacher can send the results to on October 29 to read the results. 
+PreProc  : Your teacher can send the results to on October &&29 to read the results >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [send (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+  [to (LEX)(PREP)]
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&29 (LEX)(NUM)]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can find out whether you and other Weekly Reader students picked the winning candidate on Election Day, November 4. 
+PreProc  : You can find out whether you and other Weekly Reader students picked the winning candidate on Election Day >COMMA November &&4 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+    [Reader (root: read) (MOR)(N SINGULAR)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [picked (root: pick) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [candidate (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Election (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Time:
+    [November (LEX)(N SINGULAR(MONTH))]
+    [&&4 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

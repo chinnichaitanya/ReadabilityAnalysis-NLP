@@ -1,0 +1,775 @@
+Original : Are you afraid of bats? 
+PreProc  : Are you afraid of bats >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [afraid (LEX)(ADJ)]
+Following PP attaches to: you
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If so, you are not alone. 
+PreProc  : If so >COMMA you are not alone >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  [so (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [alone (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people are scared of the winged creatures. 
+PreProc  : Many people are scared of the winged creatures >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [scared (root: scare) (MOR)(V PAST)]
+
+Following PP attaches to: are scared
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [winged (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bats often get a bad rap, but they are often helpful! 
+PreProc  : Bats often get a bad rap >COMMA but they are often helpful >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [bad (LEX)(ADJ)]
+    [rap (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [helpful (LEX)(ADJ)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some farmers in California are thankful that bats live nearby. 
+PreProc  : Some farmers in California are thankful that bats live nearby >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [thankful (LEX)(ADJ)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+    [nearby (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, the farmers want more bats around! 
+PreProc  : In fact >COMMA the farmers want more bats around >EXCLAMATION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  [around (LEX)(PREP)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why? 
+PreProc  : Why >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The flying animals eat insects that come out at night. 
+PreProc  : The flying animals eat insects that come out at night >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [night (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Without the bats, those insects would eat crops that farmers grow. 
+PreProc  : Without the bats >COMMA those insects would eat crops that farmers grow >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Without (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bats eat a lot of insects. 
+PreProc  : Bats eat a lot of insects >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One bat can eat hundreds of mosquitoes in an hour! 
+PreProc  : One bat can eat hundreds of mosquitoes in an hour >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [mosquitoes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts say a colony of big brown bats protects crops from 33 million bugs each summer. 
+PreProc  : Experts say a colony of big brown bats protects crops from &&33 million bugs each summer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [colony (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: a colony
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [big (LEX)(ADJ)]
+      [brown (LEX)(ADJ)]
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [colony (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: a colony
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [big (LEX)(ADJ)]
+      [brown (LEX)(ADJ)]
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&33 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [bugs (?)(UNK(ENTITY UNKNOWN))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [summer (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or types, of bats in North America. 
+PreProc  : >COMMA or types >COMMA of bats in North America >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many of them are , or in danger of dying out. 
+PreProc  : Many of them are >COMMA or in danger of dying out >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: Many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [danger (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [danger (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dying (root: die) (LEX)(V PARTICIPLE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Habitat loss is the number-one reason for the decline in bat species," scientist Rachael Long told . 
+PreProc  : >DQUOTE Habitat loss is the number-one reason for the decline in bat species >COMMA >DQUOTE scientist Rachael Long told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Habitat (?)(UNK(ENTITY UNKNOWN))]
+    [loss (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [number-one (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number-one (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reason (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [decline (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [bat (LEX)(N SINGULAR(ANIMAL PHYSOBJ))]
+      [species (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [Rachael (?)(UNK(ENTITY UNKNOWN))]
+    [Long (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [Rachael (?)(UNK(ENTITY UNKNOWN))]
+    [Long (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "People have no idea where bats live. 
+PreProc  : >DQUOTE People have no idea where bats live >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They cut down trees, close up caves, and tear down old buildings where bats roost." 
+PreProc  : They cut down trees >COMMA close up caves >COMMA and tear down old buildings where bats roost >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [down (LEX)]
+    [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [close (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [caves (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tear (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [old (LEX)(ADJ)]
+      [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [old (LEX)(ADJ)]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bats (root: bat) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [roost (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To attract more bats to the area, the farmers build bat houses. 
+PreProc  : To attract more bats to the area >COMMA the farmers build bat houses >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [attract (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+    [bat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [houses (root: house) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hang the houses on barns and other buildings. 
+PreProc  : They hang the houses on barns and other buildings >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hang (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [houses (root: house) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [barns (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although farmers want more bats living near them, scientists warn that bats are still wild animals. 
+PreProc  : Although farmers want more bats living near them >COMMA scientists warn that bats are still wild animals >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [farmers (root: farmer) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [warn (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [bats (root: bat) (MOR)(N PLURAL(ANIMAL PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [still (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [wild (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "If you see one, don't pick it up. 
+PreProc  : >DQUOTE If you see one >COMMA DO NOT pick it up >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [pick (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [up (LEX)(PART) (PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They do bite," said Long. 
+PreProc  : They do bite >COMMA >DQUOTE said Long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+    [bite (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  ADJ SEGMENT:
+    [Long (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even so, people should not fear bats. 
+PreProc  : Even so >COMMA people should not fear bats >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+  [so (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [fear (LEX)(V BASE)]
+    [bats (root: bat) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "They are very social, really smart, and interesting creatures." 
+PreProc  : >DQUOTE They are very social >COMMA really smart >COMMA and interesting creatures >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [social (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  [really (root: real) (MOR)(ADV)]
+  [smart (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [interesting (root: interest) (MOR)(N SINGULAR) (GER)]
+    [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

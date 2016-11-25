@@ -1,0 +1,516 @@
+Original : February 27 was a sad day in the neighborhood. 
+PreProc  : February &&27 was a sad day in the neighborhood >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [February (LEX)(N SINGULAR(MONTH))]
+    [&&27 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [sad (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [neighborhood (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fred Rogers, the beloved host of the children's television program , lost a brief battle with stomach cancer. 
+PreProc  : Fred Rogers >COMMA the beloved host of the @children@s television program >COMMA lost a brief battle with stomach cancer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fred (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [beloved (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [host (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the beloved host
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@children@s (LEX)(ADJ POSSESSIVE)]
+      [television (LEX)(N SINGULAR(PHYSOBJ))]
+      [program (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [brief (LEX)(ADJ)]
+    [battle (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [stomach (LEX)(N SINGULAR(OTHER))]
+      [cancer (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He died at age 74 at his home in Pittsburgh, Pennsylvania. 
+PreProc  : He died at age &&74 at his home in Pittsburgh >COMMA Pennsylvania >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [died (root: die) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [age (LEX)(N SINGULAR(OTHER))]
+      [&&74 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Pittsburgh (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Pennsylvania (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "He was so genuinely, genuinely kind, a wonderful person," said David Newell, who played Mr. McFeely on the show. 
+PreProc  : >DQUOTE He was so genuinely >COMMA genuinely kind >COMMA a wonderful person >COMMA >DQUOTE said David Newell >COMMA who played Mr. McFeely on the show >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [so (LEX)(ADV)]
+    [genuinely (root: genuine) (MOR)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+  [genuinely (root: genuine) (MOR)(ADV)]
+  NP SEGMENT:
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [wonderful (LEX)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Newell (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [David (LEX)(N PROPER SINGULAR(HUMAN))]
+    [Newell (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [played (root: play) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Mr. (?)(UNK(ENTITY UNKNOWN))]
+
+  [McFeely (INF-MOR)(ADV)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [show (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fred Rogers touched generations of children. 
+PreProc  : Fred Rogers touched generations of children >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fred (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [touched (root: touch) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [generations (root: generation) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: generations
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His show became public television's longest-running program. 
+PreProc  : His show became public @television@s longest-running program >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [show (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [@television@s (LEX)(ADJ POSSESSIVE)]
+    [longest-running (INF-MOR)(GER)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was produced for more than 30 years-from 1968 to 2001-and continues to air in reruns. 
+PreProc  : It was produced for MORE_THAN &&30 years-from &&1968 to 2001-and continues to air in reruns >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [produced (root: produce) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&30 (LEX)(NUM)]
+      [years-from (?)(UNK(ENTITY UNKNOWN))]
+      [&&1968 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [2001-and (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [2001-and (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [continues (root: continue) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [air (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [reruns (root: run) (MOR)(N PLURAL)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On each show, Mr. Rogers welcomes viewers by taking off his jacket and shoes and putting on a cardigan sweater and sneakers. 
+PreProc  : On each show >COMMA Mr. Rogers welcomes viewers by taking off his jacket and shoes and putting on a cardigan sweater and sneakers >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Mr. (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mr. (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [welcomes (root: welcome) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [viewers (root: view) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [taking (root: take) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [jacket (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [putting (root: put) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cardigan (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [sweater (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [sneakers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One of his cardigans hangs in the Smithsonian's National Museum of American History, in Washington, D.C. 
+PreProc  : One of his cardigans hangs in the @Smithsonian@s National Museum of American History >COMMA in Washington >COMMA D.C. <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [cardigans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hangs (root: hang) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@Smithsonian@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [National (LEX)(ADJ)]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the @Smithsonian@s National Museum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [History (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : A Presbyterian minister, Mr. Rogers taught kids the importance of self-worth with his trademark line, "I like you just the way you are." 
+PreProc  : A Presbyterian minister >COMMA Mr. Rogers taught kids the importance of self-worth with his trademark line >COMMA >DQUOTE I like you just the way you are >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Presbyterian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [minister (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Mr. (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taught (root: teach) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [importance (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the importance
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [self-worth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [trademark (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [line (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  [just (LEX)(ADJ) (ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mr. Rogers didn't consider himself a TV star. 
+PreProc  : Mr. Rogers DID NOT consider himself a TV star >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mr. (?)(UNK(ENTITY UNKNOWN))]
+    [Rogers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [consider (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [himself (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+    [star (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I always thought I was a neighbor who just came in for a visit." 
+PreProc  : >DQUOTE I always thought I was a neighbor who just came in for a visit >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [always (LEX)(ADV)]
+    [thought (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [neighbor (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [neighbor (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [came (root: come) (LEX)(V PAST)]
+
+  [in (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [visit (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

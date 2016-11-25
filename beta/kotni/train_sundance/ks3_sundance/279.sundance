@@ -1,0 +1,811 @@
+Original : > Number patterns - Number patterns in diagrams Number patterns - Number patterns in diagrams A number pattern in a diagram often requires counting shapes to find the rule. 
+PreProc  : >GREATER Number patterns >MINUS Number patterns in diagrams Number patterns >MINUS Number patterns in diagrams A number pattern in a diagram often requires counting shapes to find the rule >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Number (LEX)(N SINGULAR(OTHER))]
+    [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Number (LEX)(N SINGULAR(OTHER))]
+    [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [diagrams (?)(UNK(ENTITY UNKNOWN))]
+      [Number (LEX)(N SINGULAR(OTHER))]
+      [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Number (LEX)(N SINGULAR(OTHER))]
+    [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [diagrams (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [A (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [diagram (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [requires (root: require) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [counting (root: count) (MOR)(N SINGULAR) (GER)]
+    [shapes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rule (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Again, look at how the pattern grows from one term to the next. 
+PreProc  : Again >COMMA look at how the pattern grows from one term to the next >PERIOD <EOS 
+CLAUSE:
+  [Again (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    [how (LEX)(ADV)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [pattern (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [grows (root: grow) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [term (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+
+
+  [next (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pattern 1 has 0 orange tiles and 3 blue tiles, so 3 tiles altogether Pattern 2 has 1 orange tiles and 5 blue tiles, so 6 tiles altogether Pattern 3 has 2 orange tiles and 7 blue tiles, so 9 tiles altogether Q1. 
+PreProc  : Pattern &&1 has &&0 orange tiles and &&3 blue tiles >COMMA so &&3 tiles altogether Pattern &&2 has &&1 orange tiles and &&5 blue tiles >COMMA so &&6 tiles altogether Pattern &&3 has &&2 orange tiles and &&7 blue tiles >COMMA so &&9 tiles altogether Q1 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&1 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&0 (LEX)(NUM)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&3 (LEX)(NUM)]
+    [blue (LEX)(ADJ)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&2 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&2 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&5 (LEX)(NUM)]
+    [blue (LEX)(ADJ)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [&&6 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&3 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&6 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&3 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&7 (LEX)(NUM)]
+    [blue (LEX)(ADJ)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [&&9 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+    [Q1 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Based on the number patterns above, draw pattern 4. 
+PreProc  : Based on the number patterns above >COMMA draw pattern &&4 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Based (root: base) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [above (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [draw (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Q2. 
+PreProc  : Q2 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Q2 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Look again at the number patterns above. 
+PreProc  : Look again at the number patterns above >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Look (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [patterns (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [above (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Write the rule and the fourth terms for: Pattern 4 has 3 orange tiles and 9 blue tiles, so 12 tiles altogether a) The rule for the number pattern of orange tiles is 'add 1' and the 4th term is 3. 
+PreProc  : Write the rule and the fourth terms for >COLON Pattern &&4 has &&3 orange tiles and &&9 blue tiles >COMMA so &&12 tiles altogether a >RPAREN The rule for the number pattern of orange tiles is >SQUOTE add &&1 >SQUOTE and the 4th term is &&3 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Write (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rule (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [fourth (LEX)(ADJ)]
+    [terms (root: term) (MOR)(N PLURAL(OTHER))]
+
+  [for (LEX)(PREP)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pattern (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [&&9 (LEX)(NUM)]
+    [blue (LEX)(ADJ)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [&&12 (LEX)(NUM)]
+    [tiles (?)(UNK(ENTITY UNKNOWN))]
+    [altogether (?)(UNK(ENTITY UNKNOWN))]
+
+  [a (LEX)(ART)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [rule (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>SQUOTE (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&1 (LEX)(NUM)]
+
+  [>SQUOTE (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : b) The rule for the number pattern of blue tiles is 'add 2' and the 4th term is 9. 
+PreProc  : b >RPAREN The rule for the number pattern of blue tiles is >SQUOTE add &&2 >SQUOTE and the 4th term is &&9 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [b (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [rule (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [blue (LEX)(ADJ)]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>SQUOTE (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [blue (LEX)(ADJ)]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+  [>SQUOTE (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&9 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : c) The rule for the number pattern of all tiles is 'add 3' and the 4th term is 12. 
+PreProc  : c >RPAREN The rule for the number pattern of all tiles is >SQUOTE add &&3 >SQUOTE and the 4th term is &&12 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [c (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [rule (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>SQUOTE (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+    [pattern (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the number pattern
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [tiles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [add (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+
+  [>SQUOTE (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [4th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&12 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Follow the rules and try this activity! 
+PreProc  : Follow the rules and try this activity >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Follow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [try (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [activity (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use your knowledge to help Spherox find his way home. 
+PreProc  : Use your knowledge to help Spherox find his way home >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [knowledge (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Spherox (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Go back to basics with KS2 Bitesize. 
+PreProc  : Go back to basics with KS2 Bitesize >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Go (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [basics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [KS2 (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [KS2 (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Bitesize (root: bit) (MOR)(V BASE(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

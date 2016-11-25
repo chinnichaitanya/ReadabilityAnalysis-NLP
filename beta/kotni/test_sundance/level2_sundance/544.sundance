@@ -1,0 +1,753 @@
+Original : Learn about the countries that border the United States. 
+PreProc  : Learn about the countries that border the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Learn (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [border (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We live in the United States. 
+PreProc  : We live in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Canada is to the north. 
+PreProc  : Canada is to the north >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mexico is to the south. 
+PreProc  : Mexico is to the south >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [south (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : See how the two countries are alike and how they are different. 
+PreProc  : See how the &&2 countries are alike and how they are different >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [See (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [alike (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+  [how (LEX)(ADV)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [different (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Plains are areas of land without trees. 
+PreProc  : Plains are areas of land without trees >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Plains (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+Following PP attaches to: areas
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [land (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [without (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : CanadaÕs north is in the Arctic. 
+PreProc  : CanadaÕs north is in the Arctic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [CanadaÕs (?)(UNK(ENTITY UNKNOWN))]
+    [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Arctic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That area is very cold. 
+PreProc  : That area is very cold >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [That (LEX)(DET)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [cold (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pink and yellow tulips grow near the Ottawa River in Canada. 
+PreProc  : Pink and yellow tulips grow near the Ottawa River in Canada >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pink (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [yellow (LEX)(ADJ)]
+    [tulips (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Ottawa (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most families in Canada are small. 
+PreProc  : Most families in Canada are small >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [small (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The average size is three people. 
+PreProc  : The average size is &&3 people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [average (LEX)(N SINGULAR(OTHER))]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids in Canada start school at age 5 or 6. 
+PreProc  : Kids in Canada start school at age &&5 or &&6 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+      [start (LEX)(N SINGULAR(OTHER))]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [age (LEX)(N SINGULAR(OTHER))]
+      [&&5 (LEX)(NUM)]
+      [or (LEX)(CONJ)]
+      [&&6 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The school day lasts for about six hours. 
+PreProc  : The school day lasts for about &&6 hours >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lasts (root: last) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&6 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Canada has two official languages. 
+PreProc  : Canada has &&2 official languages >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [official (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [languages (root: language) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are English and French. 
+PreProc  : They are English and French >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [English (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [French (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people in Canada like playing and watching hockey. 
+PreProc  : Many people in Canada like playing and watching hockey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [playing (root: play) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+    [hockey (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Ottawa Senators and the Toronto Maple Leafs play hockey. 
+PreProc  : The Ottawa Senators and the Toronto Maple Leafs play hockey >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Ottawa (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Senators (root: senator) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Toronto (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Maple (?)(UNK(ENTITY UNKNOWN))]
+    [Leafs (?)(UNK(ENTITY UNKNOWN))]
+    [play (LEX)(N SINGULAR(OTHER))]
+    [hockey (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mexico has tropical rain forests, mountains, volcanoes, and deserts. 
+PreProc  : Mexico has tropical rain forests >COMMA mountains >COMMA volcanoes >COMMA and deserts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [tropical (LEX)(ADJ)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forests (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [volcanoes (root: volcano) (MOR)(N PLURAL(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [deserts (root: desert) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the center of Mexico is a high plain. 
+PreProc  : In the center of Mexico is a high plain >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [center (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the center
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [center (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the center
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [high (LEX)(ADJ)]
+    [plain (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Popocatepetl is one of MexicoÕs most active volcanoes. 
+PreProc  : Popocatepetl is one of MexicoÕs most active volcanoes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Popocatepetl (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [MexicoÕs (?)(UNK(ENTITY UNKNOWN))]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [active (LEX)(ADJ)]
+      [volcanoes (root: volcano) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Families in Mexico are often large. 
+PreProc  : Families in Mexico are often large >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [large (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Parents, kids, and grandparents often live in the same house. 
+PreProc  : Parents >COMMA kids >COMMA and grandparents often live in the same house >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [grandparents (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [house (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most kids in Mexico start school at age 6. 
+PreProc  : Most kids in Mexico start school at age &&6 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+      [start (LEX)(N SINGULAR(OTHER))]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [age (LEX)(N SINGULAR(OTHER))]
+      [&&6 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They attend elementary school for about four hours each day. 
+PreProc  : They attend elementary school for about &&4 hours each day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [elementary (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&4 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most students wear uniforms. 
+PreProc  : Most students wear uniforms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [uniforms (root: uniform) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people in Mexico like watching and playing soccer and baseball. 
+PreProc  : Many people in Mexico like watching and playing soccer and baseball >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [playing (root: play) (MOR)(N SINGULAR) (GER)]
+    [soccer (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids play soccer in the Mexican state of Jalisco. 
+PreProc  : Kids play soccer in the Mexican state of Jalisco >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+    [play (LEX)(N SINGULAR(OTHER))]
+    [soccer (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Mexican (LEX)(ADJ)]
+      [state (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the Mexican state
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Jalisco (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What do Canada and Mexico have in common? 
+PreProc  : What do Canada and Mexico have in common >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Canada (LEX)(N SINGULAR(COUNTRY))]
+    [and (LEX)(CONJ)]
+    [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  [in (LEX)(PREP)]
+  [common (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How are they different? 
+PreProc  : How are they different >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  [different (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

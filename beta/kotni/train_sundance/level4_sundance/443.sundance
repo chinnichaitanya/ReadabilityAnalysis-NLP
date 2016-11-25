@@ -1,0 +1,606 @@
+Original : February is time to leap. 
+PreProc  : February is time to leap >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [February (LEX)(N SINGULAR(MONTH))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [leap (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An extra day of play has been added to the calendar this month.It's leap year! 
+PreProc  : An extra day of play has been added to the calendar this @month.It@s leap year >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [extra (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+Following PP attaches to: An extra day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [play (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [added (root: add) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [calendar (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [@month.It@s (LEX)(ADJ POSSESSIVE)]
+    [leap (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Leap year occurs every four years. 
+PreProc  : Leap year occurs every &&4 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leap (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [occurs (root: occur) (MOR)(V PRESENT)]
+
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That means there is an extra day for VERB. 
+PreProc  : That means there is an extra day for VERB >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [extra (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [VERB (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : VERB has nothing to do with grammar, so forget about parts of speech. 
+PreProc  : VERB has nothing to do with grammar >COMMA so forget about parts of speech >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [VERB (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [nothing (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [grammar (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [VERB (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [so (LEX)(ADV)]
+    [forget (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [speech (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It's a government program that inspires kids to get moving. 
+PreProc  : IT IS a government program that inspires kids to get moving >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [inspires (root: inspire) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [moving (root: move) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So... stay active, have fun, spend time with friends and family-do what excites you and what you like to do best. 
+PreProc  : So >ELLIPSES stay active >COMMA have fun >COMMA spend time with friends and family-do what excites you and what you like to do best >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  [>ELLIPSES (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [stay (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [active (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+      [and (LEX)(CONJ)]
+      [family-do (?)(UNK(ENTITY UNKNOWN))]
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [excites (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP-CONJ SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+    [and (LEX)(CONJ)]
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That can mean bike riding with friends, jumping rope, volunteering with your family, or dancing to your favorite tunes. 
+PreProc  : That can mean bike riding with friends >COMMA jumping rope >COMMA volunteering with your family >COMMA or dancing to your favorite tunes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [mean (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [bike (?)(UNK(ENTITY UNKNOWN))]
+    [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [jumping (root: jump) (MOR)(N SINGULAR) (GER)]
+    [rope (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [volunteering (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [family (LEX)(N SINGULAR(HUMAN))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [dancing (INF-MOR)(GER)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [favorite (LEX)(ADJ)]
+      [tunes (root: tune) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You name it! 
+PreProc  : You name it >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [name (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here are some ways to get moving with your extra day of play: Hop to it! 
+PreProc  : Here are some ways to get moving with your extra day of play >COLON Hop to it >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Here (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [moving (root: move) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [extra (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+Following PP attaches to: your extra day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [play (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [extra (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+Following PP attaches to: your extra day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [play (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Hop (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make the most of the extra day with a neighborhood leapfrog race. 
+PreProc  : Make the most of the extra day with a neighborhood leapfrog race >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: the most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [extra (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [neighborhood (LEX)(N SINGULAR(LOCATION))]
+      [leapfrog (?)(UNK(ENTITY UNKNOWN))]
+      [race (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Gear up and celebrate the winter season! 
+PreProc  : Gear up and celebrate the winter season >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Gear (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [winter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [winter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [season (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make snow angels, go sledding, or build a snowman with friends, if weather permits. 
+PreProc  : Make snow angels >COMMA go sledding >COMMA or build a snowman with friends >COMMA if weather permits >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [snow (?)(UNK(ENTITY UNKNOWN))]
+    [angels (root: angel) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [snow (?)(UNK(ENTITY UNKNOWN))]
+    [angels (root: angel) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sledding (INF-MOR)(GER)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [snow (?)(UNK(ENTITY UNKNOWN))]
+    [angels (root: angel) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [snowman (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [weather (LEX)(N SINGULAR(OTHER))]
+    [permits (root: permit) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dunk, dribble, pass, and shoot! 
+PreProc  : Dunk >COMMA dribble >COMMA pass >COMMA and shoot >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dunk (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [dribble (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [pass (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dunk (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shoot (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Get ready for March Madness early-grab a group of friends and head to a basketball court. 
+PreProc  : Get ready for March Madness early-grab a group of friends and head to a basketball court >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Get (LEX)(V BASE)]
+    [ready (LEX)(ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [March (LEX)(N SINGULAR(MONTH))]
+      [Madness (LEX)(N SINGULAR(OTHER))]
+      [early-grab (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [head (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [basketball (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [court (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

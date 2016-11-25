@@ -1,0 +1,231 @@
+Original : The table shows our last five presidents, the years they served, and their political parties. 
+PreProc  : The table shows our last &&5 presidents >COMMA the years they served >COMMA and their political parties >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [our (LEX)(ADJ)]
+    [last (LEX)(ADJ)]
+    [&&5 (LEX)(NUM)]
+    [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [served (root: serve) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [their (LEX)(ADJ)]
+    [political (LEX)(ADJ)]
+    [parties (root: party) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Study the table. 
+PreProc  : Study the table >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Study (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [table (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then choose the correct answer to each of the questions. 
+PreProc  : Then choose the correct answer to each of the questions >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Then (LEX)(ADV)]
+    [choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [correct (LEX)(ADJ)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: each
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many of the past five presidents were Republicans? 
+PreProc  : How many of the past &&5 presidents were Republicans >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: many
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [&&5 (LEX)(NUM)]
+      [presidents (root: president) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Republicans (root: republican) (MOR)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bill Clinton is one president who is a Democrat. 
+PreProc  : Bill Clinton is one president who is a Democrat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Democrat (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Who was another? 
+PreProc  : Who was another >QUESTION <EOS 
+CLAUSE:
+  [Who (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [another (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In which year did George H. W. Bush become president? 
+PreProc  : In which year did George H. W. Bush become president >QUESTION <EOS 
+CLAUSE:
+  [In (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [H. (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [H. (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : George W. Bush Is Running for President All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : George W. Bush Is Running for President All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+    [Running (root: run) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [President (LEX)(N SINGULAR(HUMAN))]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

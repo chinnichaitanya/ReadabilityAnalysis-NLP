@@ -1,0 +1,313 @@
+Original : is the Spanish word for "hello." 
+PreProc  : is the Spanish word for >DQUOTE hello >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  [for (LEX)(PREP)]
+  [hello (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The month begins on September 15 and lasts until October 15. 
+PreProc  : The month begins on September &&15 and lasts until October &&15 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begins (root: begin) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lasts (root: last) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Time (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During that time, we Hispanic Americans and their way of life. 
+PreProc  : During that time >COMMA we Hispanic Americans and their way of life >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  NP-CONJ SEGMENT:
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Hispanic Americans and their way
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The word More than 42 million people in the United States are Hispanic. 
+PreProc  : The word MORE_THAN &&42 million people in the UNITED_STATES are Hispanic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [word (LEX)(N SINGULAR(OTHER))]
+    [MORE_THAN (LEX)(ADJ)]
+    [&&42 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 42 million people in the United States are Hispanic. 
+PreProc  : MORE_THAN &&42 million people in the UNITED_STATES are Hispanic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&42 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many Hispanic Americans speak both Spanish and English. 
+PreProc  : Many Hispanic Americans speak both Spanish and English >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [English (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is because their families came from countries where people speak Spanish. 
+PreProc  : That is because their families came from countries where people speak Spanish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [speak (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people celebrate Hispanic Heritage Month. 
+PreProc  : Many people celebrate Hispanic Heritage Month >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [Heritage (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They dance, take part in parades, and eat special foods. 
+PreProc  : They dance >COMMA take part in parades >COMMA and eat special foods >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [dance (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [parades (root: parade) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [special (LEX)(ADJ)]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might speaking more than one language be useful? 
+PreProc  : Why might speaking MORE_THAN one language be useful >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [speaking (root: speak) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [language (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [language (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [useful (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

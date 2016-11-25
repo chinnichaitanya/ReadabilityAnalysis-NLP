@@ -1,0 +1,495 @@
+Original : On November 11, Veterans Day, builders plan to begin working on a new monument in Washington, D.C. 
+PreProc  : On November &&11 >COMMA Veterans Day >COMMA builders plan to begin working on a new monument in Washington >COMMA D.C. <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [November (LEX)(N SINGULAR(MONTH))]
+      [&&11 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Veterans (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [builders (root: build) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plan (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [begin (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [working (root: work) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [monument (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : The monument will honor some of America's heroes, the veterans who fought in World War II (1939-1945). 
+PreProc  : The monument will honor some of @America@s heroes >COMMA the veterans who fought in World War II >LPAREN 1939-1945 >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [monument (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [honor (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@America@s (LEX)(ADJ POSSESSIVE)]
+      [heroes (root: hero) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [veterans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [veterans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fought (root: fight) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [World (LEX)(N SINGULAR(OTHER))]
+      [War (LEX)(N SINGULAR(OTHER))]
+      [II (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [1939-1945 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. are people who have served in the U.S. military. 
+PreProc  : U.S. are people who have served in the U.S. military >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [served (root: serve) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [military (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The World War II monument will be placed between two of the most famous monuments in our nation's capital--the Washington Monument and the Lincoln Memorial. 
+PreProc  : The World War II monument will be placed between &&2 of the most famous monuments in our @nation@s capital >DASH the Washington Monument and the Lincoln Memorial >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+    [monument (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [placed (root: place) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+
+
+Following PP attaches to: &&2
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [famous (LEX)(ADJ)]
+      [monuments (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [@nation@s (LEX)(ADJ POSSESSIVE)]
+      [capital (LEX)(N SINGULAR(OTHER))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [the (LEX)(ART)]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+    [Monument (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Lincoln (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Memorial (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Everyone agrees that the World War II monument is important, but some people say it will block the view from the Washington Monument to the Lincoln Memorial. 
+PreProc  : Everyone agrees that the World War II monument is important >COMMA but some people say it will block the view from the Washington Monument to the Lincoln Memorial >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Everyone (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [agrees (root: agree) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+    [monument (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [block (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [view (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+      [Monument (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Lincoln (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Memorial (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want the monument placed in another location to preserve that view. 
+PreProc  : They want the monument placed in another location to preserve that view >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [monument (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [monument (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [placed (root: place) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [another (LEX)(ADJ)]
+      [location (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [preserve (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [another (LEX)(ADJ)]
+    [location (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [view (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bob Dole, a former senator and World War II veteran, disagrees with the critics of the monument. 
+PreProc  : Bob Dole >COMMA a former senator and World War II veteran >COMMA disagrees with the critics of the monument >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bob (?)(UNK(ENTITY UNKNOWN))]
+    [Dole (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [a (LEX)(ART)]
+    [former (LEX)(ADJ)]
+    [senator (LEX)(N SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+    [veteran (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [disagrees (root: disagree) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [critics (root: critic) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the critics
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [monument (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He wants to proceed with the construction of the new monument. 
+PreProc  : He wants to proceed with the construction of the new monument >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wants (root: want) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [proceed (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [construction (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the construction
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [monument (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He says the critics should be heard, however. 
+PreProc  : He says the critics should be heard >COMMA however >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [critics (root: critic) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [heard (root: hear) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "That's what World War II was all about, [having] freedom of expression and...different views," Dole said. 
+PreProc  : >DQUOTE THAT IS what World War II was all about >COMMA >LBRACKET having >RBRACKET freedom of expression and >ELLIPSES different views >COMMA >DQUOTE Dole said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [about (LEX)(PREP) (ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [II (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [freedom (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: freedom
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [expression (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [different (LEX)(ADJ)]
+    [views (root: view) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Dole (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dole (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

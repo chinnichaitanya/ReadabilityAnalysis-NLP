@@ -1,0 +1,492 @@
+Original : You may think of your cat as just a pet, but if you lived in ancient Egypt, you might consider the animal a god! 
+PreProc  : You may think of your cat as just a pet >COMMA but if you lived in ancient Egypt >COMMA you might consider the animal a god >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [think (LEX)(V BASE)]
+
+Following PP attaches to: may think
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [cat (LEX)(N SINGULAR(ANIMAL))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    [just (LEX)(ADJ) (ADV)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [but (LEX)(C_M)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [ancient (LEX)(ADJ)]
+      [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [consider (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [god (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Egypt is a country in Africa. 
+PreProc  : Egypt is a country in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Cats were considered or holy, in that country long ago. 
+PreProc  : Cats were considered or holy >COMMA in that country long ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [considered (root: consider) (MOR)(V PAST)]
+
+  [or (LEX)(CONJ)]
+  [holy (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [that (LEX)(DET)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [long (LEX)(ADJ)]
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, there recently found a building dedicated to a cat goddess. 
+PreProc  : In fact >COMMA there recently found a building dedicated to a cat goddess >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [fact (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [there (LEX)(ADV)]
+    [recently (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dedicated (root: dedicate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cat (LEX)(N SINGULAR(ANIMAL))]
+      [goddess (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An archaeologist is a person who studies ancient people and cultures. 
+PreProc  : An archaeologist is a person who studies ancient people and cultures >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [archaeologist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [studies (root: study) (MOR)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [ancient (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [cultures (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The building is 200 feet high and 49 feet wide. 
+PreProc  : The building is &&200 feet high and &&49 feet wide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&200 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [high (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [&&49 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [wide (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is more than 2,000 years old and is filled with about 600 cat statues. 
+PreProc  : It is MORE_THAN &&2,000 years old and is filled with about &&600 cat statues >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [MORE_THAN (LEX)(ADJ)]
+    [&&2,000 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [filled (root: fill) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&600 (LEX)(NUM)]
+      [cat (LEX)(N SINGULAR(ANIMAL))]
+      [statues (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many are of the cat goddess Bastet (below). 
+PreProc  : Many are of the cat goddess Bastet >LPAREN below >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+Following PP attaches to: are
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [cat (LEX)(N SINGULAR(ANIMAL))]
+      [goddess (?)(UNK(ENTITY UNKNOWN))]
+      [Bastet (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  [below (LEX)(PREP)]
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ancient Egyptians prayed to her to protect women and children. 
+PreProc  : Ancient Egyptians prayed to her to protect women and children >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ancient (LEX)(ADJ)]
+    [Egyptians (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prayed (root: pray) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [to (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [to (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cat building shows that animals were honored in Egypt longer than people realized, explains Mohammed Abdel-Maqsood. 
+PreProc  : The cat building shows that animals were honored in Egypt longer than people realized >COMMA explains Mohammed Abdel-Maqsood >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [honored (root: honor) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Egypt (LEX)(N SINGULAR(COUNTRY))]
+      [longer (LEX)(ADJ)]
+      [than (LEX)(ADV)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Egypt (LEX)(N SINGULAR(COUNTRY))]
+    [longer (LEX)(ADJ)]
+    [than (LEX)(ADV)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [realized (root: realize) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Egypt (LEX)(N SINGULAR(COUNTRY))]
+    [longer (LEX)(ADJ)]
+    [than (LEX)(ADV)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [explains (root: explain) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Mohammed (INF-MOR)(ADJ)]
+    [Abdel-Maqsood (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He led the team of archaeologists who made the discovery. 
+PreProc  : He led the team of archaeologists who made the discovery >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [archaeologists (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [archaeologists (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThis is one of the most important discoveries in [this part of Egypt] in the last hundred years,Ó he says. 
+PreProc  : ÒThis is one of the most important discoveries in >LBRACKET this part of Egypt >RBRACKET in the last hundred years,Ó he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThis (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [important (LEX)(ADJ)]
+      [discoveries (root: discovery) (MOR)(N PLURAL(OTHER))]
+
+
+  [in (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: this part
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Egypt (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [last (LEX)(ADJ)]
+      [hundred (LEX)(ADJ) (N SINGULAR(DENOMINATION))]
+      [years,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

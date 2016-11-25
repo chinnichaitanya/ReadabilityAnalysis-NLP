@@ -1,0 +1,309 @@
+Original : Chaille (pronounced SHAL-ee) Stovall is a movie director. 
+PreProc  : Chaille >LPAREN pronounced SHAL-ee >RPAREN Stovall is a movie director >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chaille (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [pronounced (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [SHAL-ee (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Stovall (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Stovall (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+    [director (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is now working on his fifth film. 
+PreProc  : He is now working on his fifth film >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [fifth (LEX)(ADJ)]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But you may not have heard of him because he's only 11 years old! 
+PreProc  : But you may not have heard of him because HE IS only &&11 years old >EXCLAMATION <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+    [heard (root: hear) (LEX)(V PAST)]
+
+Following PP attaches to: may not have heard
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [HE (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT:
+    [&&11 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , is about the 2000 presidential election. 
+PreProc  : >COMMA is about the &&2000 presidential election >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&2000 (LEX)(NUM)]
+      [presidential (LEX)(ADJ)]
+      [election (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The movie, Chaille told , "asks why a kid should care about politics." 
+PreProc  : The movie >COMMA Chaille told >COMMA >DQUOTE asks why a kid should care about politics >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Chaille (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [asks (root: ask) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [kid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [kid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [care (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [politics (LEX)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To answer that question, Chaille interviewed the candidates. 
+PreProc  : To answer that question >COMMA Chaille interviewed the candidates >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [question (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Chaille (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Chaille (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interviewed (root: interview) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He met with Texas Governor George W. Bush at the governor's mansion. 
+PreProc  : He met with Texas Governor George W. Bush at the @governor@s mansion >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [met (root: meet) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Texas (LEX)(N SINGULAR(LOCATION))]
+      [Governor (LEX)(N SINGULAR(HUMAN))]
+      [George (?)(UNK(ENTITY UNKNOWN))]
+      [W. (?)(UNK(ENTITY UNKNOWN))]
+      [Bush (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@governor@s (LEX)(ADJ POSSESSIVE)]
+      [mansion (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : And he traveled with Vice President Al Gore on his campaign bus. 
+PreProc  : And he traveled with Vice President Al Gore on his campaign bus >PERIOD <EOS 
+CLAUSE:
+  [And (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Vice (LEX)(N SINGULAR(OTHER))]
+      [President (LEX)(N SINGULAR(HUMAN))]
+      [Al (?)(UNK(ENTITY UNKNOWN))]
+      [Gore (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [campaign (LEX)(N SINGULAR(OTHER))]
+      [bus (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : will be shown on the HBO Family Channel sometime before the elections. 
+PreProc  : will be shown on the HBO Family Channel sometime before the elections >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [shown (root: show) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [HBO (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Family (LEX)(N SINGULAR(HUMAN))]
+      [Channel (LEX)(N SINGULAR(OTHER))]
+      [sometime (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [elections (root: election) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,873 @@
+Original : Visitors can walk past the Liberty Bell in Philadelphia. 
+PreProc  : Visitors can walk past the Liberty Bell in Philadelphia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [walk (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Liberty (LEX)(N SINGULAR(OTHER))]
+    [Bell (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Philadelphia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can tour the White House in Washington, D.C. 
+PreProc  : They can tour the White House in Washington >COMMA D.C. <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [tour (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [White (LEX)(ADJ)]
+    [House (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [<EOS (?)]
+
+Original : But the Statue of Liberty, which stands tall on Liberty Island in New York Harbor, is off-limits. 
+PreProc  : But the Statue of Liberty >COMMA which stands tall on Liberty Island in NEW_YORK Harbor >COMMA is off-limits >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the Statue
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Liberty (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Liberty (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stands (root: stand) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [tall (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Liberty (LEX)(N SINGULAR(OTHER))]
+      [Island (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [Harbor (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Liberty (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [off-limits (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Statue of Liberty is the only major national landmark that has not reopened since the terrorist attacks of September 11, 2001. 
+PreProc  : The Statue of Liberty is the only major national landmark that has not reopened since the terrorist attacks of September &&11 >COMMA &&2001 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: The Statue
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Liberty (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [national (LEX)(ADJ)]
+    [landmark (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [only (LEX)(ADV)]
+    [major (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [national (LEX)(ADJ)]
+    [landmark (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [reopened (root: open) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [terrorist (LEX)(N SINGULAR(HUMAN))]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+Following PP attaches to: the terrorist attacks
+  PP SEGMENT-Time (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&11 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&2001 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although the grounds are open, officials say the 305-foot-tall monument is closed because of security and safety concerns. 
+PreProc  : Although the grounds are open >COMMA officials say the 305-foot-tall monument is closed BECAUSE_OF security and safety concerns >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [grounds (root: ground) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [open (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [305-foot-tall (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [monument (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [closed (root: close) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [BECAUSE_OF (LEX)(PREP)]
+    NP SEGMENT:
+      [security (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [safety (LEX)(N SINGULAR(OTHER))]
+      [concerns (root: concern) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The group that cares for the statue is raising $7 million to make safety improvements so it can reopen. 
+PreProc  : The group that cares for the statue is raising >DOLLAR &&7 million to make safety improvements so it can reopen >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cares (root: care) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [raising (root: raise) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&7 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [safety (LEX)(N SINGULAR(OTHER))]
+    [improvements (root: improvement) (MOR)(N PLURAL(OTHER))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [reopen (root: open) (MOR)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, there is a possibility that only the , or base, of the statue will open again. 
+PreProc  : However >COMMA there is a possibility that only the >COMMA or base >COMMA of the statue will open again >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [possibility (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [possibility (LEX)(N SINGULAR(OTHER))]
+
+  [only (LEX)(ADV)]
+  [the (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [base (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: base
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [possibility (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [open (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People may never be able to climb the narrow spiral staircase to the crown again. 
+PreProc  : People may never be able to climb the narrow spiral staircase to the crown again >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [never (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [narrow (LEX)(ADJ)]
+    [spiral (?)(UNK(ENTITY UNKNOWN))]
+    [staircase (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [crown (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [again (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Safety experts say that evacuating people from the crown of the statue in an emergency might be too difficult. 
+PreProc  : Safety experts say that evacuating people from the crown of the statue in an emergency might be too difficult >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Safety (LEX)(N SINGULAR(OTHER))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Safety (LEX)(N SINGULAR(OTHER))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [evacuating (root: evacuate) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [crown (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the crown
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [emergency (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [emergency (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [too (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [difficult (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Statue of Liberty is one of the world's most powerful symbols of freedom. 
+PreProc  : The Statue of Liberty is one of the @world@s most powerful symbols of freedom >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: The Statue
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Liberty (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(ADJ POSSESSIVE)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [powerful (LEX)(ADJ)]
+      [symbols (root: symbol) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the @world@s most powerful symbols
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [freedom (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Millions of have passed by it on their way to the United States. 
+PreProc  : Millions of have passed by it on their way to the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+  [of (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [passed (root: pass) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [way (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Immigrants are people who move to a new country from another country. 
+PreProc  : Immigrants are people who move to a new country from another country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Immigrants (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [another (LEX)(ADJ)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : France gave the Statue of Liberty to the United States. 
+PreProc  : France gave the Statue of Liberty to the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [France (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the Statue
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Liberty (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was a gift to celebrate the friendship between the two countries during the American Revolution (1775-1783). 
+PreProc  : It was a gift to celebrate the friendship between the &&2 countries during the American Revolution >LPAREN 1775-1783 >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [gift (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [friendship (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [&&2 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [Revolution (LEX)(N SINGULAR(OTHER))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [1775-1783 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the Revolutionary War, France helped the United States gain independence from Great Britain. 
+PreProc  : During the Revolutionary War >COMMA France helped the UNITED_STATES gain independence from Great Britain >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Revolutionary (LEX)(ADJ)]
+      [War (LEX)(N SINGULAR(OTHER))]
+      [>COMMA (LEX)]
+      [France (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [Revolutionary (LEX)(ADJ)]
+    [War (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)]
+    [France (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+    [gain (LEX)(N SINGULAR(OTHER))]
+    [independence (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Great (LEX)(ADJ)]
+      [Britain (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since 8-year-old Nina Wade moved to New York City from California almost two years ago, the statue has been closed. 
+PreProc  : Since 8-year-old Nina Wade moved to NEW_YORK City from California almost &&2 years ago >COMMA the statue has been closed >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT:
+      [8-year-old (?)(UNK(ENTITY UNKNOWN))]
+      [Nina (?)(UNK(ENTITY UNKNOWN))]
+      [Wade (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [8-year-old (?)(UNK(ENTITY UNKNOWN))]
+    [Nina (?)(UNK(ENTITY UNKNOWN))]
+    [Wade (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [moved (root: move) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [California (LEX)(N SINGULAR(LOCATION))]
+
+
+  [almost (LEX)(ADV)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [statue (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [closed (root: close) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She hopes to be able to someday walk its steps. 
+PreProc  : She hopes to be able to someday walk its steps >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [someday (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [someday (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walk (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [steps (root: step) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I would be disappointed if it didn't reopen," she told , "but it makes me feel good to know that [officials] are taking safety measures." 
+PreProc  : >DQUOTE I would be disappointed if it DID NOT reopen >COMMA >DQUOTE she told >COMMA >DQUOTE but it makes me feel good to know that >LBRACKET officials >RBRACKET are taking safety measures >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [disappointed (root: disappoint) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [reopen (root: open) (MOR)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feel (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [taking (root: take) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [safety (LEX)(N SINGULAR(OTHER))]
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

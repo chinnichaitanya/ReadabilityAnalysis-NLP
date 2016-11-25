@@ -1,0 +1,772 @@
+Original : Do you know what these words mean? 
+PreProc  : Do you know what these words mean >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mean (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If not, you can now look them up in the dictionary. 
+PreProc  : If not >COMMA you can now look them up in the dictionary >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  [not (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [now (LEX)(ADV)]
+    [look (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those terms are among the 10,000 new words and phrases added to the latest edition of . 
+PreProc  : Those terms are among the &&10,000 new words and phrases added to the latest edition of >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [terms (root: term) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&10,000 (LEX)(NUM)]
+      [new (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+      [and (LEX)(CONJ)]
+      [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [added (root: add) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [latest (LEX)(ADJ)]
+      [edition (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dictionary was last updated ten years ago. 
+PreProc  : The dictionary was last updated &&10 years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [last (LEX)(V BASE)]
+    [updated (root: update) (MOR)(V PAST)]
+
+  NP SEGMENT:
+    [&&10 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The new version of the dictionary includes 225,000 definitions. 
+PreProc  : The new version of the dictionary includes &&225,000 definitions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [version (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The new version
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [includes (root: include) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&225,000 (LEX)(NUM)]
+    [definitions (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The new words added are "a reflection of society's changes," said John Morse, the head of the company that produces the dictionary. 
+PreProc  : The new words added are >DQUOTE a reflection of @society@s changes >COMMA >DQUOTE said John Morse >COMMA the head of the company that produces the dictionary >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  [added (root: add) (MOR)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [reflection (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a reflection
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@society@s (LEX)(ADJ POSSESSIVE)]
+      [changes (root: change) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [John (?)(UNK(ENTITY UNKNOWN))]
+    [Morse (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [head (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the head
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [head (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the head
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [produces (root: produce) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Internet has had a big effect on language. 
+PreProc  : The Internet has had a big effect on language >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Internet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [effect (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [language (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : -a person who works for an online company-was one of the new words added. 
+PreProc  : >MINUS a person who works for an online company-was one of the new words added >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [works (root: work) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [online (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [company-was (?)(UNK(ENTITY UNKNOWN))]
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: an online company-was one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [online (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [company-was (?)(UNK(ENTITY UNKNOWN))]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: an online company-was one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [added (root: add) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Take a look at some of the new words and phrases that were added to the dictionary: (noun): an entertainment center with arcades and restaurants How exactly does a new word make its way into the dictionary? 
+PreProc  : Take a look at some of the new words and phrases that were added to the dictionary >COLON >LPAREN noun >RPAREN >COLON an entertainment center with arcades and restaurants How exactly does a new word make its way into the dictionary >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+      [and (LEX)(CONJ)]
+      [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+      [and (LEX)(CONJ)]
+      [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [added (root: add) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [noun (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [an (LEX)(ART)]
+    [entertainment (root: entertain) (MOR)(N SINGULAR)]
+    [center (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [arcades (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [restaurants (root: restaurant) (MOR)(N PLURAL(BUILDING))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [restaurants (root: restaurant) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [exactly (LEX)(ADV)]
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [word (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dictionary (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It takes about 10 to 20 years for a new word to become a common term used by a lot of people. 
+PreProc  : It takes about &&10 to &&20 years for a new word to become a common term used by a lot of people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&10 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&20 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [word (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [common (LEX)(ADJ)]
+    [term (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [lot (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Deciding which words make the cut is the job of editors. 
+PreProc  : Deciding which words make the cut is the job of editors >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Deciding (root: decide) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cut (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [cut (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the job
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [editors (root: editor) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They spend a lot of their day reading newspapers and magazines to find out what new words and phrases are popular. 
+PreProc  : They spend a lot of their day reading newspapers and magazines to find out what new words and phrases are popular >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+      [reading (root: read) (MOR)(N SINGULAR) (GER)]
+      [newspapers (root: newspaper) (MOR)(N PLURAL(MEDIA))]
+      [and (LEX)(CONJ)]
+      [magazines (root: magazine) (MOR)(N PLURAL(MEDIA))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [new (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They also get ideas from the movies and the Internet-and even from slang usage. 
+PreProc  : They also get ideas from the movies and the Internet-and even from slang usage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [ideas (root: idea) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movies (root: movie) (MOR)(N PLURAL(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [Internet-and (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [even (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [slang (?)(UNK(ENTITY UNKNOWN))]
+      [usage (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They enter new words into a computer system. 
+PreProc  : They enter new words into a computer system >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enter (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [computer (LEX)(N SINGULAR(PHYSOBJ))]
+      [system (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Noah Webster, America's first dictionary editor, began a similar system. 
+PreProc  : Noah Webster >COMMA @America@s first dictionary editor >COMMA began a similar system >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Noah (?)(UNK(ENTITY UNKNOWN))]
+    [Webster (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [@America@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [first (LEX)(ADJ)]
+    [dictionary (?)(UNK(ENTITY UNKNOWN))]
+    [editor (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [similar (LEX)(ADJ)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He started putting files of words on cards in Springfield, Massachusetts. 
+PreProc  : He started putting files of words on cards in Springfield >COMMA Massachusetts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [putting (root: put) (MOR)(N SINGULAR) (GER)]
+    [files (root: file) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: putting files
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [cards (root: card) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Springfield (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Massachusetts (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There are now millions of words on file. 
+PreProc  : There are now millions of words on file >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [file (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Talk about wordy! 
+PreProc  : Talk about wordy >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Talk (LEX)(V BASE)]
+    [about (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [wordy (root: word) (MOR)(ADJ(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

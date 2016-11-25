@@ -1,0 +1,980 @@
+Original : Find out how one class is making a difference. 
+PreProc  : Find out how one class is making a difference >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [class (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [class (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Snakes, insects, and other critters are invading Austin Dulany's classroom. 
+PreProc  : Snakes >COMMA insects >COMMA and other critters are invading Austin @Dulany@s classroom >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+    [>COMMA (LEX)(PUNC)]
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [critters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [invading (root: invade) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [Austin (?)(UNK(ENTITY UNKNOWN))]
+    [@Dulany@s (LEX)(ADJ POSSESSIVE)]
+    [classroom (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Austin, 8, is one of Peggy Garner's thirdgrade students at St. Mary's School in Bryantown, Maryland. 
+PreProc  : Austin >COMMA &&8 >COMMA is one of Peggy @Garner@s thirdgrade students at St. @Mary@s School in Bryantown >COMMA Maryland >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Austin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&8 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Peggy (?)(UNK(ENTITY UNKNOWN))]
+      [@Garner@s (LEX)(ADJ POSSESSIVE)]
+      [thirdgrade (?)(UNK(ENTITY UNKNOWN))]
+      [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [St. (?)(UNK(ENTITY UNKNOWN))]
+      [@Mary@s (LEX)(ADJ POSSESSIVE)]
+      [School (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Bryantown (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Maryland (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each spring, Garner or changes, her classroom into the Amazon A rain forest is a thick forest in a warm region with heavy rainfall. 
+PreProc  : Each spring >COMMA Garner or changes >COMMA her classroom into the Amazon A rain forest is a thick forest in a warm region with heavy rainfall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [spring (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Garner (?)(UNK(ENTITY UNKNOWN))]
+
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [changes (root: change) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [classroom (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [A (LEX)(ART)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [thick (LEX)(ADJ)]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [warm (LEX)(ADJ)]
+      [region (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [heavy (LEX)(ADJ)]
+      [rainfall (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Amazon is located in South America. 
+PreProc  : The Amazon is located in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the largest tropical rain forest in the world. 
+PreProc  : It is the largest tropical rain forest in the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [tropical (LEX)(ADJ)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Garner decorates her classroom with leafy plants and hanging vines. 
+PreProc  : Garner decorates her classroom with leafy plants and hanging vines >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Garner (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [decorates (root: rate) (MOR)(V PRESENT(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [classroom (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [leafy (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [leafy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plants (root: plant) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [hanging (root: hang) (MOR)(N SINGULAR) (GER)]
+    [vines (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her students learn about the foods and spices found in the Amazon. 
+PreProc  : Her students learn about the foods and spices found in the Amazon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [spices (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [spices (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Students make life-size or models, of toucans, snakes, and other animals that live there. 
+PreProc  : Students make life-size or models >COMMA of toucans >COMMA snakes >COMMA and other animals that live there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [life-size (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [models (root: model) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: life-size or models
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [toucans (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [life-size (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [models (root: model) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: life-size or models
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [toucans (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+    [there (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The Amazon is where a lot of animals live," Austin told In fact, the Amazon is home to more or types, of plants and animals than any other place in the world. 
+PreProc  : >DQUOTE The Amazon is where a lot of animals live >COMMA >DQUOTE Austin told In fact >COMMA the Amazon is home to more or types >COMMA of plants and animals than any other place in the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Austin (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Austin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [more (LEX)(ADJ)]
+      [or (LEX)(CONJ)]
+      [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: more or types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Garner's lesson has a serious side too. 
+PreProc  : @Garner@s lesson has a serious side too >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Garner@s (LEX)(ADJ POSSESSIVE)]
+    [lesson (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [serious (LEX)(ADJ)]
+    [side (LEX)(N SINGULAR(OTHER))]
+
+  [too (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since 1970, an area of the Amazon nearly as big as Texas has been destroyed. 
+PreProc  : Since &&1970 >COMMA an area of the Amazon nearly as big as Texas has been destroyed >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1970 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+Following PP attaches to: an area
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [nearly (LEX)(ADJ) (ADV)]
+  [as (LEX)(PREP)]
+  [big (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Texas (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [destroyed (root: destroy) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Loggers have cut down trees to make room for homes, roads, and farms. 
+PreProc  : Loggers have cut down trees to make room for homes >COMMA roads >COMMA and farms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loggers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [cut (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [room (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Loggers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [farms (root: farm) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That has put many plant and animal species at risk. 
+PreProc  : That has put many plant and animal species at risk >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plant (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+    [species (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [risk (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To help protect the Amazon, Garner's students are raising money to adopt land in the rain forest. 
+PreProc  : To help protect the Amazon >COMMA @Garner@s students are raising money to adopt land in the rain forest >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [help (LEX)(V BASE)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [@Garner@s (LEX)(ADJ POSSESSIVE)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [raising (root: raise) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [adopt (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [land (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rain (LEX)(N SINGULAR(OTHER))]
+      [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brazil's government is also working to save the region. 
+PreProc  : @Brazil@s government is also working to save the region >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Brazil@s (LEX)(ADJ POSSESSIVE)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [save (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [region (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Recently, a section of the Amazon as big as Illinois was placed under government protection. 
+PreProc  : Recently >COMMA a section of the Amazon as big as Illinois was placed under government protection >PERIOD <EOS 
+CLAUSE:
+  [Recently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [section (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a section
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [as (LEX)(PREP)]
+  [big (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Illinois (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [placed (root: place) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [government (root: govern) (MOR)(N SINGULAR)]
+      [protection (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kelsey Phipps, 8, hopes more people work together to protect the Amazon. 
+PreProc  : Kelsey Phipps >COMMA &&8 >COMMA hopes more people work together to protect the Amazon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kelsey (?)(UNK(ENTITY UNKNOWN))]
+    [Phipps (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&8 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [work (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Many kinds of plants and animals will be lost forever if people continue to destroy the rain forest," she says. 
+PreProc  : >DQUOTE Many kinds of plants and animals will be lost forever if people continue to destroy the rain forest >COMMA >DQUOTE she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Many kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [forever (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [continue (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [destroy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Amazon rain forest is home to a variety of animals. 
+PreProc  : The Amazon rain forest is home to a variety of animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [variety (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: a variety
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here are a few of them. 
+PreProc  : Here are a few of them >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Here (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [few (LEX)(ADJ)]
+Following PP attaches to: Here are
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is one of the world's largest snakes, at more than 15 feet long. 
+PreProc  : is one of the @world@s largest snakes >COMMA at MORE_THAN &&15 feet long >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [largest (root: large) (MOR)(ADJ   )]
+      [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&15 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : have long limbs, hairless faces, and black hands. 
+PreProc  : have long limbs >COMMA hairless faces >COMMA and black hands >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [long (LEX)(ADJ)]
+    [limbs (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [hairless (?)(UNK(ENTITY UNKNOWN))]
+    [faces (root: face) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [black (LEX)(ADJ)]
+    [hands (root: hand) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Jaguars are wild cats covered with yellowish brown and black spots. 
+PreProc  : Jaguars are wild cats covered with yellowish brown and black spots >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [wild (LEX)(ADJ)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [wild (LEX)(ADJ)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [covered (root: cover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [yellowish (root: yellow) (MOR)(ADJ)]
+      [brown (LEX)(ADJ)]
+      [and (LEX)(CONJ)]
+      [black (LEX)(ADJ)]
+      [spots (root: spot) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might people want to protect the Amazon rain forest? 
+PreProc  : Why might people want to protect the Amazon rain forest >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

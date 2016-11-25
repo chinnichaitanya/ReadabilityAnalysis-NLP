@@ -1,0 +1,742 @@
+Original : A grasshopper can jump a distance of more than 20 times the length of its body! 
+PreProc  : A grasshopper can jump a distance of MORE_THAN &&20 times the length of its body >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [grasshopper (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [jump (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a distance
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&20 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [length (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [body (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That means a 2-inch grasshopper can jump more than 3 feet! 
+PreProc  : That means a 2-inch grasshopper can jump MORE_THAN &&3 feet >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [2-inch (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [grasshopper (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [2-inch (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [grasshopper (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [jump (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : These insects take the prize for their athletic abilities. 
+PreProc  : These insects take the prize for their athletic abilities >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [prize (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [athletic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [abilities (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some are expert runners, swimmers, or fliers. 
+PreProc  : Some are expert runners >COMMA swimmers >COMMA or fliers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [runners (root: runner) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [swimmers (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [fliers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Others can jump very far or even do acrobatics. 
+PreProc  : Others can jump very far or even do acrobatics >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [jump (LEX)(V BASE)]
+    [very (LEX)(ADV)]
+
+  [far (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Others (root: other) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [acrobatics (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can really move! 
+PreProc  : They can really move >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [really (root: real) (MOR)(ADV)]
+    [move (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is one of the fastest flying insects. 
+PreProc  : is one of the fastest flying insects >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fastest (root: fast) (MOR)(ADJ)]
+      [flying (root: fly) (MOR)(N SINGULAR) (GER)]
+      [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some dragonflies can reach 35 miles per hour. 
+PreProc  : Some dragonflies can reach &&35 miles per hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [dragonflies (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&35 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This insect is also acrobatic. 
+PreProc  : This insect is also acrobatic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [insect (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [acrobatic (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can fly backward and turn around quickly. 
+PreProc  : It can fly backward and turn around quickly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [fly (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [backward (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [turn (LEX)(N SINGULAR(OTHER))]
+
+  [around (LEX)(PREP)]
+  [quickly (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It can also The record for longest insect flight goes to the Each fall, millions of monarch butterflies from North America spread their wings and fly more than 2,000 miles to forests in Mexico. 
+PreProc  : It can also The record for longest insect flight goes to the Each fall >COMMA millions of monarch butterflies from North America spread their wings and fly MORE_THAN &&2,000 miles to forests in Mexico >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [longest (root: long) (MOR)(ADJ)]
+      [insect (?)(UNK(ENTITY UNKNOWN))]
+      [flight (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [longest (root: long) (MOR)(ADJ)]
+    [insect (?)(UNK(ENTITY UNKNOWN))]
+    [flight (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [fall (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [monarch (?)(UNK(ENTITY UNKNOWN))]
+      [butterflies (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+    [America (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spread (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [wings (root: wing) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [North (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+    [America (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fly (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&2,000 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [forests (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is an expert swimmer. 
+PreProc  : is an expert swimmer >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [swimmer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When it is above water, the bubble on its back fills with air. 
+PreProc  : When it is above water >COMMA the bubble on its back fills with air >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [above (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bubble (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fills (root: fill) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [air (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That lets the beetle breathe underwater. 
+PreProc  : That lets the beetle breathe underwater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [beetle (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [beetle (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [breathe (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [underwater (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As it swims, the bubble refills with oxygen taken from the water. 
+PreProc  : As it swims >COMMA the bubble refills with oxygen taken from the water >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [swims (root: swim) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [bubble (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [bubble (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [refills (root: fill) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [oxygen (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [oxygen (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taken (root: take) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A favorite to win the longjump contest is the flea. 
+PreProc  : A favorite to win the longjump contest is the flea >PERIOD <EOS 
+CLAUSE:
+  [A (LEX)(ART)]
+  [favorite (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [longjump (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [contest (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [longjump (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [contest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [flea (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This tiny insect (the size of a pinhead) can jump a distance of 150 times the length of its body. 
+PreProc  : This tiny insect >LPAREN the size of a pinhead >RPAREN can jump a distance of &&150 times the length of its body >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [tiny (LEX)(ADJ)]
+    [insect (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [pinhead (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [jump (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [distance (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a distance
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&150 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [length (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [body (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When a flea bends its legs, its rubbery knees spring back, and off it goes! 
+PreProc  : When a flea bends its legs >COMMA its rubbery knees spring back >COMMA and off it goes >EXCLAMATION <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [flea (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bends (root: bend) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [its (LEX)(ADJ)]
+    [rubbery (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [knees (?)(UNK(ENTITY UNKNOWN))]
+    [spring (?)(UNK(ENTITY UNKNOWN))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is one of the fastest running insects. 
+PreProc  : is one of the fastest running insects >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fastest (root: fast) (MOR)(ADJ)]
+      [running (root: run) (MOR)(GER) (N SINGULAR)]
+      [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This long-legged beetle can reach speeds of 5 ? 
+PreProc  : This long-legged beetle can reach speeds of &&5 >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [long-legged (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [beetle (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [beetle (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [speeds (root: speed) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: speeds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : miles per hour. 
+PreProc  : miles per hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The beetle's speed comes in handy when it is chasing other insects to eat. 
+PreProc  : The @beetle@s speed comes in handy when it is chasing other insects to eat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@beetle@s (LEX)(ADJ POSSESSIVE)]
+    [speed (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  [in (LEX)(PREP)]
+  [handy (LEX)(ADJ)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [chasing (root: chase) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [eat (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

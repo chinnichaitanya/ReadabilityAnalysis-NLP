@@ -1,0 +1,223 @@
+Original : Amtrak's new passenger train, the Acela Express, is flying down the tracks at warp speed--some people call it the Starship The Acela is fast because the eight-car train has two locomotives. 
+PreProc  : @Amtrak@s new passenger train >COMMA the Acela Express >COMMA is flying down the tracks at warp speed >DASH some people call it the Starship The Acela is fast because the eight-car train has &&2 locomotives >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Amtrak@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [new (LEX)(ADJ)]
+    [passenger (LEX)(N SINGULAR(HUMAN))]
+    [train (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Acela (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Express (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [flying (root: fly) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [down (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tracks (root: track) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [warp (?)(UNK(ENTITY UNKNOWN))]
+      [speed (LEX)(N SINGULAR(OTHER))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [call (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Starship (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Acela (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Acela (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [fast (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [eight-car (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [train (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [locomotives (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most other trains have only one locomotive. 
+PreProc  : Most other trains have only one locomotive >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [trains (root: train) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [locomotive (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One locomotive on Acela is located in front of the train, and the other locomotive is located in the rear. 
+PreProc  : One locomotive on Acela is located in front of the train >COMMA and the other locomotive is located in the rear >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [locomotive (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Acela (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [front (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: front
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [train (LEX)(N SINGULAR(VEHICLE))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [locomotive (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [locomotive (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rear (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two locomotives move Acela along at 150 miles per hour. 
+PreProc  : The &&2 locomotives move Acela along at &&150 miles per hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [locomotives (?)(UNK(ENTITY UNKNOWN))]
+    [move (LEX)(N SINGULAR(OTHER))]
+    [Acela (?)(UNK(ENTITY UNKNOWN))]
+
+  [along (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [&&150 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

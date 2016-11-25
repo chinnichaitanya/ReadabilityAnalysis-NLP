@@ -1,0 +1,1475 @@
+Original : On September 11, terror gripped the people of the United States. 
+PreProc  : On September &&11 >COMMA terror gripped the people of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&11 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [terror (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gripped (root: grip) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+Following PP attaches to: the people
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Millions of citizens across the country watched in horror as terrorists used hijacked airplanes to attack two of America's most famous landmarks--the World Trade Center and the Pentagon. 
+PreProc  : Millions of citizens across the country watched in horror as terrorists used hijacked airplanes to attack &&2 of @America@s most famous landmarks >DASH the World Trade Center and the Pentagon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [citizens (root: citizen) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [watched (root: watch) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [horror (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [terrorists (root: terrorist) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [terrorists (root: terrorist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+    [hijacked (root: hijack) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [airplanes (root: airplane) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [attack (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+
+Following PP attaches to: &&2
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@America@s (LEX)(ADJ POSSESSIVE)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [famous (LEX)(ADJ)]
+      [landmarks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [the (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Trade (LEX)(N SINGULAR(OTHER))]
+    [Center (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Pentagon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Another stolen plane crashed in Pennsylvania. 
+PreProc  : Another stolen plane crashed in Pennsylvania >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Another (LEX)(ADJ)]
+    [stolen (LEX)(ADJ)]
+    [plane (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crashed (root: crash) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Pennsylvania (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The destruction caused by the hijacked jetliners stunned eyewitnesses. 
+PreProc  : The destruction caused by the hijacked jetliners stunned eyewitnesses >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [destruction (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [caused (root: cause) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [hijacked (root: hijack) (MOR)(ADJ)]
+      [jetliners (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [hijacked (root: hijack) (MOR)(ADJ)]
+    [jetliners (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stunned (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [eyewitnesses (root: eyewitness) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It was like the building had been hit by an asteroid," Marty Singer said of the World Trade Center in New York City. 
+PreProc  : >DQUOTE It was like the building had been hit by an asteroid >COMMA >DQUOTE Marty Singer said of the World Trade Center in NEW_YORK City >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [been (root: be) (LEX)(COP)]
+    [hit (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [asteroid (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Marty (?)(UNK(ENTITY UNKNOWN))]
+    [Singer (root: sing) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Marty (?)(UNK(ENTITY UNKNOWN))]
+    [Singer (root: sing) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+Following PP attaches to: said
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Another eyewitness compared the attack on the twin towers of the World Trade Center to a terrible storm. 
+PreProc  : Another eyewitness compared the attack on the twin towers of the World Trade Center to a terrible storm >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Another (LEX)(ADJ)]
+    [eyewitness (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [compared (root: compare) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [attack (LEX)(N SINGULAR(EVENT))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [twin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [towers (root: tower) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: the twin towers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [terrible (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [terrible (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [storm (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Giant balls of flame burst out of the walls," Hugh Smyser said. 
+PreProc  : >DQUOTE Giant balls of flame burst out of the walls >COMMA >DQUOTE Hugh Smyser said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [balls (root: ball) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Giant balls
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [flame (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [burst (LEX)(V BASE)]
+
+  [out (LEX)]
+Following PP attaches to: burst
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [walls (root: wall) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Hugh (?)(UNK(ENTITY UNKNOWN))]
+    [Smyser (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hugh (?)(UNK(ENTITY UNKNOWN))]
+    [Smyser (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Glass and aluminum sheathing [outer material from the buildings] came down like a huge snowstorm." 
+PreProc  : >DQUOTE Glass and aluminum sheathing >LBRACKET outer material from the buildings >RBRACKET came down like a huge snowstorm >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Glass (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [aluminum (?)(UNK(ENTITY UNKNOWN))]
+    [sheathing (INF-MOR)(GER)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [outer (LEX)(ADJ)]
+    [material (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [huge (LEX)(ADJ)]
+    [snowstorm (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although the attacks took place in New York and our nation's capital, every U.S. citizen felt the impact of the attacks. 
+PreProc  : Although the attacks took place in NEW_YORK and our @nation@s capital >COMMA every U.S. citizen felt the impact of the attacks >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [our (LEX)(ADJ)]
+      [@nation@s (LEX)(ADJ POSSESSIVE)]
+      [capital (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [citizen (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [every (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [citizen (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [felt (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [impact (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the impact
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many states and communities closed public buildings, parks, and monuments. 
+PreProc  : Many states and communities closed public buildings >COMMA parks >COMMA and monuments >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [states (root: state) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [communities (root: community) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [communities (root: community) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [closed (root: close) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+    [>COMMA (LEX)(PUNC)]
+    [parks (root: park) (MOR)(N PLURAL(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [monuments (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Events, such as baseball games, were canceled. 
+PreProc  : Events >COMMA SUCH_AS baseball games >COMMA were canceled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+      [games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [canceled (root: cancel) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many businesses and schools were closed, as everyone mourned the victims of the savage attacks. 
+PreProc  : Many businesses and schools were closed >COMMA as everyone mourned the victims of the savage attacks >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [closed (root: close) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [everyone (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [everyone (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mourned (root: mourn) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [victims (root: victim) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: the victims
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [savage (LEX)(ADJ)]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The flames from the burning landmarks forged a new bond among Americans. 
+PreProc  : The flames from the burning landmarks forged a new bond among Americans >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [flames (root: flame) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [burning (root: burn) (MOR)(N SINGULAR) (GER)]
+      [landmarks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [forged (root: forge) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [bond (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT:
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thousands lined up to donate blood for victims injured in the attacks. 
+PreProc  : Thousands lined up to donate blood for victims injured in the attacks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [lined (INF-MOR)(V PAST)]
+    [up (LEX)(PART)]
+    [to (LEX)(INF)]
+    [donate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [blood (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [victims (root: victim) (MOR)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [victims (root: victim) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [injured (root: injure) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Firefighters, rescue workers, doctors, nurses, and volunteers worked tirelessly. 
+PreProc  : Firefighters >COMMA rescue workers >COMMA doctors >COMMA nurses >COMMA and volunteers worked tirelessly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Firefighters (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [rescue (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [nurses (root: nurse) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [volunteers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [volunteers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [worked (root: work) (MOR)(V PAST)]
+    [tirelessly (INF-MOR)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Millions of Americans sent canned goods, snack foods, bottled water, and money to help the victims and rescue workers. 
+PreProc  : Millions of Americans sent canned goods >COMMA snack foods >COMMA bottled water >COMMA and money to help the victims and rescue workers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sent (LEX)(V BASE)]
+    [canned (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [goods (root: good) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [snack (?)(UNK(ENTITY UNKNOWN))]
+    [foods (root: food) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bottled (INF-MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [victims (root: victim) (MOR)(N PLURAL(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: Millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rescue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As Americans came together to help one another out during the crisis, people throughout the world knew that life would never again be the same. 
+PreProc  : As Americans came together to help one another out during the crisis >COMMA people throughout the world knew that life would never again be the same >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [came (root: come) (LEX)(V PAST)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  [another (LEX)(ADJ)]
+  [out (LEX)]
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [crisis (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [throughout (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knew (root: know) (LEX)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [life (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [never (LEX)(ADV)]
+    [again (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [same (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This is one of the few days in life that one can actually say will change everything," said one European leader. 
+PreProc  : >DQUOTE This is one of the few days in life that one can actually say will change everything >COMMA >DQUOTE said one European leader >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [few (LEX)(ADJ)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [actually (LEX)(ADV)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+    [will (LEX)(AUX)]
+    [change (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [European (LEX)(ADJ)]
+    [leader (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. authorities said soon after the attacks that the terrorists who hijacked the four planes from three airports must have planned their assaults carefully. 
+PreProc  : U.S. authorities said soon after the attacks that the terrorists who hijacked the &&4 planes from &&3 airports must have planned their assaults carefully >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [authorities (root: authority) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+    [soon (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [terrorists (root: terrorist) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [terrorists (root: terrorist) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hijacked (root: hijack) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [&&4 (LEX)(NUM)]
+    [planes (LEX)(N SINGULAR(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&3 (LEX)(NUM)]
+      [airports (root: airport) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [airports (root: airport) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [planned (root: plan) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [assaults (root: assault) (MOR)(N PLURAL(EVENT))]
+
+  [carefully (root: careful) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here's what happened, beginning at 8:48 a.m. on September 11. 
+PreProc  : @Here@s what happened >COMMA beginning at 8:48 a.m. on September &&11 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Here@s (LEX)(ADJ POSSESSIVE)]
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happened (root: happen) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [8:48 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [a.m. (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&11 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A plane hijacked from an airport in Boston, Massachusetts, crashes into one of the 110 story towers that made up the World Trade Center in New York City. 
+PreProc  : A plane hijacked from an airport in Boston >COMMA Massachusetts >COMMA crashes into one of the &&110 story towers that made up the World Trade Center in NEW_YORK City >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [plane (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hijacked (root: hijack) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [airport (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Boston (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Massachusetts (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [plane (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crashes (root: crash) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&110 (LEX)(NUM)]
+      [story (LEX)(N SINGULAR(OTHER))]
+      [towers (root: tower) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&110 (LEX)(NUM)]
+      [story (LEX)(N SINGULAR(OTHER))]
+      [towers (root: tower) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As the building burns, a second plane hijacked from Boston slams into the other World Trade Center tower 18 minutes later. 
+PreProc  : As the building burns >COMMA a second plane hijacked from Boston slams into the other World Trade Center tower &&18 minutes later >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [building (LEX)(N SINGULAR(BUILDING))]
+      [burns (root: burn) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [plane (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hijacked (root: hijack) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Boston (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Boston (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [slams (root: slam) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+      [tower (LEX)(N SINGULAR(PHYSOBJ))]
+      [&&18 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+
+  [later (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A third hijacked jet, which took off from an airport near Washington, D.C., crashes into the side Pentagon in Arlington, Virginia, across the Potomac River from the capital. 
+PreProc  : A third hijacked jet >COMMA which took off from an airport near Washington >COMMA D.C. >COMMA crashes into the side Pentagon in Arlington >COMMA Virginia >COMMA across the Potomac River from the capital >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [hijacked (root: hijack) (MOR)(ADJ)]
+    [jet (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+    [off (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [airport (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [hijacked (root: hijack) (MOR)(ADJ)]
+    [jet (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crashes (root: crash) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [side (LEX)(N SINGULAR(OTHER))]
+      [Pentagon (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Arlington (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Virginia (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Potomac (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [capital (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Pentagon houses the offices of most of the branches of the U.S. military. 
+PreProc  : The Pentagon houses the offices of most of the branches of the U.S. military >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Pentagon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [houses (root: house) (MOR)(N PLURAL(BUILDING))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [offices (root: office) (MOR)(N PLURAL(BUILDING))]
+
+Following PP attaches to: the offices
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+Following PP attaches to: most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [branches (root: branch) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the branches
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [military (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One of the World Trade Center towers collapses. 
+PreProc  : One of the World Trade Center towers collapses >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+      [towers (root: tower) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [collapses (root: collapse) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fifteen minutes later, a fourth hijacked place crashes in Somerset County, Pennsylvania, about 80 miles southeast of Pittsburgh. 
+PreProc  : Fifteen minutes later >COMMA a fourth hijacked place crashes in Somerset County >COMMA Pennsylvania >COMMA about &&80 miles southeast of Pittsburgh >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fifteen (LEX)(ADJ)]
+    [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [fourth (LEX)(ADJ)]
+    [hijacked (root: hijack) (MOR)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crashes (root: crash) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Somerset (?)(UNK(ENTITY UNKNOWN))]
+      [County (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Pennsylvania (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [about (LEX)(ADV)]
+    [&&80 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+    [southeast (LEX)(ADV) (N SINGULAR(LOCATION))]
+
+Following PP attaches to: about &&80 miles southeast
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Pittsburgh (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The other tower collapses almost 25 minutes later. 
+PreProc  : The other tower collapses almost &&25 minutes later >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [tower (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [collapses (root: collapse) (MOR)(V PRESENT)]
+    [almost (LEX)(ADV)]
+
+  NP SEGMENT:
+    [&&25 (LEX)(NUM)]
+    [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+
+  [later (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ash and debris from the collapsed towers cover victims and rescue workers. 
+PreProc  : Ash and debris from the collapsed towers cover victims and rescue workers >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Ash (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [debris (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [collapsed (root: collapse) (MOR)(ADJ)]
+      [towers (root: tower) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cover (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [victims (root: victim) (MOR)(N PLURAL(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Ash (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [debris (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rescue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Rescue workers comb through the rubble of the World Trade Center and the Pentagon looking for survivors. 
+PreProc  : Rescue workers comb through the rubble of the World Trade Center and the Pentagon looking for survivors >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Rescue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comb (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rubble (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the rubble
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Trade (LEX)(N SINGULAR(OTHER))]
+      [Center (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [Pentagon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [looking (root: look) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [survivors (root: survivor) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the same time, law enforcement officials look for clues to find the terrorist who staged the brutal attacks. 
+PreProc  : At the same time >COMMA law enforcement officials look for clues to find the terrorist who staged the brutal attacks >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [law (LEX)(N SINGULAR(OTHER))]
+    [enforcement (LEX)(N SINGULAR(OTHER))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [clues (root: clue) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [terrorist (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [terrorist (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [staged (root: stage) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [brutal (LEX)(ADJ)]
+    [attacks (root: attack) (MOR)(N PLURAL(EVENT))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A Letter from First Lady Laura Bush to Weekly Reader Kids measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : A Letter from First Lady Laura Bush to Weekly Reader Kids measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Letter (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [First (LEX)(ADJ)]
+      [Lady (LEX)(N SINGULAR(HUMAN))]
+      [Laura (?)(UNK(ENTITY UNKNOWN))]
+      [Bush (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [measures (root: measure) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [published (root: publish) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

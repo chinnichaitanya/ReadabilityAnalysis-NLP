@@ -1,0 +1,515 @@
+Original : Have you ever been in a bad storm? 
+PreProc  : Have you ever been in a bad storm >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [been (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [bad (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [bad (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [storm (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McKenna Andrews, 10, has. 
+PreProc  : McKenna Andrews >COMMA &&10 >COMMA has >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKenna (?)(UNK(ENTITY UNKNOWN))]
+    [Andrews (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&10 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She and her family or stayed, in their Mississippi home during Hurricane Katrina. 
+PreProc  : She and her family or stayed >COMMA in their Mississippi home during Hurricane Katrina >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+    [and (LEX)(CONJ)]
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [stayed (root: stay) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [Mississippi (LEX)(N SINGULAR(LOCATION))]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [Hurricane (?)(UNK(ENTITY UNKNOWN))]
+      [Katrina (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That storm hit the Gulf Coast in 2005. 
+PreProc  : That storm hit the Gulf Coast in &&2005 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [storm (LEX)(V BASE)]
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Gulf (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Coast (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McKenna used her experiences during the storm to write a book. 
+PreProc  : McKenna used her experiences during the storm to write a book >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKenna (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [experiences (root: experience) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [storm (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [write (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is called Her story recently won a Mom's Choice Award from the Just For Mom Foundation. 
+PreProc  : It is called Her story recently won a @Mom@s Choice Award from the Just For Mom Foundation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@Mom@s (LEX)(ADJ POSSESSIVE)]
+    [Choice (LEX)(N SINGULAR(OTHER))]
+    [Award (LEX)(N SINGULAR(OTHER))]
+
+  [from (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [Just (LEX)(ADJ) (ADV)]
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [Mom (?)(UNK(ENTITY UNKNOWN))]
+      [Foundation (root: found) (MOR)(N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is based on real-life events. 
+PreProc  : is based on real-life events >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [based (root: base) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [real-life (?)(UNK(ENTITY UNKNOWN))]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the hurricane, a huge wave swept eight dolphins from Marine Life Oceanarium in Gulfport, Miss., into the ocean. 
+PreProc  : During the hurricane >COMMA a huge wave swept &&8 dolphins from Marine Life Oceanarium in Gulfport >COMMA Miss >PERIOD >COMMA into the ocean >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [hurricane (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [huge (LEX)(ADJ)]
+    [wave (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [swept (root: sweep) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&8 (LEX)(NUM)]
+    [dolphins (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Marine (LEX)(N SINGULAR(HUMAN))]
+      [Life (LEX)(N SINGULAR(OTHER))]
+      [Oceanarium (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Gulfport (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [huge (LEX)(ADJ)]
+    [wave (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Miss (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McKenna's book is written from the dolphins' point of view. 
+PreProc  : @McKenna@s book is written from the @dolphins@ point of view >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@McKenna@s (LEX)(ADJ POSSESSIVE)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [written (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@dolphins@ (LEX)(ADJ POSSESSIVE)]
+      [point (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the @dolphins@ point
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [view (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McKenna grew up watching the dolphins. 
+PreProc  : McKenna grew up watching the dolphins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKenna (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grew (root: grow) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dolphins (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I was going to swim with the dolphins right before Hurricane Katrina happened," she told The dolphins now live in an aquarium in an island country called the Bahamas. 
+PreProc  : >DQUOTE I was going to swim with the dolphins right before Hurricane Katrina happened >COMMA >DQUOTE she told The dolphins now live in an aquarium in an island country called THE_BAHAMAS >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [swim (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dolphins (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [right (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [Hurricane (?)(UNK(ENTITY UNKNOWN))]
+      [Katrina (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hurricane (?)(UNK(ENTITY UNKNOWN))]
+    [Katrina (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happened (root: happen) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [dolphins (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [now (LEX)(ADV)]
+  [live (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [aquarium (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [an (LEX)(ART)]
+      [island (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [an (LEX)(ART)]
+    [island (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [THE_BAHAMAS (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : McKenna says for her next writing project she is planning a or second book. 
+PreProc  : McKenna says for her next writing project she is planning a or second book >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [McKenna (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [next (LEX)(ADJ)]
+      [writing (root: write) (MOR)(N SINGULAR) (GER)]
+      [project (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [planning (root: plan) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It will be about the dolphins' new home. 
+PreProc  : It will be about the @dolphins@ new home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@dolphins@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [new (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

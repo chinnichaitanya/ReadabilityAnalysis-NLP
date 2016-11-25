@@ -1,0 +1,883 @@
+Original : Live from New York ... except this time, it wasn't! 
+PreProc  : Live from NEW_YORK >ELLIPSES except this time >COMMA it wasn't >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [except (LEX)(ADV)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [wasn't (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pop singer Ashlee Simpson, the younger sister of singer Jessica Simpson, was caught Lip-synching is mouthing the words or singing along to a recording. 
+PreProc  : Pop singer Ashlee Simpson >COMMA the younger sister of singer Jessica Simpson >COMMA was caught Lip-synching is mouthing the words or singing along to a recording >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Pop (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [singer (root: sing) (MOR)(N SINGULAR)]
+    [Ashlee (?)(UNK(ENTITY UNKNOWN))]
+    [Simpson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [younger (root: young) (MOR)(ADJ)]
+    [sister (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the younger sister
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [singer (root: sing) (MOR)(N SINGULAR)]
+      [Jessica (LEX)(N PROPER SINGULAR(HUMAN))]
+      [Simpson (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [younger (root: young) (MOR)(ADJ)]
+    [sister (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the younger sister
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [singer (root: sing) (MOR)(N SINGULAR)]
+      [Jessica (LEX)(N PROPER SINGULAR(HUMAN))]
+      [Simpson (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [caught (root: catch) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Lip-synching (INF-MOR)(GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lip-synching (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [mouthing (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [or (LEX)(CONJ)]
+    [singing (root: sing) (MOR)(N SINGULAR) (GER)]
+
+  [along (LEX)(PREP) (ADV)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [recording (root: record) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some performers sing along to a prerecorded track to make their voice sound stronger. 
+PreProc  : Some performers sing along to a prerecorded track to make their voice sound stronger >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [performers (root: perform) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sing (LEX)(V BASE)]
+    [along (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [prerecorded (root: record) (MOR)(ADJ)]
+      [track (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [voice (LEX)(N SINGULAR(OTHER))]
+    [sound (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [stronger (root: strong) (MOR)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A computer glitch was to blame for Simpson's mix-up on . 
+PreProc  : A computer glitch was to blame for @Simpson@s mix-up on >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [glitch (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [to (LEX)(INF)]
+    [blame (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [@Simpson@s (LEX)(ADJ POSSESSIVE)]
+      [mix-up (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [on (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Simpson, 20, was caught lip-synching when the words to the wrong song began playing. 
+PreProc  : Simpson >COMMA &&20 >COMMA was caught lip-synching when the words to the wrong song began playing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Simpson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&20 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [caught (root: catch) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [lip-synching (INF-MOR)(GER)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [wrong (LEX)(ADJ)]
+      [song (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [playing (root: play) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Simpson's dad rushed to her defense after the incident. 
+PreProc  : @Simpson@s dad rushed to her defense after the incident >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Simpson@s (LEX)(ADJ POSSESSIVE)]
+    [dad (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rushed (root: rush) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [defense (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [incident (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He said his daughter was lip-synching because an upset stomach had made her voice hoarse. 
+PreProc  : He said his daughter was lip-synching because an upset stomach had made her voice hoarse >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [daughter (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [lip-synching (INF-MOR)(V PARTICIPLE)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [upset (LEX)(ADJ)]
+    [stomach (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [voice (LEX)(N SINGULAR(OTHER))]
+    [hoarse (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Every artist that I know in this business has had vocal problems at some time," he told The Associated Press. 
+PreProc  : >DQUOTE Every artist that I know in this business has had vocal problems at some time >COMMA >DQUOTE he told The Associated Press >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Every (LEX)(ADJ)]
+    [artist (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [business (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [business (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [vocal (?)(UNK(ENTITY UNKNOWN))]
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [Associated (root: associate) (MOR)(ADJ)]
+    [Press (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "So you've got to do what you've got to do." 
+PreProc  : >DQUOTE So YOU HAVE got to do what YOU HAVE got to do >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [got (root: get) (LEX)(V PAST)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [got (root: get) (LEX)(V PAST)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An embarrassed Simpson apologized to her fans but said she hadn't done anything different from what many other artists do. 
+PreProc  : An embarrassed Simpson apologized to her fans but said she HAD NOT done anything different from what many other artists do >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [embarrassed (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Simpson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [apologized (root: apologize) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [fans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [fans (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAD (root: have) (LEX)(AUX PAST) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [done (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+  [different (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [artists (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [artists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some music industry officials defend the practice. 
+PreProc  : Some music industry officials defend the practice >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [music (LEX)(N SINGULAR(OTHER))]
+    [industry (LEX)(N SINGULAR(OTHER))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [defend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [practice (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They say it's nearly impossible to sound good and sing on cue when you're dancing onstage or performing complicated acts. 
+PreProc  : They say IT IS nearly impossible to sound good and sing on cue when YOU ARE dancing onstage or performing complicated acts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [nearly (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [impossible (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [sound (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sing (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [cue (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [dancing (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [onstage (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [performing (root: perform) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [performing (root: perform) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [complicated (root: complicate) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [acts (root: act) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Difficult dance moves are not an excuse for lip-synching, say many fans. 
+PreProc  : Difficult dance moves are not an excuse for lip-synching >COMMA say many fans >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Difficult (LEX)(ADJ)]
+    [dance (?)(UNK(ENTITY UNKNOWN))]
+    [moves (root: move) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [excuse (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [lip-synching (INF-MOR)(GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Difficult (LEX)(ADJ)]
+    [dance (?)(UNK(ENTITY UNKNOWN))]
+    [moves (root: move) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [fans (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, some fans say lip-synching is a dishonest practice that hurts a singer's credibility. 
+PreProc  : In fact >COMMA some fans say lip-synching is a dishonest practice that hurts a @singer@s credibility >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [fans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [lip-synching (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [dishonest (LEX)(ADJ)]
+    [practice (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [dishonest (LEX)(ADJ)]
+    [practice (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hurts (root: hurt) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@singer@s (LEX)(ADJ POSSESSIVE)]
+    [credibility (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fans often question a star's talent if the singer is unable to perform live onstage. 
+PreProc  : Fans often question a @star@s talent if the singer is unable to perform live onstage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [question (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@star@s (LEX)(ADJ POSSESSIVE)]
+    [talent (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [singer (root: sing) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [unable (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [perform (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [live (LEX)(ADJ)]
+    [onstage (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They say most people can sound good on a CD if their voice is enhanced in a studio. 
+PreProc  : They say most people can sound good on a CD if their voice is enhanced in a studio >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [sound (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [CD (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [voice (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [enhanced (root: enhance) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [studio (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some concertgoers also feel betrayed and disappointed if an artist lip-synchs, especially when they have spent a lot of money on a ticket to hear a live performance. 
+PreProc  : Some concertgoers also feel betrayed and disappointed if an artist lip-synchs >COMMA especially when they have spent a lot of money on a ticket to hear a live performance >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [concertgoers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [feel (LEX)(V BASE)]
+    [betrayed (root: betray) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [concertgoers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [disappointed (root: disappoint) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [artist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [lip-synchs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [especially (LEX)(ADV)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [spent (root: spend) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [money (LEX)(N SINGULAR(MONEY))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [ticket (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [live (LEX)(ADJ)]
+    [performance (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "[Lip-synching is ridiculous] and not entertaining in the least," a person commented online to NBC, the company that airs measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : >DQUOTE >LBRACKET Lip-synching is ridiculous >RBRACKET and not entertaining in the least >COMMA >DQUOTE a person commented online to NBC >COMMA the company that airs measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Lip-synching (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [ridiculous (LEX)(ADJ)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [not (LEX)(ADV)]
+  NP SEGMENT:
+    [entertaining (root: entertain) (MOR)(N SINGULAR) (GER)]
+
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [least (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [commented (root: comment) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [online (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [NBC (LEX)(N SINGULAR(MEDIA))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [airs (root: air) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

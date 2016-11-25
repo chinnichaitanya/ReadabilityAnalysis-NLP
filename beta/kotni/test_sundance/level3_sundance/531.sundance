@@ -1,0 +1,266 @@
+Original : or climb, tall buildings and sling webs stronger than steel. 
+PreProc  : or climb >COMMA tall buildings and sling webs stronger than steel >PERIOD <EOS 
+CLAUSE:
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [climb (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [tall (LEX)(ADJ)]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [sling (?)(UNK(ENTITY UNKNOWN))]
+    [webs (?)(UNK(ENTITY UNKNOWN))]
+    [stronger (root: strong) (MOR)(ADJ)]
+    [than (LEX)(ADV)]
+    [steel (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now Spider-Man has another special powerÑhe can deliver the U.S. mail. 
+PreProc  : Now Spider-Man has another special powerÑhe can deliver the U.S. mail >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [Spider-Man (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [special (LEX)(ADJ)]
+    [powerÑhe (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [another (LEX)(ADJ)]
+    [special (LEX)(ADJ)]
+    [powerÑhe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [deliver (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The U.S. Postal Service recently made Spidey his own 41-cent stamp. 
+PreProc  : The U.S. Postal Service recently made Spidey his own 41-cent stamp >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Postal (LEX)(ADJ)]
+    [Service (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Spidey (?)(UNK(ENTITY UNKNOWN))]
+    [his (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [41-cent (?)(UNK(ENTITY UNKNOWN))]
+    [stamp (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (Now that's a stamp with stick!) Spidey's stamp is part of a 20-stamp set of Marvel Comics superheroes. 
+PreProc  : >LPAREN Now THAT IS a stamp with stick >EXCLAMATION >RPAREN @Spidey@s stamp is part of a 20-stamp set of Marvel Comics superheroes >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  [Now (LEX)(ADV)]
+
+CLAUSE:
+  [THAT (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [stamp (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [stick (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [@Spidey@s (LEX)(ADJ POSSESSIVE)]
+    [stamp (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Spidey@s (LEX)(ADJ POSSESSIVE)]
+    [stamp (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [20-stamp (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [set (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a 20-stamp set
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Marvel (?)(UNK(ENTITY UNKNOWN))]
+      [Comics (?)(UNK(ENTITY UNKNOWN))]
+      [superheroes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other characters include Captain America and Spider-Woman. 
+PreProc  : Other characters include Captain America and Spider-Woman >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [characters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Captain (LEX)(N SINGULAR(HUMAN))]
+    [America (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Spider-Woman (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The stamps are a "great honor," says Dan Buckley of Marvel Entertainment. 
+PreProc  : The stamps are a >DQUOTE great honor >COMMA >DQUOTE says Dan Buckley of Marvel Entertainment >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [great (LEX)(ADJ)]
+    [honor (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Dan (?)(UNK(ENTITY UNKNOWN))]
+    [Buckley (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Dan Buckley
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Marvel (?)(UNK(ENTITY UNKNOWN))]
+      [Entertainment (root: entertain) (MOR)(N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He says the stamps prove that superheroes are a part of American life. 
+PreProc  : He says the stamps prove that superheroes are a part of American life >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prove (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [superheroes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

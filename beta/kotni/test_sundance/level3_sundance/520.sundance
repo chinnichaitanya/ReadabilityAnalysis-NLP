@@ -1,0 +1,437 @@
+Original : It has been a not-so-great pumpkin season across the United States. 
+PreProc  : It has been a not-so-great pumpkin season across the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [not-so-great (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : High temperatures and lack of rain have decreased farmers' pumpkin crops. 
+PreProc  : High temperatures and lack of rain have decreased @farmers@ pumpkin crops >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [High (LEX)(ADJ)]
+    [temperatures (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [lack (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: High temperatures and lack
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rain (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [decreased (root: decrease) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [@farmers@ (LEX)(ADJ POSSESSIVE)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [crops (root: crop) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tennessee is one of the top pumpkin-producing states. 
+PreProc  : Tennessee is one of the top pumpkin-producing states >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Tennessee (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [pumpkin-producing (INF-MOR)(GER)]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The temperature there often reached more than 100 degrees during the summer. 
+PreProc  : The temperature there often reached MORE_THAN &&100 degrees during the summer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [temperature (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [there (LEX)(ADV)]
+    [often (LEX)(ADV)]
+    [reached (root: reach) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [degrees (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dry, hot weather also damaged pumpkin patches in other states including Maryland and Kentucky. 
+PreProc  : The dry >COMMA hot weather also damaged pumpkin patches in other states including Maryland and Kentucky >PERIOD <EOS 
+CLAUSE:
+  [The (LEX)(ART)]
+  [dry (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [hot (LEX)(ADJ)]
+    [weather (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [damaged (root: damage) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [patches (root: patch) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [states (root: state) (MOR)(V PRESENT)]
+    [including (LEX)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Maryland (LEX)(N SINGULAR(LOCATION))]
+    [and (LEX)(CONJ)]
+    [Kentucky (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkin plants must produce flowers, or blooms, so pumpkins can grow. 
+PreProc  : Pumpkin plants must produce flowers >COMMA or blooms >COMMA so pumpkins can grow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [produce (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [flowers (root: flower) (MOR)(N PLURAL(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [blooms (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The lack of rainfall makes it hard for plants such as pumpkins to produce blooms," George Killgore of the University of Tennessee told There is no need to cancel your Halloween plans, though. 
+PreProc  : >DQUOTE The lack of rainfall makes it hard for plants SUCH_AS pumpkins to produce blooms >COMMA >DQUOTE George Killgore of the University of Tennessee told There is no need to cancel your Halloween plans >COMMA though >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [lack (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The lack
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rainfall (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [hard (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [produce (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [blooms (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Killgore (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: George Killgore
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [University (LEX)(N SINGULAR(BUILDING))]
+
+
+Following PP attaches to: the University
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Tennessee (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Killgore (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: George Killgore
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [University (LEX)(N SINGULAR(BUILDING))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [There (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [need (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [cancel (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [Halloween (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [plans (root: plan) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [though (LEX)(C_M)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some states will pumpkins from other states. 
+PreProc  : Some states will pumpkins from other states >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To import means to bring in from other places. 
+PreProc  : To import means to bring in from other places >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [import (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [means (root: mean) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [bring (LEX)(V BASE)]
+
+  [in (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After all, the Great Pumpkin never lets us down. 
+PreProc  : After all >COMMA the Great Pumpkin never lets us down >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Great (LEX)(ADJ)]
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [never (LEX)(ADV)]
+    [lets (root: let) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [down (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just ask Linus! 
+PreProc  : Just ask Linus >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Just (LEX)(ADV)]
+    [ask (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Linus (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

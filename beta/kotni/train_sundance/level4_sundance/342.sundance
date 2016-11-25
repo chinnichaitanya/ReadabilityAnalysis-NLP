@@ -1,0 +1,541 @@
+Original : One Missouri family finished a yearlong history lesson. 
+PreProc  : One Missouri family finished a yearlong history lesson >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [Missouri (LEX)(N SINGULAR(LOCATION))]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [finished (root: finish) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [yearlong (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [history (LEX)(N SINGULAR(OTHER))]
+    [lesson (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The family visited all 50 capitol buildings in the United States. 
+PreProc  : The family visited all &&50 capitol buildings in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visited (root: visit) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [&&50 (LEX)(NUM)]
+    [capitol (?)(UNK(ENTITY UNKNOWN))]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fred and Ginger Gall and their three sons--ages 13, 11, and 6--wrapped up their adventure in early August. 
+PreProc  : Fred and Ginger Gall and their &&3 sons >DASH ages &&13 >COMMA &&11 >COMMA and &&6 >DASH wrapped up their adventure in early August >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Fred (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Ginger (?)(UNK(ENTITY UNKNOWN))]
+    [Gall (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [&&3 (LEX)(NUM)]
+    [sons (root: son) (MOR)(N PLURAL(HUMAN))]
+
+  [>DASH (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [ages (root: age) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&13 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [&&11 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&6 (LEX)(NUM)]
+
+  [>DASH (LEX)(PUNC)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [&&13 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [&&11 (LEX)(NUM)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [&&6 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wrapped (root: wrap) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [adventure (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [early (LEX)(ADJ(TIME)) (ADV(TIME))]
+      [August (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their final stop was at their home state's capitol building in St. Louis. 
+PreProc  : Their final stop was at their home @state@s capitol building in St. Louis >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [final (LEX)(ADJ)]
+    [stop (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+      [@state@s (LEX)(ADJ POSSESSIVE)]
+      [capitol (?)(UNK(ENTITY UNKNOWN))]
+      [building (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [St. (?)(UNK(ENTITY UNKNOWN))]
+      [Louis (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It took them a little more than a year to complete their journey, covering a total of 48,000 square miles. 
+PreProc  : It took them a little MORE_THAN a year to complete their journey >COMMA covering a total of &&48,000 square miles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [a (LEX)(ART)]
+  [little (LEX)(ADJ)]
+  [MORE_THAN (LEX)(ADJ)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [complete (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [journey (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [covering (root: cover) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [total (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: a total
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&48,000 (LEX)(NUM)]
+      [square (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They traveled across the country in a mobile home. 
+PreProc  : They traveled across the country in a mobile home >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [mobile (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although the kids attend school in Missouri, they were home-schooled during their trip. 
+PreProc  : Although the kids attend school in Missouri >COMMA they were home-schooled during their trip >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [attend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Missouri (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [home-schooled (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [trip (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Their parents said the trip was a chance to teach their sons about the history of the United States. 
+PreProc  : Their parents said the trip was a chance to teach their sons about the history of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Their (LEX)(ADJ)]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [trip (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [chance (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [sons (root: son) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the history
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As part of their schooling, the kids used their textbooks from their school. 
+PreProc  : As part of their schooling >COMMA the kids used their textbooks from their school >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [schooling (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [used (root: use) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [textbooks (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They had many field trips to add to the mix. 
+PreProc  : They had many field trips to add to the mix >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [field (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [field (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [trips (root: trip) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [add (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [mix (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In addition to visiting all the capitol buildings, the family stopped at science and history museums and national parks along the way. 
+PreProc  : In addition to visiting all the capitol buildings >COMMA the family stopped at science and history museums and national parks along the way >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [addition (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [visiting (root: visit) (MOR)(N SINGULAR) (GER)]
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [capitol (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stopped (root: stop) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [science (LEX)(N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [history (LEX)(N SINGULAR(OTHER))]
+      [museums (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [national (LEX)(ADJ)]
+      [parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [along (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [way (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What sent them packing? 
+PreProc  : What sent them packing >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sent (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [packing (root: pack) (MOR)(N SINGULAR) (GER)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Our friends from another country had seen more of [the United States] than we had," said Ginger Gall. 
+PreProc  : >DQUOTE Our friends from another country had seen more of >LBRACKET the UNITED_STATES >RBRACKET than we had >COMMA >DQUOTE said Ginger Gall >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Our (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [another (LEX)(ADJ)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  [more (LEX)(ADJ)]
+  [of (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Ginger (?)(UNK(ENTITY UNKNOWN))]
+    [Gall (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "There was something wrong with that picture." 
+PreProc  : >DQUOTE There was something wrong with that picture >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [wrong (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [picture (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

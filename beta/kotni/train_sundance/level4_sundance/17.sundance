@@ -1,0 +1,247 @@
+Original : If you think you are too old to sit in a booster seat when you ride in a car, think again. 
+PreProc  : If you think you are too old to sit in a booster seat when you ride in a car >COMMA think again >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [too (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [old (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [sit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [booster (root: boost) (MOR)(N SINGULAR)]
+      [seat (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [car (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the National Highway Traffic Safety Administration (NHTSA), all kids who weigh less than 80 pounds and are less than 57 inches tall should sit in a booster seat with a seat belt. 
+PreProc  : According to the National Highway Traffic Safety Administration >LPAREN NHTSA >RPAREN >COMMA all kids who weigh LESS_THAN &&80 pounds and are LESS_THAN &&57 inches tall should sit in a booster seat with a seat belt >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [National (LEX)(ADJ)]
+      [Highway (LEX)(N SINGULAR(LOCATION))]
+      [Traffic (LEX)(N SINGULAR(OTHER))]
+      [Safety (LEX)(N SINGULAR(OTHER))]
+      [Administration (LEX)(N SINGULAR(OTHER))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [NHTSA (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weigh (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [LESS_THAN (LEX)(ADJ)]
+    [&&80 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [LESS_THAN (LEX)(ADJ)]
+    [&&57 (LEX)(NUM)]
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  [tall (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [LESS_THAN (LEX)(ADJ)]
+    [&&57 (LEX)(NUM)]
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [sit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [booster (root: boost) (MOR)(N SINGULAR)]
+      [seat (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [seat (LEX)(N SINGULAR(OTHER))]
+      [belt (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You can learn more about booster seats, seat belts, and car safety at the NHTSA's Web site, Did NASCAR Have to Lose a Legend? 
+PreProc  : You can learn more about booster seats >COMMA seat belts >COMMA and car safety at the @NHTSA@s Web site >COMMA Did NASCAR Have to Lose a Legend >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [about (LEX)]
+    [booster (root: boost) (MOR)(N SINGULAR)]
+    [seats (root: seat) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [seat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [belts (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [car (LEX)(N SINGULAR(VEHICLE))]
+    [safety (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@NHTSA@s (LEX)(ADJ POSSESSIVE)]
+      [Web (?)(UNK(ENTITY UNKNOWN))]
+      [site (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [NASCAR (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [NASCAR (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [Have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [Lose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Legend (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

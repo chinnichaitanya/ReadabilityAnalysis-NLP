@@ -1,0 +1,1339 @@
+Original : Leaping lizards! 
+PreProc  : Leaping lizards >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leaping (INF-MOR)(GER)]
+    [lizards (root: lizard) (MOR)(N PLURAL(ANIMAL))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Harry Potter is about to fly onto movie screens across the United States. 
+PreProc  : Harry Potter is about to fly onto movie screens across the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [about (LEX)(PREP)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [fly (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [onto (LEX)(PREP)]
+    NP SEGMENT:
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [screens (root: screen) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The new movie is called Harry Potter and the Chamber of Secrets At the beginning of the movie, Dobby the house elf warns Harry that if he returns to Hogwarts, disaster will follow. 
+PreProc  : The new movie is called Harry Potter and the Chamber of Secrets At the beginning of the movie >COMMA Dobby the house elf warns Harry that if he returns to Hogwarts >COMMA disaster will follow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Chamber (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Harry Potter and the Chamber
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Secrets (root: secret) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+
+Following PP attaches to: the beginning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Dobby (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+    [elf (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+    [elf (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [warns (root: warn) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+  [that (LEX)(C_M)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [returns (root: return) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Hogwarts (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [disaster (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [disaster (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [follow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Real problems begin when someone starts turning Hogwarts students into stone. 
+PreProc  : Real problems begin when someone starts turning Hogwarts students into stone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Real (LEX)(ADJ)]
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [starts (root: start) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [turning (root: turn) (MOR)(N SINGULAR) (GER)]
+    [Hogwarts (?)(UNK(ENTITY UNKNOWN))]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [stone (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Recently, Daniel Radcliffe, the actor who plays Harry Potter, took time out from filming to talk to . 
+PreProc  : Recently >COMMA Daniel Radcliffe >COMMA the actor who plays Harry Potter >COMMA took time out from filming to talk to >PERIOD <EOS 
+CLAUSE:
+  [Recently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Daniel (?)(UNK(ENTITY UNKNOWN))]
+    [Radcliffe (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [actor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [actor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plays (root: play) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [actor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  [out (LEX)(PART) (ADV)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [filming (root: film) (MOR)(N SINGULAR) (GER)]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [talk (LEX)(V BASE)]
+
+  [to (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here's what he had to say. 
+PreProc  : @Here@s what he had to say >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@Here@s (LEX)(ADJ POSSESSIVE)]
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How is Chamber of Secrets different from the first movie? 
+PreProc  : >COLON How is Chamber of Secrets different from the first movie >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Chamber (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Chamber
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Secrets (root: secret) (MOR)(N PLURAL(OTHER))]
+
+
+  [different (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : Harry changes a lot in the second film. 
+PreProc  : >COLON Harry changes a lot in the second film >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [changes (root: change) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the first film, Harry learns about hate. 
+PreProc  : In the first film >COMMA Harry learns about hate >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learns (root: learn) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)]
+    [hate (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the second film, he learns how to deal with hate and has to explore his own emotions. 
+PreProc  : In the second film >COMMA he learns how to deal with hate and has to explore his own emotions >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learns (root: learn) (MOR)(V PRESENT)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [deal (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [hate (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [explore (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [emotions (root: emotion) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He learns that he has something in common with Lord Voldemort, and he has to cope with that. 
+PreProc  : He learns that he has something in common with Lord Voldemort >COMMA and he has to cope with that >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learns (root: learn) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [in (LEX)(PREP)]
+  [common (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Lord (LEX)(N SINGULAR(HUMAN))]
+      [Voldemort (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [cope (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : Did you learn any new skills? 
+PreProc  : >COLON Did you learn any new skills >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [new (LEX)(ADJ)]
+    [skills (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I learned how to sword fight. 
+PreProc  : >COLON I learned how to sword fight >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+    [how (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [sword (?)(UNK(ENTITY UNKNOWN))]
+      [fight (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But Rupert [another child actor in the movie] learned how to drive a car for the flying-car scene. 
+PreProc  : But Rupert >LBRACKET another child actor in the movie >RBRACKET learned how to drive a car for the flying-car scene >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Rupert (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [another (LEX)(ADJ)]
+    [child (LEX)(N SINGULAR(HUMAN))]
+    [actor (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learned (root: learn) (MOR)(V PAST)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [drive (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [car (LEX)(N SINGULAR(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [flying-car (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [scene (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unfortunately, I didn't get to learn to drive because I was in the passenger seat. 
+PreProc  : Unfortunately >COMMA I DID NOT get to learn to drive because I was in the passenger seat >PERIOD <EOS 
+CLAUSE:
+  [Unfortunately (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [learn (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [drive (LEX)(V BASE)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [passenger (LEX)(N SINGULAR(HUMAN))]
+      [seat (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We try to make it look realistic. 
+PreProc  : We try to make it look realistic >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  [realistic (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How did you film the movie and go to school at the same time? 
+PreProc  : >COLON How did you film the movie and go to school at the same time >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [film (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I go to school three hours a day, every day. 
+PreProc  : >COLON I go to school &&3 hours a day >COMMA every day >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [&&3 (LEX)(NUM)]
+      [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I have a fantastic teacher. 
+PreProc  : I have a fantastic teacher >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fantastic (LEX)(ADJ)]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How have your friends and family reacted to your fame? 
+PreProc  : >COLON How have your friends and family reacted to your fame >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [family (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reacted (root: react) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [fame (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : They don't treat me any differently. 
+PreProc  : >COLON They DO NOT treat me any differently >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [treat (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+
+  [differently (root: different) (MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They see me as Dan. 
+PreProc  : They see me as Dan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Dan (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I wouldn't want my friends to see me as Harry. 
+PreProc  : I WOULD NOT want my friends to see me as Harry >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WOULD (root: will) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [my (LEX)(ADJ)]
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : In what ways has your life changed since the first movie came out? 
+PreProc  : >COLON In what ways has your life changed since the first movie came out >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [life (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [life (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [changed (root: change) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : It really hasn't changed that much. 
+PreProc  : >COLON It really HAS NOT changed that much >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [HAS (root: have) (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [changed (root: change) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I am often recognized as Harry Potter. 
+PreProc  : I am often recognized as Harry Potter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [am (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [recognized (root: recognize) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Harry (?)(UNK(ENTITY UNKNOWN))]
+      [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But I don't mind that. 
+PreProc  : But I DO NOT mind that >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [mind (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [mind (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : When you grow up, do you want to continue acting? 
+PreProc  : >COLON When you grow up >COMMA do you want to continue acting >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [continue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [acting (root: act) (MOR)(N SINGULAR) (GER)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I think I will take it one film at a time. 
+PreProc  : >COLON I think I will take it one film at a time >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [film (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After this film, I will do the third [Harry Potter] film. 
+PreProc  : After this film >COMMA I will do the third >LBRACKET Harry Potter >RBRACKET film >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+  [the (LEX)(ART)]
+  [third (LEX)(ADJ)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [film (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [film (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After that, we will see how it goes. 
+PreProc  : After that >COMMA we will see how it goes >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you could play a role in Harry Potter and the Chamber of Secrets, which role would you play? 
+PreProc  : If you could play a role in Harry Potter and the Chamber of Secrets >COMMA which role would you play >QUESTION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [role (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Harry (?)(UNK(ENTITY UNKNOWN))]
+      [Potter (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [Chamber (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: Harry Potter and the Chamber
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Secrets (root: secret) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [role (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [play (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why? 
+PreProc  : Why >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : What have you learned about making movies that you didn't know before you played Harry Potter? 
+PreProc  : >COLON What have you learned about making movies that you DID NOT know before you played Harry Potter >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+      [movies (root: movie) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [know (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [played (root: play) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : It's hard work. 
+PreProc  : >COLON IT IS hard work >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [hard (LEX)(ADJ)]
+    [work (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a lot of fun, but at the same time it's really a challenge. 
+PreProc  : It is a lot of fun >COMMA but at the same time IT IS really a challenge >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  [fun (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [same (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [really (root: real) (MOR)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [challenge (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : If you could play another character in the movie, who would you like to play? 
+PreProc  : >COLON If you could play another character in the movie >COMMA who would you like to play >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [character (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [play (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : I would like to play Gilderoy Lockhart. 
+PreProc  : >COLON I would like to play Gilderoy Lockhart >PERIOD <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [would (root: will) (LEX)(AUX)]
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Gilderoy (?)(UNK(ENTITY UNKNOWN))]
+    [Lockhart (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

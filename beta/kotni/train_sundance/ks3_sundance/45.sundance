@@ -1,0 +1,660 @@
+Original : > Character - Using quotations and useful phrases Character - Using quotations and useful phrases When quoting from a text, remember to: Quotes of three words or less can be used in the sentence you're writing - for example ... when the writer talks about the "futility of life" he means Longer quotations need to be included on a line of their own and with a space before it (known as an indent). 
+PreProc  : >GREATER Character >MINUS Using quotations and useful phrases Character >MINUS Using quotations and useful phrases When quoting from a text >COMMA remember to >COLON Quotes of &&3 words or less can be used in the sentence YOU ARE writing >MINUS for example >ELLIPSES when the writer talks about the >DQUOTE futility of life >DQUOTE he means Longer quotations need to be included on a line of their own and with a space before it >LPAREN known as an indent >RPAREN >PERIOD <EOS 
+CLAUSE:
+  [>GREATER (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Character (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [quotations (root: quote) (MOR)(N PLURAL)]
+    [and (LEX)(CONJ)]
+    [useful (LEX)(ADJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+    [Character (?)(UNK(ENTITY UNKNOWN))]
+
+  [>MINUS (LEX)(PUNC)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [quotations (root: quote) (MOR)(N PLURAL)]
+    [and (LEX)(CONJ)]
+    [useful (LEX)(ADJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+    [Character (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [quotations (root: quote) (MOR)(N PLURAL)]
+    [and (LEX)(CONJ)]
+    [useful (LEX)(ADJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [quotations (root: quote) (MOR)(N PLURAL)]
+    [and (LEX)(CONJ)]
+    [useful (LEX)(ADJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [quoting (root: quote) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [text (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [quotations (root: quote) (MOR)(N PLURAL)]
+    [and (LEX)(CONJ)]
+    [useful (LEX)(ADJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [remember (LEX)(V BASE)]
+
+  [to (LEX)(PREP)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Quotes (root: quote) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Quotes
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&3 (LEX)(NUM)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  [or (LEX)(CONJ)]
+  [less (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Quotes (root: quote) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Quotes
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&3 (LEX)(NUM)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sentence (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [writing (root: write) (MOR)(V PARTICIPLE)]
+
+  [>MINUS (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [example (LEX)(N SINGULAR(OTHER))]
+
+
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [writer (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [talks (root: talk) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [futility (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the futility
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Longer (LEX)(ADJ)]
+    [quotations (root: quote) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Longer (LEX)(ADJ)]
+    [quotations (root: quote) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [need (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [included (root: include) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [line (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [their (LEX)(ADJ)]
+  [own (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [space (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [indent (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Short, well-chosen quotations are better than long, vague ones. 
+PreProc  : Short >COMMA well-chosen quotations are better than long >COMMA vague ones >PERIOD <EOS 
+CLAUSE:
+  [Short (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [well-chosen (?)(UNK(ENTITY UNKNOWN))]
+    [quotations (root: quote) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [than (LEX)(ADV)]
+  [long (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [vague (LEX)(ADJ)]
+    [ones (root: one) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Remember that certain words and phrases are helpful when you're explaining an idea in some detail, especially if you are commenting on implicit meaning. 
+PreProc  : Remember that certain words and phrases are helpful when YOU ARE explaining an idea in some detail >COMMA especially if you are commenting on implicit meaning >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Remember (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [certain (LEX)(ADJ)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [helpful (LEX)(ADJ)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [explaining (root: explain) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [detail (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [especially (LEX)(ADV)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [commenting (root: comment) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [implicit (LEX)(ADJ)]
+      [meaning (root: mean) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The following list shows some of those phrases. 
+PreProc  : The following list shows some of those phrases >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [following (root: follow) (MOR)(N SINGULAR) (GER)]
+    [list (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some other words and phrases that may be useful are those that help move your argument on. 
+PreProc  : Some other words and phrases that may be useful are those that help move your argument on >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [useful (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [phrases (root: phrase) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [move (LEX)(N SINGULAR(OTHER))]
+    [your (LEX)(ADJ)]
+    [argument (LEX)(N SINGULAR(OTHER))]
+
+  [on (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : These are called connectives. 
+PreProc  : These are called connectives >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [connectives (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Here are some examples: Whack and zap mad professors and aliens! 
+PreProc  : Here are some examples >COLON Whack and zap mad professors and aliens >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Here (LEX)(ADV)]
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [examples (root: example) (MOR)(N PLURAL(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Whack (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [zap (?)(UNK(ENTITY UNKNOWN))]
+    [mad (LEX)(ADJ)]
+    [professors (root: professor) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [aliens (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Love books? 
+PreProc  : Love books >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Love (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Get your reviews published on Student Life. 
+PreProc  : Get your reviews published on Student Life >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [reviews (root: review) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [reviews (root: review) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Student (LEX)(N SINGULAR(HUMAN))]
+      [Life (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The BBC is not responsible for the content of external internet sites. 
+PreProc  : The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

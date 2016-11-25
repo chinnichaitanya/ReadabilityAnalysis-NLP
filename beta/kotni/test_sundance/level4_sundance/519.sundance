@@ -1,0 +1,1062 @@
+Original : Move over, C-3PO and R2-D2. 
+PreProc  : Move over >COMMA C-3PO and R2-D2 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Move (LEX)(V BASE)]
+
+  [over (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [C-3PO (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [R2-D2 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There is a new droid in town. 
+PreProc  : There is a new droid in town >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [droid (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A team of scientists have developed a new robot that learns to walk like a young child. 
+PreProc  : A team of scientists have developed a new robot that learns to walk like a young child >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [developed (root: develop) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learns (root: learn) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [walk (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [young (LEX)(ADJ)]
+    [child (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The robot, called Toddler, improves its step and balance with each stride. 
+PreProc  : The robot >COMMA called Toddler >COMMA improves its step and balance with each stride >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Toddler (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [improves (root: improve) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [step (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [balance (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [stride (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : These previous versions of walking robots needed a motor to power every movement in their legs, knees, and ankles. 
+PreProc  : These previous versions of walking robots needed a motor to power every movement in their legs >COMMA knees >COMMA and ankles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+    [previous (LEX)(ADJ)]
+    [versions (root: version) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: These previous versions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [needed (root: need) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [motor (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [power (LEX)(N SINGULAR(OTHER))]
+      [every (LEX)(ADJ)]
+      [movement (root: move) (MOR)(N SINGULAR)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [knees (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [ankles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Toddler, along with two other robots, was unveiled in February at the meeting of the American Association for the Advancement of Science. 
+PreProc  : Toddler >COMMA along with &&2 other robots >COMMA was unveiled in February at the meeting of the American Association for the Advancement of Science >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toddler (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [along (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [unveiled (root: veiled) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [February (LEX)(N SINGULAR(MONTH))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [meeting (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the meeting
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [Association (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Advancement (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the Advancement
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Science (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All three robots have a humanlike , or way of walking. 
+PreProc  : All &&3 robots have a humanlike >COMMA or way of walking >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [&&3 (LEX)(NUM)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [humanlike (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a humanlike >COMMA or way
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Toddler, the most advanced robot of the group, can learn to walk in about 20 minutes, or 600 steps. 
+PreProc  : Toddler >COMMA the most advanced robot of the group >COMMA can learn to walk in about &&20 minutes >COMMA or &&600 steps >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toddler (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [advanced (root: advance) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: robot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [group (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Toddler (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [can (LEX)(AUX)]
+    [learn (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [walk (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&20 (LEX)(NUM)]
+      [minutes (root: minute) (MOR)(N PLURAL(TIME))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [&&600 (LEX)(NUM)]
+      [steps (root: step) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While these aren't the first robots to strut their stuff, scientists say they're different from other versions of walking robots. 
+PreProc  : While these ARE NOT the first robots to strut their stuff >COMMA scientists say THEY ARE different from other versions of walking robots >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [strut (?)(UNK(ENTITY UNKNOWN))]
+      [their (LEX)(ADJ)]
+      [stuff (LEX)(N PLURAL(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [different (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [versions (root: version) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: other versions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Previous versions of walking robots needed a motor to power every movement in their legs, knees, and ankles. 
+PreProc  : Previous versions of walking robots needed a motor to power every movement in their legs >COMMA knees >COMMA and ankles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Previous (LEX)(ADJ)]
+    [versions (root: version) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: Previous versions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [needed (root: need) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [motor (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [power (LEX)(N SINGULAR(OTHER))]
+      [every (LEX)(ADJ)]
+      [movement (root: move) (MOR)(N SINGULAR)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [knees (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [ankles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They required large amounts of energy to moveÑabout 10 times as much as the three new robot models. 
+PreProc  : They required large amounts of energy to moveÑabout &&10 times as much as the &&3 new robot models >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [required (root: require) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [large (LEX)(ADJ)]
+    [amounts (root: amount) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: large amounts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [moveÑabout (?)(UNK(ENTITY UNKNOWN))]
+      [&&10 (LEX)(NUM)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&3 (LEX)(NUM)]
+      [new (LEX)(ADJ)]
+      [robot (?)(UNK(ENTITY UNKNOWN))]
+      [models (root: model) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each of the new robots falls and catches itself as it moves forward. 
+PreProc  : Each of the new robots falls and catches itself as it moves forward >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: Each
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [falls (root: fall) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: Each
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [catches (root: catch) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [itself (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [moves (root: move) (MOR)(V PRESENT)]
+    [forward (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This is essentially the same way a person learns to walk. 
+PreProc  : This is essentially the same way a person learns to walk >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [essentially (root: essential) (MOR)(ADV)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learns (root: learn) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [walk (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The walking robots also swing their arms forward at every step to help with balance, just like a person does. 
+PreProc  : The walking robots also swing their arms forward at every step to help with balance >COMMA just like a person does >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [swing (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [arms (LEX)(N SINGULAR(OTHER))]
+
+  [forward (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [every (LEX)(ADJ)]
+      [step (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [balance (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [just (LEX)(ADV)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why are scientists developing robots with the ability to walk like humans? 
+PreProc  : Why are scientists developing robots with the ability to walk like humans >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+    [developing (root: develop) (MOR)(N SINGULAR) (GER)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ability (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ability (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [walk (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [humans (root: human) (MOR)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists say that the new robots are more than high-tech toys. 
+PreProc  : Scientists say that the new robots are MORE_THAN high-tech toys >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [high-tech (LEX)(ADJ)]
+    [toys (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hope that walking robots may one day be able to perform tasks that are difficult or Imagine you have to design a robot. 
+PreProc  : They hope that walking robots may one day be able to perform tasks that are difficult or Imagine you have to design a robot >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hope (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walking (root: walk) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [robots (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [perform (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [tasks (root: task) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tasks (root: task) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [difficult (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tasks (root: task) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Imagine (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [design (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [robot (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What does it look like? 
+PreProc  : What does it look like >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [look (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How does it help people? 
+PreProc  : How does it help people >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [help (LEX)(N SINGULAR(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists also believe that this type of technology will lead to medical breakthroughs in the future. 
+PreProc  : Scientists also believe that this type of technology will lead to medical breakthroughs in the future >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [type (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: this type
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [technology (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [lead (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [medical (LEX)(ADJ)]
+      [breakthroughs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The latest technology may be used to help create new types of robotic limbs for people who have lost their arms or legs. 
+PreProc  : The latest technology may be used to help create new types of robotic limbs for people who have lost their arms or legs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [latest (LEX)(ADJ)]
+    [technology (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+    [create (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: new types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [robotic (?)(UNK(ENTITY UNKNOWN))]
+      [limbs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [lost (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [arms (LEX)(N SINGULAR(OTHER))]
+    [or (LEX)(CONJ)]
+    [legs (root: leg) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This is the foundation for what we may see in [robotics] in the future," said scientist Michael Foster, who oversaw the development of the new walking robots. 
+PreProc  : >DQUOTE This is the foundation for what we may see in >LBRACKET robotics >RBRACKET in the future >COMMA >DQUOTE said scientist Michael Foster >COMMA who oversaw the development of the new walking robots >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [foundation (root: found) (MOR)(N SINGULAR)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+
+  [in (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [robotics (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [Michael (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Foster (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientist (?)(UNK(ENTITY UNKNOWN))]
+    [Michael (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [oversaw (root: saw) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [development (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the development
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [walking (root: walk) (MOR)(N SINGULAR) (GER)]
+      [robots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

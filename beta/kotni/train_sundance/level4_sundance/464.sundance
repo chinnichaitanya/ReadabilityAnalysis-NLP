@@ -1,0 +1,445 @@
+Original : Have you had your colors today? 
+PreProc  : Have you had your colors today >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [colors (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nutrition expert Mary Towne-Merritt from Madera, California, told that eating colorful fruits and vegetables is good for you. 
+PreProc  : Nutrition expert Mary Towne-Merritt from Madera >COMMA California >COMMA told that eating colorful fruits and vegetables is good for you >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Mary (?)(UNK(ENTITY UNKNOWN))]
+    [Towne-Merritt (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Madera (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Madera (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eating (root: eat) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [colorful (LEX)(ADJ)]
+    [fruits (root: fruit) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She says that kids should get a minimum of five servings of fruits and vegetables a day. 
+PreProc  : She says that kids should get a minimum of &&5 servings of fruits and vegetables a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [minimum (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: a minimum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [servings (root: serve) (MOR)(N PLURAL)]
+
+
+Following PP attaches to: &&5 servings
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fruits (root: fruit) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They provide your body with vitamins and minerals, boost your energy level, prevent illness, and help you learn better. 
+PreProc  : They provide your body with vitamins and minerals >COMMA boost your energy level >COMMA prevent illness >COMMA and help you learn better >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [provide (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [vitamins (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [minerals (root: mineral) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [boost (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [energy (LEX)(N SINGULAR(OTHER))]
+    [level (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [illness (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [better (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brighten up with some of these rainbow colors: Red apples help to prevent illness and boost your memory. 
+PreProc  : Brighten up with some of these rainbow colors >COLON Red apples help to prevent illness and boost your memory >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Brighten (?)(UNK(ENTITY UNKNOWN))]
+
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+      [rainbow (?)(UNK(ENTITY UNKNOWN))]
+      [colors (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Red (LEX)(ADJ)]
+    [apples (?)(UNK(ENTITY UNKNOWN))]
+    [help (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [illness (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [boost (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [memory (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : tomatoes, red peppers, strawberries, cherries, cranberries, red apples, beets carrots, sweet potatoes, oranges, grapefruit, corn, peaches prevent illness, help maintain good eyesight, keep your skin healthy Green beans help build strong teeth and bones. 
+PreProc  : tomatoes >COMMA red peppers >COMMA strawberries >COMMA cherries >COMMA cranberries >COMMA red apples >COMMA beets carrots >COMMA sweet potatoes >COMMA oranges >COMMA grapefruit >COMMA corn >COMMA peaches prevent illness >COMMA help maintain good eyesight >COMMA keep your skin healthy Green beans help build strong teeth and bones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tomatoes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [red (LEX)(ADJ)]
+    [peppers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [strawberries (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [cherries (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [cranberries (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [red (LEX)(ADJ)]
+    [apples (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [beets (?)(UNK(ENTITY UNKNOWN))]
+    [carrots (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [sweet (LEX)(ADJ)]
+    [potatoes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [oranges (root: orange) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [grapefruit (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [corn (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [peaches (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [illness (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tomatoes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+    [maintain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [eyesight (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tomatoes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [skin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [healthy (LEX)(ADJ)]
+    [Green (LEX)(ADJ)]
+    [beans (?)(UNK(ENTITY UNKNOWN))]
+    [help (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [skin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [healthy (LEX)(ADJ)]
+    [Green (LEX)(ADJ)]
+    [beans (?)(UNK(ENTITY UNKNOWN))]
+    [help (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [strong (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : spinach, dark lettuces, broccoli, peas, green peppers, asparagus, green beans keep your heart healthy, boost your memory All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : spinach >COMMA dark lettuces >COMMA broccoli >COMMA peas >COMMA green peppers >COMMA asparagus >COMMA green beans keep your heart healthy >COMMA boost your memory All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [spinach (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [dark (LEX)(ADJ)]
+    [lettuces (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [broccoli (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [peas (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [green (LEX)(ADJ)]
+    [peppers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [asparagus (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [green (LEX)(ADJ)]
+    [beans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [heart (LEX)(N SINGULAR(OTHER))]
+
+  [healthy (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [spinach (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [boost (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [memory (LEX)(N SINGULAR(OTHER))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,822 @@
+Original : are home to many ocean animals. 
+PreProc  : are home to many ocean animals >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are busy underwater places. 
+PreProc  : They are busy underwater places >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [busy (LEX)(ADJ)]
+    [underwater (LEX)(ADJ)]
+    [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Coral reefs are found near the surface of some oceans. 
+PreProc  : Coral reefs are found near the surface of some oceans >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the surface
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [some (LEX)(DET)]
+      [oceans (root: ocean) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A coral reef is home sweet home to many creatures. 
+PreProc  : A coral reef is home sweet home to many creatures >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [A (LEX)(ART)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+    [sweet (LEX)(ADJ)]
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a safe place to live and a great place to find food. 
+PreProc  : It is a safe place to live and a great place to find food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [safe (LEX)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [great (LEX)(ADJ)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Green sea turtles can weigh more than 300 pounds and grow to about 3 feet long. 
+PreProc  : Green sea turtles can weigh MORE_THAN &&300 pounds and grow to about &&3 feet long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [weigh (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&300 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&3 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can live for a long timeÑup to100 years! 
+PreProc  : They can live for a long timeÑup to100 years >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [long (LEX)(ADJ)]
+      [timeÑup (?)(UNK(ENTITY UNKNOWN))]
+      [to100 (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most green sea turtles eat plants. 
+PreProc  : Most green sea turtles eat plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [green (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [turtles (root: turtle) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Clown fish have trouble hiding because they are so bright. 
+PreProc  : Clown fish have trouble hiding because they are so bright >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Clown (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [trouble (?)(UNK(ENTITY UNKNOWN))]
+    [hiding (root: hid) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [so (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [bright (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To stay safe, clown fish live near poisonous sea animals. 
+PreProc  : To stay safe >COMMA clown fish live near poisonous sea animals >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [safe (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [clown (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [poisonous (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those animals look like plants. 
+PreProc  : Those animals look like plants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [look (LEX)(V BASE)]
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dugongs are plant-eating sea animals. 
+PreProc  : Dugongs are plant-eating sea animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dugongs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [plant-eating (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They live near some coral reefs. 
+PreProc  : They live near some coral reefs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [some (LEX)(DET)]
+      [coral (LEX)(N SINGULAR(OTHER))]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dugongs have whiskers and round faces. 
+PreProc  : Dugongs have whiskers and round faces >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dugongs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [whiskers (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dugongs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [round (LEX)(V BASE)]
+    [faces (root: face) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are sometimes called sea cows. 
+PreProc  : They are sometimes called sea cows >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [sometimes (LEX)(ADV)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [cows (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Moray eels are ocean fish that have long, slim, snakelike bodies. 
+PreProc  : Moray eels are ocean fish that have long >COMMA slim >COMMA snakelike bodies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Moray (?)(UNK(ENTITY UNKNOWN))]
+    [eels (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [long (LEX)(ADJ)]
+    [>COMMA (LEX)(PUNC)]
+    [slim (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [snakelike (?)(UNK(ENTITY UNKNOWN))]
+    [bodies (root: body) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hide in tiny holes throughout coral reefs. 
+PreProc  : They hide in tiny holes throughout coral reefs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hide (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [tiny (LEX)(ADJ)]
+      [holes (root: hole) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [throughout (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [coral (LEX)(N SINGULAR(OTHER))]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Moray eels eat small fish and octopuses. 
+PreProc  : Moray eels eat small fish and octopuses >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Moray (?)(UNK(ENTITY UNKNOWN))]
+    [eels (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [small (LEX)(ADJ)]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+    [and (LEX)(CONJ)]
+    [octopuses (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hammerhead sharks have wide, flat heads. 
+PreProc  : Hammerhead sharks have wide >COMMA flat heads >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hammerhead (?)(UNK(ENTITY UNKNOWN))]
+    [sharks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [wide (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [flat (LEX)(ADJ)]
+    [heads (root: head) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They grow to more than 10 feet long. 
+PreProc  : They grow to MORE_THAN &&10 feet long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&10 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hammerheads have triangle-shaped teeth with sharp bumps for chewing food. 
+PreProc  : Hammerheads have triangle-shaped teeth with sharp bumps for chewing food >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hammerheads (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [triangle-shaped (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [sharp (LEX)(ADJ)]
+      [bumps (root: bump) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [chewing (root: chew) (MOR)(N SINGULAR) (GER)]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Regal angelfish live near safe caves of coral reefs. 
+PreProc  : Regal angelfish live near safe caves of coral reefs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Regal (?)(UNK(ENTITY UNKNOWN))]
+    [angelfish (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [safe (LEX)(ADJ)]
+      [caves (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: safe caves
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [coral (LEX)(N SINGULAR(OTHER))]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are brightly striped fish. 
+PreProc  : They are brightly striped fish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [brightly (root: bright) (MOR)(ADV)]
+    [striped (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Angelfish usually swim in pairs. 
+PreProc  : Angelfish usually swim in pairs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Angelfish (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [swim (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [pairs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They eat sea sponges or tiny coral reef animals. 
+PreProc  : They eat sea sponges or tiny coral reef animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eat (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [sponges (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [tiny (LEX)(ADJ)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Coral reefs are formed by tiny ocean animals called (PAH-lips). 
+PreProc  : Coral reefs are formed by tiny ocean animals called >LPAREN PAH-lips >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [formed (root: form) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [tiny (LEX)(ADJ)]
+      [ocean (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tiny (LEX)(ADJ)]
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [PAH-lips (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When polyps die, their shells are left behind. 
+PreProc  : When polyps die >COMMA their shells are left behind >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [polyps (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [die (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [their (LEX)(ADJ)]
+    [shells (root: shell) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [shells (root: shell) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [left (LEX)(V PAST)]
+
+  [behind (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More polyps grow on top of the shells. 
+PreProc  : More polyps grow on top of the shells >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [More (LEX)(ADJ)]
+    [polyps (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: top
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [shells (root: shell) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In time, the reef gets bigger. 
+PreProc  : In time >COMMA the reef gets bigger >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gets (root: get) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [bigger (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Corals come in many shapes, colors, and sizes. 
+PreProc  : Corals come in many shapes >COMMA colors >COMMA and sizes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Corals (root: coral) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [shapes (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [colors (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [sizes (root: size) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might it be important to protect coral reefs? 
+PreProc  : Why might it be important to protect coral reefs >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

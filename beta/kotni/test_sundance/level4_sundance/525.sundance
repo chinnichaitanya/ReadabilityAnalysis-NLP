@@ -1,0 +1,222 @@
+Original : No, this isn't a scene from the movies. 
+PreProc  : No >COMMA this IS NOT a scene from the movies >PERIOD <EOS 
+CLAUSE:
+  [No (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [scene (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movies (root: movie) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A submarine designer is planning to build a new hotel in the Bahamas in which half the rooms will be underwater. 
+PreProc  : A submarine designer is planning to build a new hotel in THE_BAHAMAS in which half the rooms will be underwater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [submarine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [designer (root: design) (MOR)(ADJ(OTHER)) (N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [planning (root: plan) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [THE_BAHAMAS (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [underwater (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Poseidon Undersea Resort is expected to open late next year. 
+PreProc  : The Poseidon Undersea Resort is expected to open late next year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Poseidon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Undersea (?)(UNK(ENTITY UNKNOWN))]
+    [Resort (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [expected (root: expect) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [open (LEX)(V BASE)]
+
+  [late (LEX)(ADJ(TIME))]
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the hotel's most expensive rooms, guests will be able to watch ocean life outside their windows. 
+PreProc  : In the @hotel@s most expensive rooms >COMMA guests will be able to watch ocean life outside their windows >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@hotel@s (LEX)(ADJ POSSESSIVE)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [expensive (LEX)(ADJ)]
+      [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [watch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [life (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [outside (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [windows (root: window) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Visitors won't need to dive to their accommodations. 
+PreProc  : Visitors WILL NOT need to dive to their accommodations >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WILL (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [need (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [dive (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [accommodations (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can reach their rooms from a tunnel on the beach. 
+PreProc  : They can reach their rooms from a tunnel on the beach >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [reach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [tunnel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [beach (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

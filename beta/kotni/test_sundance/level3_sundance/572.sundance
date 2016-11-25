@@ -1,0 +1,713 @@
+Original : are people whose families came to the United States from Spanish-speaking countries. 
+PreProc  : are people whose families came to the UNITED_STATES from Spanish-speaking countries >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [whose (LEX)(ADJ)]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [whose (LEX)(ADJ)]
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [came (root: come) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Spanish-speaking (INF-MOR)(GER)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They celebrate their , or traditions, from September 15 to October 15. 
+PreProc  : They celebrate their >COMMA or traditions >COMMA from September &&15 to October &&15 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [their (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [traditions (root: tradition) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Time (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [September (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  PP SEGMENT-Time (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&15 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, more Hispanics are celebrating than ever before. 
+PreProc  : This year >COMMA more Hispanics are celebrating than ever before >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [Hispanics (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [celebrating (root: celebrate) (MOR)(V PARTICIPLE)]
+    [than (LEX)(ADV)]
+    [ever (LEX)(ADV)]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nearly 47 million Hispanic American people live in the United States. 
+PreProc  : Nearly &&47 million Hispanic American people live in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nearly (LEX)(ADJ) (ADV)]
+    [&&47 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That number is growing, experts say. 
+PreProc  : That number is growing >COMMA experts say >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [growing (root: grow) (MOR)(V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, by 2050, that population is expected to triple, according to a report by the U.S. Census Bureau, a government agency. 
+PreProc  : In fact >COMMA by &&2050 >COMMA that population is expected to triple >COMMA according to a report by the U.S. Census Bureau >COMMA a government agency >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2050 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [expected (root: expect) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [triple (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [according (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [report (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Census (LEX)(N SINGULAR(OTHER))]
+      [Bureau (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [agency (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 2050, nearly 133 million Hispanic Americans will live in the United States, the report predicts. 
+PreProc  : In &&2050 >COMMA nearly &&133 million Hispanic Americans will live in the UNITED_STATES >COMMA the report predicts >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2050 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [nearly (LEX)(ADJ) (ADV)]
+    [&&133 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [report (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [report (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [predicts (root: predict) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Almost one of every three Americans will be Hispanic. 
+PreProc  : Almost one of every &&3 Americans will be Hispanic >PERIOD <EOS 
+CLAUSE:
+  [Almost (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [every (LEX)(ADJ)]
+      [&&3 (LEX)(NUM)]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There are several reasons for the huge growth, says Robert Bernstein of the Census Bureau. 
+PreProc  : There are several reasons for the huge growth >COMMA says Robert Bernstein of the Census Bureau >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [several (LEX)(ADJ)]
+    [reasons (root: reason) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [huge (LEX)(ADJ)]
+      [growth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [There (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Robert (?)(UNK(ENTITY UNKNOWN))]
+    [Bernstein (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Robert Bernstein
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Census (LEX)(N SINGULAR(OTHER))]
+      [Bureau (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒThe Hispanic population is younger than the non-Hispanic population, [so] they are having more children,Ó he told People from Spanish-speaking countries also make up about half the who move to the United States each year, Bernstein says. 
+PreProc  : ÒThe Hispanic population is younger than the non-Hispanic population >COMMA >LBRACKET so >RBRACKET they are having more children,Ó he told People from Spanish-speaking countries also make up about half the who move to the UNITED_STATES each year >COMMA Bernstein says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒThe (?)(UNK(ENTITY UNKNOWN))]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [younger (root: young) (MOR)(ADJ)]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [non-Hispanic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [more (LEX)(ADJ)]
+    [children,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Spanish-speaking (INF-MOR)(GER)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Spanish-speaking (INF-MOR)(GER)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [make (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)]
+      [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [who (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [who (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Bernstein (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bernstein (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An immigrant moves to a country where he or she was not born. 
+PreProc  : An immigrant moves to a country where he or she was not born >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [immigrant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [moves (root: move) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+    [or (LEX)(CONJ)]
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [not (LEX)(ADV)]
+    [born (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most Hispanic immigrants come from Central and South America. 
+PreProc  : Most Hispanic immigrants come from Central and South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [immigrants (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Central (LEX)(ADJ)]
+      [and (LEX)(CONJ)]
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The changes will help make the U.S. population more , or different. 
+PreProc  : The changes will help make the U.S. population more >COMMA or different >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [changes (root: change) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  [more (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [different (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That sounds like another reason to celebrate! 
+PreProc  : That sounds like another reason to celebrate >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [celebrate (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This pie chart shows what the U.S. population will likely look like in 2050. 
+PreProc  : This pie chart shows what the U.S. population will likely look like in &&2050 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [pie (?)(UNK(ENTITY UNKNOWN))]
+    [chart (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [likely (LEX)(ADJ) (ADV)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [likely (LEX)(ADJ) (ADV)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2050 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Native American: Jupiter Images; 
+PreProc  : Native American >COLON Jupiter Images >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+    [Images (root: image) (MOR)(N PLURAL(OTHER))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Asian American, African American, Hispanic American: Corbis; 
+PreProc  : Asian American >COMMA African American >COMMA Hispanic American >COLON Corbis >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Asian (?)(UNK(ENTITY UNKNOWN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [African (LEX)(ADJ)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Corbis (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : White: Getty Images; 
+PreProc  : White >COLON Getty Images >SEMI <EOS 
+CLAUSE:
+  [White (LEX)(ADJ)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Getty (?)(UNK(ENTITY UNKNOWN))]
+    [Images (root: image) (MOR)(N PLURAL(OTHER))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Source: Pew Research Center Why might people leave their countries to move to the United States? 
+PreProc  : Source >COLON Pew Research Center Why might people leave their countries to move to the UNITED_STATES >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Source (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pew (?)(UNK(ENTITY UNKNOWN))]
+    [Research (LEX)(N SINGULAR(OTHER))]
+    [Center (LEX)(N SINGULAR(OTHER))]
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [leave (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [their (LEX)(ADJ)]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,886 @@
+Original : A park in India is full of surprisesÑtiger cubs! 
+PreProc  : A park in India is full of surprisesÑtiger cubs >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [A (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [full (LEX)(ADV)]
+
+Following PP attaches to: is full
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [surprisesÑtiger (?)(UNK(ENTITY UNKNOWN))]
+      [cubs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : India is a country in Asia. 
+PreProc  : India is a country in Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [India (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At least 10 Bengal tiger cubs have been born in the past two years at Ranthambhore (RAN-tham-bore) National Park in India. 
+PreProc  : AT_LEAST &&10 Bengal tiger cubs have been born in the past &&2 years at Ranthambhore >LPAREN RAN-tham-bore >RPAREN National Park in India >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [AT_LEAST (LEX)(ADJ)]
+    [&&10 (LEX)(NUM)]
+    [Bengal (?)(UNK(ENTITY UNKNOWN))]
+    [tiger (?)(UNK(ENTITY UNKNOWN))]
+    [cubs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [born (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [&&2 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [Ranthambhore (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [RAN-tham-bore (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [National (LEX)(ADJ)]
+    [Park (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They may be the start of Bengal tigers' roaring comeback. 
+PreProc  : They may be the start of Bengal @tigers@ roaring comeback >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the start
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Bengal (?)(UNK(ENTITY UNKNOWN))]
+      [@tigers@ (LEX)(ADJ POSSESSIVE)]
+      [roaring (INF-MOR)(GER)]
+      [comeback (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, there are fewer than 1,500 Bengal tigers in India, according to the Wildlife Institute of India. 
+PreProc  : Today >COMMA there are fewer than &&1,500 Bengal tigers in India >COMMA according to the Wildlife Institute of India >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [fewer (root: few) (MOR)(ADJ)]
+    [than (LEX)(ADV)]
+    [&&1,500 (LEX)(NUM)]
+    [Bengal (?)(UNK(ENTITY UNKNOWN))]
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [according (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Wildlife (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+Following PP attaches to: the Wildlife Institute
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : target the cats for their striped fur. 
+PreProc  : target the cats for their striped fur >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [target (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [striped (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [fur (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Poachers are people who hunt illegally. 
+PreProc  : Poachers are people who hunt illegally >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Poachers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  [who (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [hunt (LEX)(N SINGULAR(OTHER))]
+
+  [illegally (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : India's growing human population is also putting tigers at risk. 
+PreProc  : @India@s growing human population is also putting tigers at risk >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@India@s (LEX)(ADJ POSSESSIVE)]
+    [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+    [human (LEX)(N SINGULAR(HUMAN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+    [putting (root: put) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [risk (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The country has the world's secondlargest population. 
+PreProc  : The country has the @world@s secondlargest population >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@world@s (LEX)(ADJ POSSESSIVE)]
+    [secondlargest (?)(UNK(ENTITY UNKNOWN))]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 1.1 billion people live there. 
+PreProc  : About &&1.1 billion people live there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&1.1 (LEX)(NUM)]
+    [billion (LEX)(N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+    [there (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Growing cities are shrinking tigers' , or homes. 
+PreProc  : Growing cities are shrinking @tigers@ >COMMA or homes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Growing (root: grow) (MOR)(N SINGULAR) (GER)]
+    [cities (root: city) (MOR)(N PLURAL(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [shrinking (root: shrink) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [@tigers@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's a big problem. 
+PreProc  : THAT IS a big problem >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tigers like to hunt alone, so they need plenty of room to prowl. 
+PreProc  : Tigers like to hunt alone >COMMA so they need plenty of room to prowl >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [hunt (LEX)(N SINGULAR(OTHER))]
+
+
+  [alone (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [room (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [prowl (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : U.S. officials recently met with Indian leaders to find a way to save the tigers. 
+PreProc  : U.S. officials recently met with Indian leaders to find a way to save the tigers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [met (root: meet) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Indian (LEX)(N SINGULAR(HUMAN))]
+      [leaders (root: leader) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [save (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tigers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Stronger security has helped police find and arrest more than 50 poachers in two parks over the past three years. 
+PreProc  : Stronger security has helped police find and arrest MORE_THAN &&50 poachers in &&2 parks over the past &&3 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Stronger (root: strong) (MOR)(ADJ)]
+    [security (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [police (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [police (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [police (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [arrest (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&50 (LEX)(NUM)]
+    [poachers (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&2 (LEX)(NUM)]
+      [parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [&&3 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Officials have also limited the number of safari trucks that bring tourists through Ranthambhore. 
+PreProc  : Officials have also limited the number of safari trucks that bring tourists through Ranthambhore >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [also (LEX)(ADV)]
+
+  [limited (LEX)(ADJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [safari (?)(UNK(ENTITY UNKNOWN))]
+      [trucks (root: truck) (MOR)(N PLURAL(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [safari (?)(UNK(ENTITY UNKNOWN))]
+      [trucks (root: truck) (MOR)(N PLURAL(VEHICLE))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bring (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [tourists (root: tourist) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [Ranthambhore (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hope the new rules will protect the tigers. 
+PreProc  : They hope the new rules will protect the tigers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tigers (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Wildlife groups say India's Bengal tigers can , or succeed, with help. 
+PreProc  : Wildlife groups say @India@s Bengal tigers can >COMMA or succeed >COMMA with help >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+    [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@India@s (LEX)(ADJ POSSESSIVE)]
+    [Bengal (?)(UNK(ENTITY UNKNOWN))]
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [@India@s (LEX)(ADJ POSSESSIVE)]
+    [Bengal (?)(UNK(ENTITY UNKNOWN))]
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [succeed (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [help (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Eric Dinerstein of the World Wildlife Fund told WR News, "Wherever we protect tigers and their habitats, tigers come roaring back." 
+PreProc  : Eric Dinerstein of the World Wildlife Fund told WR News >COMMA >DQUOTE Wherever we protect tigers and their habitats >COMMA tigers come roaring back >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Eric (?)(UNK(ENTITY UNKNOWN))]
+    [Dinerstein (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Eric Dinerstein
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Wildlife (?)(UNK(ENTITY UNKNOWN))]
+      [Fund (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [WR (?)(UNK(ENTITY UNKNOWN))]
+    [News (LEX)(N SINGULAR(MEDIA))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Wherever (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [their (LEX)(ADJ)]
+    [habitats (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tigers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [roaring (INF-MOR)(GER)]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or communities, in the world. 
+PreProc  : >COMMA or communities >COMMA in the world >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [communities (root: community) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Experts trace the Indus Valley Civilization back at least 4,500 years. 
+PreProc  : Experts trace the Indus Valley Civilization back AT_LEAST &&4,500 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [trace (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Indus (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Valley (LEX)(N SINGULAR(LOCATION))]
+    [Civilization (INF-MOR)(N(ENTITY UNKNOWN))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [AT_LEAST (LEX)(ADJ)]
+    [&&4,500 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or began, in India. 
+PreProc  : >COMMA or began >COMMA in India >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They include: Hinduism, Buddhism, Jainism, and Sikhism. 
+PreProc  : They include >COLON Hinduism >COMMA Buddhism >COMMA Jainism >COMMA and Sikhism >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Hinduism (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Buddhism (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Jainism (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Sikhism (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This building is one of India's famous landmarks. 
+PreProc  : This building is one of @India@s famous landmarks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@India@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [famous (LEX)(ADJ)]
+      [landmarks (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is a , or burial place, to honor the favorite wife of the emperor Shah Jahan. 
+PreProc  : It is a >COMMA or burial place >COMMA to honor the favorite wife of the emperor Shah Jahan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [burial (LEX)(N SINGULAR(OTHER))]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [honor (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [favorite (LEX)(ADJ)]
+    [wife (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the favorite wife
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [emperor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Shah (?)(UNK(ENTITY UNKNOWN))]
+      [Jahan (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The world's tallest mountain system rises along India's northern border. 
+PreProc  : The @world@s tallest mountain system rises along @India@s northern border >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [tallest (root: tall) (MOR)(ADJ)]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rises (root: rise) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [along (LEX)]
+    [@India@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [northern (LEX)(ADJ)]
+    [border (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The mountains stretch across southern Asia. 
+PreProc  : The mountains stretch across southern Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stretch (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [southern (LEX)(ADJ)]
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might India have chosen the tiger as its national animal? 
+PreProc  : Why might India have chosen the tiger as its national animal >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT-Location (DOBJ):
+    [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [India (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [chosen (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tiger (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [national (LEX)(ADJ)]
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

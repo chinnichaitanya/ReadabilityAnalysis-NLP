@@ -1,0 +1,248 @@
+Original : If you are mailing thank-you notes after the holiday season, each note will cost you a penny more. 
+PreProc  : If you are mailing thank-you notes after the holiday season >COMMA each note will cost you a penny more >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [mailing (root: mail) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [thank-you (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [thank-you (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [notes (root: note) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [holiday (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [holiday (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [season (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [note (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [note (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [cost (LEX)(V BASE PAST)]
+
+  NP SEGMENT (IOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [penny (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [more (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Starting this month, the U.S. Postal Service has increased the price of first-class stamps to 34 cents. 
+PreProc  : Starting this month >COMMA the U.S. Postal Service has increased the price of first-class stamps to &&34 cents >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Starting (root: start) (MOR)(N SINGULAR) (GER)]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Postal (LEX)(ADJ)]
+    [Service (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [increased (root: increase) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [price (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the price
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [first-class (LEX)(ADJ)]
+      [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&34 (LEX)(NUM)]
+      [cents (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The one-penny increase will raise about $2.5 billion (that's eight zeroes!) for the U.S. Postal Service. 
+PreProc  : The one-penny increase will raise about >DOLLAR &&2.5 billion >LPAREN THAT IS &&8 zeroes >EXCLAMATION >RPAREN for the U.S. Postal Service >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [one-penny (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [increase (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [raise (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [>DOLLAR (LEX)(ADJ)]
+      [&&2.5 (LEX)(NUM)]
+      [billion (LEX)(N SINGULAR(DENOMINATION))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&2.5 (LEX)(NUM)]
+    [billion (LEX)(N SINGULAR(DENOMINATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&8 (LEX)(NUM)]
+    [zeroes (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Postal (LEX)(ADJ)]
+      [Service (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year's stamps will honor some special people and things. 
+PreProc  : This @year@s stamps will honor some special people and things >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [@year@s (LEX)(ADJ POSSESSIVE)]
+    [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [honor (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [special (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some of the special stamps honor Mexican artist Frida Kahlo, the Islamic holiday Eid, some famous baseball fields, and the Peanuts comic strip. 
+PreProc  : Some of the special stamps honor Mexican artist Frida Kahlo >COMMA the Islamic holiday Eid >COMMA some famous baseball fields >COMMA and the Peanuts comic strip >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [special (LEX)(ADJ)]
+      [stamps (root: stamp) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [honor (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Mexican (LEX)(ADJ)]
+    [artist (?)(UNK(ENTITY UNKNOWN))]
+    [Frida (?)(UNK(ENTITY UNKNOWN))]
+    [Kahlo (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [the (LEX)(ART)]
+    [Islamic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [holiday (?)(UNK(ENTITY UNKNOWN))]
+    [Eid (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [some (LEX)(DET)]
+    [famous (LEX)(ADJ)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [fields (root: field) (MOR)(N PLURAL(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Peanuts (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [comic (?)(UNK(ENTITY UNKNOWN))]
+    [strip (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,225 @@
+Original : How about riding around town in a Hello Kitty cab? 
+PreProc  : How about riding around town in a Hello Kitty cab >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [riding (root: rid) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Hello (LEX)(ADV)]
+      [Kitty (?)(UNK(ENTITY UNKNOWN))]
+      [cab (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It’s possible if you live in Japan, a country in Asia. 
+PreProc  : It’s possible if you live in Japan >COMMA a country in Asia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  [possible (LEX)(ADJ)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ten Hello Kitty cabs recently hit the streets near Tokyo. 
+PreProc  : &&10 Hello Kitty cabs recently hit the streets near Tokyo >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&10 (LEX)(NUM)]
+    [Hello (LEX)(ADV)]
+    [Kitty (?)(UNK(ENTITY UNKNOWN))]
+    [cabs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [streets (root: street) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [Tokyo (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the capital of Japan. 
+PreProc  : That is the capital of Japan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the capital
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cabs are popular with Hello Kitty fans. 
+PreProc  : The cabs are popular with Hello Kitty fans >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cabs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    [Hello (LEX)(ADV)]
+    NP SEGMENT:
+      [Kitty (?)(UNK(ENTITY UNKNOWN))]
+      [fans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cartoon cat celebrates her 30th birthday next year. 
+PreProc  : The cartoon cat celebrates her 30th birthday next year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cartoon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cat (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrates (root: celebrate) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [30th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [birthday (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : From cabs to jewelry, Hello Kitty has made her mark around the world. 
+PreProc  : From cabs to jewelry >COMMA Hello Kitty has made her mark around the world >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [From (LEX)(PREP)]
+    NP SEGMENT:
+      [cabs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [jewelry (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [Hello (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [Kitty (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [mark (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

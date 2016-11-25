@@ -1,0 +1,470 @@
+Original : If you think your dogÕs hard to train, then you havenÕt met Marley. 
+PreProc  : If you think your dogÕs hard to train >COMMA then you havenÕt met Marley >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [dogÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [hard (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [train (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [then (LEX)(ADV)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT:
+    [havenÕt (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [havenÕt (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [met (root: meet) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Marley (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The puppy turns into a full-grown problem in the new student reporter Charlotte Laurence and Clyde in Los Angeles I met with animal trainer Mathilde de Cagny. 
+PreProc  : The puppy turns into a full-grown problem in the new student reporter Charlotte Laurence and Clyde in Los Angeles I met with animal trainer Mathilde de Cagny >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [puppy (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [turns (root: turn) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [full-grown (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [problem (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [student (LEX)(N SINGULAR(HUMAN))]
+      [reporter (LEX)(N SINGULAR(HUMAN))]
+      [Charlotte (?)(UNK(ENTITY UNKNOWN))]
+      [Laurence (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Clyde (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Los (?)(UNK(ENTITY UNKNOWN))]
+      [Angeles (root: angel) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [met (root: meet) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+      [trainer (root: train) (MOR)(N SINGULAR)]
+      [Mathilde (?)(UNK(ENTITY UNKNOWN))]
+      [de (?)(UNK(ENTITY UNKNOWN))]
+      [Cagny (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She trained several dogs to play Marley in the film. 
+PreProc  : She trained several dogs to play Marley in the film >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [trained (root: train) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [several (LEX)(ADJ)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Marley (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The main one was an American Labrador named Clyde. 
+PreProc  : The main one was an American Labrador named Clyde >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [main (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Labrador (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Labrador (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [named (root: name) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Clyde (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One of the biggest challenges was to train Clyde to act untrained, says de Cagny. 
+PreProc  : One of the biggest challenges was to train Clyde to act untrained >COMMA says de Cagny >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [biggest (LEX)(ADJ)]
+      [challenges (root: challenge) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [to (LEX)(INF)]
+    [train (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Clyde (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [act (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [untrained (root: train) (MOR)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [biggest (LEX)(ADJ)]
+      [challenges (root: challenge) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [de (?)(UNK(ENTITY UNKNOWN))]
+    [Cagny (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dog was even taught to rip up cushions! 
+PreProc  : The dog was even taught to rip up cushions >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [even (LEX)(ADV)]
+    [taught (root: teach) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [rip (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [cushions (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒHe was always to do anything he wanted to do,Ó she says. 
+PreProc  : ÒHe was always to do anything he wanted to do,Ó she says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒHe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [always (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [anything (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wanted (root: want) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [do,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (DOBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To encourage is to cheer on. 
+PreProc  : To encourage is to cheer on >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [encourage (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [cheer (LEX)(V BASE)]
+
+  [on (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The trick to being a great dog trainer is knowing when to quit, de Cagny says. 
+PreProc  : The trick to being a great dog trainer is knowing when to quit >COMMA de Cagny says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [trick (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [to (LEX)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [great (LEX)(ADJ)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+    [trainer (root: train) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [great (LEX)(ADJ)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+    [trainer (root: train) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [knowing (root: know) (MOR)(V PARTICIPLE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [quit (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [de (?)(UNK(ENTITY UNKNOWN))]
+    [Cagny (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dogs, like us, need breaks. 
+PreProc  : Dogs >COMMA like us >COMMA need breaks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [need (LEX)(V BASE)]
+    [breaks (root: break) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They should also be rewarded. 
+PreProc  : They should also be rewarded >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [rewarded (root: reward) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , remember to ÒpawsÓ and think about all the work that went into training Clyde. 
+PreProc  : >COMMA remember to ÒpawsÓ and think about all the work that went into training Clyde >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [remember (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [ÒpawsÓ (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒpawsÓ (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [work (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [work (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [training (root: train) (MOR)(N SINGULAR) (GER)]
+      [Clyde (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

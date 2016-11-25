@@ -1,0 +1,1514 @@
+Original : A sleek, spotted jaguar sneaks along the thick forest floor. 
+PreProc  : A sleek >COMMA spotted jaguar sneaks along the thick forest floor >PERIOD <EOS 
+CLAUSE:
+  [A (LEX)(ART)]
+  [sleek (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [spotted (root: spot) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [jaguar (?)(UNK(ENTITY UNKNOWN))]
+    [sneaks (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [along (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [thick (LEX)(ADJ)]
+      [forest (?)(UNK(ENTITY UNKNOWN))]
+      [floor (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As it passes a fig tree, there is a whirring noise. 
+PreProc  : As it passes a fig tree >COMMA there is a whirring noise >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [passes (root: pass) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fig (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [tree (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [whirring (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [noise (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A flashing light and click follow. 
+PreProc  : A flashing light and click follow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [flashing (root: flash) (MOR)(N SINGULAR) (GER)]
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [click (LEX)(V BASE)]
+    [follow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A camera has just snapped the cat's photograph. 
+PreProc  : A camera has just snapped the @cat@s photograph >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [camera (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [just (LEX)(ADV)]
+    [snapped (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@cat@s (LEX)(ADJ POSSESSIVE)]
+    [photograph (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : No person was behind the camera's lens. 
+PreProc  : No person was behind the @camera@s lens >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [No (LEX)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  PP SEGMENT (PREP):
+    [behind (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@camera@s (LEX)(ADJ POSSESSIVE)]
+      [lens (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The camera was triggered by motion and heat from the passing cat. 
+PreProc  : The camera was triggered by motion and heat from the passing cat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [camera (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [triggered (root: trigger) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [motion (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [camera (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [heat (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [passing (root: pass) (MOR)(N SINGULAR) (GER)]
+      [cat (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists from the Wildlife Conservation Society in New York have placed about 30 such cameras in trees throughout the tropical forest of Belize (beh-LEEZ). 
+PreProc  : Scientists from the Wildlife Conservation Society in NEW_YORK have placed about &&30 such cameras in trees throughout the tropical forest of Belize >LPAREN beh-LEEZ >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Wildlife (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Conservation (INF-MOR)(N(ENTITY UNKNOWN))]
+      [Society (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [placed (root: place) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&30 (LEX)(NUM)]
+    [such (LEX)(ADJ)]
+    [cameras (root: camera) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [throughout (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tropical (LEX)(ADJ)]
+      [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the tropical forest
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Belize (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [beh-LEEZ (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is a country in Central America. 
+PreProc  : That is a country in Central America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Central (LEX)(ADJ)]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The forest is also the site of the world's first jaguar . 
+PreProc  : The forest is also the site of the @world@s first jaguar >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [forest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [site (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the site
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [first (LEX)(ADJ)]
+      [jaguar (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A reserve is an area set apart for a special purpose. 
+PreProc  : A reserve is an area set apart for a special purpose >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+    [set (LEX)(N SINGULAR(OTHER))]
+
+  [apart (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [special (LEX)(ADJ)]
+      [purpose (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At the reserve in Belize, jaguars are protected and can safely roam. 
+PreProc  : At the reserve in Belize >COMMA jaguars are protected and can safely roam >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [reserve (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Belize (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [safely (root: safe) (MOR)(ADV)]
+    [roam (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Belize has a healthy number of jaguars. 
+PreProc  : Belize has a healthy number of jaguars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Belize (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [healthy (LEX)(ADJ)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a healthy number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The wildlife group estimates that about 14 jaguars live within a 55-square-mile area there. 
+PreProc  : The wildlife group estimates that about &&14 jaguars live within a 55-square-mile area there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [wildlife (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [group (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [estimates (root: estimate) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [about (LEX)(ADV)]
+    [&&14 (LEX)(NUM)]
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [within (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [55-square-mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+  [there (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cameras are helping researchers count the number of jaguars within certain areas of Belize and other places where jaguars roam. 
+PreProc  : The cameras are helping researchers count the number of jaguars within certain areas of Belize and other places where jaguars roam >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cameras (root: camera) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [helping (root: help) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [count (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [within (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [certain (LEX)(ADJ)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+Following PP attaches to: certain areas
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Belize (LEX)(N SINGULAR(COUNTRY))]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [places (root: place) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [roam (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, jaguars can be found from northern Argentina in South America up through Mexico. 
+PreProc  : Today >COMMA jaguars can be found from northern Argentina in South America up through Mexico >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [northern (LEX)(ADJ)]
+      [Argentina (LEX)(N SINGULAR(COUNTRY))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [up (LEX)(PART)]
+  PP SEGMENT-Location (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Mexico (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At one time, they lived as far north as New Mexico, Arizona, and Texas. 
+PreProc  : At one time >COMMA they lived as far north as NEW_MEXICO >COMMA Arizona >COMMA and Texas >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [far (LEX)(ADJ)]
+      [north (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_MEXICO (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [Arizona (LEX)(N SINGULAR(LOCATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [Texas (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, these powerful cats are now considered extinct in the United States. 
+PreProc  : However >COMMA these powerful cats are now considered extinct in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+    [powerful (LEX)(ADJ)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+    [considered (root: consider) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [extinct (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Meat-eating jaguars can grow up to 6 feet long and weigh up to 300 pounds. 
+PreProc  : Meat-eating jaguars can grow up to &&6 feet long and weigh up to &&300 pounds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Meat-eating (INF-MOR)(GER)]
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [grow (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&6 (LEX)(NUM)]
+      [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+
+  [long (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Meat-eating (INF-MOR)(GER)]
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weigh (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&300 (LEX)(NUM)]
+      [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Jaguars are the third-largest cats, after tigers and lions. 
+PreProc  : Jaguars are the third-largest cats >COMMA after tigers and lions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [third-largest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [tigers (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [lions (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cats usually live alone and are very . 
+PreProc  : The cats usually live alone and are very >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [usually (LEX)(ADV)]
+    [live (LEX)(V BASE)]
+
+  [alone (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That means they protect their habitat from other jaguars. 
+PreProc  : That means they protect their habitat from other jaguars >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [habitat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In Spanish, this cat's name is el tigre, which means "the tiger." 
+PreProc  : In Spanish >COMMA this @cat@s name is el tigre >COMMA which means >DQUOTE the tiger >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [Spanish (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [@cat@s (LEX)(ADJ POSSESSIVE)]
+    [name (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [el (LEX)(DET)]
+    [tigre (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [el (LEX)(DET)]
+    [tigre (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tiger (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Camera trapping" will help scientists because jaguars are hard to study. 
+PreProc  : >DQUOTE Camera trapping >DQUOTE will help scientists because jaguars are hard to study >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Camera (LEX)(N SINGULAR(PHYSOBJ))]
+    [trapping (root: trap) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [hard (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [study (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Despite the cats' hefty size, their mysterious nature and the thick jungle where they live make them difficult to spot. 
+PreProc  : Despite the @cats@ hefty size >COMMA their mysterious nature and the thick jungle where they live make them difficult to spot >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Despite (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@cats@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [hefty (LEX)(ADJ)]
+      [size (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [their (LEX)(ADJ)]
+    [mysterious (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [nature (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [thick (LEX)(ADJ)]
+    [jungle (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [difficult (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [spot (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (WR) that these cats have snuck up on him in the wild. 
+PreProc  : >LPAREN WR >RPAREN that these cats have snuck up on him in the wild >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [WR (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [snuck (?)(UNK(ENTITY UNKNOWN))]
+
+  [up (LEX)(PART)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [wild (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It happens when you least expect it. 
+PreProc  : >DQUOTE It happens when you least expect it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [happens (root: happen) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [least (LEX)(ADV)]
+    [expect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You're terrified but in complete awe." 
+PreProc  : YOU ARE terrified but in complete awe >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [terrified (root: terrify) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [complete (LEX)(ADJ)]
+      [awe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Lucky for him, the meat-eating cats prefer wild animals, such as deer and pigs, to humans. 
+PreProc  : Lucky for him >COMMA the meat-eating cats prefer wild animals >COMMA SUCH_AS deer and pigs >COMMA to humans >PERIOD <EOS 
+CLAUSE:
+  [Lucky (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [meat-eating (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prefer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [wild (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [deer (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [pigs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [humans (root: human) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The cameras help researchers determine how many cats are out there and where they make their homes," jaguar expert Kathleen Conforti told WR. 
+PreProc  : >DQUOTE The cameras help researchers determine how many cats are out there and where they make their homes >COMMA >DQUOTE jaguar expert Kathleen Conforti told WR >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cameras (root: camera) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [determine (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [out (LEX)(PART)]
+    [there (LEX)(ADV)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [jaguar (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Kathleen (?)(UNK(ENTITY UNKNOWN))]
+    [Conforti (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [jaguar (?)(UNK(ENTITY UNKNOWN))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Kathleen (?)(UNK(ENTITY UNKNOWN))]
+    [Conforti (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [WR (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The researchers will use that information to help protect the endangered animals. 
+PreProc  : The researchers will use that information to help protect the endangered animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [use (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [endangered (root: endanger) (MOR)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want to . 
+PreProc  : They want to >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  [to (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A habitat is the area where the animal naturally lives. 
+PreProc  : A habitat is the area where the animal naturally lives >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [habitat (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [naturally (root: natural) (MOR)(ADV)]
+    [lives (root: live) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The actions of people have caused a decline in the animal's range. 
+PreProc  : The actions of people have caused a decline in the @animal@s range >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [actions (root: action) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: The actions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [caused (root: cause) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [decline (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@animal@s (LEX)(ADJ POSSESSIVE)]
+      [range (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The cutting down of trees has destroyed some of the jaguar's habitat. 
+PreProc  : The cutting down of trees has destroyed some of the @jaguar@s habitat >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [cutting (root: cut) (MOR)(N SINGULAR) (GER)]
+
+  [down (LEX)(PREP)]
+Following PP attaches to: The cutting
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [destroyed (root: destroy) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@jaguar@s (LEX)(ADJ POSSESSIVE)]
+      [habitat (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many ranchers shoot the cats because they fear that jaguars will kill their livestock, such as sheep and cattle. 
+PreProc  : Many ranchers shoot the cats because they fear that jaguars will kill their livestock >COMMA SUCH_AS sheep and cattle >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [ranchers (root: rancher) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shoot (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [fear (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [kill (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [livestock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [sheep (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [cattle (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Researchers say, however, that livestock are often killed by puma cats or die from disease or poor nutrition. 
+PreProc  : Researchers say >COMMA however >COMMA that livestock are often killed by puma cats or die from disease or poor nutrition >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [livestock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [killed (root: kill) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [puma (?)(UNK(ENTITY UNKNOWN))]
+      [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [livestock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [die (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [disease (LEX)(N SINGULAR(OTHER))]
+      [or (LEX)(CONJ)]
+      [poor (LEX)(ADJ)]
+      [nutrition (INF-MOR)(N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although the cats face many threats, they have a hopeful future. 
+PreProc  : Although the cats face many threats >COMMA they have a hopeful future >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [face (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [threats (root: threat) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [hopeful (LEX)(ADJ)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Researchers have been educating ranchers and helping them build electric fences to keep their livestock from wandering into the wild. 
+PreProc  : Researchers have been educating ranchers and helping them build electric fences to keep their livestock from wandering into the wild >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [educating (root: educate) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [ranchers (root: rancher) (MOR)(N PLURAL(HUMAN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helping (root: help) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [electric (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [fences (root: fence) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [livestock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [wandering (INF-MOR)(GER)]
+
+
+  [into (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [wild (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Using cameras, scientists are keeping a watchful eye on these threatened cats and learning more about their range. 
+PreProc  : Using cameras >COMMA scientists are keeping a watchful eye on these threatened cats and learning more about their range >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Using (root: use) (MOR)(N SINGULAR) (GER)]
+    [cameras (root: camera) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [keeping (root: keep) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [watchful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [watchful (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [eye (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [these (LEX)(DET)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [threatened (root: threaten) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [cats (root: cat) (MOR)(N PLURAL(ANIMAL))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learning (root: learn) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [about (LEX)]
+    [their (LEX)(ADJ)]
+    [range (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As Rabinowitz points out, "In some areas, jaguars are decreasing. 
+PreProc  : As Rabinowitz points out >COMMA >DQUOTE In some areas >COMMA jaguars are decreasing >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [Rabinowitz (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [Rabinowitz (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [points (root: point) (MOR)(V PRESENT)]
+
+  [out (LEX)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [some (LEX)(DET)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [jaguars (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [decreasing (root: decrease) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In other areas, they are making a comeback." 
+PreProc  : In other areas >COMMA they are making a comeback >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [comeback (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

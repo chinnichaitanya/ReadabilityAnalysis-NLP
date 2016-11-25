@@ -1,0 +1,348 @@
+Original : From our planet, you can see Earth's single moon in the evening sky. 
+PreProc  : From our planet >COMMA you can see @Earth@s single moon in the evening sky >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [From (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@Earth@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [single (LEX)(ADJ)]
+    [moon (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [evening (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+      [sky (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Imagine living on a planet that has 17 moons! 
+PreProc  : Imagine living on a planet that has &&17 moons >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Imagine (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [living (root: live) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [planet (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&17 (LEX)(NUM)]
+    [moons (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's the number of moons that orbit Jupiter, the largest planet in our solar system. 
+PreProc  : THAT IS the number of moons that orbit Jupiter >COMMA the largest planet in our solar system >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [moons (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [orbit (?)(UNK(ENTITY UNKNOWN))]
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [planet (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [solar (LEX)(ADJ)]
+      [system (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists spotted a 17th moon orbiting Jupiter while they were looking for comets. 
+PreProc  : Scientists spotted a 17th moon orbiting Jupiter while they were looking for comets >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spotted (root: spot) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [17th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [moon (?)(UNK(ENTITY UNKNOWN))]
+    [orbiting (INF-MOR)(GER)]
+    [Jupiter (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [while (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [looking (root: look) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [comets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists say the newly discovered moon is 3 miles wide. 
+PreProc  : Scientists say the newly discovered moon is &&3 miles wide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [discovered (root: discover) (MOR)(ADJ)]
+    [moon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [wide (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the smallest of Jupiter's known moons. 
+PreProc  : It is the smallest of @Jupiter@s known moons >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [smallest (root: small) (MOR)(ADJ)]
+Following PP attaches to: is
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@Jupiter@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [moons (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists used to think that Leda, a moon discovered in 1974, was Jupiter's smallest moon. 
+PreProc  : Scientists used to think that Leda >COMMA a moon discovered in &&1974 >COMMA was @Jupiter@s smallest moon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Leda (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [moon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1974 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leda (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [@Jupiter@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [smallest (root: small) (MOR)(ADJ)]
+    [moon (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Leda is between 5 and 10 miles wide. 
+PreProc  : Leda is between &&5 and &&10 miles wide >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Leda (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [and (LEX)(CONJ)]
+      [&&10 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [wide (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists have not officially named the newly discovered moon yet. 
+PreProc  : Scientists have not officially named the newly discovered moon yet >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [officially (root: official) (MOR)(ADV)]
+    [named (root: name) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [newly (root: new) (MOR)(ADV)]
+    [discovered (root: discover) (MOR)(ADJ)]
+    [moon (?)(UNK(ENTITY UNKNOWN))]
+
+  [yet (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For now they are calling it S/1999 J1. 
+PreProc  : For now they are calling it S/1999 J1 >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    [now (LEX)(ADV)]
+    NP SEGMENT:
+      [they (LEX)(PN PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [calling (root: call) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (IOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT (DOBJ):
+    [S/1999 (?)(UNK(ENTITY UNKNOWN))]
+    [J1 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

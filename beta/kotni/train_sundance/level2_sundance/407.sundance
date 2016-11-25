@@ -1,0 +1,178 @@
+Original : Which five states produced the most turkeys last year? 
+PreProc  : Which &&5 states produced the most turkeys last year >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+    [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [produced (root: produce) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [turkeys (root: turkey) (MOR)(N PLURAL(COUNTRY))]
+
+  NP SEGMENT:
+    [last (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Read the map to find out. 
+PreProc  : Read the map to find out >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [map (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [find (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Then fill in the circle for the best answer to each question. 
+PreProc  : Then fill in the circle for the best answer to each question >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Then (LEX)(ADV)]
+    [fill (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [circle (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [best (LEX)(ADJ)]
+      [answer (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [question (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which state produced the most turkeys? 
+PreProc  : Which state produced the most turkeys >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [state (LEX)(V BASE)]
+    [produced (root: produce) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [turkeys (root: turkey) (MOR)(N PLURAL(COUNTRY))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which state produced a million more turkeys than Missouri? 
+PreProc  : Which state produced a million more turkeys than Missouri >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [state (LEX)(V BASE)]
+    [produced (root: produce) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [more (LEX)(ADJ)]
+    [turkeys (root: turkey) (MOR)(N PLURAL(COUNTRY))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [Missouri (LEX)(N SINGULAR(LOCATION))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many turkeys did Arkansas produce? 
+PreProc  : How many turkeys did Arkansas produce >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT-Location (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [turkeys (root: turkey) (MOR)(N PLURAL(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Arkansas (LEX)(N SINGULAR(LOCATION))]
+    [produce (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How many more turkeys did North Carolina produce than Arkansas? 
+PreProc  : How many more turkeys did NORTH_CAROLINA produce than Arkansas >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT-Location (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [more (LEX)(ADJ)]
+    [turkeys (root: turkey) (MOR)(N PLURAL(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [NORTH_CAROLINA (LEX)(N SINGULAR(LOCATION))]
+    [produce (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [Arkansas (LEX)(N SINGULAR(LOCATION))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,713 @@
+Original : What do Stonehenge, the Taj Mahal, and the Everglades have in common? 
+PreProc  : What do Stonehenge >COMMA the Taj Mahal >COMMA and the Everglades have in common >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [Stonehenge (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [the (LEX)(ART)]
+    [Taj (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Mahal (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Everglades (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Everglades (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  [in (LEX)(PREP)]
+  [common (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are three of the 730 World Heritage sites around the world. 
+PreProc  : They are &&3 of the &&730 World Heritage sites around the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+
+Following PP attaches to: &&3
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&730 (LEX)(NUM)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Heritage (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+
+Following PP attaches to: &&3
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [&&730 (LEX)(NUM)]
+      [World (LEX)(N SINGULAR(OTHER))]
+      [Heritage (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sites (root: site) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : World Heritage sites are areas that have special environmental, cultural, or historic value. 
+PreProc  : World Heritage sites are areas that have special environmental >COMMA cultural >COMMA or historic value >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Heritage (?)(UNK(ENTITY UNKNOWN))]
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  [special (LEX)(ADJ)]
+  [environmental (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [cultural (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [historic (LEX)(ADJ)]
+    [value (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those sites are protected. 
+PreProc  : Those sites are protected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They cannot be changed, dug up, or destroyed. 
+PreProc  : They cannot be changed >COMMA dug up >COMMA or destroyed >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [cannot (LEX)(AUX) (V BASE)]
+    [be (LEX)(COP)]
+    [changed (root: change) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dug (root: dig) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [destroyed (root: destroy) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In November 2002, the World Heritage Convention celebrated its 30th anniversary of protecting important places. 
+PreProc  : In November &&2002 >COMMA the World Heritage Convention celebrated its 30th anniversary of protecting important places >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [November (LEX)(N SINGULAR(MONTH))]
+      [&&2002 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Heritage (?)(UNK(ENTITY UNKNOWN))]
+    [Convention (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrated (root: celebrate) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [30th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [anniversary (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: its 30th anniversary
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [protecting (root: protect) (MOR)(N SINGULAR) (GER)]
+      [important (LEX)(ADJ)]
+      [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The governments of 175 countries have joined the convention. 
+PreProc  : The governments of &&175 countries have joined the convention >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [governments (root: govern) (MOR)(N PLURAL)]
+
+Following PP attaches to: The governments
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&175 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [joined (root: join) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [convention (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those governments have signed a treaty, or an agreement, to protect the world's special places. 
+PreProc  : Those governments have signed a treaty >COMMA or an agreement >COMMA to protect the @world@s special places >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [governments (root: govern) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [signed (root: sign) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [treaty (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [an (LEX)(ART)]
+    [agreement (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [special (LEX)(ADJ)]
+    [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : protects all kinds of places. 
+PreProc  : protects all kinds of places >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: all kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It protects spectacular parks where dinosaur fossils are found and majestic mountains where amazing wildlife roam. 
+PreProc  : It protects spectacular parks where dinosaur fossils are found and majestic mountains where amazing wildlife roam >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT-Location (DOBJ):
+    [spectacular (LEX)(ADJ)]
+    [parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [dinosaur (?)(UNK(ENTITY UNKNOWN))]
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [majestic (?)(UNK(ENTITY UNKNOWN))]
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [amazing (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [roam (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some of the sites include Stonehenge, a circle of prehistoric stones in England; 
+PreProc  : Some of the sites include Stonehenge >COMMA a circle of prehistoric stones in England >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Stonehenge (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [circle (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a circle
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [prehistoric (?)(UNK(ENTITY UNKNOWN))]
+      [stones (root: stone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : the Taj Mahal, a tomb in India; 
+PreProc  : the Taj Mahal >COMMA a tomb in India >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Taj (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Mahal (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [tomb (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [India (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : and the Everglades, a huge swamp. 
+PreProc  : and the Everglades >COMMA a huge swamp >PERIOD <EOS 
+CLAUSE:
+  [and (LEX)(CONJ)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Everglades (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [huge (LEX)(ADJ)]
+    [swamp (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Governments of the countries that have signed the World Heritage treaty , or propose, sites that should be protected. 
+PreProc  : Governments of the countries that have signed the World Heritage treaty >COMMA or propose >COMMA sites that should be protected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Governments (root: govern) (MOR)(N PLURAL)]
+
+Following PP attaches to: Governments
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Governments (root: govern) (MOR)(N PLURAL)]
+
+Following PP attaches to: Governments
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [signed (root: sign) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Heritage (?)(UNK(ENTITY UNKNOWN))]
+    [treaty (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Governments (root: govern) (MOR)(N PLURAL)]
+
+Following PP attaches to: Governments
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [propose (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The governments must also provide a plan for protecting each site. 
+PreProc  : The governments must also provide a plan for protecting each site >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [governments (root: govern) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [provide (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [plan (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [protecting (root: protect) (MOR)(N SINGULAR) (GER)]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [site (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A committee of 21 people then decides which sites should be protected. 
+PreProc  : A committee of &&21 people then decides which sites should be protected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [committee (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: A committee
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&21 (LEX)(NUM)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [decides (root: decide) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Preserving important sites worldwide is important so future generations can appreciate and learn from them. 
+PreProc  : Preserving important sites worldwide is important so future generations can appreciate and learn from them >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Preserving (root: preserve) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [important (LEX)(ADJ)]
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  [worldwide (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [important (LEX)(ADJ)]
+    [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [important (LEX)(ADJ)]
+    [so (LEX)(ADV)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [generations (root: generation) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [important (LEX)(ADJ)]
+    [so (LEX)(ADV)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [generations (root: generation) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [appreciate (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [important (LEX)(ADJ)]
+    [so (LEX)(ADV)]
+    [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [generations (root: generation) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The World Heritage Convention is "a noble, vital force in the world, fostering peaceful coexistence and honoring our past in equal measure with our future," said one convention member. 
+PreProc  : The World Heritage Convention is >DQUOTE a noble >COMMA vital force in the world >COMMA fostering peaceful coexistence and honoring our past in equal measure with our future >COMMA >DQUOTE said one convention member >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Heritage (?)(UNK(ENTITY UNKNOWN))]
+    [Convention (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [noble (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [vital (LEX)(ADJ)]
+    [force (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [fostering (root: foster) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [peaceful (LEX)(ADJ)]
+    [coexistence (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [peaceful (LEX)(ADJ)]
+    [coexistence (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [honoring (root: honor) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [our (LEX)(ADJ)]
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [equal (LEX)(ADJ)]
+      [measure (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [our (LEX)(ADJ)]
+      [future (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [peaceful (LEX)(ADJ)]
+    [coexistence (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [convention (LEX)(N SINGULAR(OTHER))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

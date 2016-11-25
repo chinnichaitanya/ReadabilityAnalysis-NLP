@@ -1,0 +1,438 @@
+Original : These days, almost everyone seems to have a cell phone. 
+PreProc  : These days >COMMA almost everyone seems to have a cell phone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  [almost (LEX)(ADV)]
+  NP SEGMENT:
+    [everyone (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [seems (root: seem) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Last year, 128 million people had cell phone service. 
+PreProc  : Last year >COMMA &&128 million people had cell phone service >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Last (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&128 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phone (LEX)(N SINGULAR(PHYSOBJ))]
+    [service (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More and more people sign up every day. 
+PreProc  : More and more people sign up every day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [More (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [more (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sign (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [every (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people keep their cell phones for only a short time. 
+PreProc  : Many people keep their cell phones for only a short time >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    [only (LEX)(ADV)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [short (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On average, people throw away their cell phones after 18 months. 
+PreProc  : On average >COMMA people throw away their cell phones after &&18 months >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [average (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [throw (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT-Time (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [&&18 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to a new report issued by the Environmental Protection Agency, old cell phones could harm the environment. 
+PreProc  : According to a new report issued by the Environmental Protection Agency >COMMA old cell phones could harm the environment >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [new (LEX)(ADJ)]
+      [report (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [report (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [issued (root: issue) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Environmental (LEX)(ADJ)]
+      [Protection (LEX)(N SINGULAR(OTHER))]
+      [Agency (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [old (LEX)(ADJ)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [old (LEX)(ADJ)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [harm (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [environment (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By 2005, people in the United States will throw away 130 million phones a year. 
+PreProc  : By &&2005 >COMMA people in the UNITED_STATES will throw away &&130 million phones a year >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [throw (LEX)(V BASE)]
+    [away (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [&&130 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's 65,000 tons of phones! 
+PreProc  : THAT IS &&65,000 tons of phones >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&65,000 (LEX)(NUM)]
+    [tons (root: ton) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&65,000 tons
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "[Throwing away cell phones] is becoming a very serious problem because the amount of cell phone waste is growing," said one of the writers of the report. 
+PreProc  : >DQUOTE >LBRACKET Throwing away cell phones >RBRACKET is becoming a very serious problem because the amount of cell phone waste is growing >COMMA >DQUOTE said one of the writers of the report >PERIOD <EOS 
+CLAUSE:
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Throwing (root: throw) (MOR)(N SINGULAR) (GER)]
+    [away (LEX)(ADV)]
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [becoming (root: become) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [very (LEX)(ADV)]
+    [serious (LEX)(ADJ)]
+    [problem (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [amount (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the amount
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [cell (LEX)(N SINGULAR(OTHER))]
+      [phone (LEX)(N SINGULAR(PHYSOBJ))]
+      [waste (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [growing (root: grow) (MOR)(V PARTICIPLE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [amount (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the amount
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [cell (LEX)(N SINGULAR(OTHER))]
+      [phone (LEX)(N SINGULAR(PHYSOBJ))]
+      [waste (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [writers (root: writer) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: the writers
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [report (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Environmental experts worry that the chemicals in cell phone batteries could pollute the environment. 
+PreProc  : Environmental experts worry that the chemicals in cell phone batteries could pollute the environment >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Environmental (LEX)(ADJ)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+    [worry (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [cell (LEX)(N SINGULAR(OTHER))]
+      [phone (LEX)(N SINGULAR(PHYSOBJ))]
+      [batteries (root: battery) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+
+  NP SEGMENT (IOBJ):
+    [pollute (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [environment (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They want the companies that make cell phones to use fewer poisonous chemicals to make the phones. 
+PreProc  : They want the companies that make cell phones to use fewer poisonous chemicals to make the phones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [cell (LEX)(N SINGULAR(OTHER))]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [fewer (root: few) (MOR)(ADJ)]
+    [poisonous (LEX)(ADJ)]
+    [chemicals (root: chemical) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [phones (root: phone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

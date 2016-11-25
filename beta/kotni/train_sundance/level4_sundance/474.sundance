@@ -1,0 +1,470 @@
+Original : Each week until Election Day, Grade 4 will take a look at where the two candidates for president stand on important , or problems facing the country. 
+PreProc  : Each week until Election Day >COMMA Grade &&4 will take a look at where the &&2 candidates for president stand on important >COMMA or problems facing the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [week (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [Election (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Grade (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [look (LEX)(N SINGULAR(OTHER))]
+
+  [at (LEX)(PREP)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+      [stand (LEX)(N SINGULAR(OTHER))]
+
+
+  [on (LEX)(PREP)]
+  [important (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [facing (root: face) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This week's issue is the President Bush went to war in Iraq because, he said, the country's dictator, Saddam Hussein, had harmful, illegal weapons. 
+PreProc  : This @week@s issue is the President Bush went to war in Iraq because >COMMA he said >COMMA the @country@s dictator >COMMA Saddam Hussein >COMMA had harmful >COMMA illegal weapons >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [@week@s (LEX)(ADJ POSSESSIVE)]
+    [issue (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [@country@s (LEX)(ADJ POSSESSIVE)]
+    [dictator (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Saddam (?)(UNK(ENTITY UNKNOWN))]
+    [Hussein (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  ADJ SEGMENT:
+    [harmful (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [illegal (LEX)(ADJ)]
+    [weapons (root: weapon) (MOR)(N PLURAL(WEAPON))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bush claimed that Iraq and its weapons threatened the United States and other nations. 
+PreProc  : Bush claimed that Iraq and its weapons threatened the UNITED_STATES and other nations >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [claimed (root: claim) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT-Location (SUBJ):
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+    [and (LEX)(CONJ)]
+    [its (LEX)(ADJ)]
+    [weapons (root: weapon) (MOR)(N PLURAL(WEAPON))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [threatened (root: threaten) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [nations (root: nation) (MOR)(N PLURAL(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bush says that the world is safer now that Saddam has been removed from power. 
+PreProc  : Bush says that the world is safer now that Saddam has been removed from power >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [safer (root: safe) (MOR)(ADJ   )]
+
+  [now (LEX)(ADV)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Saddam (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [removed (root: remove) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [power (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His goal is to rebuild Iraq with its own government and establish peace there. 
+PreProc  : His goal is to rebuild Iraq with its own government and establish peace there >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [rebuild (root: build) (MOR)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [own (LEX)(ADJ)]
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [establish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [peace (LEX)(N SINGULAR(OTHER))]
+
+  [there (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Senator Kerry supported a law that allowed the United States to go to war in Iraq. 
+PreProc  : Senator Kerry supported a law that allowed the UNITED_STATES to go to war in Iraq >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Senator (LEX)(N SINGULAR(HUMAN))]
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [supported (root: support) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [allowed (root: allow) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since then, he has criticized Bush's handling of the war. 
+PreProc  : Since then >COMMA he has criticized @Bush@s handling of the war >PERIOD <EOS 
+CLAUSE:
+  [Since (LEX)(C_M) (PREP)]
+  [then (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [criticized (root: criticize) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [@Bush@s (LEX)(ADJ POSSESSIVE)]
+    [handling (root: handle) (MOR)(N SINGULAR) (GER)]
+
+Following PP attaches to: @Bush@s handling
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [war (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kerry said that Bush misled the nation by claiming that Iraq had harmful, illegal weapons. 
+PreProc  : Kerry said that Bush misled the nation by claiming that Iraq had harmful >COMMA illegal weapons >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [misled (INF-MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [nation (LEX)(N SINGULAR(LOCATION))]
+
+  [by (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [nation (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [claiming (root: claim) (LEX)(V PARTICIPLE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  ADJ SEGMENT:
+    [harmful (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [illegal (LEX)(ADJ)]
+    [weapons (root: weapon) (MOR)(N PLURAL(WEAPON))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To date, none have been found. 
+PreProc  : To date >COMMA none have been found >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [date (LEX)(N SINGULAR(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [none (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kerry wants to persuade other countries to help rebuild Iraq and "win the peace." 
+PreProc  : Kerry wants to persuade other countries to help rebuild Iraq and >DQUOTE win the peace >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wants (root: want) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [persuade (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [rebuild (root: build) (MOR)(N SINGULAR)]
+    [Iraq (LEX)(N SINGULAR(COUNTRY))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [win (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [peace (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

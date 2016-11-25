@@ -1,0 +1,696 @@
+Original : An accountant has three main responsibilities. 
+PreProc  : An accountant has &&3 main responsibilities >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [accountant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&3 (LEX)(NUM)]
+    [main (LEX)(ADJ)]
+    [responsibilities (root: responsibility) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : These are to: Collect a firm's financial records, eg receipts, invoices, cheques and statements. 
+PreProc  : These are to >COLON Collect a @firm@s financial records >COMMA eg receipts >COMMA invoices >COMMA cheques and statements >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [to (LEX)(PREP)]
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [These (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Collect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [@firm@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [financial (LEX)(ADJ)]
+    [records (root: record) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [eg (?)(UNK(ENTITY UNKNOWN))]
+    [receipts (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [invoices (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [cheques (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [statements (root: statement) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Once all the individual departments' financial records have been collected, the accountant can construct the company's accounts. 
+PreProc  : Once all the individual @departments@ financial records have been collected >COMMA the accountant can construct the @company@s accounts >PERIOD <EOS 
+CLAUSE:
+  [Once (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [individual (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [@departments@ (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [financial (LEX)(ADJ)]
+    [records (root: record) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [collected (root: collect) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [accountant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [accountant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [construct (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@company@s (LEX)(ADJ POSSESSIVE)]
+    [accounts (root: account) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This body of accounts is often known as a Contains record of a firm's cash and bank accounts. 
+PreProc  : This body of accounts is often known as a Contains record of a @firm@s cash and bank accounts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: This body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [accounts (root: account) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Contains (root: contain) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [record (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a Contains record
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [@firm@s (LEX)(ADJ POSSESSIVE)]
+      [cash (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: This body
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [accounts (root: account) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bank (LEX)(V BASE)]
+    [accounts (root: account) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The accountant then analyses the information using various accounting ratios and formulae. 
+PreProc  : The accountant then analyses the information using various accounting ratios and formulae >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [accountant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [then (LEX)(ADV)]
+    [analyses (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [using (root: use) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [various (LEX)(ADJ)]
+    [accounting (root: account) (MOR)(N SINGULAR) (GER)]
+    [ratios (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [formulae (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The purpose of this is to identify any trends by comparing the results with previous results. 
+PreProc  : The purpose of this is to identify any trends by comparing the results with previous results >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [purpose (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The purpose
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [identify (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [trends (root: trend) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [comparing (root: compare) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [previous (LEX)(ADJ)]
+      [results (root: result) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Any trend, whether positive or negative, could affect the planning for the next year. 
+PreProc  : Any trend >COMMA whether positive or negative >COMMA could affect the planning for the next year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [trend (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  [positive (LEX)(ADJ)]
+  [or (LEX)(CONJ)]
+  [negative (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+    [trend (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [affect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [planning (root: plan) (MOR)(GER) (N SINGULAR)]
+
+  [for (LEX)(PREP)]
+  [the (LEX)(ART)]
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Accountancy is a specialist area with its own technical language. 
+PreProc  : Accountancy is a specialist area with its own technical language >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Accountancy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [specialist (LEX)(N SINGULAR(HUMAN))]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [own (LEX)(ADJ)]
+      [technical (LEX)(ADJ)]
+      [language (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As a result, the accountant will have to interpret his/her findings into a meaningful format. 
+PreProc  : As a result >COMMA the accountant will have to interpret his/her findings into a meaningful format >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [result (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [accountant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [interpret (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his/her (?)(UNK(ENTITY UNKNOWN))]
+    [findings (root: find) (MOR)(N PLURAL)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [meaningful (LEX)(ADJ)]
+      [format (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other managers can then understand the information and will then be able to work together to plan and set budgets for the next year. 
+PreProc  : Other managers can then understand the information and will then be able to work together to plan and set budgets for the next year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [managers (root: manager) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [then (LEX)(ADV)]
+    [understand (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [information (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [managers (root: manager) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [then (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [managers (root: manager) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+    [together (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [plan (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [budgets (root: budget) (MOR)(N PLURAL(OTHER))]
+
+  [for (LEX)(PREP)]
+  [the (LEX)(ART)]
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Get down to business and discuss Business Studies here. 
+PreProc  : Get down to business and discuss Business Studies here >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Get (LEX)(V BASE)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [business (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [business (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [discuss (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Business (LEX)(N SINGULAR(OTHER))]
+    [Studies (root: study) (MOR)(N PLURAL(OTHER))]
+
+  [here (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Losing your way? 
+PreProc  : Losing your way >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Losing (root: lose) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Make a Bitesize revision map! 
+PreProc  : Make a Bitesize revision map >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Bitesize (root: bit) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [revision (LEX)(N SINGULAR(OTHER))]
+    [map (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For news that really does the business! 
+PreProc  : For news that really does the business >EXCLAMATION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [news (LEX)(N SINGULAR(MEDIA))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [does (root: do) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [business (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Institute of Chartered Accountants in England and Wales The Institute of Chartered Accountants of Scotland The BBC is not responsible for the content of external internet sites. 
+PreProc  : The Institute of Chartered Accountants in England and Wales The Institute of Chartered Accountants of Scotland The BBC is not responsible for the content of external internet sites >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+Following PP attaches to: The Institute
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Chartered (INF-LEX)(ADJ)]
+      [Accountants (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [England (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Wales (LEX)(N SINGULAR(LOCATION))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+Following PP attaches to: The Institute
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Chartered (INF-LEX)(ADJ)]
+      [Accountants (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: Chartered Accountants
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Scotland (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [BBC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [responsible (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [external (LEX)(ADJ)]
+      [internet (?)(UNK(ENTITY UNKNOWN))]
+      [sites (root: site) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. 
+PreProc  : This page is best viewed in an up-to-date web browser with style sheets >LPAREN CSS >RPAREN enabled >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [page (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [best (LEX)(ADJ)]
+    [viewed (root: view) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [up-to-date (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [web (?)(UNK(ENTITY UNKNOWN))]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [style (?)(UNK(ENTITY UNKNOWN))]
+      [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [enabled (root: enable) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. 
+PreProc  : While you will be able to view the content of this page in your current browser >COMMA you will not be able to get the full visual experience >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [view (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [content (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: the content
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+      [page (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [current (LEX)(ADJ)]
+      [browser (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [full (LEX)(ADJ) (ADV)]
+    [visual (?)(UNK(ENTITY UNKNOWN))]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so. 
+PreProc  : Please consider upgrading your browser software or enabling style sheets >LPAREN CSS >RPAREN if you are able to do so >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [consider (LEX)(V BASE)]
+    [upgrading (INF-MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [browser (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [software (LEX)(N SINGULAR(PHYSOBJ))]
+    [or (LEX)(CONJ)]
+    [enabling (LEX)(ADJ)]
+    [style (?)(UNK(ENTITY UNKNOWN))]
+    [sheets (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [CSS (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [do (LEX)(AUX) (V BASE)]
+    [so (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

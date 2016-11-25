@@ -1,0 +1,297 @@
+Original : Did you know that for a lot of people, their foot is the same length as their forearm? 
+PreProc  : Did you know that for a lot of people >COMMA their foot is the same length as their forearm >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [lot (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [foot (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [forearm (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : True for you? 
+PreProc  : True for you >QUESTION <EOS 
+CLAUSE:
+  [True (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Let's measure! 
+PreProc  : LET US measure >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [LET (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [US (LEX)(N SINGULAR(HUMAN))]
+    [measure (LEX)(N SINGULAR(OTHER))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A piece of string (a little longer than your height) First start at the end of your string and mark off seven foot lengths: Now use the string to measure these body parts. 
+PreProc  : A piece of string >LPAREN a little longer than your height >RPAREN First start at the end of your string and mark off &&7 foot lengths >COLON Now use the string to measure these body parts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: A piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [string (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [little (LEX)(ADJ)]
+    [longer (LEX)(ADJ)]
+    [than (LEX)(ADV)]
+    [your (LEX)(ADJ)]
+    [height (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [First (LEX)(ADJ)]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [string (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [mark (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT:
+      [&&7 (LEX)(NUM)]
+      [foot (LEX)(N SINGULAR(OTHER))]
+      [lengths (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COLON (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Now (LEX)(ADV)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [string (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [measure (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Have a friend help. 
+PreProc  : Have a friend help >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [friend (LEX)(N SINGULAR(HUMAN))]
+    [help (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Be sure to measure from one black mark on the string to the next. 
+PreProc  : Be sure to measure from one black mark on the string to the next >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [sure (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [measure (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [black (LEX)(ADJ)]
+      [mark (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [string (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+
+
+  [next (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A person's height is often the same as his or her arm span (arms out to side, middle fingertip to middle fingertip). 
+PreProc  : A @person@s height is often the same as his or her arm span >LPAREN arms out to side >COMMA middle fingertip to middle fingertip >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [@person@s (LEX)(ADJ POSSESSIVE)]
+    [height (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+
+  [the (LEX)(ART)]
+  [same (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [or (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [arm (LEX)(N SINGULAR(OTHER))]
+      [span (LEX)(N SINGULAR(OTHER))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [arms (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [out (LEX)(PART) (ADV)]
+    [to (LEX)(INF)]
+    [side (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [middle (LEX)(N SINGULAR(OTHER))]
+    [fingertip (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [middle (LEX)(N SINGULAR(OTHER))]
+      [fingertip (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is yours? 
+PreProc  : Is yours >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [yours (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

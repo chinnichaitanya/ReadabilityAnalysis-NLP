@@ -1,0 +1,521 @@
+Original : At the Renaissance Hotel in Chicago, Illinois, every dog has its day...and night. 
+PreProc  : At the Renaissance Hotel in Chicago >COMMA Illinois >COMMA every dog has its day >ELLIPSES and night >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Renaissance (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Hotel (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Chicago (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [Illinois (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT:
+    [its (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [night (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Recognizing that people like to travel with their pets, the hotel decided to allow pets to stay as overnight guests. 
+PreProc  : Recognizing that people like to travel with their pets >COMMA the hotel decided to allow pets to stay as overnight guests >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Recognizing (root: recognize) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [pets (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [decided (root: decide) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [allow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [overnight (LEX)(ADJ)]
+      [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The hotel even created a pet menu. 
+PreProc  : The hotel even created a pet menu >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [even (LEX)(ADV)]
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [menu (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The special menu has pets licking their chops. 
+PreProc  : The special menu has pets licking their chops >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [menu (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [pets (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [pets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [licking (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [chops (root: chop) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : For dogs, the hotel serves braised beef and fresh vegetables on rice pilaf, or scrambled eggs with cheese and potato hash. 
+PreProc  : For dogs >COMMA the hotel serves braised beef and fresh vegetables on rice pilaf >COMMA or scrambled eggs with cheese and potato hash >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [For (LEX)(PREP)]
+    NP SEGMENT:
+      [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [serves (root: serve) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [braised (INF-MOR)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [beef (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [fresh (LEX)(ADJ)]
+    [vegetables (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [rice (?)(UNK(ENTITY UNKNOWN))]
+      [pilaf (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [scrambled (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [cheese (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [potato (?)(UNK(ENTITY UNKNOWN))]
+      [hash (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Both meals come in a doggie dish. 
+PreProc  : Both meals come in a doggie dish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [meals (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [doggie (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [dish (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : delicious meal. 
+PreProc  : delicious meal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [delicious (LEX)(ADJ)]
+    [meal (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They can nibble tuna fish tossed with chopped egg and sour cream, or scrambled eggs and poached salmon. 
+PreProc  : They can nibble tuna fish tossed with chopped egg and sour cream >COMMA or scrambled eggs and poached salmon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [nibble (?)(UNK(ENTITY UNKNOWN))]
+    [tuna (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [nibble (?)(UNK(ENTITY UNKNOWN))]
+    [tuna (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tossed (root: toss) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [chopped (root: chop) (INF-LEX)(ADJ)]
+      [egg (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [sour (LEX)(ADJ)]
+      [cream (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [nibble (?)(UNK(ENTITY UNKNOWN))]
+    [tuna (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [scrambled (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [nibble (?)(UNK(ENTITY UNKNOWN))]
+    [tuna (?)(UNK(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [poached (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [salmon (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The pet dinners are similar to the dinners the restaurant serves its human guests. 
+PreProc  : The pet dinners are similar to the dinners the restaurant serves its human guests >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [pet (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [dinners (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [similar (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dinners (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [restaurant (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [restaurant (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [serves (root: serve) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [human (LEX)(N SINGULAR(HUMAN))]
+    [guests (root: guest) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "People could eat all of the food," said hotel chef Michael Reich. 
+PreProc  : >DQUOTE People could eat all of the food >COMMA >DQUOTE said hotel chef Michael Reich >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [eat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: all
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [hotel (LEX)(N SINGULAR(BUILDING))]
+    [chef (?)(UNK(ENTITY UNKNOWN))]
+    [Michael (?)(UNK(ENTITY UNKNOWN))]
+    [Reich (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I was just saying today, wouldn't it be funny if someone walked in and said, 'I want the doggie pot roast'?" 
+PreProc  : >DQUOTE I was just saying today >COMMA WOULD NOT it be funny if someone walked in and said >COMMA >SQUOTE I want the doggie pot roast >SQUOTE >QUESTION >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [just (LEX)(ADV)]
+    [saying (root: say) (MOR)(V PARTICIPLE(COMMUNICATION_VERB))]
+
+  NP SEGMENT:
+    [today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [WOULD (root: will) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [funny (LEX)(ADJ)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [walked (root: walk) (MOR)(V PAST)]
+
+  [in (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [someone (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  [>SQUOTE (LEX)(PUNC)]
+  NP SEGMENT:
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [want (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [doggie (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [pot (?)(UNK(ENTITY UNKNOWN))]
+    [roast (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SQUOTE (LEX)(PUNC)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

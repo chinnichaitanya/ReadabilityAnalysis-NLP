@@ -1,0 +1,413 @@
+Original : Do you wear headgear when you play soccer? 
+PreProc  : Do you wear headgear when you play soccer >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [headgear (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [soccer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some parents think you should. 
+PreProc  : Some parents think you should >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is because many kids use their heads to hit soccer balls. 
+PreProc  : That is because many kids use their heads to hit soccer balls >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [use (LEX)(N SINGULAR(OTHER))]
+    [their (LEX)(ADJ)]
+    [heads (root: head) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [hit (LEX)(N SINGULAR(OTHER))]
+      [soccer (?)(UNK(ENTITY UNKNOWN))]
+      [balls (root: ball) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This is called "heading." 
+PreProc  : This is called >DQUOTE heading >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [heading (root: head) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some doctors say that heading can hurt your brain. 
+PreProc  : Some doctors say that heading can hurt your brain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [heading (root: head) (MOR)(V PARTICIPLE)]
+    [can (LEX)(AUX)]
+    [hurt (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [brain (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A group of parents has made special helmets and headbands to protect kids' heads. 
+PreProc  : A group of parents has made special helmets and headbands to protect @kids@ heads >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [special (LEX)(ADJ)]
+    [helmets (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [headbands (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [@kids@ (LEX)(ADJ POSSESSIVE)]
+    [heads (root: head) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A middle school in Wisconsin is having its soccer team wear the special headgear while playing soccer. 
+PreProc  : A middle school in Wisconsin is having its soccer team wear the special headgear while playing soccer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [middle (LEX)(N SINGULAR(OTHER))]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Wisconsin (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [its (LEX)(ADJ)]
+    [soccer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [soccer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [headgear (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [while (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [special (LEX)(ADJ)]
+    [headgear (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [playing (root: play) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [soccer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Soccer coaches give these tips for safely heading a ball: Keep your eyes open and on the ball. 
+PreProc  : Soccer coaches give these tips for safely heading a ball >COLON Keep your eyes open and on the ball >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Soccer (?)(UNK(ENTITY UNKNOWN))]
+    [coaches (root: coach) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [tips (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    [safely (root: safe) (MOR)(ADV)]
+    NP SEGMENT:
+      [heading (root: head) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+    [tips (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [eyes (root: eye) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [open (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ball (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Head the ball with your forehead, which is the thickest part of your skull. 
+PreProc  : Head the ball with your forehead >COMMA which is the thickest part of your skull >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Head (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [forehead (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [forehead (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [thickest (root: thick) (MOR)(ADJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the thickest part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [skull (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Be careful not to let the ball hit your face. 
+PreProc  : Be careful not to let the ball hit your face >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [careful (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [not (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [let (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [face (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Be careful not to hit another player instead of the ball. 
+PreProc  : Be careful not to hit another player instead of the ball >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [careful (LEX)(ADJ)]
+
+  [not (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [hit (LEX)(N SINGULAR(OTHER))]
+      [another (LEX)(ADJ)]
+      [player (root: play) (MOR)(N SINGULAR)]
+
+
+  [instead (LEX)(ADV)]
+Following PP attaches to: hit another player
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ball (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,450 @@
+Original : Hair, beware! 
+PreProc  : Hair >COMMA beware >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Hair (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [beware (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You’re sitting at your desk, when suddenly your head feels itchy. 
+PreProc  : You’re sitting at your desk >COMMA when suddenly your head feels itchy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You’re (?)(UNK(ENTITY UNKNOWN))]
+    [sitting (root: sit) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [desk (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  [suddenly (root: sudden) (MOR)(ADV)]
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [head (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feels (root: feel) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [itchy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It’s under attack from tiny insects that cause big trouble�head lice! 
+PreProc  : It’s under attack from tiny insects that cause big trouble�head lice >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [attack (LEX)(N SINGULAR(EVENT))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [tiny (LEX)(ADJ)]
+      [insects (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tiny (LEX)(ADJ)]
+    [insects (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cause (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [big (LEX)(ADJ)]
+    [trouble�head (?)(UNK(ENTITY UNKNOWN))]
+    [lice (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each year, 6 million to 12 million Americans get lice. 
+PreProc  : Each year >COMMA &&6 million to &&12 million Americans get lice >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&6 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [lice (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In fact, that is the number-one reason that kids miss school. 
+PreProc  : In fact >COMMA that is the number-one reason that kids miss school >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [fact (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [fact (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [number-one (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [miss (LEX)(N SINGULAR(OTHER))]
+    [school (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now the National Parent Teacher Association is fighting back against the little pests. 
+PreProc  : Now the National Parent Teacher Association is fighting back against the little pests >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Parent (LEX)(N SINGULAR(HUMAN))]
+    [Teacher (LEX)(N SINGULAR(HUMAN))]
+    [Association (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [fighting (root: fight) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [against (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [little (LEX)(ADJ)]
+      [pests (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The group has started a national program called Keeping Our Kids Lice Free. 
+PreProc  : The group has started a national program called Keeping Our Kids Lice Free >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [started (root: start) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [national (LEX)(ADJ)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [national (LEX)(ADJ)]
+    [program (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+    [Keeping (root: keep) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [Our (LEX)(ADJ)]
+    [Kids (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Lice (?)(UNK(ENTITY UNKNOWN))]
+
+  [Free (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Lice can spread very quickly from one person to another. 
+PreProc  : Lice can spread very quickly from one person to another >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Lice (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [spread (LEX)(V BASE)]
+    [very (LEX)(ADV)]
+    [quickly (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [person (LEX)(N SINGULAR(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [another (LEX)(ADJ)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The bugs can’t jump or fly, but they can crawl. 
+PreProc  : The bugs can’t jump or fly >COMMA but they can crawl >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bugs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [can’t (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [jump (LEX)(V BASE)]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bugs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [can’t (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fly (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [crawl (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Follow these tips from health experts to keep lice from bugging you: Avoid touching your head to someone else’s head. 
+PreProc  : Follow these tips from health experts to keep lice from bugging you >COLON Avoid touching your head to someone else’s head >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Follow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [tips (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [health (LEX)(N SINGULAR(OTHER))]
+      [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [lice (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [bugging (INF-MOR)(GER)]
+
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [bugging (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Avoid (LEX)(V BASE)]
+    [touching (root: touch) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [head (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [someone (LEX)(N SINGULAR(HUMAN))]
+      [else’s (?)(UNK(ENTITY UNKNOWN))]
+      [head (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Don’t share personal items such as hats, combs, and headphones. 
+PreProc  : Don’t share personal items SUCH_AS hats >COMMA combs >COMMA and headphones >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Don’t (?)(UNK(ENTITY UNKNOWN))]
+    [share (LEX)(N SINGULAR(OTHER))]
+    [personal (LEX)(ADJ)]
+    [items (root: item) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [hats (root: hat) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [combs (root: comb) (MOR)(V PRESENT)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [headphones (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use your own sleeping bag and pillow on sleepovers. 
+PreProc  : Use your own sleeping bag and pillow on sleepovers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [sleeping (root: sleep) (MOR)(N SINGULAR) (GER)]
+    [bag (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [pillow (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [sleepovers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Normally, sharing with your friends is nice�but not if you are sharing lice! 
+PreProc  : Normally >COMMA sharing with your friends is nice�but not if you are sharing lice >EXCLAMATION <EOS 
+CLAUSE:
+  [Normally (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [sharing (root: share) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [nice�but (?)(UNK(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [sharing (root: share) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [lice (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

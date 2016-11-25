@@ -1,0 +1,610 @@
+Original : space station plunged to Earth in a controlled fall. 
+PreProc  : space station plunged to Earth in a controlled fall >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [space (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plunged (root: plunge) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [controlled (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [fall (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As fell, it broke into some 1,500 pieces that splashed into the Pacific Ocean. 
+PreProc  : As fell >COMMA it broke into some &&1,500 pieces that splashed into the Pacific Ocean >PERIOD <EOS 
+CLAUSE:
+  [As (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [fell (root: fall) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [broke (root: break) (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [&&1,500 (LEX)(NUM)]
+      [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [&&1,500 (LEX)(NUM)]
+    [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [splashed (INF-MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : into Earth orbit in 1986. 
+PreProc  : into Earth orbit in &&1986 >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+      [orbit (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1986 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Over the years, astronauts from many countries traveled to to study space and the impact space has on the human body. 
+PreProc  : Over the years >COMMA astronauts from many countries traveled to to study space and the impact space has on the human body >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [astronauts (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [traveled (root: travel) (MOR)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)]
+    [to (LEX)(INF)]
+    [study (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [space (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [impact (LEX)(N SINGULAR(OTHER))]
+    [space (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [impact (LEX)(N SINGULAR(OTHER))]
+    [space (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [human (LEX)(N SINGULAR(HUMAN))]
+      [body (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In recent years, the aging space station was plagued by serious problems. 
+PreProc  : In recent years >COMMA the aging space station was plagued by serious problems >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [recent (LEX)(ADJ)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [aging (root: age) (MOR)(N SINGULAR) (GER)]
+    [space (LEX)(N SINGULAR(OTHER))]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [plagued (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [serious (LEX)(ADJ)]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : survived an onboard fire, several life-threatening oxygen leaks, and a collision with a Russian cargo spaceship. 
+PreProc  : survived an onboard fire >COMMA several life-threatening oxygen leaks >COMMA and a collision with a Russian cargo spaceship >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [survived (root: survive) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [onboard (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [fire (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [several (LEX)(ADJ)]
+    [life-threatening (LEX)(ADJ)]
+    [oxygen (LEX)(N SINGULAR(OTHER))]
+    [leaks (root: leak) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [a (LEX)(ART)]
+    [collision (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [Russian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [cargo (LEX)(N SINGULAR(PHYSOBJ))]
+      [spaceship (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The station also had computer failures and power outages. 
+PreProc  : The station also had computer failures and power outages >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [computer (LEX)(N SINGULAR(PHYSOBJ))]
+    [failures (root: failure) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [power (LEX)(N SINGULAR(OTHER))]
+    [outages (root: outage) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the end, the Russians could not raise enough money to repair and modernize Because of those and other problems, the Russian government feared that would crash to Earth accidentally. 
+PreProc  : In the end >COMMA the Russians could not raise enough money to repair and modernize BECAUSE_OF those and other problems >COMMA the Russian government feared that would crash to Earth accidentally >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Russians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [raise (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [enough (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [repair (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [modernize (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [BECAUSE_OF (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [and (LEX)(CONJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Russian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Russian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feared (root: fear) (MOR)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Russian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [crash (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [accidentally (INF-MOR)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So Russia decided to bring into a remote area of the Pacific near Australia. 
+PreProc  : So Russia decided to bring into a remote area of the Pacific near Australia >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT-Location (SUBJ):
+    [Russia (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [decided (root: decide) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [bring (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [remote (LEX)(ADJ)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: a remote area
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They wanted to make sure that no one would be hurt by the fiery fragments of the space station, which burned as it streaked through Earth's atmosphere. 
+PreProc  : They wanted to make sure that no one would be hurt by the fiery fragments of the space station >COMMA which burned as it streaked through @Earth@s atmosphere >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  [sure (LEX)(ADJ)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [no (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [hurt (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [fiery (LEX)(ADJ)]
+      [fragments (root: fragment) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the fiery fragments
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [space (LEX)(N SINGULAR(OTHER))]
+      [station (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [space (LEX)(N SINGULAR(OTHER))]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [burned (root: burn) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [streaked (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [@Earth@s (LEX)(ADJ POSSESSIVE)]
+      [atmosphere (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : While the Russians assured the world that no one would be harmed by the falling debris, Taco Bell placed a target in the Pacific Ocean. 
+PreProc  : While the Russians assured the world that no one would be harmed by the falling debris >COMMA Taco Bell placed a target in the Pacific Ocean >PERIOD <EOS 
+CLAUSE:
+  [While (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Russians (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [assured (root: assure) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [no (LEX)(ADJ)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [harmed (root: harm) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [falling (root: fall) (MOR)(N SINGULAR) (GER)]
+      [debris (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Taco (?)(UNK(ENTITY UNKNOWN))]
+    [Bell (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Taco (?)(UNK(ENTITY UNKNOWN))]
+    [Bell (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [placed (root: place) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [target (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fast-food chain promised to give everyone in the United States a free taco if smashed into the target. 
+PreProc  : The fast-food chain promised to give everyone in the UNITED_STATES a free taco if smashed into the target >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fast-food (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [chain (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [promised (root: promise) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everyone (LEX)(PN SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [free (LEX)(ADJ)]
+    [taco (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [smashed (root: smash) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [target (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The falling station missed the target. 
+PreProc  : The falling station missed the target >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [falling (root: fall) (MOR)(N SINGULAR) (GER)]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [missed (root: miss) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [target (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

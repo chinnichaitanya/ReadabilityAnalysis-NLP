@@ -1,0 +1,887 @@
+Original : Many people visit Hawaii each year. 
+PreProc  : Many people visit Hawaii each year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [visit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Hawaii (LEX)(N SINGULAR(LOCATION))]
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They admire the coral reefs that surround the islands. 
+PreProc  : They admire the coral reefs that surround the islands >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  NP SEGMENT:
+    [admire (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [surround (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [islands (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But those beautiful reefs have been damaged by people and ships. 
+PreProc  : But those beautiful reefs have been damaged by people and ships >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [those (LEX)(DET)]
+    [beautiful (LEX)(ADJ)]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [damaged (root: damage) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [those (LEX)(DET)]
+    [beautiful (LEX)(ADJ)]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ships (root: ship) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Recently the United States government made a law to protect the reefs around Hawaii. 
+PreProc  : Recently the UNITED_STATES government made a law to protect the reefs around Hawaii >PERIOD <EOS 
+CLAUSE:
+  [Recently (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [law (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Hawaii (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is a large strip of hard sea animal skeletons that is close to the ocean's surface. 
+PreProc  : is a large strip of hard sea animal skeletons that is close to the @ocean@s surface >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [large (LEX)(ADJ)]
+    [strip (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a large strip
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hard (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+      [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [large (LEX)(ADJ)]
+    [strip (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a large strip
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hard (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animal (LEX)(N SINGULAR(ANIMAL))]
+      [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [close (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@ocean@s (LEX)(ADJ POSSESSIVE)]
+      [surface (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than half of the United States' coral reefs are located in the waters around Hawaii. 
+PreProc  : MORE_THAN half of the @UNITED_STATES@ coral reefs are located in the waters around Hawaii >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: MORE_THAN half
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [@UNITED_STATES@ (LEX)(ADJ POSSESSIVE)]
+      [coral (LEX)(N SINGULAR(OTHER))]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [waters (root: water) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Hawaii (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Coral reefs provide homes for sea animals. 
+PreProc  : Coral reefs provide homes for sea animals >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [provide (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reefs also protect coastlines from dangerous, pounding waves. 
+PreProc  : Reefs also protect coastlines from dangerous >COMMA pounding waves >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [coastlines (root: coastline) (MOR)(N PLURAL(LOCATION))]
+
+  [from (LEX)(PREP)]
+  [dangerous (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [pounding (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [waves (root: wave) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When waves pass over reefs, they slow down and get smaller. 
+PreProc  : When waves pass over reefs >COMMA they slow down and get smaller >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [waves (root: wave) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pass (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [slow (LEX)(V BASE)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [smaller (root: small) (MOR)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hawaii's reefs are being hurt. 
+PreProc  : @Hawaii@s reefs are being hurt >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [@Hawaii@s (LEX)(ADJ POSSESSIVE)]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [hurt (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People have polluted the water around the reefs and have taken too many fish. 
+PreProc  : People have polluted the water around the reefs and have taken too many fish >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [polluted (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [taken (root: take) (LEX)(V PAST)]
+    [too (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Before he left office, President Bill Clinton created the Northwestern Hawaiian Islands Coral Reef Reserve. 
+PreProc  : Before he left office >COMMA President Bill Clinton created the Northwestern Hawaiian Islands Coral Reef Reserve >PERIOD <EOS 
+CLAUSE:
+  [Before (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [left (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [office (LEX)(N SINGULAR(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bill (LEX)(N SINGULAR(OTHER))]
+    [Clinton (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [created (root: create) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Northwestern (LEX)(ADJ)]
+    [Hawaiian (?)(UNK(ENTITY UNKNOWN))]
+    [Islands (?)(UNK(ENTITY UNKNOWN))]
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [Reef (LEX)(N SINGULAR(LOCATION))]
+    [Reserve (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A is an area protected by the government. 
+PreProc  : A is an area protected by the government >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT-Location:
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protected (root: protect) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This reserve is underwater and covers 84 million acres. 
+PreProc  : This reserve is underwater and covers &&84 million acres >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [underwater (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [covers (root: cover) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&84 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [acres (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is almost as big as the states of Florida and Georgia combined. 
+PreProc  : That is almost as big as the states of Florida and Georgia combined >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [almost (LEX)(ADV)]
+
+  [as (LEX)(PREP)]
+  [big (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the states
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Florida (LEX)(N SINGULAR(LOCATION))]
+      [and (LEX)(CONJ)]
+      [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Georgia (LEX)(N SINGULAR(LOCATION COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [combined (root: combine) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Special rules make sure the reef reserve will be protected. 
+PreProc  : Special rules make sure the reef reserve will be protected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Special (LEX)(ADJ)]
+    [rules (root: rule) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  [sure (LEX)(ADJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People are not allowed to remove coral from the reefs. 
+PreProc  : People are not allowed to remove coral from the reefs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [allowed (root: allow) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [remove (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [coral (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The number of fish taken from the reserve area cannot go up. 
+PreProc  : The number of fish taken from the reserve area cannot go up >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [number (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The number
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [taken (root: take) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [reserve (LEX)(N SINGULAR(OTHER))]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [reserve (LEX)(N SINGULAR(OTHER))]
+    [area (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cannot (LEX)(AUX) (V BASE)]
+    [go (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hawaii's reefs are now protected from further damage. 
+PreProc  : @Hawaii@s reefs are now protected from further damage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [@Hawaii@s (LEX)(ADJ POSSESSIVE)]
+    [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [now (LEX)(ADV)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [further (LEX)(ADJ)]
+      [damage (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A coral reef is built by tiny sea creatures called coral Coral polyps have hard outer skeletons that protect them. 
+PreProc  : A coral reef is built by tiny sea creatures called coral Coral polyps have hard outer skeletons that protect them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [A (LEX)(ART)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [built (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [tiny (LEX)(ADJ)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [tiny (LEX)(ADJ)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [creatures (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [polyps (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [Coral (LEX)(N SINGULAR(OTHER))]
+    [polyps (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [hard (LEX)(ADJ)]
+    [outer (LEX)(ADJ)]
+    [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [hard (LEX)(ADJ)]
+    [outer (LEX)(ADJ)]
+    [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : When the polyps die, their skeletons stay. 
+PreProc  : When the polyps die >COMMA their skeletons stay >PERIOD <EOS 
+CLAUSE:
+  [When (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [polyps (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [die (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [their (LEX)(ADJ)]
+    [skeletons (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [stay (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After a long time, the coral skeletons build up, forming a reef. 
+PreProc  : After a long time >COMMA the coral skeletons build up >COMMA forming a reef >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [long (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [build (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [forming (root: form) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 2/3 of the world's coral reefs have been damaged by pollution and too much fishing. 
+PreProc  : MORE_THAN 2/3 of the @world@s coral reefs have been damaged by pollution and too much fishing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [2/3 (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: MORE_THAN 2/3
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(ADJ POSSESSIVE)]
+      [coral (LEX)(N SINGULAR(OTHER))]
+      [reefs (root: reef) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [damaged (root: damage) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [pollution (INF-MOR)(N(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+  [too (LEX)(ADV)]
+  NP SEGMENT:
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [fishing (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Coral can be tan, orange, yellow, purple, or green. 
+PreProc  : Coral can be tan >COMMA orange >COMMA yellow >COMMA purple >COMMA or green >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Coral (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [tan (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [yellow (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [purple (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [green (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Great Barrier Reef is the largest coral reef in the world. 
+PreProc  : The Great Barrier Reef is the largest coral reef in the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [Great (LEX)(ADJ)]
+    [Barrier (LEX)(N SINGULAR(OTHER))]
+    [Reef (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [coral (LEX)(N SINGULAR(OTHER))]
+    [reef (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is about 1,250 miles long and is located off the northeast coast of Australia. 
+PreProc  : It is about &&1,250 miles long and is located off the northeast coast of Australia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&1,250 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [long (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [off (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [northeast (LEX)(ADV) (N SINGULAR(LOCATION))]
+      [coast (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the northeast coast
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,769 @@
+Original : People often take trips on our nation's roads and highways. 
+PreProc  : People often take trips on our @nation@s roads and highways >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [trips (root: trip) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [our (LEX)(ADJ)]
+      [@nation@s (LEX)(ADJ POSSESSIVE)]
+      [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+      [and (LEX)(CONJ)]
+      [highways (root: highway) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But recently, several sections of an old road went on a trip of their own. 
+PreProc  : But recently >COMMA several sections of an old road went on a trip of their own >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  [recently (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [several (LEX)(ADJ)]
+    [sections (root: section) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: several sections
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [an (LEX)(ART)]
+      [old (LEX)(ADJ)]
+      [road (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [trip (LEX)(N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+  [their (LEX)(ADJ)]
+  [own (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Last month, workers in Oklahoma loaded about a dozen pieces of historic Route 66 onto trucks. 
+PreProc  : Last month >COMMA workers in Oklahoma loaded about a &&12 pieces of historic Route &&66 onto trucks >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Last (LEX)(ADJ)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Oklahoma (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [loaded (root: load) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [&&12 (LEX)(NUM)]
+      [pieces (root: piece) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+Following PP attaches to: a &&12 pieces
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [historic (LEX)(ADJ)]
+      [Route (LEX)(N SINGULAR(OTHER))]
+      [&&66 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [onto (LEX)(PREP)]
+    NP SEGMENT:
+      [trucks (root: truck) (MOR)(N PLURAL(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each of the 3,000-pound pieces then made a 1,400-mile trip to Washington, D.C., where they will become part of an exhibit at the Smithsonian National Museum of American History. 
+PreProc  : Each of the 3,000-pound pieces then made a 1,400-mile trip to Washington >COMMA D.C. >COMMA where they will become part of an exhibit at the Smithsonian National Museum of American History >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: Each
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [3,000-pound (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pieces (root: piece) (MOR)(V PRESENT)]
+    [then (LEX)(ADV)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [1,400-mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [1,400-mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [trip (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [exhibit (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Smithsonian (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [National (LEX)(ADJ)]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the Smithsonian National Museum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [History (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Route 66 has been called the "Main Street of America." 
+PreProc  : Route &&66 has been called the >DQUOTE Main Street of America >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Route (LEX)(N SINGULAR(OTHER))]
+    [&&66 (LEX)(NUM)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Main (LEX)(ADJ)]
+    [Street (LEX)(N SINGULAR(LOCATION))]
+
+Following PP attaches to: the Main Street
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It once stretched 2,400 miles, from Chicago, Illinois, to Los Angeles, California. 
+PreProc  : It once stretched &&2,400 miles >COMMA from Chicago >COMMA Illinois >COMMA to Los Angeles >COMMA California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [once (LEX)(ADV)]
+    [stretched (root: stretch) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&2,400 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Chicago (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Illinois (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Los (?)(UNK(ENTITY UNKNOWN))]
+      [Angeles (root: angel) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The road connected eight states: Illinois, Missouri, Kansas, Oklahoma, Texas, New Mexico, Arizona, and California. 
+PreProc  : The road connected &&8 states >COLON Illinois >COMMA Missouri >COMMA Kansas >COMMA Oklahoma >COMMA Texas >COMMA NEW_MEXICO >COMMA Arizona >COMMA and California >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [connected (root: connect) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&8 (LEX)(NUM)]
+    [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP-CONJ SEGMENT-Location:
+    [Illinois (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Missouri (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Kansas (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Oklahoma (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Texas (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [NEW_MEXICO (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [Arizona (LEX)(N SINGULAR(LOCATION))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the 1920s, engineer Cyrus Stevens Avery of Tulsa, Oklahoma, envisioned a road connecting the Midwest and the Pacific Ocean. 
+PreProc  : In the 1920s >COMMA engineer Cyrus Stevens Avery of Tulsa >COMMA Oklahoma >COMMA envisioned a road connecting the Midwest and the Pacific Ocean >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1920s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [1920s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [engineer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Cyrus (?)(UNK(ENTITY UNKNOWN))]
+    [Stevens (?)(UNK(ENTITY UNKNOWN))]
+    [Avery (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Cyrus Stevens Avery
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Tulsa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Oklahoma (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [1920s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [envisioned (INF-MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [a (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [connecting (root: connect) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [Midwest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+    [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During the 1930s, Route 66 was completed and was soon lined with hundreds of businesses. 
+PreProc  : During the 1930s >COMMA Route &&66 was completed and was soon lined with hundreds of businesses >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1930s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Route (LEX)(N SINGULAR(OTHER))]
+    [&&66 (LEX)(NUM)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [completed (root: complete) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Route (LEX)(N SINGULAR(OTHER))]
+    [&&66 (LEX)(NUM)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [soon (LEX)(ADV)]
+    [lined (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+
+Following PP attaches to: hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The road became so popular that it inspired a 1960s TV show, , as well as a famous song, "Get Your Kicks on Route 66." 
+PreProc  : The road became so popular that it inspired a 1960s TV show >COMMA >COMMA AS_WELL_AS a famous song >COMMA >DQUOTE Get Your Kicks on Route &&66 >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+    [so (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [inspired (root: inspire) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [1960s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [1960s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  [AS_WELL_AS (LEX)(CONJ)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [famous (LEX)(ADJ)]
+    [song (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [1960s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Your (LEX)(ADJ)]
+    [Kicks (root: kick) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Route (LEX)(N SINGULAR(OTHER))]
+      [&&66 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the past few decades, however, Route 66 has fallen into disrepair, and parts of the old route have been dug up. 
+PreProc  : In the past few decades >COMMA however >COMMA Route &&66 has fallen into disrepair >COMMA and parts of the old route have been dug up >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [few (LEX)(ADJ)]
+      [decades (root: decade) (MOR)(N PLURAL(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Route (LEX)(N SINGULAR(OTHER))]
+    [&&66 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [fallen (root: fall) (LEX)(V PAST)]
+
+  [into (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [few (LEX)(ADJ)]
+    [decades (root: decade) (MOR)(N PLURAL(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [disrepair (root: repair) (MOR)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [old (LEX)(ADJ)]
+      [route (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [old (LEX)(ADJ)]
+      [route (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [dug (root: dig) (LEX)(V PAST)]
+    [up (LEX)(PART)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, drivers use faster superhighways to get where they were going. 
+PreProc  : Today >COMMA drivers use faster superhighways to get where they were going >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [drivers (root: driver) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [faster (root: fast) (MOR)(ADJ)]
+    [superhighways (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Even though fewer people drive on Route 66 now, many people still think of the road as the Main Street of America. 
+PreProc  : Even though fewer people drive on Route &&66 now >COMMA many people still think of the road as the Main Street of America >PERIOD <EOS 
+CLAUSE:
+  [Even (LEX)(ADV)]
+
+CLAUSE:
+  [though (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [fewer (root: few) (MOR)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drive (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [Route (LEX)(N SINGULAR(OTHER))]
+      [&&66 (LEX)(NUM)]
+
+
+  [now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [still (LEX)(ADV)]
+    [think (LEX)(V BASE)]
+
+Following PP attaches to: still think
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [road (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Main (LEX)(ADJ)]
+      [Street (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the Main Street
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's why the National Museum of American History wants to include the road in its new exhibit, "America on the Move." 
+PreProc  : THAT IS why the National Museum of American History wants to include the road in its new exhibit >COMMA >DQUOTE America on the Move >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the National Museum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [History (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the National Museum
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [History (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wants (root: want) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [include (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [new (LEX)(ADJ)]
+      [exhibit (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [America (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Move (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The exhibit is scheduled to open in 2003. 
+PreProc  : The exhibit is scheduled to open in &&2003 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [exhibit (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [scheduled (root: schedule) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [open (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2003 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

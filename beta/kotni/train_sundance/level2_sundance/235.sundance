@@ -1,0 +1,228 @@
+Original : Read the chart about some interesting inventions, and then answer the questions below. 
+PreProc  : Read the chart about some interesting inventions >COMMA and then answer the questions below >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chart (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [interesting (root: interest) (MOR)(N SINGULAR) (GER)]
+      [inventions (root: invent) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [interesting (root: interest) (MOR)(N SINGULAR) (GER)]
+    [inventions (root: invent) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [below (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Players threw the ball into peach baskets. 
+PreProc  : Players threw the ball into peach baskets >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Players (root: play) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [threw (root: throw) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [peach (?)(UNK(ENTITY UNKNOWN))]
+      [baskets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Eleven-year-old Frank accidentally left a stick in a fruit drink outside in the cold. 
+PreProc  : Eleven-year-old Frank accidentally left a stick in a fruit drink outside in the cold >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Eleven-year-old (?)(UNK(ENTITY UNKNOWN))]
+    [Frank (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [accidentally (INF-MOR)(ADV)]
+    [left (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [stick (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+      [drink (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [outside (LEX)(ADV)]
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [cold (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Metal studs on the pockets made jeans different from other pants. 
+PreProc  : Metal studs on the pockets made jeans different from other pants >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Metal (LEX)(ADJ) (N SINGULAR(PHYSOBJ))]
+    [studs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [pockets (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [jeans (?)(UNK(ENTITY UNKNOWN))]
+
+  [different (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [pants (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Frank Epperson was _________ years old when he invented the Popsicle. 
+PreProc  : Frank Epperson was >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE years old when he invented the Popsicle >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Frank (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Epperson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [invented (root: invent) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Popsicle (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The first video game was invented in ______________________. 
+PreProc  : The first video game was invented in >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [video (LEX)(N SINGULAR(OTHER))]
+    [game (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [invented (root: invent) (MOR)(V PAST)]
+
+  [in (LEX)(PREP)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

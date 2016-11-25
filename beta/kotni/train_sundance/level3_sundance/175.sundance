@@ -1,0 +1,626 @@
+Original : You were fine a moment ago. 
+PreProc  : You were fine a moment ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [fine (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [moment (LEX)(N SINGULAR(OTHER))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now you're tired and achy. 
+PreProc  : Now YOU ARE tired and achy >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [tired (root: tire) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [achy (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The school nurse takes your temperature. 
+PreProc  : The school nurse takes your temperature >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [nurse (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [temperature (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You have a fever. 
+PreProc  : You have a fever >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fever (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bad news-those are all symptoms of the flu, or Hang in there; 
+PreProc  : Bad news-those are all symptoms of the flu >COMMA or Hang in there >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bad (LEX)(ADJ)]
+    [news-those (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [symptoms (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: all symptoms
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [flu (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bad (LEX)(ADJ)]
+    [news-those (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Hang (LEX)(V BASE)]
+
+  [in (LEX)(PREP)]
+  [there (LEX)(ADV)]
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : you are not alone. 
+PreProc  : you are not alone >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [alone (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This flu season started early, and the virus spread quickly. 
+PreProc  : This flu season started early >COMMA and the virus spread quickly >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [flu (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+    [early (LEX)(ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [virus (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [virus (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spread (LEX)(V BASE)]
+    [quickly (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The good news is that flu season appears to have slowed down. 
+PreProc  : The good news is that flu season appears to have slowed down >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [flu (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [appears (root: appear) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+    [slowed (root: slow) (MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some health experts say this flu season was most harmful to kids. 
+PreProc  : Some health experts say this flu season was most harmful to kids >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [health (LEX)(N SINGULAR(OTHER))]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [flu (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [harmful (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Doctors' offices and hospitals have been flooded with sick kids. 
+PreProc  : @Doctors@ offices and hospitals have been flooded with sick kids >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [@Doctors@ (LEX)(ADJ POSSESSIVE)]
+    [offices (root: office) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [hospitals (root: hospital) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [flooded (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [sick (LEX)(ADJ)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Schools in several states have closed for "sick days" because so many kids had the flu. 
+PreProc  : Schools in several states have closed for >DQUOTE sick days >DQUOTE because so many kids had the flu >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [several (LEX)(ADJ)]
+      [states (root: state) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [closed (root: close) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [sick (LEX)(ADJ)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  [so (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [flu (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To keep the virus from spreading, many teachers have asked students to wash their hands often. 
+PreProc  : To keep the virus from spreading >COMMA many teachers have asked students to wash their hands often >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [virus (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [spreading (root: spread) (MOR)(N SINGULAR) (GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [teachers (root: teacher) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [asked (root: ask) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [wash (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [hands (root: hand) (MOR)(N PLURAL(OTHER))]
+
+  [often (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : School officials want to make sure healthy students don't get sick. 
+PreProc  : School officials want to make sure healthy students DO NOT get sick >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [School (LEX)(N SINGULAR(BUILDING))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sure (LEX)(ADJ)]
+    [healthy (LEX)(ADJ)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sure (LEX)(ADJ)]
+    [healthy (LEX)(ADJ)]
+    [students (root: student) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [sick (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Along with washing your hands, what else can you do to stay healthy? 
+PreProc  : Along with washing your hands >COMMA what else can you do to stay healthy >QUESTION <EOS 
+CLAUSE:
+  [Along (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [washing (root: wash) (MOR)(N SINGULAR) (GER)]
+      [your (LEX)(ADJ)]
+      [hands (root: hand) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [else (LEX)(ADV)]
+    [can (LEX)(AUX)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [do (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [healthy (LEX)(ADJ)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The best way to stay flu-free is to get a flu (vak-SEEN), or shot, say experts. 
+PreProc  : The best way to stay flu-free is to get a flu >LPAREN vak-SEEN >RPAREN >COMMA or shot >COMMA say experts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [stay (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [flu-free (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [flu (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [vak-SEEN (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shot (root: shoot) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "If you get the flu, don't panic. 
+PreProc  : >DQUOTE If you get the flu >COMMA DO NOT panic >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [flu (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [panic (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Most kids will recover just fine," Dr. Carol Baker of Houston, Texas, told . 
+PreProc  : Most kids will recover just fine >COMMA >DQUOTE Dr. Carol Baker of Houston >COMMA Texas >COMMA told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [recover (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [just (LEX)(ADJ) (ADV)]
+    [fine (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Dr. (?)(UNK(ENTITY UNKNOWN))]
+    [Carol (?)(UNK(ENTITY UNKNOWN))]
+    [Baker (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: Dr. Carol Baker
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Houston (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Texas (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Taking medicine to lower the fever and drinking lots of liquids will help. 
+PreProc  : >DQUOTE Taking medicine to lower the fever and drinking lots of liquids will help >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Taking (root: take) (MOR)(N SINGULAR) (GER)]
+    [medicine (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [lower (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fever (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [drinking (root: drink) (MOR)(N SINGULAR) (GER)]
+    [lots (root: lot) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the fever and drinking lots
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [liquids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Plenty of rest will also help fight the nasty flu virus." 
+PreProc  : Plenty of rest will also help fight the nasty flu virus >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rest (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [fight (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [nasty (LEX)(ADJ)]
+    [flu (?)(UNK(ENTITY UNKNOWN))]
+    [virus (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

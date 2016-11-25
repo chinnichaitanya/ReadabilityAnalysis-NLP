@@ -1,0 +1,638 @@
+Original : The bus that Rosa Parks made famous has been restored, or fixed, to look the way it did on December 1, 1955. 
+PreProc  : The bus that Rosa Parks made famous has been restored >COMMA or fixed >COMMA to look the way it did on December &&1 >COMMA &&1955 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [bus (LEX)(N SINGULAR(VEHICLE))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Parks (root: park) (MOR)(V PRESENT)]
+    [made (root: make) (LEX)(V PAST)]
+
+  ADJ SEGMENT:
+    [famous (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [restored (root: restore) (MOR)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [fixed (root: fix) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [look (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&1 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1955 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is on exhibit at the Henry Ford Museum in Dearborn, Michigan. 
+PreProc  : It is on exhibit at the Henry Ford Museum in Dearborn >COMMA Michigan >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [exhibit (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Henry (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Ford (?)(UNK(ENTITY UNKNOWN))]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Dearborn (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Michigan (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This is a piece of history," said Bruce Danks, who worked on the bus. 
+PreProc  : >DQUOTE This is a piece of history >COMMA >DQUOTE said Bruce Danks >COMMA who worked on the bus >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: a piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Bruce (?)(UNK(ENTITY UNKNOWN))]
+    [Danks (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bruce (?)(UNK(ENTITY UNKNOWN))]
+    [Danks (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [worked (root: work) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bus (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On December 1, 1955, Rosa Parks, a seamstress, boarded the bus in Montgomery, Alabama, on her way home from work. 
+PreProc  : On December &&1 >COMMA &&1955 >COMMA Rosa Parks >COMMA a seamstress >COMMA boarded the bus in Montgomery >COMMA Alabama >COMMA on her way home from work >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&1 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1955 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+    [Parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [seamstress (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [boarded (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bus (LEX)(N SINGULAR(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Montgomery (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Alabama (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [way (LEX)(N SINGULAR(OTHER))]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [work (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Refusing to give up her seat to a white man, Rosa Parks was arrested and sent to jail. 
+PreProc  : Refusing to give up her seat to a white man >COMMA Rosa Parks was arrested and sent to jail >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Refusing (root: refuse) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [give (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [seat (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [white (LEX)(ADJ)]
+      [man (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+    [Parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [arrested (root: arrest) (MOR)(V PAST)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Refusing (root: refuse) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [sent (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [jail (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her arrest sparked the beginning of the Montgomery bus boycott. 
+PreProc  : Her arrest sparked the beginning of the Montgomery bus boycott >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [arrest (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sparked (root: spark) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+Following PP attaches to: the beginning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Montgomery (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [bus (LEX)(N SINGULAR(VEHICLE))]
+      [boycott (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A boycott is a protest in which people refuse to buy, sell, or use something. 
+PreProc  : A boycott is a protest in which people refuse to buy >COMMA sell >COMMA or use something >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [boycott (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [protest (LEX)(N SINGULAR(OTHER))]
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [refuse (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [buy (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sell (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As part of the boycott, African Americans refused to ride buses in Montgomery if they couldn't sit in the front. 
+PreProc  : As part of the boycott >COMMA African Americans refused to ride buses in Montgomery if they COULD NOT sit in the front >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [boycott (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [African (LEX)(ADJ)]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [refused (root: refuse) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [ride (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Montgomery (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [COULD (root: can) (LEX)(AUX)]
+    [NOT (LEX)(ADV)]
+    [sit (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [front (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Montgomery bus boycott lasted for over a year. 
+PreProc  : The Montgomery bus boycott lasted for over a year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Montgomery (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [bus (LEX)(N SINGULAR(VEHICLE))]
+    [boycott (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lasted (root: last) (MOR)(V PAST)]
+
+  [for (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In December 1956, the U.S. Supreme Court ruled that it was unconstitutional to segregate, or separate, whites from African Americans on buses. 
+PreProc  : In December &&1956 >COMMA the U.S. Supreme Court ruled that it was unconstitutional to segregate >COMMA or separate >COMMA whites from African Americans on buses >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&1956 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Supreme (LEX)(ADJ)]
+    [Court (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ruled (root: rule) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [unconstitutional (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [segregate (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [separate (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [whites (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [African (LEX)(ADJ)]
+      [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An ordinary woman who made an extraordinary difference, Rosa Parks is often referred to as "the Mother of the Civil Rights Movement." 
+PreProc  : An ordinary woman who made an extraordinary difference >COMMA Rosa Parks is often referred to as >DQUOTE the Mother of the Civil Rights Movement >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [ordinary (LEX)(ADJ)]
+    [woman (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [ordinary (LEX)(ADJ)]
+    [woman (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [extraordinary (LEX)(ADJ)]
+    [difference (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+    [Parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Rosa (?)(UNK(ENTITY UNKNOWN))]
+    [Parks (root: park) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [referred (root: refer) (MOR)(V PAST)]
+
+  [to (LEX)(PREP)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Mother (LEX)(N SINGULAR(HUMAN))]
+
+
+Following PP attaches to: the Mother
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Civil (LEX)(ADJ)]
+      [Rights (root: right) (MOR)(N PLURAL(OTHER))]
+      [Movement (root: move) (MOR)(N SINGULAR)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She inspired a new era of civil rights in the United States. 
+PreProc  : She inspired a new era of civil rights in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [inspired (root: inspire) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [era (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: a new era
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [civil (LEX)(ADJ)]
+      [rights (root: right) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,270 @@
+Original : Naoko Takahashi buzzed past other runners in the Olympic last year. 
+PreProc  : Naoko Takahashi buzzed past other runners in the Olympic last year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Naoko (?)(UNK(ENTITY UNKNOWN))]
+    [Takahashi (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [buzzed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [runners (root: runner) (MOR)(N PLURAL(HUMAN))]
+
+  [in (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [Olympic (LEX)(ADJ)]
+  NP SEGMENT:
+    [last (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (A marathon is a 26-mile footrace.) The runner says that hornets helped her win the gold medal for Japan, a country in Asia. 
+PreProc  : >LPAREN A marathon is a 26-mile footrace >PERIOD >RPAREN The runner says that hornets helped her win the gold medal for Japan >COMMA a country in Asia >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [marathon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [26-mile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [footrace (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [runner (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [runner (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [hornets (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [win (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [gold (LEX)(N SINGULAR(PHYSOBJ))]
+    [medal (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Japan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Asia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The insects didn't lend Naoko their wings, however. 
+PreProc  : The insects DID NOT lend Naoko their wings >COMMA however >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [insects (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DID (root: do) (LEX)(AUX) (V PAST)]
+    [NOT (LEX)(ADV)]
+    [lend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Naoko (?)(UNK(ENTITY UNKNOWN))]
+    [their (LEX)(ADJ)]
+    [wings (root: wing) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Before and during the race, Takahashi drank the stomach juice of giant hornets! 
+PreProc  : Before and during the race >COMMA Takahashi drank the stomach juice of giant hornets >EXCLAMATION <EOS 
+CLAUSE:
+  [Before (LEX)(C_M) (PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [race (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Takahashi (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drank (root: drink) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [stomach (LEX)(N SINGULAR(OTHER))]
+    [juice (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the stomach juice
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [hornets (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Japanese scientists say that the drink helps people move faster and prevents muscles from tiring. 
+PreProc  : Japanese scientists say that the drink helps people move faster and prevents muscles from tiring >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Japanese (?)(UNK(ENTITY UNKNOWN))]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [drink (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [move (LEX)(V BASE)]
+
+  [faster (root: fast) (MOR)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [prevents (root: prevent) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [muscles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [tiring (root: tire) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A Japanese company plans to make a sports drink out of hornet juice soon. 
+PreProc  : A Japanese company plans to make a sports drink out of hornet juice soon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [Japanese (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [drink (LEX)(V BASE)]
+
+  [out (LEX)]
+Following PP attaches to: drink
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [hornet (?)(UNK(ENTITY UNKNOWN))]
+      [juice (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [soon (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

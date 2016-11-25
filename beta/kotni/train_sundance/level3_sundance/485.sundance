@@ -1,0 +1,408 @@
+Original : Sure, you've heard of horseshoes, but what about dog shoes? 
+PreProc  : Sure >COMMA YOU HAVE heard of horseshoes >COMMA but what about dog shoes >QUESTION <EOS 
+CLAUSE:
+  [Sure (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [heard (root: hear) (LEX)(V PAST)]
+
+Following PP attaches to: HAVE heard
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [horseshoes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [dog (LEX)(N SINGULAR(ANIMAL))]
+      [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This spring, some hounds will be sporting new doggy footwear, but it's not a fashion statement. 
+PreProc  : This spring >COMMA some hounds will be sporting new doggy footwear >COMMA but IT IS not a fashion statement >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [spring (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [some (LEX)(DET)]
+    [hounds (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [sporting (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [new (LEX)(ADJ)]
+    [doggy (?)(UNK(ENTITY UNKNOWN))]
+    [footwear (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [fashion (LEX)(N SINGULAR(OTHER))]
+    [statement (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 20 police dogs in Düsseldorf, Germany, will wear blue plastic-fiber shoes when working. 
+PreProc  : About &&20 police dogs in Düsseldorf >COMMA Germany >COMMA will wear blue plastic-fiber shoes when working >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&20 (LEX)(NUM)]
+    [police (?)(UNK(ENTITY UNKNOWN))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Düsseldorf (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Germany (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [blue (LEX)(ADJ)]
+    [plastic-fiber (?)(UNK(ENTITY UNKNOWN))]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [blue (LEX)(ADJ)]
+    [plastic-fiber (?)(UNK(ENTITY UNKNOWN))]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [working (root: work) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Germany is a country in Europe. 
+PreProc  : Germany is a country in Europe >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Germany (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Europe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The shoes , or stop, the animals from being injured. 
+PreProc  : The shoes >COMMA or stop >COMMA the animals from being injured >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [stop (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [being (root: be) (LEX)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [injured (root: injure) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Police say the dogs cut their paws on broken glass during missions. 
+PreProc  : Police say the dogs cut their paws on broken glass during missions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Police (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cut (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [paws (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [broken (root: break) (LEX)(ADJ)]
+      [glass (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [missions (root: mission) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Düsseldorf unit includes German and Belgian shepherds. 
+PreProc  : The Düsseldorf unit includes German and Belgian shepherds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Düsseldorf (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [unit (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [includes (root: include) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [German (LEX)(ADJ)]
+    [and (LEX)(CONJ)]
+    [Belgian (LEX)(ADJ)]
+    [shepherds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I'm not sure they like [wearing the shoes], but they'll have to get used to it," says police spokesperson Andre Hartwich. 
+PreProc  : >DQUOTE I AM not sure they like >LBRACKET wearing the shoes >RBRACKET >COMMA but THEY WILL have to get used to it >COMMA >DQUOTE says police spokesperson Andre Hartwich >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [AM (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [sure (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [like (LEX)(V BASE)]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wearing (root: wear) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [WILL (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [used (root: use) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [police (?)(UNK(ENTITY UNKNOWN))]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+    [Andre (?)(UNK(ENTITY UNKNOWN))]
+    [Hartwich (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Police will train the pooches to wear the shoes so the animals are protected. 
+PreProc  : Police will train the pooches to wear the shoes so the animals are protected >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Police (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [train (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [pooches (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [protected (root: protect) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Now we just have to teach the dogs how to tie their shoes," jokes Hartwich. 
+PreProc  : >DQUOTE Now we just have to teach the dogs how to tie their shoes >COMMA >DQUOTE jokes Hartwich >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [we (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [just (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (INFINITIVE):
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [tie (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [shoes (root: shoe) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [jokes (?)(UNK(ENTITY UNKNOWN))]
+    [Hartwich (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

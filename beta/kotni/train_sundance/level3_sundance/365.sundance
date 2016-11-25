@@ -1,0 +1,543 @@
+Original : NOAA Photo Library, NOAA Central Library; 
+PreProc  : NOAA Photo Library >COMMA NOAA Central Library >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [NOAA (?)(UNK(ENTITY UNKNOWN))]
+    [Photo (LEX)(N SINGULAR(PHYSOBJ))]
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [NOAA (?)(UNK(ENTITY UNKNOWN))]
+    [Central (LEX)(ADJ)]
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : OAR/ERL/National Severe Storms Laboratory (NSSL) Tornado in Union City, Oklahoma, May 24, 1973 season in the United States. 
+PreProc  : OAR/ERL/National Severe Storms Laboratory >LPAREN NSSL >RPAREN Tornado in Union City >COMMA Oklahoma >COMMA May &&24 >COMMA &&1973 season in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [OAR/ERL/National (?)(UNK(ENTITY UNKNOWN))]
+    [Severe (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Storms (root: storm) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Laboratory (LEX)(N SINGULAR(BUILDING))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [NSSL (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Tornado (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Union (LEX)(N SINGULAR(OTHER))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Oklahoma (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [OAR/ERL/National (?)(UNK(ENTITY UNKNOWN))]
+    [Severe (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [&&24 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&1973 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&1973 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [season (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A tornado is a powerful, spinning wind. 
+PreProc  : A tornado is a powerful >COMMA spinning wind >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [powerful (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [spinning (root: spin) (MOR)(GER) (N SINGULAR)]
+    [wind (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It travels quickly and can destroy everything in its path. 
+PreProc  : It travels quickly and can destroy everything in its path >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [travels (root: travel) (MOR)(V PRESENT)]
+    [quickly (LEX)(ADV)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [destroy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [path (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tornado season, which lasts for several months, is the time these twisters are most common. 
+PreProc  : Tornado season >COMMA which lasts for several months >COMMA is the time these twisters are most common >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Tornado (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lasts (root: last) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [several (LEX)(ADJ)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [twisters (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [these (LEX)(DET)]
+    [twisters (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [common (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The National Weather Service recently said it will change the tornado rating system next year. 
+PreProc  : The National Weather Service recently said it will change the tornado rating system next year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Weather (LEX)(N SINGULAR(OTHER))]
+    [Service (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [change (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [rating (root: rate) (MOR)(N SINGULAR) (GER)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [next (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The strength of a tornado will continue to be rated on a scale from 0 (weakest) to 5 (most powerful). 
+PreProc  : The strength of a tornado will continue to be rated on a scale from &&0 >LPAREN weakest >RPAREN to &&5 >LPAREN most powerful >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [strength (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The strength
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [will (LEX)(AUX)]
+    [continue (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [rated (root: rate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [scale (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&0 (LEX)(NUM)]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  [weakest (root: weak) (MOR)(ADJ)]
+  [>RPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [powerful (LEX)(ADJ)]
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, the new rating system will be more exact. 
+PreProc  : However >COMMA the new rating system will be more exact >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [rating (root: rate) (MOR)(N SINGULAR) (GER)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+    [exact (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Under the old system, tornadoes with wind speed of about 300 miles per hour were given the rating 5. 
+PreProc  : Under the old system >COMMA tornadoes with wind speed of about &&300 miles per hour were given the rating &&5 >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Under (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [old (LEX)(ADJ)]
+      [system (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [tornadoes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [wind (LEX)(N SINGULAR(OTHER))]
+      [speed (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: wind speed
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&300 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [given (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [rating (root: rate) (MOR)(N SINGULAR) (GER)]
+    [&&5 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Studies have shown that slower winds can cause as much damage. 
+PreProc  : Studies have shown that slower winds can cause as much damage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Studies (root: study) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [shown (root: show) (LEX)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [slower (root: slow) (MOR)(ADJ) (N SINGULAR)]
+    [winds (root: wind) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [cause (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [damage (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The new system rates a tornado 5 if wind speed is at least 200 miles per hour. 
+PreProc  : The new system rates a tornado &&5 if wind speed is AT_LEAST &&200 miles per hour >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rates (root: rate) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [&&5 (LEX)(NUM)]
+
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [&&5 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wind (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [speed (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [speed (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [AT_LEAST (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [per (LEX)(PREP)]
+    NP SEGMENT:
+      [hour (LEX)(N SINGULAR(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Adverbs are words that describe verbs, adjectives, and other adverbs. 
+PreProc  : Adverbs are words that describe verbs >COMMA adjectives >COMMA and other adverbs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Adverbs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [describe (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [verbs (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [adjectives (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [adverbs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They tell where, how, or when. 
+PreProc  : They tell where >COMMA how >COMMA or when >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tell (LEX)(V BASE)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  [>COMMA (LEX)(PUNC)]
+  [how (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Examples are Circle two adverbs in the tornado story. 
+PreProc  : Examples are Circle &&2 adverbs in the tornado story >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Examples (root: example) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [Circle (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [adverbs (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tornado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [story (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

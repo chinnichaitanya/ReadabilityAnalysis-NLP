@@ -1,0 +1,209 @@
+Original : Wind power is the fastest-growing source of energy. 
+PreProc  : Wind power is the fastest-growing source of energy >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Wind (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [power (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [power (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fastest-growing (LEX)(ADJ)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the fastest-growing source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By using wind power instead of burning fuel, people conserve energy. 
+PreProc  : By using wind power instead of burning fuel >COMMA people conserve energy >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [using (root: use) (MOR)(N SINGULAR) (GER)]
+      [wind (LEX)(N SINGULAR(OTHER))]
+      [power (LEX)(N SINGULAR(OTHER))]
+
+
+  [instead (LEX)(ADV)]
+Following PP attaches to: using wind power
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [burning (root: burn) (MOR)(N SINGULAR) (GER)]
+      [fuel (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [conserve (?)(UNK(ENTITY UNKNOWN))]
+    [energy (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Windmills have been used as a source of energy for hundreds of years. 
+PreProc  : Windmills have been used as a source of energy for hundreds of years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Windmills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [source (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [energy (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [hundreds (root: hundred) (MOR)(N PLURAL(DENOMINATION))]
+
+
+Following PP attaches to: hundreds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, modern windmills called One of the world's largest wind farms spreads across the Oregon-Washington border. 
+PreProc  : Today >COMMA modern windmills called One of the @world@s largest wind farms spreads across the Oregon-Washington border >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [modern (LEX)(ADJ)]
+    [windmills (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [largest (root: large) (MOR)(ADJ   )]
+      [wind (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: One
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [largest (root: large) (MOR)(ADJ   )]
+      [wind (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [farms (root: farm) (MOR)(V PRESENT)]
+    [spreads (root: spread) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Oregon-Washington (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [border (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It supplies electricity to more than 70,000 homes and businesses. 
+PreProc  : It supplies electricity to MORE_THAN &&70,000 homes and businesses >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [supplies (root: supply) (MOR)(N PLURAL(OTHER))]
+    [electricity (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&70,000 (LEX)(NUM)]
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+      [and (LEX)(CONJ)]
+      [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

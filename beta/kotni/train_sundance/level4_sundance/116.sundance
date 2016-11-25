@@ -1,0 +1,577 @@
+Original : 'Who You Gonna Call?': The Powerpuff Girls Step aside, Power Rangers. 
+PreProc  : >SQUOTE Who You Gonna Call >QUESTION >SQUOTE >COLON The Powerpuff Girls Step aside >COMMA Power Rangers >PERIOD <EOS 
+CLAUSE:
+  [>SQUOTE (LEX)(PUNC)]
+
+CLAUSE:
+  [Who (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  NP SEGMENT:
+    [Gonna (?)(UNK(ENTITY UNKNOWN))]
+    [Call (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [>SQUOTE (LEX)(PUNC)]
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [Powerpuff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Step (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [aside (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Power (LEX)(N SINGULAR(OTHER))]
+    [Rangers (root: rang) (MOR)(N PLURAL)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : There's a new group of heroes in town-- . 
+PreProc  : THERE IS a new group of heroes in town >DASH >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THERE (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [new (LEX)(ADJ)]
+    [group (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a new group
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [heroes (root: hero) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>DASH (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The three girls--Buttercup, Blossom, and Bubbles--are crime-fighting girls on their own TV show. 
+PreProc  : The &&3 girls >DASH Buttercup >COMMA Blossom >COMMA and Bubbles >DASH are crime-fighting girls on their own TV show >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  [>DASH (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Buttercup (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Blossom (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Bubbles (?)(UNK(ENTITY UNKNOWN))]
+
+  [>DASH (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [crime-fighting (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [own (LEX)(ADJ)]
+      [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [own (LEX)(ADJ)]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The trio of tots is very popular. 
+PreProc  : The trio of tots is very popular >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [trio (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: The trio
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [tots (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [very (LEX)(ADV)]
+
+  ADJ SEGMENT:
+    [popular (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "They're special," said Laura Fodora, age 12. 
+PreProc  : >DQUOTE THEY ARE special >COMMA >DQUOTE said Laura Fodora >COMMA age &&12 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [special (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Laura (?)(UNK(ENTITY UNKNOWN))]
+    [Fodora (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&12 (LEX)(NUM)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Superheroes are [usually] for boys, and this is for girls." 
+PreProc  : >DQUOTE Superheroes are >LBRACKET usually >RBRACKET for boys >COMMA and this is for girls >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Superheroes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [usually (LEX)(ADV)]
+  [>RBRACKET (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [this (LEX)(DET)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But believe it or not, more boys than girls actually watch the show. 
+PreProc  : But believe it or not >COMMA more boys than girls actually watch the show >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [or (LEX)(CONJ)]
+  [not (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [more (LEX)(ADJ)]
+    [boys (root: boy) (MOR)(N PLURAL(HUMAN))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [actually (LEX)(ADV)]
+    [watch (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [show (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today is Friday the 13th. 
+PreProc  : Today is Friday the 13th >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [Friday (LEX)(N SINGULAR(DAY))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [13th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fear of the number 13 is known as . 
+PreProc  : The fear of the number &&13 is known as >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fear (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The fear
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [number (LEX)(N SINGULAR(OTHER))]
+      [&&13 (LEX)(NUM)]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [known (root: know) (LEX)(V PAST)]
+
+  [as (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The fear of big words is... Powerpuff mania has also hit stores. 
+PreProc  : The fear of big words is >ELLIPSES Powerpuff mania has also hit stores >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fear (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The fear
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [big (LEX)(ADJ)]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+    [mania (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+    [mania (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [also (LEX)(ADV)]
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [stores (root: store) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kids are buying all kinds of merchandise related to the TV show. 
+PreProc  : Kids are buying all kinds of merchandise related to the TV show >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [buying (root: buy) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: all kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [merchandise (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [related (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You've probably seen pens, pencils, lunch boxes, and backpacks with the Powerpuff Girls on them. 
+PreProc  : YOU HAVE probably seen pens >COMMA pencils >COMMA lunch boxes >COMMA and backpacks with the Powerpuff Girls on them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [YOU (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [HAVE (LEX)(AUX) (V BASE)]
+    [probably (LEX)(ADV)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [pens (root: pen) (MOR)(N PLURAL(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [pencils (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [lunch (?)(UNK(ENTITY UNKNOWN))]
+    [boxes (root: box) (MOR)(N PLURAL(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Powerpuff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Laura has a talking Buttercup doll, dog tags, pens, pencils, and Powerpuff stuffed animals and Beanie Babies. 
+PreProc  : Laura has a talking Buttercup doll >COMMA dog tags >COMMA pens >COMMA pencils >COMMA and Powerpuff stuffed animals and Beanie Babies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Laura (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [talking (root: talk) (MOR)(N SINGULAR) (GER)]
+    [Buttercup (?)(UNK(ENTITY UNKNOWN))]
+    [doll (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [dog (LEX)(N SINGULAR(ANIMAL))]
+    [tags (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [pens (root: pen) (MOR)(N PLURAL(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [pencils (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stuffed (root: stuff) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+    [and (LEX)(CONJ)]
+    [Beanie (?)(UNK(ENTITY UNKNOWN))]
+    [Babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By the end of the year, stores hope to sell more than $200 million worth of Powerpuff stuff to kids and their parents. 
+PreProc  : By the end of the year >COMMA stores hope to sell MORE_THAN >DOLLAR &&200 million worth of Powerpuff stuff to kids and their parents >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [end (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [stores (root: store) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [sell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [>DOLLAR (LEX)(ADJ)]
+    [&&200 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [worth (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: MORE_THAN >DOLLAR &&200 million worth
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+      [stuff (LEX)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [their (LEX)(ADJ)]
+      [parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But the powerful Powerpuff Girls aren't stopping there. 
+PreProc  : But the powerful Powerpuff Girls ARE NOT stopping there >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [powerful (LEX)(ADJ)]
+    [Powerpuff (?)(UNK(ENTITY UNKNOWN))]
+    [Girls (root: girl) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [NOT (LEX)(ADV)]
+    [stopping (root: stop) (MOR)(V PARTICIPLE)]
+    [there (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A movie is planned for 2002. 
+PreProc  : A movie is planned for &&2002 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [planned (root: plan) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2002 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

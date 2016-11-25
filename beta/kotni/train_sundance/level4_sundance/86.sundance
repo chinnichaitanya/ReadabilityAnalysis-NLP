@@ -1,0 +1,879 @@
+Original : . 
+PreProc  : >PERIOD <EOS 
+CLAUSE:
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you think those words are spoken only by adults who wear suits and work on Wall Street, think again. 
+PreProc  : If you think those words are spoken only by adults who wear suits and work on Wall Street >COMMA think again >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [spoken (root: spoke) (MOR)(ADJ)]
+
+  [only (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [adults (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [adults (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wear (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [suits (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [adults (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [work (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Wall (LEX)(N SINGULAR(OTHER))]
+      [Street (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [adults (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some of today's investors wear baggy pants and T-shirts and ride skateboards. 
+PreProc  : Some of @today@s investors wear baggy pants and T-shirts and ride skateboards >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@today@s (LEX)(ADJ POSSESSIVE)]
+      [investors (root: investor) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wear (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [baggy (?)(UNK(ENTITY UNKNOWN))]
+    [pants (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [T-shirts (root: t-shirt) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+
+Following PP attaches to: Some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [@today@s (LEX)(ADJ POSSESSIVE)]
+      [investors (root: investor) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [skateboards (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In other words, they're kids! 
+PreProc  : In other words >COMMA THEY ARE kids >EXCLAMATION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [THEY (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 5 million U.S. kids ages 12 to 17 don't just stash their money in piggy banks or savings accounts. 
+PreProc  : About &&5 million U.S. kids ages &&12 to &&17 DO NOT just stash their money in piggy banks or savings accounts >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ages (root: age) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&12 (LEX)(NUM)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&17 (LEX)(NUM)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&17 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [just (LEX)(ADJ) (ADV)]
+    [stash (?)(UNK(ENTITY UNKNOWN))]
+    [their (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [piggy (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [piggy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [banks (root: bank) (MOR)(V PRESENT)]
+
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [savings (LEX)(N SINGULAR(OTHER))]
+    [accounts (root: account) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They invest in the stock market. 
+PreProc  : They invest in the stock market >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [invest (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stock (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [market (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A stock market is a place to buy and sell of stock in all kinds of companies. 
+PreProc  : A stock market is a place to buy and sell of stock in all kinds of companies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [stock (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [market (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [place (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [buy (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (INFINITIVE):
+    [sell (LEX)(V BASE)]
+
+Following PP attaches to: sell
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [stock (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: all kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Owning a share of stock means you own a small piece of a company. 
+PreProc  : Owning a share of stock means you own a small piece of a company >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Owning (root: own) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [share (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a share
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [stock (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [share (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a share
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [stock (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [own (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [piece (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: a small piece
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The more shares you own, the more of a company you own. 
+PreProc  : The more shares you own >COMMA the more of a company you own >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [more (LEX)(ADJ)]
+    [shares (root: share) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [own (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [the (LEX)(ART)]
+  [more (LEX)(ADJ)]
+Following PP attaches to: own
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [own (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or use their money to buy stocks, in the stock market are called . 
+PreProc  : >COMMA or use their money to buy stocks >COMMA in the stock market are called >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [buy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [stocks (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stock (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [market (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [stock (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [market (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If a company makes money, it may pay investors , or some of the company's profits. 
+PreProc  : If a company makes money >COMMA it may pay investors >COMMA or some of the @company@s profits >PERIOD <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [pay (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [investors (root: investor) (MOR)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [some (LEX)(DET)]
+
+Following PP attaches to: investors >COMMA or some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@company@s (LEX)(ADJ POSSESSIVE)]
+      [profits (root: profit) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Another way investors make money is by selling their shares of stock at a price higher than the price they paid when they bought shares of the company's stock. 
+PreProc  : Another way investors make money is by selling their shares of stock at a price higher than the price they paid when they bought shares of the @company@s stock >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Another (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [investors (root: investor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [selling (root: sell) (MOR)(N SINGULAR) (GER)]
+      [their (LEX)(ADJ)]
+      [shares (root: share) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: selling their shares
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [stock (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [price (LEX)(N SINGULAR(OTHER))]
+
+
+  [higher (root: high) (MOR)(ADJ)]
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [price (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [paid (LEX)(V PAST)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bought (root: buy) (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [shares (root: share) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: shares
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@company@s (LEX)(ADJ POSSESSIVE)]
+      [stock (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Making money in the stock market may seem easy, but it's risky. 
+PreProc  : Making money in the stock market may seem easy >COMMA but IT IS risky >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Making (root: make) (MOR)(N SINGULAR) (GER)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stock (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [market (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [seem (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [easy (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [risky (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Investors can lose money when a stock's price drops. 
+PreProc  : Investors can lose money when a @stock@s price drops >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Investors (root: investor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [lose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [@stock@s (LEX)(ADJ POSSESSIVE)]
+    [price (LEX)(N SINGULAR(OTHER))]
+    [drops (root: drop) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That's why financial experts say kids should learn about a company before investing in it. 
+PreProc  : THAT IS why financial experts say kids should learn about a company before investing in it >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [THAT (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [why (?)(UNK(ENTITY UNKNOWN))]
+    [financial (LEX)(ADJ)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [why (?)(UNK(ENTITY UNKNOWN))]
+    [financial (LEX)(ADJ)]
+    [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [learn (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [investing (root: invest) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One expert suggests that kids start by investing in companies that make products they use. 
+PreProc  : One expert suggests that kids start by investing in companies that make products they use >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+    [expert (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [suggests (root: suggest) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [investing (root: invest) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+  NP SEGMENT (DOBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Eric Olson, age 17, has been investing since he was 13 years old. 
+PreProc  : Eric Olson >COMMA age &&17 >COMMA has been investing since he was &&13 years old >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Eric (?)(UNK(ENTITY UNKNOWN))]
+    [Olson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [age (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&17 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [investing (root: invest) (MOR)(V PARTICIPLE)]
+
+
+CLAUSE:
+  [since (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT:
+    [&&13 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [old (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He says kids should "read everything on investing--books, magazine articles, the business pages of [the] newspaper." 
+PreProc  : He says kids should >DQUOTE read everything on investing >DASH books >COMMA magazine articles >COMMA the business pages of >LBRACKET the >RBRACKET newspaper >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [read (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [investing (root: invest) (MOR)(N SINGULAR) (GER)]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [magazine (LEX)(N SINGULAR(MEDIA))]
+    [articles (root: article) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [business (LEX)(N SINGULAR(OTHER))]
+    [pages (root: page) (MOR)(N PLURAL(OTHER))]
+
+  [of (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+  [the (LEX)(ART)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [newspaper (LEX)(N SINGULAR(MEDIA))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As kids read, investing will be easier to understand, Eric said. 
+PreProc  : As kids read >COMMA investing will be easier to understand >COMMA Eric said >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [read (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [investing (root: invest) (MOR)(N SINGULAR) (GER)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [investing (root: invest) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [easier (root: easy) (MOR)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [understand (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Eric (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Eric (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

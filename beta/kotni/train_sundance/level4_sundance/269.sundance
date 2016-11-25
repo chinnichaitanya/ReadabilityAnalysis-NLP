@@ -1,0 +1,570 @@
+Original : Believe it or not, the day is almost here! 
+PreProc  : Believe it or not >COMMA the day is almost here >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Believe (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [or (LEX)(CONJ)]
+  [not (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [almost (LEX)(ADV)]
+    [here (LEX)(ADV)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After almost three years of waiting, kids will finally be able to get their hands on J.K. Rowling's fifth Harry Potter book. 
+PreProc  : After almost &&3 years of waiting >COMMA kids will finally be able to get their hands on J.K. @Rowling@s fifth Harry Potter book >PERIOD <EOS 
+CLAUSE:
+  [After (LEX)(C_M) (PREP)]
+  [almost (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+Following PP attaches to: &&3 years
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [waiting (root: wait) (MOR)(N SINGULAR) (GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [finally (root: final) (MOR)(ADV)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [able (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [get (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [hands (root: hand) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [J.K. (?)(UNK(ENTITY UNKNOWN))]
+      [@Rowling@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [fifth (LEX)(ADJ)]
+      [Harry (?)(UNK(ENTITY UNKNOWN))]
+      [Potter (?)(UNK(ENTITY UNKNOWN))]
+      [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Harry Potter and the Order of the Phoenix hits bookshelves on June 21-the first day of summer. 
+PreProc  : Harry Potter and the Order of the Phoenix hits bookshelves on June 21-the first day of summer >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Order (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Harry Potter and the Order
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Phoenix (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hits (root: hit) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [bookshelves (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [June (LEX)(N SINGULAR(MONTH))]
+      [21-the (?)(UNK(ENTITY UNKNOWN))]
+      [first (LEX)(ADJ)]
+      [day (LEX)(N SINGULAR(DAY))]
+
+
+Following PP attaches to: June 21-the first day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [summer (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Harry Potter fans have already made this book a best-seller. 
+PreProc  : Harry Potter fans have already made this book a best-seller >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+    [fans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [already (LEX)(ADV)]
+    [made (root: make) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [this (LEX)(DET)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [best-seller (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Orders have been pouring into stores since the release date was announced. 
+PreProc  : Orders have been pouring into stores since the release date was announced >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Orders (root: order) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [pouring (root: pour) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [stores (root: store) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [release (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [date (LEX)(N SINGULAR(TIME))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [date (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [announced (root: announce) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 6 million copies of this long-awaited book are being printed in the United States. 
+PreProc  : MORE_THAN &&6 million copies of this long-awaited book are being printed in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&6 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [copies (root: copy) (MOR)(N SINGULAR)]
+
+Following PP attaches to: MORE_THAN &&6 million copies
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [this (LEX)(DET)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [long-awaited (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [being (root: be) (LEX)(V PARTICIPLE)]
+    [printed (root: print) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the largest first printing in publishing history! 
+PreProc  : That is the largest first printing in publishing history >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [first (LEX)(ADJ)]
+    [printing (root: print) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [publishing (root: publish) (MOR)(N SINGULAR) (GER)]
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : series on scraps of paper at a local cafe in Great Britain. 
+PreProc  : series on scraps of paper at a local cafe in Great Britain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [series (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [scraps (root: scrap) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: scraps
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [paper (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [local (LEX)(ADJ)]
+      [cafe (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Great (LEX)(ADJ)]
+      [Britain (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She said the idea for the boy wizard popped into her head during a train ride to London. 
+PreProc  : She said the idea for the boy wizard popped into her head during a train ride to London >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [idea (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [boy (LEX)(N SINGULAR(HUMAN))]
+      [wizard (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [boy (LEX)(N SINGULAR(HUMAN))]
+    [wizard (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [popped (root: pop) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [head (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [train (LEX)(N SINGULAR(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [train (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [London (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her first book, , became an instant hit. 
+PreProc  : Her first book >COMMA >COMMA became an instant hit >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [first (LEX)(ADJ)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [instant (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [hit (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Nearly 80 million copies of the first four books have been sold in the United States. 
+PreProc  : Nearly &&80 million copies of the first &&4 books have been sold in the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Nearly (LEX)(ADJ) (ADV)]
+    [&&80 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [copies (root: copy) (MOR)(N SINGULAR)]
+
+Following PP attaches to: Nearly &&80 million copies
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [&&4 (LEX)(NUM)]
+      [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [sold (root: sell) (LEX)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What new adventures lie ahead for Harry? 
+PreProc  : What new adventures lie ahead for Harry >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [new (LEX)(ADJ)]
+    [adventures (?)(UNK(ENTITY UNKNOWN))]
+    [lie (LEX)(N SINGULAR(OTHER))]
+
+  [ahead (LEX)(ADV)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the upcoming book, Hogwarts headmaster, Albus Dumbledore, tells the young wizard, "It is time... for me to tell you what I should have told you five years ago, Harry. 
+PreProc  : In the upcoming book >COMMA Hogwarts headmaster >COMMA Albus Dumbledore >COMMA tells the young wizard >COMMA >DQUOTE It is time >ELLIPSES for me to tell you what I should have told you &&5 years ago >COMMA Harry >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [upcoming (LEX)(ADJ)]
+      [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Hogwarts (?)(UNK(ENTITY UNKNOWN))]
+    [headmaster (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Albus (?)(UNK(ENTITY UNKNOWN))]
+    [Dumbledore (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [tells (root: tell) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [young (LEX)(ADJ)]
+    [wizard (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [me (LEX)(PN SINGULAR(HUMAN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [tell (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT:
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT:
+    [&&5 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Please sit down. 
+PreProc  : Please sit down >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Please (LEX)(V BASE)]
+    [sit (LEX)(V BASE)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I am going to tell you everything." 
+PreProc  : I am going to tell you everything >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [am (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [tell (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

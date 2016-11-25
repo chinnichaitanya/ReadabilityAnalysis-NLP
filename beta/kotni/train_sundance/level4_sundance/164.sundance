@@ -1,0 +1,973 @@
+Original : At noon on January 20 in Washington, D.C., George W. Bush will be inaugurated as the 43rd president of the United States. 
+PreProc  : At noon on January &&20 in Washington >COMMA D.C. >COMMA George W. Bush will be inaugurated as the 43rd president of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [noon (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+
+  PP SEGMENT-Time (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [January (LEX)(N SINGULAR(MONTH))]
+      [&&20 (LEX)(NUM)]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [D.C. (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [inaugurated (root: inaugurate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [43rd (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+Following PP attaches to: the 43rd president
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This event marks the end of one of the most closely watched and controversial elections in U.S. history. 
+PreProc  : This event marks the end of one of the most closely watched and controversial elections in U.S. history >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [event (LEX)(N SINGULAR(OTHER))]
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [end (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the end
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  [closely (root: close) (MOR)(ADV)]
+  [watched (root: watch) (MOR)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [controversial (LEX)(ADJ)]
+    [elections (root: election) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On Inauguration Day, Bush is scheduled to stand outside the U.S. Capitol before thousands of citizens, the men and women of Congress, and members of the U.S. Supreme Court. 
+PreProc  : On Inauguration Day >COMMA Bush is scheduled to stand outside the U.S. Capitol before thousands of citizens >COMMA the men and women of Congress >COMMA and members of the U.S. Supreme Court >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [Inauguration (root: inaugurate) (MOR)(N SINGULAR)]
+
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [scheduled (root: schedule) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [stand (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [outside (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Capitol (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [thousands (root: thousand) (MOR)(N PLURAL(DENOMINATION))]
+
+
+Following PP attaches to: thousands
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [citizens (root: citizen) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [the (LEX)(ART)]
+    [men (root: man) (LEX)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+Following PP attaches to: the men and women
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+
+Following PP attaches to: Congress >COMMA and members
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Supreme (LEX)(ADJ)]
+      [Court (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bush will put his hand on an open Bible held by the chief justice of the United States. 
+PreProc  : Bush will put his hand on an open Bible held by the chief justice of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [his (LEX)(ADJ)]
+    [hand (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [open (LEX)(ADJ)]
+      [Bible (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [open (LEX)(ADJ)]
+    [Bible (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [chief (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [justice (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the chief justice
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bush will then recite the same Oath of Office that was spoken by the first U.S. president, George Washington, in 1789. 
+PreProc  : Bush will then recite the same Oath of Office that was spoken by the first U.S. president >COMMA George Washington >COMMA in &&1789 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [then (LEX)(ADV)]
+    [recite (root: cite) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [Oath (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the same Oath
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Office (LEX)(N SINGULAR(BUILDING))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [same (LEX)(ADJ)]
+    [Oath (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the same Oath
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Office (LEX)(N SINGULAR(BUILDING))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [spoken (root: spoke) (MOR)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [president (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1789 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The is the president's promise to lead the country. 
+PreProc  : The is the @president@s promise to lead the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [@president@s (LEX)(ADJ POSSESSIVE)]
+    [promise (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [lead (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After Bush recites the Oath of Office, he will give a speech that may set the tone of his presidency. 
+PreProc  : After Bush recites the Oath of Office >COMMA he will give a speech that may set the tone of his presidency >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [Bush (LEX)(N SINGULAR(OTHER))]
+      [recites (root: cite) (MOR)(N PLURAL)]
+
+
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Oath (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the Oath
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Office (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tone (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the tone
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [presidency (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many people will be listening carefully to his speech, because the 2000 presidential election was the source of bitter debate. 
+PreProc  : Many people will be listening carefully to his speech >COMMA because the &&2000 presidential election was the source of bitter debate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [listening (root: listen) (MOR)(V PARTICIPLE)]
+    [carefully (root: careful) (MOR)(ADV)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [speech (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [&&2000 (LEX)(NUM)]
+    [presidential (LEX)(ADJ)]
+    [election (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the source
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [bitter (LEX)(ADJ)]
+      [debate (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The first inauguration ceremony was performed in New York City, which was then the nation's capital. 
+PreProc  : The first inauguration ceremony was performed in NEW_YORK City >COMMA which was then the @nation@s capital >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [inauguration (root: inaugurate) (MOR)(N SINGULAR)]
+    [ceremony (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [performed (root: perform) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [City (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [then (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [@nation@s (LEX)(ADJ POSSESSIVE)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On April 30, 1789, George Washington took office. 
+PreProc  : On April &&30 >COMMA &&1789 >COMMA George Washington took office >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [April (LEX)(N SINGULAR(MONTH))]
+      [&&30 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&1789 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [Washington (LEX)(N SINGULAR PROPER(LOCATION HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [office (LEX)(N SINGULAR(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since then, the ceremony has changed. 
+PreProc  : Since then >COMMA the ceremony has changed >PERIOD <EOS 
+CLAUSE:
+  [Since (LEX)(C_M) (PREP)]
+  [then (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ceremony (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [changed (root: change) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thomas Jefferson, the third U.S. president, walked to the White House after his ceremony in 1801. 
+PreProc  : Thomas Jefferson >COMMA the third U.S. president >COMMA walked to the White House after his ceremony in &&1801 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Thomas (?)(UNK(ENTITY UNKNOWN))]
+    [Jefferson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [third (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [walked (root: walk) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [ceremony (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1801 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Bush will arrive at the White House in a long parade of limousines and Secret Service vehicles. 
+PreProc  : Bush will arrive at the White House in a long parade of limousines and Secret Service vehicles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [arrive (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [long (LEX)(ADJ)]
+      [parade (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a long parade
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [limousines (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Secret (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [Service (LEX)(N SINGULAR(OTHER))]
+      [vehicles (root: vehicle) (MOR)(N PLURAL(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : James Monroe, the fifth U.S. president, gave the first outdoor inaugural speech in 1817. 
+PreProc  : James Monroe >COMMA the fifth U.S. president >COMMA gave the first outdoor inaugural speech in &&1817 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [James (LEX)(N SINGULAR(HUMAN))]
+    [Monroe (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [fifth (LEX)(ADJ)]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [gave (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [outdoor (?)(UNK(ENTITY UNKNOWN))]
+    [inaugural (?)(UNK(ENTITY UNKNOWN))]
+    [speech (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1817 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After Andrew Jackson, the seventh U.S. president, was inaugurated in 1829, he held an open house at the White House. 
+PreProc  : After Andrew Jackson >COMMA the seventh U.S. president >COMMA was inaugurated in &&1829 >COMMA he held an open house at the White House >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [Andrew (?)(UNK(ENTITY UNKNOWN))]
+      [Jackson (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [seventh (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [U.S. (?)(UNK(ENTITY UNKNOWN))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [inaugurated (root: inaugurate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1829 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [open (LEX)(ADJ)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [White (LEX)(ADJ)]
+      [House (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The open house got out of control after the crowd, in a rush to see President Jackson, started breaking furniture and china. 
+PreProc  : The open house got out of control after the crowd >COMMA in a rush to see President Jackson >COMMA started breaking furniture and china >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [open (LEX)(ADJ)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  [out (LEX)]
+Following PP attaches to: got
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [control (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [crowd (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [rush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Jackson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [open (LEX)(ADJ)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [breaking (root: break) (MOR)(N SINGULAR) (GER)]
+    [furniture (LEX)(N SINGULAR(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [china (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Jackson was forced to escape through an open window. 
+PreProc  : Jackson was forced to escape through an open window >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Jackson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [was (root: be) (LEX)(COP PAST)]
+    [forced (root: force) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [escape (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [open (LEX)(ADJ)]
+      [window (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Although an open house is expected to be held again this year, it will probably be a more controlled event. 
+PreProc  : Although an open house is expected to be held again this year >COMMA it will probably be a more controlled event >PERIOD <EOS 
+CLAUSE:
+  [Although (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [open (LEX)(ADJ)]
+    [house (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [expected (root: expect) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [held (LEX)(V BASE)]
+    [again (LEX)(ADV)]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [probably (LEX)(ADV)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [more (LEX)(ADJ)]
+    [controlled (INF-MOR)(ADJ)]
+    [event (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I do solemnly swear (or affirm) that I will faithfully execute the Office of President of the United States, and will to the best of my Ability, preserve, protect and defend the Constitution of the United States." 
+PreProc  : >DQUOTE I do solemnly swear >LPAREN or affirm >RPAREN that I will faithfully execute the Office of President of the UNITED_STATES >COMMA and will to the best of my Ability >COMMA preserve >COMMA protect and defend the Constitution of the UNITED_STATES >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+    [solemnly (root: solemn) (MOR)(ADV)]
+    [swear (LEX)(V BASE)]
+
+  [>LPAREN (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [affirm (LEX)(V BASE)]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [faithfully (LEX)(ADV)]
+    [execute (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Office (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: the Office
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [President (LEX)(N SINGULAR(HUMAN))]
+
+
+Following PP attaches to: President
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+
+
+  [best (LEX)(ADJ)]
+Following PP attaches to: the
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [Ability (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [preserve (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protect (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [defend (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Constitution (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the Constitution
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Election 2000: George W. Bush in His Own Words The Three Branches of the U.S. Government All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : Election &&2000 >COLON George W. Bush in His Own Words The &&3 Branches of the U.S. Government All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Election (LEX)(N SINGULAR(OTHER))]
+    [&&2000 (LEX)(NUM)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [George (?)(UNK(ENTITY UNKNOWN))]
+    [W. (?)(UNK(ENTITY UNKNOWN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [His (LEX)(ADJ)]
+      [Own (LEX)(ADJ)]
+      [Words (root: word) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [&&3 (LEX)(NUM)]
+    [Branches (root: branch) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: The &&3 Branches
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Government (root: govern) (MOR)(N SINGULAR)]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,274 @@
+Original : What are red, white, and blue and roll around town? 
+PreProc  : What are red >COMMA white >COMMA and blue and roll around town >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [red (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [white (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [blue (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [roll (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [town (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The ABC News election buses! 
+PreProc  : The ABC News election buses >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [ABC (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [News (LEX)(N SINGULAR(MEDIA))]
+    [election (LEX)(N SINGULAR(OTHER))]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They hit the road this month. 
+PreProc  : They hit the road this month >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [road (LEX)(N SINGULAR(LOCATION))]
+
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The buses are TV studios on wheels. 
+PreProc  : The buses are TV studios on wheels >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [TV (LEX)(N SINGULAR(PHYSOBJ))]
+    [studios (root: studio) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [wheels (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They will travel across the country following the presidential campaign. 
+PreProc  : They will travel across the country following the presidential campaign >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [travel (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [country (LEX)(N SINGULAR(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [following (root: follow) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [presidential (LEX)(ADJ)]
+    [campaign (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To teach kids about the election process, ABC News teamed up with . 
+PreProc  : To teach kids about the election process >COMMA ABC News teamed up with >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [election (LEX)(N SINGULAR(OTHER))]
+      [process (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [ABC (?)(UNK(ENTITY UNKNOWN))]
+    [News (LEX)(N SINGULAR(MEDIA))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [teamed (INF-MOR)(V PAST)]
+    [up (LEX)(PART)]
+
+  [with (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The buses will also visit schools during the campaign. 
+PreProc  : The buses will also visit schools during the campaign >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [visit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [campaign (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I think the buses will be the most amazing thing since sliced bread," said Rick Kaplan, the senior vice president of ABC News. 
+PreProc  : >DQUOTE I think the buses will be the most amazing thing since sliced bread >COMMA >DQUOTE said Rick Kaplan >COMMA the senior vice president of ABC News >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [amazing (INF-MOR)(GER)]
+    [thing (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [sliced (INF-MOR)(ADJ)]
+      [bread (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [buses (root: bus) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Rick (?)(UNK(ENTITY UNKNOWN))]
+    [Kaplan (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [senior (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [vice (LEX)(N SINGULAR(OTHER))]
+    [president (LEX)(N SINGULAR(HUMAN))]
+
+Following PP attaches to: the senior vice president
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [ABC (?)(UNK(ENTITY UNKNOWN))]
+      [News (LEX)(N SINGULAR(MEDIA))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

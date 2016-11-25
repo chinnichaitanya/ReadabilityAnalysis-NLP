@@ -1,0 +1,613 @@
+Original : About 140 years ago, the Pony Express delivered mail to some parts of the United States. 
+PreProc  : About &&140 years ago >COMMA the Pony Express delivered mail to some parts of the UNITED_STATES >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&140 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Pony (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Express (LEX)(V BASE)]
+    [delivered (root: deliver) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: some parts
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, mail is delivered to most communities by cars, trucks, trains, and planes. 
+PreProc  : Today >COMMA mail is delivered to most communities by cars >COMMA trucks >COMMA trains >COMMA and planes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [delivered (root: deliver) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [most (LEX)(ADJ) (N PLURAL(OTHER))]
+      [communities (root: community) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [cars (root: car) (MOR)(N PLURAL(VEHICLE))]
+      [>COMMA (LEX)(PUNC)]
+      [trucks (root: truck) (MOR)(N PLURAL(VEHICLE))]
+      [>COMMA (LEX)(PUNC)]
+      [trains (root: train) (MOR)(N PLURAL(VEHICLE))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [planes (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But in Supai, Arizona, mail carriers still deliver the mail the way carriers did 100 years ago--by mules. 
+PreProc  : But in Supai >COMMA Arizona >COMMA mail carriers still deliver the mail the way carriers did &&100 years ago >DASH by mules >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [mail (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [still (LEX)(ADV)]
+    [deliver (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [way (LEX)(N SINGULAR(OTHER))]
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+
+  NP SEGMENT:
+    [&&100 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>DASH (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [mules (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 600 Native Americans live in Supai. 
+PreProc  : About &&600 Native Americans live in Supai >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&600 (LEX)(NUM)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [Americans (root: american) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The town is located at the bottom of a canyon near the Grand Canyon. 
+PreProc  : The town is located at the bottom of a canyon near the Grand Canyon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [town (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [located (root: locate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [bottom (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the bottom
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [canyon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Grand (LEX)(ADJ)]
+      [Canyon (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Letter carrier Charlie Chamberlain loads packages on mules. 
+PreProc  : Letter carrier Charlie Chamberlain loads packages on mules >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Letter (LEX)(N SINGULAR(PHYSOBJ))]
+    [carrier (LEX)(N SINGULAR(HUMAN VEHICLE))]
+    [Charlie (?)(UNK(ENTITY UNKNOWN))]
+    [Chamberlain (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [loads (root: load) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [packages (root: package) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [mules (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The mules deliver mail to Supai, Arizona. 
+PreProc  : The mules deliver mail to Supai >COMMA Arizona >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [mules (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [deliver (LEX)(V BASE)]
+    [mail (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Before being delivered in Supai, mail arrives in the post office in Peach Springs, Arizona, about 70 miles from Supai. 
+PreProc  : Before being delivered in Supai >COMMA mail arrives in the post office in Peach Springs >COMMA Arizona >COMMA about &&70 miles from Supai >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Before (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [being (root: be) (LEX)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [delivered (root: deliver) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [arrives (root: arrive) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [post (LEX)(N SINGULAR(OTHER))]
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Peach (?)(UNK(ENTITY UNKNOWN))]
+      [Springs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Arizona (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&70 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : From Peach Springs, delivery trucks take the mail to the rim of the canyon. 
+PreProc  : From Peach Springs >COMMA delivery trucks take the mail to the rim of the canyon >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [From (LEX)(PREP)]
+    NP SEGMENT:
+      [Peach (?)(UNK(ENTITY UNKNOWN))]
+      [Springs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [delivery (?)(UNK(ENTITY UNKNOWN))]
+    [trucks (root: truck) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rim (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the rim
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [canyon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Letter carriers then use mules to carry the mail to Supai. 
+PreProc  : Letter carriers then use mules to carry the mail to Supai >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Letter (LEX)(N SINGULAR(PHYSOBJ))]
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [then (LEX)(ADV)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [mules (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [carry (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [mail (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Letter carriers who deliver to Supai don't just carry letters and small packages; 
+PreProc  : Letter carriers who deliver to Supai DO NOT just carry letters and small packages >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Letter (LEX)(N SINGULAR(PHYSOBJ))]
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Letter (LEX)(N SINGULAR(PHYSOBJ))]
+    [carriers (root: carrier) (MOR)(N PLURAL(HUMAN VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [deliver (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [just (LEX)(ADV)]
+    [carry (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [letters (root: letter) (MOR)(N PLURAL(PHYSOBJ))]
+    [and (LEX)(CONJ)]
+    [small (LEX)(ADJ)]
+    [packages (root: package) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : they deliver almost everything that goes to Supai. 
+PreProc  : they deliver almost everything that goes to Supai >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [deliver (LEX)(V BASE)]
+    [almost (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Supai (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's amazing what people can do when they put their minds to it," said Charlie Chamberlain, a letter carrier. 
+PreProc  : >DQUOTE IT IS amazing what people can do when they put their minds to it >COMMA >DQUOTE said Charlie Chamberlain >COMMA a letter carrier >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+    [amazing (INF-MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [put (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [minds (root: mind) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [it (LEX)(PN SINGULAR(ENTITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Charlie (?)(UNK(ENTITY UNKNOWN))]
+    [Chamberlain (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [letter (LEX)(N SINGULAR(PHYSOBJ))]
+    [carrier (LEX)(N SINGULAR(HUMAN VEHICLE))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "They can pack things that you never would have thought of." 
+PreProc  : >DQUOTE They can pack things that you never would have thought of >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [pack (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [never (LEX)(ADV)]
+    [would (root: will) (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [thought (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A washing machine is the most unusual item Charlie has delivered. 
+PreProc  : A washing machine is the most unusual item Charlie has delivered >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [washing (root: wash) (MOR)(N SINGULAR) (GER)]
+    [machine (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [unusual (LEX)(ADJ)]
+    [item (LEX)(N SINGULAR(OTHER))]
+    [Charlie (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [unusual (LEX)(ADJ)]
+    [item (LEX)(N SINGULAR(OTHER))]
+    [Charlie (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [delivered (root: deliver) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,383 @@
+Original : will require 43 space flights by U.S. space shuttles and Russian rockets. 
+PreProc  : will require &&43 space flights by U.S. space shuttles and Russian rockets >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [require (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&43 (LEX)(NUM)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&43 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [space (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [flights (root: flight) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [U.S. (?)(UNK(ENTITY UNKNOWN))]
+      [space (LEX)(N SINGULAR(OTHER))]
+      [shuttles (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Russian (?)(UNK(ENTITY UNKNOWN))]
+      [rockets (root: rocket) (MOR)(N PLURAL(WEAPON))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : will have two robot arms. 
+PreProc  : will have &&2 robot arms >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [robot (?)(UNK(ENTITY UNKNOWN))]
+    [arms (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : One is 58 feet long and can move objects the size of a city bus. 
+PreProc  : One is &&58 feet long and can move objects the size of a city bus >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&58 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [One (LEX)(NUM) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [move (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [objects (root: object) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [size (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the size
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [city (LEX)(N SINGULAR(CITY))]
+      [bus (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The smaller arm is 12 feet long. 
+PreProc  : The smaller arm is &&12 feet long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [smaller (root: small) (MOR)(ADJ)]
+    [arm (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [&&12 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : will weigh 900,000 pounds, about the weight of 75 African elephants. 
+PreProc  : will weigh &&900,000 pounds >COMMA about the weight of &&75 African elephants >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [weigh (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&900,000 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [weight (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the weight
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&75 (LEX)(NUM)]
+      [African (LEX)(ADJ)]
+      [elephants (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : William Shepherd will command the first crew. 
+PreProc  : William Shepherd will command the first crew >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [William (?)(UNK(ENTITY UNKNOWN))]
+    [Shepherd (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [command (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [crew (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That crew will include two Russian cosmonauts, Yuri Gidzenko and Sergei Krikalev. 
+PreProc  : That crew will include &&2 Russian cosmonauts >COMMA Yuri Gidzenko and Sergei Krikalev >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+    [crew (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [include (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [Russian (?)(UNK(ENTITY UNKNOWN))]
+    [cosmonauts (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Yuri (?)(UNK(ENTITY UNKNOWN))]
+    [Gidzenko (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [Sergei (?)(UNK(ENTITY UNKNOWN))]
+    [Krikalev (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The crew members plan to spend four months aboard the They will connect other pieces and parts as those things arrive from Earth. 
+PreProc  : The crew members plan to spend &&4 months aboard the They will connect other pieces and parts as those things arrive from Earth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [crew (LEX)(N SINGULAR(HUMAN))]
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plan (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [spend (LEX)(V BASE)]
+
+  NP SEGMENT-Time:
+    [&&4 (LEX)(NUM)]
+    [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+  [aboard (LEX)(PREP)]
+  [the (LEX)(ART)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [connect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pieces (root: piece) (MOR)(V PRESENT)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [arrive (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Construction of the space station will not be completed until 2005 or 2006. 
+PreProc  : Construction of the space station will not be completed until &&2005 or &&2006 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Construction (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Construction
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [space (LEX)(N SINGULAR(OTHER))]
+      [station (LEX)(N SINGULAR(BUILDING))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [will (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [completed (root: complete) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+      [or (LEX)(CONJ)]
+      [&&2006 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Other countries that are building the station are Canada, Japan, Brazil, Belgium, Denmark, France, Germany, Italy, the Netherlands, Norway, Spain, Sweden, Switzerland, and the United Kingdom. 
+PreProc  : Other countries that are building the station are Canada >COMMA Japan >COMMA Brazil >COMMA Belgium >COMMA Denmark >COMMA France >COMMA Germany >COMMA Italy >COMMA the Netherlands >COMMA Norway >COMMA Spain >COMMA Sweden >COMMA Switzerland >COMMA and the UNITED_KINGDOM >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (IOBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [station (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [Canada (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Japan (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Brazil (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Belgium (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Denmark (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [France (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Germany (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Italy (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [the (LEX)(ART)]
+    [Netherlands (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Norway (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Spain (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)]
+    [Sweden (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [Switzerland (LEX)(N SINGULAR(COUNTRY))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [UNITED_KINGDOM (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

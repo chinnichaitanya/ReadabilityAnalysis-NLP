@@ -1,0 +1,925 @@
+Original : New York City Subway: Then and Now New York City's mayor, Michael Bloomberg, is a billionaire who could take a limousine to work. 
+PreProc  : NEW_YORK City Subway >COLON Then and Now NEW_YORK @City@s mayor >COMMA Michael Bloomberg >COMMA is a billionaire who could take a limousine to work >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [City (LEX)(N SINGULAR(CITY))]
+    [Subway (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COLON (LEX)(PUNC)]
+  [Then (LEX)(ADV)]
+  [and (LEX)(CONJ)]
+  [Now (LEX)(ADV)]
+  NP SEGMENT:
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [@City@s (LEX)(ADJ POSSESSIVE)]
+    [mayor (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Michael (?)(UNK(ENTITY UNKNOWN))]
+    [Bloomberg (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [billionaire (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [billionaire (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [limousine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Instead, he rides the subway to his office at City Hall each morning. 
+PreProc  : Instead >COMMA he rides the subway to his office at City Hall each morning >PERIOD <EOS 
+CLAUSE:
+  [Instead (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rides (root: ride) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [office (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [City (LEX)(N SINGULAR(CITY))]
+      [Hall (LEX)(N SINGULAR(OTHER))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [morning (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "A hundred years ago, a generation of New Yorkers had the courage and conviction to build a subway system that transformed our city," said Mayor Bloomberg. 
+PreProc  : >DQUOTE A hundred years ago >COMMA a generation of New Yorkers had the courage and conviction to build a subway system that transformed our city >COMMA >DQUOTE said Mayor Bloomberg >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [hundred (LEX)(ADJ) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [generation (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a generation
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Yorkers (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [courage (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [conviction (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [transformed (root: transform) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [our (LEX)(ADJ)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Mayor (LEX)(N SINGULAR(HUMAN))]
+    [Bloomberg (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Today our subway is the backbone of New York." 
+PreProc  : >DQUOTE Today our subway is the backbone of NEW_YORK >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+    [our (LEX)(ADJ)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [backbone (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: the backbone
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On October 27, 2004, New York City marked the , or hundredth anniversary, of its subway system with special ceremonies. 
+PreProc  : On October &&27 >COMMA &&2004 >COMMA NEW_YORK City marked the >COMMA or hundredth anniversary >COMMA of its subway system with special ceremonies >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Time (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&27 (LEX)(NUM)]
+      [>COMMA (LEX)]
+      [&&2004 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [City (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [marked (INF-MOR)(V PAST)]
+
+  [the (LEX)(ART)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [hundredth (?)(UNK(ENTITY UNKNOWN))]
+    [anniversary (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: hundredth anniversary
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [subway (LEX)(N SINGULAR(VEHICLE))]
+      [system (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [special (LEX)(ADJ)]
+      [ceremonies (root: ceremony) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As part of the celebration, people took tours to retrace the original 9.1-mile route from City Hall to Harlem. 
+PreProc  : As part of the celebration >COMMA people took tours to retrace the original 9.1-mile route from City Hall to Harlem >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [celebration (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [tours (root: tour) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [retrace (root: trace) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [original (LEX)(ADJ)]
+    [9.1-mile (?)(UNK(ENTITY UNKNOWN))]
+    [route (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [City (LEX)(N SINGULAR(CITY))]
+      [Hall (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Harlem (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Construction began on the subway in 1900 and took 12,000 workers four years to complete. 
+PreProc  : Construction began on the subway in &&1900 and took &&12,000 workers &&4 years to complete >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Construction (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [subway (LEX)(N SINGULAR(VEHICLE))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1900 (LEX)(NUM)]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Construction (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [&&12,000 (LEX)(NUM)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [complete (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At that time, the population of New York City was 3.4 million and growing. 
+PreProc  : At that time >COMMA the population of NEW_YORK City was &&3.4 million and growing >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [population (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the population
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [City (LEX)(N SINGULAR(CITY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [&&3.4 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [and (LEX)(CONJ)]
+    [growing (root: grow) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : People, horse-drawn carriages, trolleys, and vendors packed city streets. 
+PreProc  : People >COMMA horse-drawn carriages >COMMA trolleys >COMMA and vendors packed city streets >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [People (root: person) (LEX)(N PLURAL(HUMAN))]
+    [>COMMA (LEX)(PUNC)]
+    [horse-drawn (?)(UNK(ENTITY UNKNOWN))]
+    [carriages (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [trolleys (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [vendors (root: vendor) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [packed (root: pack) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [city (LEX)(N SINGULAR(CITY))]
+    [streets (root: street) (MOR)(N PLURAL(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Library of Congress, Prints & Photographs Division, Detroit Publishing Company Collection, [reproduction numbers, LC-D4-17293 (L), LC-D4-17294 (R)] Left: City Hall subway station c1900-1906; 
+PreProc  : Library of Congress >COMMA Prints >AMPERSAND Photographs Division >COMMA Detroit Publishing Company Collection >COMMA >LBRACKET reproduction numbers >COMMA LC-D4-17293 >LPAREN L >RPAREN >COMMA LC-D4-17294 >LPAREN R >RPAREN >RBRACKET Left >COLON City Hall subway station c1900-1906 >SEMI <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: Library
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Prints (root: print) (MOR)(V PRESENT)]
+
+  [>AMPERSAND (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Library (LEX)(N SINGULAR(BUILDING))]
+
+Following PP attaches to: Library
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Congress (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Photographs (root: photograph) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Division (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Detroit (?)(UNK(ENTITY UNKNOWN))]
+    [Publishing (root: publish) (MOR)(N SINGULAR) (GER)]
+    [Company (LEX)(N SINGULAR(ORGANIZATION))]
+    [Collection (root: collect) (MOR)(N SINGULAR)]
+
+  [>COMMA (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [reproduction (INF-MOR)(N(ENTITY UNKNOWN))]
+    [numbers (root: number) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [LC-D4-17293 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [L (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [LC-D4-17294 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [R (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>RBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Division (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Left (LEX)(V PAST)]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [City (LEX)(N SINGULAR(CITY))]
+    [Hall (LEX)(N SINGULAR(OTHER))]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [station (LEX)(N SINGULAR(BUILDING))]
+    [c1900-1906 (?)(UNK(ENTITY UNKNOWN))]
+
+  [>SEMI (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : right: Construction of the Brooklyn Bridge subway station, around 1904. 
+PreProc  : right >COLON Construction of the Brooklyn Bridge subway station >COMMA around &&1904 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [right (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Construction (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Construction
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Brooklyn (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Bridge (?)(UNK(ENTITY UNKNOWN))]
+      [subway (LEX)(N SINGULAR(VEHICLE))]
+      [station (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1904 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : City officials believed that a subway system would help people get around faster and allow them to move into outer areas. 
+PreProc  : City officials believed that a subway system would help people get around faster and allow them to move into outer areas >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [City (LEX)(N SINGULAR(CITY))]
+    [officials (root: official) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [believed (root: believe) (MOR)(V PAST(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [get (LEX)(V BASE)]
+
+  [around (LEX)(PREP)]
+  [faster (root: fast) (MOR)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [allow (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [move (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [outer (LEX)(ADJ)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What started out as one subway line with 28 stations has grown into 26 lines with 468 stations. 
+PreProc  : What started out as one subway line with &&28 stations has grown into &&26 lines with &&468 stations >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [started (root: start) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [subway (LEX)(N SINGULAR(VEHICLE))]
+      [line (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [&&28 (LEX)(NUM)]
+      [stations (root: station) (MOR)(N PLURAL(BUILDING))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&28 (LEX)(NUM)]
+    [stations (root: station) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [grown (root: grow) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [&&26 (LEX)(NUM)]
+      [lines (root: line) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [&&468 (LEX)(NUM)]
+      [stations (root: station) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A fare in 1904 cost only a nickel. 
+PreProc  : A fare in &&1904 cost only a nickel >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [fare (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1904 (LEX)(NUM)]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cost (LEX)(V BASE PAST)]
+    [only (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [nickel (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Today, about 4.5 million people ride the subway daily and pay $2 a ride. 
+PreProc  : Today >COMMA about &&4.5 million people ride the subway daily and pay >DOLLAR &&2 a ride >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Today (LEX)(N SINGULAR(TIME)) (ADV(TIME))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [about (LEX)(ADV)]
+    [&&4.5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ride (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+
+  [daily (LEX)(ADJ) (ADV)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [about (LEX)(ADV)]
+    [&&4.5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pay (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [>DOLLAR (LEX)(ADJ)]
+    [&&2 (LEX)(NUM)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [ride (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The subway has seen plenty of change since 1904. 
+PreProc  : The subway has seen plenty of change since &&1904 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [seen (root: see) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [change (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1904 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Over the years, workers have restored many old subway stations. 
+PreProc  : Over the years >COMMA workers have restored many old subway stations >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [restored (root: restore) (MOR)(N SINGULAR) (ADJ)]
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [old (LEX)(ADJ)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [stations (root: station) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They have found mosaics and murals hidden under dirt. 
+PreProc  : They have found mosaics and murals hidden under dirt >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [mosaics (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [murals (?)(UNK(ENTITY UNKNOWN))]
+
+  [hidden (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [dirt (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Public artwork now graces 140 subway stations as part of the Art for Transit program. 
+PreProc  : Public artwork now graces &&140 subway stations as part of the Art for Transit program >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [artwork (?)(UNK(ENTITY UNKNOWN))]
+
+  [now (LEX)(ADV)]
+  NP SEGMENT:
+    [graces (?)(UNK(ENTITY UNKNOWN))]
+    [&&140 (LEX)(NUM)]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stations (root: station) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [part (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Art (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [Transit (LEX)(N SINGULAR(OTHER))]
+      [program (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "You can probably say that the New York subway system is one of the largest art museums in the world," Roxanne Robertson of the New York Transit Museum told New York City Subway: Then and Now All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : >DQUOTE You can probably say that the NEW_YORK subway system is one of the largest art museums in the world >COMMA >DQUOTE Roxanne Robertson of the NEW_YORK Transit Museum told NEW_YORK City Subway >COLON Then and Now All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [probably (LEX)(ADV)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [subway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [largest (root: large) (MOR)(ADJ   )]
+      [art (LEX)(N SINGULAR(OTHER))]
+      [museums (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Roxanne (?)(UNK(ENTITY UNKNOWN))]
+    [Robertson (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Roxanne Robertson
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [Transit (LEX)(N SINGULAR(OTHER))]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Roxanne (?)(UNK(ENTITY UNKNOWN))]
+    [Robertson (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Roxanne Robertson
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+      [Transit (LEX)(N SINGULAR(OTHER))]
+      [Museum (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+    [City (LEX)(N SINGULAR(CITY))]
+    [Subway (LEX)(N SINGULAR(VEHICLE))]
+
+  [>COLON (LEX)(PUNC)]
+  [Then (LEX)(ADV)]
+  [and (LEX)(CONJ)]
+  [Now (LEX)(ADV)]
+  NP-CONJ SEGMENT:
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

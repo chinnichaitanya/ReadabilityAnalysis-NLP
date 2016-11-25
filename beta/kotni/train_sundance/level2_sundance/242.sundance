@@ -1,0 +1,210 @@
+Original : Fish Tales: Lengths of Some Ocean Animals The graph below lists the average length of some sea animals. 
+PreProc  : Fish Tales >COLON Lengths of Some Ocean Animals The graph below lists the average length of some sea animals >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Fish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Tales (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Lengths (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: Lengths
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Some (LEX)(DET)]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+      [Animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  NP SEGMENT:
+    [The (LEX)(ART)]
+    [graph (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [below (LEX)(PREP)]
+    NP SEGMENT:
+      [lists (root: list) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [average (LEX)(N SINGULAR(OTHER))]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the average length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [sea (LEX)(N SINGULAR(LOCATION))]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use the graph to answer the questions. 
+PreProc  : Use the graph to answer the questions >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [graph (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Which ocean animal shown on the graph is the longest? 
+PreProc  : Which ocean animal shown on the graph is the longest >QUESTION <EOS 
+CLAUSE:
+  [Which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [ocean (LEX)(N SINGULAR(LOCATION))]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shown (root: show) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [graph (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [graph (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [longest (root: long) (MOR)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the average length of a porcupine fish? 
+PreProc  : What is the average length of a porcupine fish >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [average (LEX)(N SINGULAR(OTHER))]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the average length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [porcupine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How much longer is a sea horse than a clown fish? 
+PreProc  : How much longer is a sea horse than a clown fish >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [longer (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sea (LEX)(N SINGULAR(LOCATION))]
+    [horse (?)(UNK(ENTITY UNKNOWN))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [clown (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [fish (LEX)(N SINGULAR(ANIMAL))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : What is the combined length of the clown fish and the porcupine fish? 
+PreProc  : What is the combined length of the clown fish and the porcupine fish >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [What (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [combined (root: combine) (MOR)(ADJ)]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the combined length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [clown (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+      [and (LEX)(CONJ)]
+      [the (LEX)(ART)]
+      [porcupine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

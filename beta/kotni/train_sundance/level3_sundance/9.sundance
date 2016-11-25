@@ -1,0 +1,772 @@
+Original : ) skeletons had ever been found. 
+PreProc  : >RPAREN skeletons had ever been found >PERIOD <EOS 
+CLAUSE:
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [skeletons (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [ever (LEX)(ADV)]
+    [been (root: be) (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But last summer, scientists found five fossils in one place. 
+PreProc  : But last summer >COMMA scientists found &&5 fossils in one place >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [last (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [place (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now some scientists say more of those dinosaurs may have roamed Earth than they had thought before. 
+PreProc  : Now some scientists say more of those dinosaurs may have roamed Earth than they had thought before >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+Following PP attaches to: say
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [dinosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [may (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+    [roamed (root: roam) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Earth (?)(UNK(ENTITY UNKNOWN))]
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [thought (LEX)(V PAST)]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Standing nearly 40 feet tall, with 6-inch razor-sharp teeth, walked the Earth about 65 million years ago. 
+PreProc  : Standing nearly &&40 feet tall >COMMA with 6-inch razor-sharp teeth >COMMA walked the Earth about &&65 million years ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Standing (root: stand) (MOR)(N SINGULAR) (GER)]
+    [nearly (LEX)(ADJ) (ADV)]
+    [&&40 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [tall (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [6-inch (?)(UNK(ENTITY UNKNOWN))]
+      [razor-sharp (?)(UNK(ENTITY UNKNOWN))]
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [walked (root: walk) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Earth (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [about (LEX)(ADV)]
+  NP SEGMENT:
+    [&&65 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : or preserved bones, of five tyrannosaurs while digging in the plains of Montana. 
+PreProc  : or preserved bones >COMMA of &&5 tyrannosaurs while digging in the plains of Montana >PERIOD <EOS 
+CLAUSE:
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [preserved (root: preserve) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: bones
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [tyrannosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [while (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+Following PP attaches to: bones
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&5 (LEX)(NUM)]
+      [tyrannosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [digging (root: dig) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [plains (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: the plains
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Montana (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : fossils found together makes scientists wonder whether more tyrannosaurs lived millions of years ago than they previously thought. 
+PreProc  : fossils found together makes scientists wonder whether more tyrannosaurs lived millions of years ago than they previously thought >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+    [together (LEX)(ADV)]
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wonder (LEX)(V BASE)]
+
+
+CLAUSE:
+  [whether (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [tyrannosaurs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [millions (root: million) (MOR)(N PLURAL(DENOMINATION))]
+
+Following PP attaches to: millions
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [ago (LEX)(ADV(TIME))]
+  [than (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [previously (LEX)(ADV)]
+    [thought (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is discovered once every ten years. 
+PreProc  : is discovered once every &&10 years >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [discovered (root: discover) (MOR)(V PAST)]
+    [once (LEX)(ADV)]
+
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [&&10 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So five at once is pretty neat," said Jack Horner, the scientist who found the fossils. 
+PreProc  : So &&5 at once is pretty neat >COMMA >DQUOTE said Jack Horner >COMMA the scientist who found the fossils >PERIOD <EOS 
+CLAUSE:
+  [So (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  [at (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [once (LEX)(ADV)]
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [pretty (LEX)(ADJ)]
+    [neat (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Jack (?)(UNK(ENTITY UNKNOWN))]
+    [Horner (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fossils (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : fossils he uncovered is special. 
+PreProc  : fossils he uncovered is special >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  [uncovered (root: cover) (MOR)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [special (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : So far, only the dinosaur's jawbone and ribs have been found. 
+PreProc  : SO_FAR >COMMA only the @dinosaur@s jawbone and ribs have been found >PERIOD <EOS 
+CLAUSE:
+  [SO_FAR (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [only (LEX)(ADV)]
+  NP-CONJ SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [@dinosaur@s (LEX)(ADJ POSSESSIVE)]
+    [jawbone (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [ribs (root: rib) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But measuring those bones shows that they might belong to the largest found until last summer is known as Sue. 
+PreProc  : But measuring those bones shows that they might belong to the largest found until last summer is known as Sue >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [measuring (root: measure) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [those (LEX)(DET)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [those (LEX)(DET)]
+    [bones (root: bone) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [belong (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [largest (root: large) (INF-LEX)(N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [largest (root: large) (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [last (LEX)(ADJ)]
+      [summer (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [last (LEX)(ADJ)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [known (root: know) (LEX)(V PAST)]
+
+  [as (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [last (LEX)(ADJ)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Sue (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sue is named after Sue Hendrickson, the scientist who discovered the fossil in 1990. 
+PreProc  : Sue is named after Sue Hendrickson >COMMA the scientist who discovered the fossil in &&1990 >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (PASSIVE_VERB):
+    [Sue (LEX)(V BASE)]
+    [is (root: be) (LEX)(COP)]
+    [named (root: name) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [after (LEX)(C_M) (PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [Sue (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Hendrickson (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [scientist (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [discovered (root: discover) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [fossil (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1990 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The is on display at a museum in Chicago, Illinois. 
+PreProc  : The is on display at a museum in Chicago >COMMA Illinois >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [is (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [on (LEX)(PREP)]
+  VP SEGMENT (ACTIVE_VERB):
+    [display (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Chicago (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Illinois (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sue was 42 feet long and had teeth that were about 7 inches to 12 inches long. 
+PreProc  : Sue was &&42 feet long and had teeth that were about &&7 inches to &&12 inches long >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Sue (LEX)(V BASE)]
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&42 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [long (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&42 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&7 (LEX)(NUM)]
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&12 (LEX)(NUM)]
+      [inches (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists or guess, that Sue weighed more than 14,000 pounds, or 7 tons, when alive. 
+PreProc  : Scientists or guess >COMMA that Sue weighed MORE_THAN &&14,000 pounds >COMMA or &&7 tons >COMMA when alive >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [guess (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Sue (LEX)(V BASE)]
+    [weighed (root: weigh) (MOR)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&14,000 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [&&7 (LEX)(NUM)]
+    [tons (root: ton) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  [alive (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Back in Montana, Horner hopes to finish uncovering all five fossils by next summer. 
+PreProc  : Back in Montana >COMMA Horner hopes to finish uncovering all &&5 fossils by next summer >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Montana (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Horner (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hopes (root: hope) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [finish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [uncovering (root: cover) (MOR)(N SINGULAR) (GER)]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [&&5 (LEX)(NUM)]
+    [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [next (LEX)(ADJ)]
+      [summer (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is helping to build a museum near where the fossils were found. 
+PreProc  : He is helping to build a museum near where the fossils were found >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [helping (root: help) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [build (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [museum (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [near (LEX)(PREP)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [fossils (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [found (root: find) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We're going to fill it with fossils," Horner said. 
+PreProc  : >DQUOTE WE ARE going to fill it with fossils >COMMA >DQUOTE Horner said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [WE (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [ARE (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [fill (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [fossils (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Horner (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Horner (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It's going to be fun." 
+PreProc  : >DQUOTE IT IS going to be fun >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [IS (root: be) (LEX)(COP)]
+    [going (root: go) (LEX)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

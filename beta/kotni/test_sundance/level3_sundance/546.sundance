@@ -1,0 +1,533 @@
+Original : Listen up! 
+PreProc  : Listen up >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Listen (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Baby birds have something to say, and researchers are all ears. 
+PreProc  : Baby birds have something to say >COMMA and researchers are all ears >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Baby (LEX)(N SINGULAR(HUMAN))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [something (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [ears (root: ear) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A team of experts recently figured out that baby birds before they learn how to sing. 
+PreProc  : A team of experts recently figured out that baby birds before they learn how to sing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [figured (root: figure) (MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learn (LEX)(V BASE)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [sing (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To babble is to make sounds that have no meaning. 
+PreProc  : To babble is to make sounds that have no meaning >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [To (LEX)(PREP)]
+    NP SEGMENT:
+      [babble (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT (SUBJ):
+    [babble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [no (LEX)(ADJ)]
+    [meaning (root: mean) (MOR)(N SINGULAR) (GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Human babies babble while learning to talk. 
+PreProc  : Human babies babble while learning to talk >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Human (LEX)(N SINGULAR(HUMAN))]
+    [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+    [babble (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [while (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Human (LEX)(N SINGULAR(HUMAN))]
+    [babies (root: baby) (MOR)(N PLURAL(HUMAN))]
+    [babble (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learning (root: learn) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [talk (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Researchers have found out how baby zebra finches learn to sing. 
+PreProc  : Researchers have found out how baby zebra finches learn to sing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [found (root: find) (LEX)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+    [how (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [zebra (?)(UNK(ENTITY UNKNOWN))]
+    [finches (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [zebra (?)(UNK(ENTITY UNKNOWN))]
+    [finches (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learn (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [sing (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Researchers studied the bird brains of baby zebra finches as the little animals learned how to sing. 
+PreProc  : Researchers studied the bird brains of baby zebra finches as the little animals learned how to sing >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Researchers (root: search) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [studied (root: study) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bird (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [brains (root: brain) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the bird brains
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [baby (LEX)(N SINGULAR(HUMAN))]
+      [zebra (?)(UNK(ENTITY UNKNOWN))]
+      [finches (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [little (LEX)(ADJ)]
+      [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [little (LEX)(ADJ)]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [learned (root: learn) (MOR)(V PAST)]
+    [how (LEX)(ADV)]
+    [to (LEX)(INF)]
+    [sing (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to zebra finch experts, the baby birds begin making noises about three days after being born. 
+PreProc  : According to zebra finch experts >COMMA the baby birds begin making noises about &&3 days after being born >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [zebra (?)(UNK(ENTITY UNKNOWN))]
+      [finch (?)(UNK(ENTITY UNKNOWN))]
+      [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begin (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [making (root: make) (MOR)(N SINGULAR) (GER)]
+    [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+  [about (LEX)(ADV)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [being (root: be) (LEX)(GER)]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [being (root: be) (LEX)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [born (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The soft noises are ÒBirds start out by babbling, just as humans do,Ó says researcher Michale S. Fee. 
+PreProc  : The soft noises are ÒBirds start out by babbling >COMMA just as humans do,Ó says researcher Michale S. Fee >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [soft (LEX)(ADJ)]
+    [noises (root: noise) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [ÒBirds (?)(UNK(ENTITY UNKNOWN))]
+    [start (LEX)(N SINGULAR(OTHER))]
+
+  [out (LEX)(PART) (ADV)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [babbling (INF-MOR)(GER)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [just (LEX)(ADJ) (ADV)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [humans (root: human) (MOR)(N PLURAL(HUMAN))]
+      [do,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [humans (root: human) (MOR)(N PLURAL(HUMAN))]
+    [do,Ó (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [researcher (root: search) (MOR)(N SINGULAR)]
+    [Michale (?)(UNK(ENTITY UNKNOWN))]
+    [S. (?)(UNK(ENTITY UNKNOWN))]
+    [Fee (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The colorful baby birdies practice making sounds , or nonstop, according to Fee. 
+PreProc  : The colorful baby birdies practice making sounds >COMMA or nonstop >COMMA according to Fee >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [colorful (LEX)(ADJ)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [birdies (?)(UNK(ENTITY UNKNOWN))]
+    [practice (LEX)(N SINGULAR(OTHER))]
+    [making (root: make) (MOR)(N SINGULAR) (GER)]
+    [sounds (root: sound) (MOR)(N PLURAL(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [nonstop (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [according (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [Fee (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His team also learned that one part of the zebra finch brain controls the baby babble. 
+PreProc  : His team also learned that one part of the zebra finch brain controls the baby babble >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [learned (root: learn) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: one part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [zebra (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [finch (?)(UNK(ENTITY UNKNOWN))]
+      [brain (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [controls (root: control) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [baby (LEX)(N SINGULAR(HUMAN))]
+    [babble (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Another part of the brain controls the song the birds will sing as adults. 
+PreProc  : Another part of the brain controls the song the birds will sing as adults >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Another (LEX)(ADJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: Another part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [brain (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [controls (root: control) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [song (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [birds (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [birds (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [sing (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [adults (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Birds use songs to draw other birds toward them. 
+PreProc  : Birds use songs to draw other birds toward them >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Birds (?)(UNK(ENTITY UNKNOWN))]
+    [use (LEX)(N SINGULAR(OTHER))]
+    [songs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [draw (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [birds (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [toward (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now scientists know why theyÕre so good at itÑpractice makes perfect. 
+PreProc  : Now scientists know why theyÕre so good at itÑpractice makes perfect >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [why (?)(UNK(ENTITY UNKNOWN))]
+    [theyÕre (?)(UNK(ENTITY UNKNOWN))]
+
+  [so (LEX)(ADV)]
+  NP SEGMENT:
+    [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [itÑpractice (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [itÑpractice (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  ADJ SEGMENT:
+    [perfect (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

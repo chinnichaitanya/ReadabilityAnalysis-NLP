@@ -1,0 +1,435 @@
+Original : ? 
+PreProc  : >QUESTION <EOS 
+CLAUSE:
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The magazine is looking for student reporters for next school yearÑand you could be one of them! 
+PreProc  : The magazine is looking for student reporters for next school yearÑand you could be one of them >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [magazine (LEX)(N SINGULAR(MEDIA))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [looking (root: look) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [student (LEX)(N SINGULAR(HUMAN))]
+      [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [next (LEX)(ADJ)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [yearÑand (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [them (LEX)(PN PLURAL(HUMAN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : WR News student reporter Caitlin Bowen with author Tiki Barber. 
+PreProc  : WR News student reporter Caitlin Bowen with author Tiki Barber >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [WR (?)(UNK(ENTITY UNKNOWN))]
+    [News (LEX)(N SINGULAR(MEDIA))]
+    [student (LEX)(N SINGULAR(HUMAN))]
+    [reporter (LEX)(N SINGULAR(HUMAN))]
+    [Caitlin (?)(UNK(ENTITY UNKNOWN))]
+    [Bowen (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [author (LEX)(N SINGULAR(HUMAN))]
+      [Tiki (?)(UNK(ENTITY UNKNOWN))]
+      [Barber (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Student reporters write stories and report on big events, such as the Super Bowl. 
+PreProc  : Student reporters write stories and report on big events >COMMA SUCH_AS the Super Bowl >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Student (LEX)(N SINGULAR(HUMAN))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [write (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [stories (root: story) (MOR)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Student (LEX)(N SINGULAR(HUMAN))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [report (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [big (LEX)(ADJ)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Super (LEX)(ADJ)]
+      [Bowl (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This school yearÕs reporters wrote Those are articles that show two sides of an issue or idea. 
+PreProc  : This school yearÕs reporters wrote Those are articles that show &&2 sides of an issue or idea >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [yearÕs (?)(UNK(ENTITY UNKNOWN))]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wrote (root: write) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Those (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [articles (root: article) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [articles (root: article) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [show (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [&&2 (LEX)(NUM)]
+    [sides (root: side) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&2 sides
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [issue (LEX)(N SINGULAR(OTHER))]
+      [or (LEX)(CONJ)]
+      [idea (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some reporters interviewed famous people. 
+PreProc  : Some reporters interviewed famous people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [reporters (root: reporter) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interviewed (root: interview) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [famous (LEX)(ADJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They talked with the Jonas Brothers and author and retired football player Tiki Barber. 
+PreProc  : They talked with the Jonas Brothers and author and retired football player Tiki Barber >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [talked (root: talk) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Jonas (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Brothers (root: brother) (MOR)(N PLURAL(HUMAN))]
+      [and (LEX)(CONJ)]
+      [author (LEX)(N SINGULAR(HUMAN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [retired (root: retire) (MOR)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [football (LEX)(N SINGULAR(PHYSOBJ))]
+    [player (root: play) (MOR)(N SINGULAR)]
+    [Tiki (?)(UNK(ENTITY UNKNOWN))]
+    [Barber (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : If you like to write and are interested in the news, this is the job for you! 
+PreProc  : If you like to write and are interested in the news >COMMA this is the job for you >EXCLAMATION <EOS 
+CLAUSE:
+  [If (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [write (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [interested (root: interest) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [news (LEX)(N SINGULAR(MEDIA))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [job (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [you (LEX)(PN(HUMAN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To apply, write a 200- to 300-word essay. 
+PreProc  : To apply >COMMA write a &&200 >MINUS to 300-word essay >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [apply (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [write (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [&&200 (LEX)(NUM)]
+
+  [>MINUS (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [300-word (?)(UNK(ENTITY UNKNOWN))]
+      [essay (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your essay should explain whom you would most like to interview and why. 
+PreProc  : Your essay should explain whom you would most like to interview and why >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [essay (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [explain (LEX)(V BASE)]
+
+
+CLAUSE:
+  [whom (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [like (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [interview (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [why (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Include some of the questions you would want to ask that person. 
+PreProc  : Include some of the questions you would want to ask that person >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Include (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+
+Following PP attaches to: some
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [would (root: will) (LEX)(AUX)]
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [ask (LEX)(V BASE)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Send in the essay, an entry form, and your school photograph. 
+PreProc  : Send in the essay >COMMA an entry form >COMMA and your school photograph >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Send (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [essay (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [an (LEX)(ART)]
+      [entry (LEX)(N SINGULAR(OTHER))]
+      [form (LEX)(N SINGULAR(OTHER))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [your (LEX)(ADJ)]
+      [school (LEX)(N SINGULAR(BUILDING))]
+      [photograph (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

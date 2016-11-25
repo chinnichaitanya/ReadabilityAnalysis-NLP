@@ -1,0 +1,583 @@
+Original : Harry Potter, you have company. 
+PreProc  : Harry Potter >COMMA you have company >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [company (LEX)(N SINGULAR(ORGANIZATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Meet the Baudelaire children--three unlucky orphans who are pursued for their fortune by the villain Count Olaf. 
+PreProc  : Meet the Baudelaire children >DASH &&3 unlucky orphans who are pursued for their fortune by the villain Count Olaf >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Baudelaire (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+    [unlucky (root: lucky) (MOR)(ADJ)]
+    [orphans (root: orphan) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&3 (LEX)(NUM)]
+    [unlucky (root: lucky) (MOR)(ADJ)]
+    [orphans (root: orphan) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [pursued (root: pursue) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [fortune (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [villain (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [villain (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Count (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Olaf (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The mastermind behind the orphans’ misery is the mysterious author Lemony Snicket (also known as Daniel Handler). 
+PreProc  : The mastermind behind the orphans’ misery is the mysterious author Lemony Snicket >LPAREN also known as Daniel Handler >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [mastermind (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [behind (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [orphans’ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [misery (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [mysterious (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [author (LEX)(N SINGULAR(HUMAN))]
+    [Lemony (?)(UNK(ENTITY UNKNOWN))]
+    [Snicket (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [mysterious (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [author (LEX)(N SINGULAR(HUMAN))]
+    [Lemony (?)(UNK(ENTITY UNKNOWN))]
+    [Snicket (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [known (root: know) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [Daniel (?)(UNK(ENTITY UNKNOWN))]
+      [Handler (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His newest dark book, marks the 11th title in the gloomy and funny books. 
+PreProc  : His newest dark book >COMMA marks the 11th title in the gloomy and funny books >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [newest (root: new) (MOR)(ADJ)]
+    [dark (LEX)(ADJ)]
+    [book (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [marks (root: mark) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [11th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [title (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [gloomy (LEX)(ADJ)]
+      [and (LEX)(CONJ)]
+      [funny (LEX)(ADJ)]
+      [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The latest adventure takes the orphans underwater. 
+PreProc  : The latest adventure takes the orphans underwater >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [latest (LEX)(ADJ)]
+    [adventure (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [takes (root: take) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [orphans (root: orphan) (MOR)(N PLURAL(HUMAN))]
+
+  [underwater (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They find themselves in dangerous surroundings, aboard a submarine and in a cave filled with poisonous mushrooms. 
+PreProc  : They find themselves in dangerous surroundings >COMMA aboard a submarine and in a cave filled with poisonous mushrooms >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [find (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [themselves (LEX)(PN PLURAL(HUMAN)) (N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [dangerous (LEX)(ADJ)]
+      [surroundings (root: surround) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [aboard (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [submarine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [cave (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [cave (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [filled (root: fill) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [poisonous (LEX)(ADJ)]
+      [mushrooms (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is probably the most depressing and woeful story yet," Lemony Snicket cautions Grade 4 readers. 
+PreProc  : is probably the most depressing and woeful story yet >COMMA >DQUOTE Lemony Snicket cautions Grade &&4 readers >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [probably (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  [depressing (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [woeful (?)(UNK(ENTITY UNKNOWN))]
+    [story (LEX)(N SINGULAR(OTHER))]
+
+  [yet (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Lemony (?)(UNK(ENTITY UNKNOWN))]
+    [Snicket (?)(UNK(ENTITY UNKNOWN))]
+    [cautions (?)(UNK(ENTITY UNKNOWN))]
+    [Grade (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+    [readers (root: read) (MOR)(N PLURAL)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Readers don’t seem to be listening to the author’s warnings about his dreadful tales. 
+PreProc  : Readers don’t seem to be listening to the author’s warnings about his dreadful tales >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Readers (root: read) (MOR)(N PLURAL)]
+    [don’t (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [seem (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [listening (root: listen) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [author’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [warnings (root: warn) (MOR)(N PLURAL)]
+
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [dreadful (LEX)(ADJ)]
+      [tales (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The first 10 books in the series have sold more than 18 million copies. 
+PreProc  : The first &&10 books in the series have sold MORE_THAN &&18 million copies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [&&10 (LEX)(NUM)]
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [series (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [sold (root: sell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&18 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [copies (root: copy) (MOR)(N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The popularity of the book series has also caught the attention of Hollywood. 
+PreProc  : The popularity of the book series has also caught the attention of Hollywood >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [popularity (root: popular) (MOR)(N SINGULAR)]
+
+Following PP attaches to: The popularity
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [book (LEX)(N SINGULAR(PHYSOBJ))]
+      [series (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [also (LEX)(ADV)]
+    [caught (root: catch) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [attention (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the attention
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Hollywood (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A movie starring Jim Carrey as the evil Count Olaf will hit theaters this upcoming holiday season. 
+PreProc  : A movie starring Jim Carrey as the evil Count Olaf will hit theaters this upcoming holiday season >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+    [starring (INF-MOR)(GER)]
+    [Jim (?)(UNK(ENTITY UNKNOWN))]
+    [Carrey (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [evil (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Count (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Olaf (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Olaf (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [theaters (root: theater) (MOR)(N PLURAL(BUILDING))]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [upcoming (LEX)(ADJ)]
+    [holiday (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [season (LEX)(N SINGULAR(TIME))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Will the orphans’ luck ever change? 
+PreProc  : Will the orphans’ luck ever change >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [orphans’ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [luck (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [orphans’ (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [luck (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ever (LEX)(ADV)]
+    [change (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The fate of the orphans gets better all the time, and then it turns around and gets worse again," the author told us. 
+PreProc  : >DQUOTE The fate of the orphans gets better all the time >COMMA and then it turns around and gets worse again >COMMA >DQUOTE the author told us >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [fate (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: The fate
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [orphans (root: orphan) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gets (root: get) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [better (LEX)(ADJ)]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  [then (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [turns (root: turn) (MOR)(V PRESENT)]
+
+  [around (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gets (root: get) (MOR)(V PRESENT)]
+
+  [worse (LEX)(ADJ)]
+  [again (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [author (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [author (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "The trick is to enjoy the brief moments of good faith that we’re all given before unfortunate events engulf us once more." 
+PreProc  : >DQUOTE The trick is to enjoy the brief moments of good faith that we’re all given before unfortunate events engulf us once more >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [trick (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [to (LEX)(INF)]
+    [enjoy (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [brief (LEX)(ADJ)]
+    [moments (root: moment) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: the brief moments
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [faith (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [we’re (?)(UNK(ENTITY UNKNOWN))]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [given (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [unfortunate (LEX)(ADJ)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [unfortunate (LEX)(ADJ)]
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [engulf (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  [once (LEX)(ADV)]
+  [more (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

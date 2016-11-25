@@ -1,0 +1,404 @@
+Original : In San Francisco, baseball last season went to the dogs-- Portuguese water dogs, that is. 
+PreProc  : In San Francisco >COMMA baseball last season went to the dogs >DASH Portuguese water dogs >COMMA that is >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [San (?)(UNK(ENTITY UNKNOWN))]
+      [Francisco (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [last (LEX)(ADJ)]
+    [season (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [went (root: go) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT:
+    [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A team of six Portuguese water dogs helped the San Francisco Giants every time the baseball team played at home at Pacific Bell Park. 
+PreProc  : A team of &&6 Portuguese water dogs helped the San Francisco Giants every time the baseball team played at home at Pacific Bell Park >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&6 (LEX)(NUM)]
+      [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+      [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helped (root: help) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [the (LEX)(ART)]
+    [San (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Francisco (?)(UNK(ENTITY UNKNOWN))]
+    [Giants (root: giant) (MOR)(N PLURAL(OTHER))]
+    [every (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [played (root: play) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT-Location (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Pacific (LEX)(ADJ) (N SINGULAR(LOCATION))]
+      [Bell (?)(UNK(ENTITY UNKNOWN))]
+      [Park (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dogs are members of the Baseball Aquatic Retrieval Korps (BARK). 
+PreProc  : The dogs are members of the Baseball Aquatic Retrieval Korps >LPAREN BARK >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [members (root: member) (MOR)(N PLURAL(HUMAN))]
+
+Following PP attaches to: members
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Baseball (LEX)(N SINGULAR(PHYSOBJ))]
+      [Aquatic (?)(UNK(ENTITY UNKNOWN))]
+      [Retrieval (?)(UNK(ENTITY UNKNOWN))]
+      [Korps (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [BARK (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They retrieved home run baseballs hit into nearby McCovey Cove. 
+PreProc  : They retrieved home run baseballs hit into nearby McCovey Cove >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [retrieved (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [run (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [baseballs (root: baseball) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [baseballs (root: baseball) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hit (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    [nearby (LEX)(ADV)]
+    NP SEGMENT:
+      [McCovey (?)(UNK(ENTITY UNKNOWN))]
+      [Cove (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : BARK uses Portuguese water dogs because they are excellent swimmers. 
+PreProc  : BARK uses Portuguese water dogs because they are excellent swimmers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [BARK (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [uses (root: use) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+    [water (LEX)(N SINGULAR(PHYSOBJ))]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [excellent (LEX)(ADJ)]
+    [swimmers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The dogs have webbed feet and use their tails as rudders. 
+PreProc  : The dogs have webbed feet and use their tails as rudders >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [webbed (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [dogs (root: dog) (MOR)(N PLURAL(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [tails (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [rudders (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Portuguese fishermen use these swimming hounds to herd schools of fish into nets and deliver messages between ships. 
+PreProc  : Portuguese fishermen use these swimming hounds to herd schools of fish into nets and deliver messages between ships >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+    [fishermen (root: fisherman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+    [swimming (INF-MOR)(GER)]
+    [hounds (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [herd (?)(UNK(ENTITY UNKNOWN))]
+      [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+
+Following PP attaches to: herd schools
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [nets (root: net) (MOR)(N PLURAL(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Portuguese (?)(UNK(ENTITY UNKNOWN))]
+    [fishermen (root: fisherman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [deliver (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [messages (root: message) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A local animal shelter, Pets In Need, auctioned the balls that Rio, Shadow, Topper, Surfer, Kyma, and Justy retrieved. 
+PreProc  : A local animal shelter >COMMA Pets In Need >COMMA auctioned the balls that Rio >COMMA Shadow >COMMA Topper >COMMA Surfer >COMMA Kyma >COMMA and Justy retrieved >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [local (LEX)(ADJ)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+    [shelter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pets (?)(UNK(ENTITY UNKNOWN))]
+
+  [In (LEX)(PREP)]
+  [Need (INF-LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [auctioned (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [balls (root: ball) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [Rio (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Shadow (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [Topper (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Surfer (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [Kyma (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [Justy (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [retrieved (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The money is used to help other animals at the shelter. 
+PreProc  : The money is used to help other animals at the shelter >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (PASSIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [used (root: use) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [animals (root: animal) (MOR)(N PLURAL(ANIMAL))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [shelter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

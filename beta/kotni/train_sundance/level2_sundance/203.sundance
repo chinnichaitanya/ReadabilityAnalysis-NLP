@@ -1,0 +1,376 @@
+Original : It is important to brush your teeth every day. 
+PreProc  : It is important to brush your teeth every day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [important (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [brush (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+    [every (LEX)(ADJ)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brushing helps keep your teeth healthy. 
+PreProc  : Brushing helps keep your teeth healthy >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Brushing (root: brush) (MOR)(N SINGULAR) (GER)]
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [healthy (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Keeping your teeth healthy is as easy as 1, 2, 3! 
+PreProc  : Keeping your teeth healthy is as easy as &&1 >COMMA &&2 >COMMA &&3 >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Keeping (root: keep) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [healthy (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [as (LEX)(PREP)]
+  [easy (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&2 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&3 (LEX)(NUM)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : National Institute of Dental and Craniofacial Research Brush your teeth twice a day. 
+PreProc  : National Institute of Dental and Craniofacial Research Brush your teeth twice a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [National (LEX)(ADJ)]
+    [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+Following PP attaches to: National Institute
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Dental (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Craniofacial (?)(UNK(ENTITY UNKNOWN))]
+      [Research (LEX)(N SINGULAR(OTHER))]
+      [Brush (LEX)(N SINGULAR(PHYSOBJ))]
+      [your (LEX)(ADJ)]
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [twice (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brush all parts of your mouth and even your tongue. 
+PreProc  : Brush all parts of your mouth and even your tongue >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Brush (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+    [parts (root: part) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: all parts
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [mouth (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+  [even (LEX)(ADV)]
+  NP SEGMENT:
+    [your (LEX)(ADJ)]
+    [tongue (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Brush with short, back-and-forth motions. 
+PreProc  : Brush with short >COMMA back-and-forth motions >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Brush (LEX)(V BASE)]
+
+  [with (LEX)(PREP)]
+  [short (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [back-and-forth (?)(UNK(ENTITY UNKNOWN))]
+    [motions (root: motion) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Don't forget to be gentle! 
+PreProc  : DO NOT forget to be gentle >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [DO (LEX)(AUX) (V BASE)]
+    [NOT (LEX)(ADV)]
+    [forget (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [gentle (LEX)(ADJ)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Floss your teeth once a day. 
+PreProc  : Floss your teeth once a day >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Floss (?)(UNK(ENTITY UNKNOWN))]
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [once (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Dental floss cleans between your teeth. 
+PreProc  : Dental floss cleans between your teeth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Dental (?)(UNK(ENTITY UNKNOWN))]
+    [floss (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [cleans (root: clean) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [between (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use it to remove food you missed with a toothbrush. 
+PreProc  : Use it to remove food you missed with a toothbrush >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [remove (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [food (LEX)(N SINGULAR(PHYSOBJ))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [missed (root: miss) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [toothbrush (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Visit the dentist twice a year. 
+PreProc  : Visit the dentist twice a year >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Visit (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [dentist (LEX)(N SINGULAR(HUMAN))]
+
+  [twice (LEX)(ADV)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your dentist will check and clean your teeth, take X-rays, and put on your teeth. 
+PreProc  : Your dentist will check and clean your teeth >COMMA take X-rays >COMMA and put on your teeth >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [dentist (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [check (LEX)(V BASE)]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [dentist (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [clean (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [dentist (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [X-rays (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [dentist (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [put (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Fluoride helps keep your teeth strong. 
+PreProc  : Fluoride helps keep your teeth strong >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Fluoride (?)(UNK(ENTITY UNKNOWN))]
+    [helps (root: help) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [teeth (root: tooth) (LEX)(N PLURAL(OTHER))]
+
+  [strong (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : National Institute of Dental and Craniofacial Research All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : National Institute of Dental and Craniofacial Research All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [National (LEX)(ADJ)]
+    [Institute (LEX)(N SINGULAR(ORGANIZATION))]
+
+Following PP attaches to: National Institute
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Dental (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [Craniofacial (?)(UNK(ENTITY UNKNOWN))]
+      [Research (LEX)(N SINGULAR(OTHER))]
+      [All (LEX)(ADJ) (N PLURAL(OTHER))]
+      [trademarks (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

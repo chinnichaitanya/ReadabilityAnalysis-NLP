@@ -1,0 +1,616 @@
+Original : The Olympic motto is "swifter, higher, stronger." 
+PreProc  : The Olympic motto is >DQUOTE swifter >COMMA higher >COMMA stronger >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [motto (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [swifter (root: swift) (MOR)(ADJ)]
+    [>COMMA (LEX)(PUNC)]
+    [higher (root: high) (MOR)(ADJ)]
+    [>COMMA (LEX)(PUNC)]
+    [stronger (root: strong) (MOR)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Meet some Olympic hopefuls who hope to live up to the meaning. 
+PreProc  : Meet some Olympic hopefuls who hope to live up to the meaning >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Meet (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [Olympic (LEX)(ADJ)]
+    [hopefuls (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [Olympic (LEX)(ADJ)]
+    [hopefuls (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [hope (LEX)(V BASE(COMMUNICATION_VERB))]
+    [to (LEX)(INF)]
+    [live (LEX)(V BASE)]
+    [up (LEX)(PART)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [meaning (root: mean) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Michelle Kwan, 25, became interested in figure skating when she was 5, after watching her older brother play hockey. 
+PreProc  : Michelle Kwan >COMMA &&25 >COMMA became interested in figure skating when she was &&5 >COMMA after watching her older brother play hockey >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Michelle (?)(UNK(ENTITY UNKNOWN))]
+    [Kwan (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&25 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+    [interested (root: interest) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [figure (LEX)(N SINGULAR(OTHER))]
+      [skating (INF-MOR)(GER)]
+
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [watching (root: watch) (MOR)(N SINGULAR) (GER)]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [older (root: old) (MOR)(ADJ)]
+      [brother (LEX)(N SINGULAR(HUMAN))]
+      [play (LEX)(N SINGULAR(OTHER))]
+      [hockey (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She has won five World Figure Skating titles and is no stranger to the Olympics. 
+PreProc  : She has won &&5 World Figure Skating titles and is no stranger to the Olympics >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Figure (LEX)(N SINGULAR(OTHER))]
+    [Skating (INF-MOR)(GER)]
+    [titles (?)(UNK(ENTITY UNKNOWN))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [no (LEX)(ADJ)]
+    [stranger (root: strange) (MOR)(ADJ   )]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : She took home a silver medal in 1998 and a bronze medal in 2002. 
+PreProc  : She took home a silver medal in &&1998 and a bronze medal in &&2002 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [She (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [took (root: take) (LEX)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [silver (LEX)(ADJ) (N SINGULAR(PHYSOBJ))]
+    [medal (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1998 (LEX)(NUM)]
+      [and (LEX)(CONJ)]
+      [a (LEX)(ART)]
+      [bronze (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [medal (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2002 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Kwan wears a Chinese good-luck charm around her neck during competitions. 
+PreProc  : Kwan wears a Chinese good-luck charm around her neck during competitions >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kwan (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wears (root: wear) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [Chinese (LEX)(N SINGULAR(HUMAN))]
+    [good-luck (?)(UNK(ENTITY UNKNOWN))]
+    [charm (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [neck (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [during (LEX)(PREP)]
+    NP SEGMENT:
+      [competitions (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It was given to her by her grandmother. 
+PreProc  : It was given to her by her grandmother >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+    [given (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [by (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [grandmother (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Noelle Pikus-Pace, 23, from Orem, Utah, is all about Olympic spirit. 
+PreProc  : Noelle Pikus-Pace >COMMA &&23 >COMMA from Orem >COMMA Utah >COMMA is all about Olympic spirit >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Noelle (?)(UNK(ENTITY UNKNOWN))]
+    [Pikus-Pace (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&23 (LEX)(NUM)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Orem (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Utah (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [Olympic (LEX)(ADJ)]
+      [spirit (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 2005, she was skeleton sledding’s World Cup champion. 
+PreProc  : In &&2005 >COMMA she was skeleton sledding’s World Cup champion >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2005 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [she (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [skeleton (?)(UNK(ENTITY UNKNOWN))]
+    [sledding’s (?)(UNK(ENTITY UNKNOWN))]
+    [World (LEX)(N SINGULAR(OTHER))]
+    [Cup (?)(UNK(ENTITY UNKNOWN))]
+    [champion (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : However, disaster struck in October 2005 after her team finished a practice run in Canada. 
+PreProc  : However >COMMA disaster struck in October &&2005 after her team finished a practice run in Canada >PERIOD <EOS 
+CLAUSE:
+  [However (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [disaster (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [struck (root: strike) (LEX)(V PAST)]
+
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [October (LEX)(N SINGULAR(MONTH))]
+      [&&2005 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [team (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [finished (root: finish) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [practice (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [practice (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [run (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Canada (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A bobsled crashed into Pikus-Pace, breaking her leg. 
+PreProc  : A bobsled crashed into Pikus-Pace >COMMA breaking her leg >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [bobsled (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [crashed (root: crash) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [Pikus-Pace (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [breaking (root: break) (MOR)(N SINGULAR) (GER)]
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [leg (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Just two months later, Pikus-Pace was back on her sled and hoping to lead her team to victory. 
+PreProc  : Just &&2 months later >COMMA Pikus-Pace was back on her sled and hoping to lead her team to victory >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Time (SUBJ):
+    [Just (LEX)(ADJ) (ADV)]
+    NP SEGMENT-Time:
+      [&&2 (LEX)(NUM)]
+      [months (root: month) (MOR)(N PLURAL(MONTH))]
+
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pikus-Pace (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [sled (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [hoping (root: hop) (MOR)(N SINGULAR) (GER)]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [lead (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [victory (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Shaun White’s fans know him as the "Flying Tomato." 
+PreProc  : Shaun White’s fans know him as the >DQUOTE Flying Tomato >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Shaun (?)(UNK(ENTITY UNKNOWN))]
+    [White’s (?)(UNK(ENTITY UNKNOWN))]
+    [fans (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [know (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Flying (root: fly) (MOR)(N SINGULAR) (GER)]
+      [Tomato (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The 19-year-old from Carlsbad, California, is almost as famous for his long red hair as he is for his snowboarding moves. 
+PreProc  : The 19-year-old from Carlsbad >COMMA California >COMMA is almost as famous for his long red hair as he is for his snowboarding moves >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [19-year-old (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Carlsbad (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [almost (LEX)(ADV)]
+
+  [as (LEX)(PREP)]
+  [famous (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [long (LEX)(ADJ)]
+      [red (LEX)(ADJ)]
+      [hair (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [snowboarding (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [moves (root: move) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : White started snowboarding at age 6 and turned pro at just 13. 
+PreProc  : White started snowboarding at age &&6 and turned pro at just &&13 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [White (LEX)(ADJ)]
+    [started (root: start) (MOR)(ADJ)]
+    [snowboarding (INF-MOR)(GER)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [age (LEX)(N SINGULAR(OTHER))]
+      [&&6 (LEX)(NUM)]
+
+
+  [and (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [turned (root: turn) (MOR)(V PAST)]
+
+  ADJ SEGMENT:
+    [pro (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [just (LEX)(ADJ) (ADV)]
+      [&&13 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He is the first athlete to compete in both the Winter and the Summer X Games in two different sports� snowboarding and skateboarding. 
+PreProc  : He is the first athlete to compete in both the Winter and the Summer X Games in &&2 different sports� snowboarding and skateboarding >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [athlete (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [both (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Winter (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [Summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [X (?)(UNK(ENTITY UNKNOWN))]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+      [different (LEX)(ADJ)]
+      [sports� (?)(UNK(ENTITY UNKNOWN))]
+      [snowboarding (INF-MOR)(GER)]
+      [and (LEX)(CONJ)]
+      [skateboarding (INF-MOR)(GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

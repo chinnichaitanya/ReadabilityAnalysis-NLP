@@ -1,0 +1,442 @@
+Original : season! 
+PreProc  : season >EXCLAMATION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [season (LEX)(V BASE)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A pumpkin is a kind of fruit. 
+PreProc  : A pumpkin is a kind of fruit >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: a kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fruit (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How big can a pumpkin grow? 
+PreProc  : How big can a pumpkin grow >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  [big (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Last year, pumpkin grower Larry Checkon won the annual Pennsylvania Giant Pumpkin Grower’s Association Weigh-Off. 
+PreProc  : Last year >COMMA pumpkin grower Larry Checkon won the annual Pennsylvania Giant Pumpkin Grower’s Association Weigh-Off >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [Last (LEX)(ADJ)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [grower (LEX)(N SINGULAR(HUMAN))]
+    [Larry (?)(UNK(ENTITY UNKNOWN))]
+    [Checkon (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [won (root: win) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [annual (LEX)(ADJ)]
+    [Pennsylvania (LEX)(N SINGULAR(LOCATION))]
+    [Giant (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [Grower’s (?)(UNK(ENTITY UNKNOWN))]
+    [Association (LEX)(N SINGULAR(ORGANIZATION))]
+    [Weigh-Off (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : His pumpkin weighed 1,469 pounds. 
+PreProc  : His pumpkin weighed &&1,469 pounds >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [His (LEX)(ADJ)]
+    [pumpkin (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [weighed (root: weigh) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [&&1,469 (LEX)(NUM)]
+    [pounds (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That’s about as heavy as 25 second graders! 
+PreProc  : That’s about as heavy as &&25 second graders >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That’s (?)(UNK(ENTITY UNKNOWN))]
+
+  [about (LEX)(ADV)]
+  [as (LEX)(PREP)]
+  [heavy (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [&&25 (LEX)(NUM)]
+      [second (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [graders (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 3,000 pumpkins were entered in the contest. 
+PreProc  : MORE_THAN &&3,000 pumpkins were entered in the contest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&3,000 (LEX)(NUM)]
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [entered (root: enter) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [contest (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After the weigh-off, master carver Scott Cully spent about 10 hours carving the winning pumpkin into a jack-o’-lantern. 
+PreProc  : After the weigh-off >COMMA master carver Scott Cully spent about &&10 hours carving the winning pumpkin into a jack-o’-lantern >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [weigh-off (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [master (?)(UNK(ENTITY UNKNOWN))]
+    [carver (?)(UNK(ENTITY UNKNOWN))]
+    [Scott (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Cully (INF-MOR)(ADV)]
+    [spent (root: spend) (LEX)(V PAST)]
+
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&10 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [about (LEX)(ADV)]
+    [&&10 (LEX)(NUM)]
+    [hours (root: hour) (MOR)(N PLURAL(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carving (root: carve) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [jack-o’-lantern (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How big will this year’s winning pumpkin be? 
+PreProc  : How big will this year’s winning pumpkin be >QUESTION <EOS 
+CLAUSE:
+  [How (LEX)(ADV)]
+  [big (LEX)(ADJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [year’s (?)(UNK(ENTITY UNKNOWN))]
+    [winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [year’s (?)(UNK(ENTITY UNKNOWN))]
+    [winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [be (LEX)(COP)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pumpkin seeds are planted in May and June. 
+PreProc  : Pumpkin seeds are planted in May and June >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [planted (root: plant) (MOR)(V PAST)]
+
+  [in (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pumpkin (?)(UNK(ENTITY UNKNOWN))]
+    [seeds (root: seed) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [May (LEX)(AUX)]
+
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [June (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 10 days later, a tiny plant called a sprout grows. 
+PreProc  : About &&10 days later >COMMA a tiny plant called a sprout grows >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&10 (LEX)(NUM)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [plant (LEX)(N SINGULAR(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sprout (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [sprout (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grows (root: grow) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A vine begins to grow. 
+PreProc  : A vine begins to grow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [vine (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [begins (root: begin) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In about four weeks, a yellow f lower forms. 
+PreProc  : In about &&4 weeks >COMMA a yellow f lower forms >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&4 (LEX)(NUM)]
+      [weeks (root: week) (MOR)(N PLURAL(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [yellow (LEX)(ADJ)]
+    [f (?)(UNK(ENTITY UNKNOWN))]
+    [lower (LEX)(ADJ)]
+    [forms (root: form) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A small green pumpkin appears on the stem. 
+PreProc  : A small green pumpkin appears on the stem >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [small (LEX)(ADJ)]
+    [green (LEX)(ADJ)]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [appears (root: appear) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [stem (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By October, a big orange pumpkin is ready to be picked. 
+PreProc  : By October >COMMA a big orange pumpkin is ready to be picked >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [October (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [big (LEX)(ADJ)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This orange pumpkin is ready to be picked. 
+PreProc  : This orange pumpkin is ready to be picked >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [orange (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [pumpkin (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [picked (root: pick) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why might pumpkins need plenty of water and sunlight? 
+PreProc  : Why might pumpkins need plenty of water and sunlight >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [pumpkins (?)(UNK(ENTITY UNKNOWN))]
+    [need (LEX)(N SINGULAR(OTHER))]
+    [plenty (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: pumpkins need plenty
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [water (LEX)(N SINGULAR(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [sunlight (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

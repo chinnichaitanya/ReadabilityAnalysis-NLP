@@ -1,0 +1,786 @@
+Original : A young climber plans to hike each continent's tallest mountain. 
+PreProc  : A young climber plans to hike each @continent@s tallest mountain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [young (LEX)(ADJ)]
+    [climber (root: climb) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plans (root: plan) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [hike (?)(UNK(ENTITY UNKNOWN))]
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [@continent@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [tallest (root: tall) (MOR)(ADJ)]
+      [mountain (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Afew days after his 10th birthday, Jordan Romero had another reason to celebrate. 
+PreProc  : Afew days after his 10th birthday >COMMA Jordan Romero had another reason to celebrate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Afew (root: few) (MOR)(ADJ)]
+    [days (root: day) (MOR)(N PLURAL(DAY))]
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [10th (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [birthday (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+    [Romero (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [celebrate (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Last summer, the fifth grader from Big Bear Lake, California, set a mountain-climbing record. 
+PreProc  : Last summer >COMMA the fifth grader from Big Bear Lake >COMMA California >COMMA set a mountain-climbing record >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Last (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [fifth (LEX)(ADJ)]
+    [grader (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [Big (LEX)(ADJ)]
+      [Bear (LEX)(N SINGULAR(ANIMAL))]
+      [Lake (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [California (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Big (LEX)(ADJ)]
+    [Bear (LEX)(N SINGULAR(ANIMAL))]
+    [Lake (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [set (LEX)(V BASE PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [mountain-climbing (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [record (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He became the youngest person to climb Kilimanjaro (kih-luh-muhn-JAR-oh) in Africa. 
+PreProc  : He became the youngest person to climb Kilimanjaro >LPAREN kih-luh-muhn-JAR-oh >RPAREN in Africa >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [became (root: become) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [youngest (root: young) (MOR)(ADJ)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kilimanjaro (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [kih-luh-muhn-JAR-oh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Africa (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It was fun," Jordan told is the highest point on a mountain. 
+PreProc  : >DQUOTE It was fun >COMMA >DQUOTE Jordan told is the highest point on a mountain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [highest (root: high) (MOR)(ADJ)]
+    [point (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [mountain (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Seven Summits are the highest mountains on each of the seven continents. 
+PreProc  : The &&7 Summits are the highest mountains on each of the &&7 continents >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&7 (LEX)(NUM)]
+    [Summits (root: summit) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [highest (root: high) (MOR)(ADJ)]
+    [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: each
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [&&7 (LEX)(NUM)]
+      [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : After Jordan learned about the summits in school, he decided to climb them in the next few years. 
+PreProc  : After Jordan learned about the summits in school >COMMA he decided to climb them in the next few years >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [After (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT-Location (SUBJ):
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [learned (root: learn) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [summits (root: summit) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [decided (root: decide) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [next (LEX)(ADJ)]
+      [few (LEX)(ADJ)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This month, Jordan plans to climb to the top of Mount Kosciusko (kah-zee-UHSkoh) in Australia. 
+PreProc  : This month >COMMA Jordan plans to climb to the top of Mount Kosciusko >LPAREN kah-zee-UHSkoh >RPAREN in Australia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [This (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [climb (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kosciusko (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [kah-zee-UHSkoh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : or harsh, weather. 
+PreProc  : or harsh >COMMA weather >PERIOD <EOS 
+CLAUSE:
+  [or (LEX)(CONJ)]
+  [harsh (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [weather (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Climbers can also become dizzy or tired at high Kilimanjaro is more than 19,000 feet high. 
+PreProc  : Climbers can also become dizzy or tired at high Kilimanjaro is MORE_THAN &&19,000 feet high >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Climbers (root: climb) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [also (LEX)(ADV)]
+    [become (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [dizzy (?)(UNK(ENTITY UNKNOWN))]
+
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Climbers (root: climb) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tired (root: tire) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [high (LEX)(ADJ)]
+      [Kilimanjaro (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [high (LEX)(ADJ)]
+    [Kilimanjaro (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&19,000 (LEX)(NUM)]
+    [feet (root: foot) (LEX)(N PLURAL(OTHER))]
+
+  [high (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Jordan practiced for the climb by hiking up mountains near his home for one year. 
+PreProc  : Jordan practiced for the climb by hiking up mountains near his home for one year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [practiced (root: practice) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [climb (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [hiking (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [near (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Thanks to his training, Jordan climbed Kilimanjaro in just three days. 
+PreProc  : Thanks to his training >COMMA Jordan climbed Kilimanjaro in just &&3 days >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Thanks (root: thank) (MOR)(V PRESENT)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [his (LEX)(ADJ)]
+      [training (root: train) (MOR)(N SINGULAR) (GER)]
+      [>COMMA (LEX)]
+      [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [his (LEX)(ADJ)]
+    [training (root: train) (MOR)(N SINGULAR) (GER)]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [climbed (root: climb) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Kilimanjaro (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [just (LEX)(ADJ) (ADV)]
+      [&&3 (LEX)(NUM)]
+      [days (root: day) (MOR)(N PLURAL(DAY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I knew I could make it to the top because I did not want to fail," he says. 
+PreProc  : >DQUOTE I knew I could make it to the top because I did not want to fail >COMMA >DQUOTE he says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [knew (root: know) (LEX)(V PAST)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [could (root: can) (LEX)(AUX)]
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [did (root: do) (LEX)(AUX) (V PAST)]
+    [not (LEX)(ADV)]
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [fail (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : With last summer's success behind him, Jordan is gearing up for Mount Kosciusko. 
+PreProc  : With last @summer@s success behind him >COMMA Jordan is gearing up for Mount Kosciusko >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [With (LEX)(PREP)]
+    NP SEGMENT:
+      [last (LEX)(ADJ)]
+      [@summer@s (LEX)(ADJ POSSESSIVE)]
+      [success (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT-Location (PREP):
+    [behind (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [him (LEX)(PN SINGULAR(HUMAN))]
+      [>COMMA (LEX)]
+      [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  NP SEGMENT-Location (SUBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [gearing (root: gear) (MOR)(V PARTICIPLE)]
+    [up (LEX)(PART)]
+
+  [for (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Kosciusko (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each summit Jordan tackles brings him one step closer to his ultimate goal: reaching the top of Mount Everest. 
+PreProc  : Each summit Jordan tackles brings him one step closer to his ultimate goal >COLON reaching the top of Mount Everest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [summit (LEX)(N SINGULAR(OTHER))]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+    [tackles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [brings (root: bring) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [step (LEX)(N SINGULAR(OTHER))]
+
+  [closer (root: close) (MOR)(ADJ   )]
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [ultimate (LEX)(ADJ)]
+      [goal (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [his (LEX)(ADJ)]
+    [ultimate (LEX)(ADJ)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [reaching (root: reach) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Mount (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Everest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Everest is the world's tallest mountain. 
+PreProc  : Everest is the @world@s tallest mountain >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Everest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [@world@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+    [tallest (root: tall) (MOR)(ADJ)]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I will never stop mountain climbing," Jordan says. 
+PreProc  : >DQUOTE I will never stop mountain climbing >COMMA >DQUOTE Jordan says >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [never (LEX)(ADV)]
+    [stop (LEX)(V BASE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+    [climbing (root: climb) (MOR)(N SINGULAR) (GER)]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+    [climbing (root: climb) (MOR)(N SINGULAR) (GER)]
+    [>COMMA (LEX)]
+    [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "I think it's great." 
+PreProc  : >DQUOTE I think IT IS great >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [IT (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [IS (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [great (LEX)(ADJ)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why was it important for Jordan to prepare for his hike up Kilimanjaro? 
+PreProc  : Why was it important for Jordan to prepare for his hike up Kilimanjaro >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  [important (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Jordan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [prepare (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [his (LEX)(ADJ)]
+      [hike (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [Kilimanjaro (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

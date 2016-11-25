@@ -1,0 +1,855 @@
+Original : Park rangers bring Mesa Verde’s history to light. 
+PreProc  : Park rangers bring Mesa Verde’s history to light >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Park (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rangers (root: rang) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [rangers (root: rang) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [bring (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde’s (?)(UNK(ENTITY UNKNOWN))]
+    [history (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Mesa Verde has been a national park for more than 100 years. 
+PreProc  : Mesa Verde has been a national park for MORE_THAN &&100 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [a (LEX)(ART)]
+    [national (LEX)(ADJ)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&100 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Put on your party hat. 
+PreProc  : Put on your party hat >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Put (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [party (LEX)(N SINGULAR(OTHER))]
+      [hat (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year, Mesa Verde (MAY-suh VEHR-day) National Park in Colorado has reason to celebrate. 
+PreProc  : This year >COMMA Mesa Verde >LPAREN MAY-suh VEHR-day >RPAREN National Park in Colorado has reason to celebrate >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT:
+    [This (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [MAY-suh (?)(UNK(ENTITY UNKNOWN))]
+    [VEHR-day (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [National (LEX)(ADJ)]
+    [Park (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Colorado (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [reason (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [celebrate (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A century ago this past summer, the U.S. government set aside the land as a national park. 
+PreProc  : A century ago this past summer >COMMA the U.S. government set aside the land as a national park >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [century (LEX)(N SINGULAR(TIME))]
+
+  [ago (LEX)(ADV(TIME))]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [U.S. (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+    [set (LEX)(N SINGULAR(OTHER))]
+    [aside (LEX)(ADV) (N SINGULAR(OTHER))]
+
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [land (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [a (LEX)(ART)]
+      [national (LEX)(ADJ)]
+      [park (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (A century is 100 years.) The park protects the site of an ancient Native American city. 
+PreProc  : >LPAREN A century is &&100 years >PERIOD >RPAREN The park protects the site of an ancient Native American city >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [century (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT:
+    [&&100 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [The (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [site (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the site
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [an (LEX)(ART)]
+      [ancient (LEX)(ADJ)]
+      [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [city (LEX)(N SINGULAR(CITY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All year, the park has celebrated with special events. 
+PreProc  : All year >COMMA the park has celebrated with special events >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [celebrated (root: celebrate) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [special (LEX)(ADJ)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They included tours of the cliff homes and Native American dances, music, and stories. 
+PreProc  : They included tours of the cliff homes and Native American dances >COMMA music >COMMA and stories >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [included (root: include) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [tours (root: tour) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: tours
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [cliff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+      [and (LEX)(CONJ)]
+      [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [dances (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [music (LEX)(N SINGULAR(OTHER))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [stories (root: story) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : (fuh-NA-lee), or big ending, of the celebration. 
+PreProc  : >LPAREN fuh-NA-lee >RPAREN >COMMA or big ending >COMMA of the celebration >PERIOD <EOS 
+CLAUSE:
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [fuh-NA-lee (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [big (LEX)(ADJ)]
+    [ending (root: end) (MOR)(N SINGULAR) (GER)]
+
+  [>COMMA (LEX)(PUNC)]
+Following PP attaches to: big ending
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [celebration (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On that night, park rangers will light up two of the largest cliff homes with about 100 lanterns. 
+PreProc  : On that night >COMMA park rangers will light up &&2 of the largest cliff homes with about &&100 lanterns >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [night (LEX)(N SINGULAR(TIME))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [that (LEX)(DET)]
+    [night (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [park (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rangers (root: rang) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [rangers (root: rang) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [light (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [&&2 (LEX)(NUM)]
+
+
+Following PP attaches to: &&2
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [largest (root: large) (MOR)(ADJ   )]
+      [cliff (?)(UNK(ENTITY UNKNOWN))]
+      [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&100 (LEX)(NUM)]
+      [lanterns (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The celebration honors the Native American tribe that built Mesa Verde. 
+PreProc  : The celebration honors the Native American tribe that built Mesa Verde >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [celebration (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [honors (root: honor) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [tribe (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [tribe (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The tribe is called the Ancient Pueblo (PWEH-bloh). 
+PreProc  : The tribe is called the Ancient Pueblo >LPAREN PWEH-bloh >RPAREN >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [tribe (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [called (root: call) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Ancient (LEX)(ADJ)]
+    [Pueblo (?)(UNK(ENTITY UNKNOWN))]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [PWEH-bloh (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are the of today’s Pueblo people. 
+PreProc  : They are the of today’s Pueblo people >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [of (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [today’s (?)(UNK(ENTITY UNKNOWN))]
+    [Pueblo (?)(UNK(ENTITY UNKNOWN))]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : An ancestor is a family member who lived a long time ago. 
+PreProc  : An ancestor is a family member who lived a long time ago >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [An (LEX)(ART)]
+    [ancestor (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [family (LEX)(N SINGULAR(HUMAN))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [long (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  [ago (LEX)(ADV(TIME))]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Ancient Pueblo lived in the area from about 600 to 1300. 
+PreProc  : The Ancient Pueblo lived in the area from about &&600 to &&1300 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Ancient (LEX)(ADJ)]
+    [Pueblo (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [area (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [about (LEX)(ADV)]
+      [&&600 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1300 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They lived on the top until the 1100s. 
+PreProc  : They lived on the top until the 1100s >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lived (root: live) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [1100s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A mesa is a large, high rock with a flat top and steep sides. 
+PreProc  : A mesa is a large >COMMA high rock with a flat top and steep sides >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [mesa (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [a (LEX)(ART)]
+  [large (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [high (LEX)(ADJ)]
+    [rock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [flat (LEX)(ADJ)]
+      [top (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [steep (LEX)(ADJ)]
+      [sides (root: side) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Later, they moved down to the sides of the cliffs and built homes there. 
+PreProc  : Later >COMMA they moved down to the sides of the cliffs and built homes there >PERIOD <EOS 
+CLAUSE:
+  [Later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [moved (root: move) (MOR)(V PAST)]
+    [down (LEX)(PART) (ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sides (root: side) (MOR)(N PLURAL(OTHER))]
+
+
+Following PP attaches to: the sides
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [cliffs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [built (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [there (LEX)(ADV)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "It’s not often that you come across a hundred years of something special," Mesa Verde park ranger Dan Puskar told "It provides us the chance to look forward to the next 100 years and make sure this place stays preserved and enjoyed by the public." 
+PreProc  : >DQUOTE It’s not often that you come across a hundred years of something special >COMMA >DQUOTE Mesa Verde park ranger Dan Puskar told >DQUOTE It provides us the chance to look forward to the next &&100 years and make sure this place stays preserved and enjoyed by the public >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It’s (?)(UNK(ENTITY UNKNOWN))]
+
+  [not (LEX)(ADV)]
+  [often (LEX)(ADV)]
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [come (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [hundred (LEX)(ADJ) (N SINGULAR(DENOMINATION))]
+
+
+  NP SEGMENT:
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+Following PP attaches to: years
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [something (LEX)(N SINGULAR(OTHER))]
+
+
+  [special (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde (?)(UNK(ENTITY UNKNOWN))]
+    [park (LEX)(N SINGULAR(LOCATION))]
+    [ranger (root: rang) (MOR)(N SINGULAR)]
+    [Dan (?)(UNK(ENTITY UNKNOWN))]
+    [Puskar (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Mesa (?)(UNK(ENTITY UNKNOWN))]
+    [Verde (?)(UNK(ENTITY UNKNOWN))]
+    [park (LEX)(N SINGULAR(LOCATION))]
+    [ranger (root: rang) (MOR)(N SINGULAR)]
+    [Dan (?)(UNK(ENTITY UNKNOWN))]
+    [Puskar (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [provides (root: provide) (MOR)(V PRESENT)]
+
+  NP SEGMENT (IOBJ):
+    [us (LEX)(N SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [chance (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [look (LEX)(V BASE)]
+    [forward (LEX)(ADV)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [next (LEX)(ADJ)]
+      [&&100 (LEX)(NUM)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  [sure (LEX)(ADJ)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [place (LEX)(V BASE)]
+    [stays (root: stay) (MOR)(V PRESENT)]
+
+  [preserved (root: preserve) (MOR)(ADJ)]
+  [and (LEX)(CONJ)]
+  [enjoyed (root: enjoy) (MOR)(ADJ)]
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The park protects more than 600 ancient cliff homes. 
+PreProc  : The park protects MORE_THAN &&600 ancient cliff homes >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [park (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [protects (root: protect) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&600 (LEX)(NUM)]
+    [ancient (LEX)(ADJ)]
+    [cliff (?)(UNK(ENTITY UNKNOWN))]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The two largest homes contain about 160 rooms each. 
+PreProc  : The &&2 largest homes contain about &&160 rooms each >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [largest (root: large) (MOR)(ADJ   )]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [contain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&160 (LEX)(NUM)]
+    [rooms (root: room) (MOR)(N PLURAL(OTHER))]
+    [each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : By 1100, the cliff homes were as large as some modern-day apartment buildings. 
+PreProc  : By &&1100 >COMMA the cliff homes were as large as some modern-day apartment buildings >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [By (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1100 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [cliff (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [homes (root: home) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  [as (LEX)(PREP)]
+  [large (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [some (LEX)(DET)]
+      [modern-day (?)(UNK(ENTITY UNKNOWN))]
+      [apartment (LEX)(N SINGULAR(BUILDING))]
+      [buildings (root: building) (MOR)(N PLURAL(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In what other ways can people celebrate Native American culture? 
+PreProc  : In what other ways can people celebrate Native American culture >QUESTION <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+    [ways (root: way) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [celebrate (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [Native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [culture (?)(UNK(ENTITY UNKNOWN))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

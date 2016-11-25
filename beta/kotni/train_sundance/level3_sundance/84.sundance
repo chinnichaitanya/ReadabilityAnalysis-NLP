@@ -1,0 +1,691 @@
+Original : The clock shows five seconds left in the game. 
+PreProc  : The clock shows &&5 seconds left in the game >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [clock (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [shows (root: show) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [&&5 (LEX)(NUM)]
+    [seconds (root: second) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [&&5 (LEX)(NUM)]
+    [seconds (root: second) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [left (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [game (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Your team is losing by just one goal. 
+PreProc  : Your team is losing by just one goal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Your (LEX)(ADJ)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [losing (root: lose) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [by (LEX)(PREP)]
+    NP SEGMENT:
+      [just (LEX)(ADJ) (ADV)]
+      [one (LEX)(NUM) (N SINGULAR(OTHER))]
+      [goal (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : You want to take the ball and score a goal. 
+PreProc  : You want to take the ball and score a goal >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [take (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ball (LEX)(N SINGULAR(OTHER))]
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [You (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [score (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [goal (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But you are cheering from the sidelines because you injured your leg. 
+PreProc  : But you are cheering from the sidelines because you injured your leg >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [cheering (root: cheer) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [sidelines (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [injured (root: injure) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [leg (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to doctors, however, many sports injuries can be prevented. 
+PreProc  : According to doctors >COMMA however >COMMA many sports injuries can be prevented >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  [however (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [injuries (root: injury) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [injuries (root: injury) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [prevented (root: prevent) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Each year, about 20 million kids play sports during and after school. 
+PreProc  : Each year >COMMA about &&20 million kids play sports during and after school >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [about (LEX)(ADV)]
+    [&&20 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [play (LEX)(N SINGULAR(OTHER))]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [during (LEX)(PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [school (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Unfortunately, about 5 million of those kids suffer some kind of injury while playing. 
+PreProc  : Unfortunately >COMMA about &&5 million of those kids suffer some kind of injury while playing >PERIOD <EOS 
+CLAUSE:
+  [Unfortunately (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [about (LEX)(ADV)]
+    [&&5 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+
+Following PP attaches to: about &&5 million
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [those (LEX)(DET)]
+      [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [suffer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [some (LEX)(DET)]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: some kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [injury (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [while (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [some (LEX)(DET)]
+    [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+Following PP attaches to: some kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [injury (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [playing (root: play) (MOR)(V PARTICIPLE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : To help children play sports safely, the National Youth Sports Safety Foundation (NYSSF) has named April National Youth Sports Safety Month. 
+PreProc  : To help children play sports safely >COMMA the National Youth Sports Safety Foundation >LPAREN NYSSF >RPAREN has named April National Youth Sports Safety Month >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (INFINITIVE):
+    [To (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  NP SEGMENT (SUBJ):
+    [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [play (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  [safely (root: safe) (MOR)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [National (LEX)(ADJ)]
+    [Youth (LEX)(N SINGULAR(HUMAN))]
+    [Sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [Safety (LEX)(N SINGULAR(OTHER))]
+    [Foundation (root: found) (MOR)(N SINGULAR)]
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [NYSSF (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+    [named (root: name) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [April (LEX)(N SINGULAR(MONTH))]
+    [National (LEX)(ADJ)]
+    [Youth (LEX)(N SINGULAR(HUMAN))]
+    [Sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [Safety (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [Month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : During April, the foundation plans to teach kids about sports safety. 
+PreProc  : During April >COMMA the foundation plans to teach kids about sports safety >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [During (LEX)(PREP)]
+    NP SEGMENT:
+      [April (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [foundation (root: found) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [plans (root: plan) (MOR)(V PRESENT)]
+    [to (LEX)(INF)]
+    [teach (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+      [safety (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The foundation's message is that most sports injuries can be prevented. 
+PreProc  : The @foundation@s message is that most sports injuries can be prevented >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [@foundation@s (LEX)(ADJ POSSESSIVE)]
+    [message (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [injuries (root: injury) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [prevented (root: prevent) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : According to the NYSSF, you can do a few things to keep from getting a sports injury: Do warm-up stretches before and after playing any sport. 
+PreProc  : According to the NYSSF >COMMA you can do a few things to keep from getting a sports injury >COLON Do warm-up stretches before and after playing any sport >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [According (root: accord) (LEX)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [NYSSF (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [few (LEX)(ADJ)]
+    [things (root: thing) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [getting (root: get) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [injury (LEX)(N SINGULAR(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [injury (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [warm-up (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [warm-up (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stretches (root: stretch) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [playing (root: play) (MOR)(N SINGULAR) (GER)]
+      [any (LEX)(ADJ SINGULAR PLURAL) (N PLURAL(OTHER))]
+      [sport (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Stretching helps loosen tight muscles and tissues. 
+PreProc  : Stretching helps loosen tight muscles and tissues >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Stretching (root: stretch) (MOR)(N SINGULAR) (GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [helps (root: help) (MOR)(V PRESENT)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [loosen (?)(UNK(ENTITY UNKNOWN))]
+    [tight (LEX)(ADJ)]
+    [muscles (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [tissues (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Do not play when you are in pain. 
+PreProc  : Do not play when you are in pain >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [play (LEX)(V BASE)]
+
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [pain (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Pain is a sure sign of an injury! 
+PreProc  : Pain is a sure sign of an injury >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pain (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [sure (LEX)(ADJ)]
+    [sign (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a sure sign
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [injury (LEX)(N SINGULAR(OTHER))]
+
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Use proper sports safety equipment, such as helmets, elbow pads, kneepads, safety glasses, wrist guards, shin guards, and mouth guards. 
+PreProc  : Use proper sports safety equipment >COMMA SUCH_AS helmets >COMMA elbow pads >COMMA kneepads >COMMA safety glasses >COMMA wrist guards >COMMA shin guards >COMMA and mouth guards >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [proper (LEX)(ADJ)]
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [safety (LEX)(N SINGULAR(OTHER))]
+    [equipment (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [helmets (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [elbow (LEX)(N SINGULAR(OTHER))]
+      [pads (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [kneepads (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [safety (LEX)(N SINGULAR(OTHER))]
+      [glasses (root: glass) (MOR)(N PLURAL(PHYSOBJ))]
+      [>COMMA (LEX)(PUNC)]
+      [wrist (LEX)(N SINGULAR(OTHER))]
+      [guards (root: guard) (MOR)(N PLURAL(HUMAN))]
+      [>COMMA (LEX)(PUNC)]
+      [shin (?)(UNK(ENTITY UNKNOWN))]
+      [guards (root: guard) (MOR)(N PLURAL(HUMAN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [mouth (LEX)(N SINGULAR(OTHER))]
+      [guards (root: guard) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The NYSSF says that playing sports and exercising help kids stay healthy and make friends. 
+PreProc  : The NYSSF says that playing sports and exercising help kids stay healthy and make friends >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [NYSSF (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [NYSSF (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [playing (root: play) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [exercising (root: exercise) (MOR)(N SINGULAR) (GER)]
+    [help (LEX)(N SINGULAR(OTHER))]
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+    [stay (LEX)(N SINGULAR(OTHER))]
+
+  [healthy (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [NYSSF (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But no matter which sport you play, always remember to have fun! 
+PreProc  : But no matter which sport you play >COMMA always remember to have fun >EXCLAMATION <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [no (LEX)(ADJ)]
+    [matter (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [which (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [play (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [always (LEX)(ADV)]
+    [remember (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [have (LEX)(AUX) (V BASE)]
+
+  ADJ SEGMENT:
+    [fun (LEX)(ADJ)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Do you do warm-up activities before and after playing a sport? 
+PreProc  : Do you do warm-up activities before and after playing a sport >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [you (LEX)(PN(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [warm-up (?)(UNK(ENTITY UNKNOWN))]
+    [activities (root: activity) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [before (LEX)(C_M) (PREP)]
+  [and (LEX)(CONJ)]
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [playing (root: play) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [sport (LEX)(N SINGULAR(OTHER))]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

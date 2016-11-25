@@ -1,0 +1,610 @@
+Original : Each week until Election Day, Grade 4 will look at where the two candidates for president stand on important , or problems facing the country. 
+PreProc  : Each week until Election Day >COMMA Grade &&4 will look at where the &&2 candidates for president stand on important >COMMA or problems facing the country >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Each (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [week (LEX)(N SINGULAR(TIME))]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [Election (LEX)(N SINGULAR(OTHER))]
+
+
+  NP SEGMENT:
+    [Day (LEX)(N SINGULAR(DAY))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Grade (?)(UNK(ENTITY UNKNOWN))]
+    [&&4 (LEX)(NUM)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [look (LEX)(V BASE)]
+
+  [at (LEX)(PREP)]
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [&&2 (LEX)(NUM)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [president (LEX)(N SINGULAR(HUMAN))]
+      [stand (LEX)(N SINGULAR(OTHER))]
+
+
+  [on (LEX)(PREP)]
+  [important (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  NP SEGMENT:
+    [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [facing (root: face) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [country (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This week’s issue is refers to the making and buying of products. 
+PreProc  : This week’s issue is refers to the making and buying of products >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [week’s (?)(UNK(ENTITY UNKNOWN))]
+    [issue (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [refers (root: refer) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [making (root: make) (MOR)(N SINGULAR) (GER)]
+      [and (LEX)(CONJ)]
+      [buying (root: buy) (MOR)(N SINGULAR) (GER)]
+
+
+Following PP attaches to: the making and buying
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The economy goes through good and bad times. 
+PreProc  : The economy goes through good and bad times >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [economy (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [goes (root: go) (LEX)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [good (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [and (LEX)(CONJ)]
+      [bad (LEX)(ADJ)]
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Both candidates want to work on improving the economy because many workers in the United States have lost their jobs over the past few years. 
+PreProc  : Both candidates want to work on improving the economy because many workers in the UNITED_STATES have lost their jobs over the past few years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Both (LEX)(ADJ) (N PLURAL(OTHER))]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [want (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [work (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [improving (root: improve) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [economy (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [because (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [lost (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [jobs (root: job) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [past (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [few (LEX)(ADJ)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The candidates have been discussing another important part of the economy-- . 
+PreProc  : The candidates have been discussing another important part of the economy >DASH >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [candidates (root: candidate) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+    [discussing (root: discuss) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [another (LEX)(ADJ)]
+    [important (LEX)(ADJ)]
+    [part (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: another important part
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [economy (LEX)(N SINGULAR(OTHER))]
+
+
+  [>DASH (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : American companies and people pay tax money to the government to support public programs. 
+PreProc  : American companies and people pay tax money to the government to support public programs >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [American (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+    [and (LEX)(CONJ)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [pay (LEX)(V BASE)]
+    [tax (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [government (root: govern) (MOR)(N SINGULAR)]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [support (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [public (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [programs (root: program) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those programs include building roads and supporting schools and the military. 
+PreProc  : Those programs include building roads and supporting schools and the military >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+    [programs (root: program) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [include (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT-Location (DOBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+    [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+    [and (LEX)(CONJ)]
+    [supporting (root: support) (MOR)(N SINGULAR) (GER)]
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [the (LEX)(ART)]
+    [military (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : President Bush thinks that lowering taxes will create more jobs. 
+PreProc  : President Bush thinks that lowering taxes will create more jobs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thinks (root: think) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [President (LEX)(N SINGULAR(HUMAN))]
+    [Bush (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lowering (root: lower) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [taxes (root: tax) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [taxes (root: tax) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [create (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [jobs (root: job) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He says that if the government lowers taxes, businesses will have extra money to hire more workers. 
+PreProc  : He says that if the government lowers taxes >COMMA businesses will have extra money to hire more workers >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [that (LEX)(C_M)]
+
+CLAUSE:
+  [if (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lowers (root: lower) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [taxes (root: tax) (MOR)(N PLURAL)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [extra (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [hire (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In addition, he says, lowering taxes will give people more money to spend on products and services. 
+PreProc  : In addition >COMMA he says >COMMA lowering taxes will give people more money to spend on products and services >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [addition (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [lowering (root: lower) (MOR)(N SINGULAR) (GER)]
+    [taxes (root: tax) (MOR)(N PLURAL)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [lowering (root: lower) (MOR)(N SINGULAR) (GER)]
+    [taxes (root: tax) (MOR)(N PLURAL)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [give (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [more (LEX)(ADJ)]
+    [money (LEX)(N SINGULAR(MONEY))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [spend (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [products (root: product) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [services (root: service) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Senator Kerry thinks that creating more jobs is the best way to help businesses grow. 
+PreProc  : Senator Kerry thinks that creating more jobs is the best way to help businesses grow >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Senator (LEX)(N SINGULAR(HUMAN))]
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thinks (root: think) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Senator (LEX)(N SINGULAR(HUMAN))]
+    [Kerry (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [creating (root: create) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [more (LEX)(ADJ)]
+    [jobs (root: job) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [jobs (root: job) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [best (LEX)(ADJ)]
+    [way (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [help (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [businesses (root: business) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [grow (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He thinks that the government currently gives too many tax breaks to wealthy people and large companies. 
+PreProc  : He thinks that the government currently gives too many tax breaks to wealthy people and large companies >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [thinks (root: think) (MOR)(V PRESENT)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [currently (LEX)(ADV)]
+    [gives (root: give) (MOR)(V PRESENT)]
+    [too (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [tax (LEX)(V BASE)]
+    [breaks (root: break) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [wealthy (LEX)(ADJ)]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+      [and (LEX)(CONJ)]
+      [large (LEX)(ADJ)]
+      [companies (root: company) (MOR)(N PLURAL(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He wants people who make a lot of money to pay more in taxes than families who don’t make as much. 
+PreProc  : He wants people who make a lot of money to pay more in taxes than families who don’t make as much >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [wants (root: want) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [money (LEX)(N SINGULAR(MONEY))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [pay (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [more (LEX)(ADJ)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [taxes (root: tax) (MOR)(N PLURAL)]
+
+
+  [than (LEX)(ADV)]
+  NP SEGMENT:
+    [families (root: family) (MOR)(N PLURAL(HUMAN))]
+
+
+CLAUSE:
+  [who (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [don’t (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [make (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Winning Hispanic Votes: Campaign Ad Fights Heat Up! 
+PreProc  : Winning Hispanic Votes >COLON Campaign Ad Fights Heat Up >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [Hispanic (?)(UNK(ENTITY UNKNOWN))]
+    [Votes (root: vote) (MOR)(N PLURAL(OTHER))]
+
+  [>COLON (LEX)(PUNC)]
+  NP SEGMENT:
+    [Campaign (LEX)(N SINGULAR(OTHER))]
+    [Ad (LEX)(N SINGULAR(OTHER))]
+    [Fights (root: fight) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [Heat (LEX)(V BASE)]
+    [Up (LEX)(PART)]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

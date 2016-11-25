@@ -1,0 +1,156 @@
+Original : Use the calendar to answer the questions. 
+PreProc  : Use the calendar to answer the questions >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Use (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [calendar (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [answer (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [questions (root: question) (MOR)(N PLURAL(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Choose the correct answer. 
+PreProc  : Choose the correct answer >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Choose (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [correct (LEX)(ADJ)]
+    [answer (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : New Year’s Eve is on the ____________ day of December. 
+PreProc  : New Year’s Eve is on the >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE day of December >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [New (LEX)(ADJ)]
+    [Year’s (?)(UNK(ENTITY UNKNOWN))]
+
+  NP SEGMENT:
+    [Eve (LEX)(N SINGULAR PROPER(TIME HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [on (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  NP SEGMENT:
+    [day (LEX)(N SINGULAR(DAY))]
+
+Following PP attaches to: day
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [December (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Christmas is on a ____________ this year. 
+PreProc  : Christmas is on a >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE >USCORE this year >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Christmas (LEX)(N SINGULAR(TIME))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [on (LEX)(PREP)]
+  [a (LEX)(ART)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  [>USCORE (LEX)(PUNC)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : : How many Fridays are in December 2003? 
+PreProc  : >COLON How many Fridays are in December &&2003 >QUESTION <EOS 
+CLAUSE:
+  [>COLON (LEX)(PUNC)]
+  [How (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [Fridays (root: friday) (MOR)(N PLURAL(DAY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  PP SEGMENT-Time (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [December (LEX)(N SINGULAR(MONTH))]
+      [&&2003 (LEX)(NUM)]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

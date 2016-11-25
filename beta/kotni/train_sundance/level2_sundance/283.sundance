@@ -1,0 +1,307 @@
+Original : Heavy backpacks mean a load of back problems for schoolchildren. 
+PreProc  : Heavy backpacks mean a load of back problems for schoolchildren >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Heavy (LEX)(ADJ)]
+    [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mean (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [load (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+Following PP attaches to: a load
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+      [problems (root: problem) (MOR)(N PLURAL(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [schoolchildren (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Is your backpack too heavy? 
+PreProc  : Is your backpack too heavy >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [your (LEX)(ADJ)]
+    [backpack (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [too (LEX)(ADV)]
+  [heavy (LEX)(ADJ)]
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Doctors are saying that overloaded backpacks can lead to backaches for children. 
+PreProc  : Doctors are saying that overloaded backpacks can lead to backaches for children >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [saying (root: say) (MOR)(V PARTICIPLE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [overloaded (root: load) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [can (LEX)(AUX)]
+    [lead (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [backaches (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [children (root: child) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Parents should inspect their child’s backpack," says Joshua Hyman, a doctor at Morgan Stanley Children’s Hospital of New York- Presbyterian. 
+PreProc  : >DQUOTE Parents should inspect their child’s backpack >COMMA >DQUOTE says Joshua Hyman >COMMA a doctor at Morgan Stanley Children’s Hospital of NEW_YORK >MINUS Presbyterian >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [inspect (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [child’s (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [backpack (LEX)(N SINGULAR(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Parents (root: parent) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [says (root: say) (MOR)(V PRESENT(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Joshua (?)(UNK(ENTITY UNKNOWN))]
+    [Hyman (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [doctor (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [Morgan (?)(UNK(ENTITY UNKNOWN))]
+      [Stanley (?)(UNK(ENTITY UNKNOWN))]
+      [Children’s (?)(UNK(ENTITY UNKNOWN))]
+      [Hospital (LEX)(N SINGULAR(BUILDING))]
+
+
+Following PP attaches to: Morgan Stanley Children’s Hospital
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT:
+    [Presbyterian (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Kids often carry much more than they should." 
+PreProc  : >DQUOTE Kids often carry much MORE_THAN they should >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [often (LEX)(ADV)]
+    [carry (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [much (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  [MORE_THAN (LEX)(ADJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Doctors say backpacks should be worn over both shoulders to prevent backaches. 
+PreProc  : Doctors say backpacks should be worn over both shoulders to prevent backaches >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Doctors (root: doctor) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [backpacks (root: backpack) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [should (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [worn (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [both (LEX)(ADJ) (N PLURAL(OTHER))]
+      [shoulders (root: shoulder) (MOR)(N PLURAL(OTHER))]
+
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [prevent (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [backaches (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Also, schools might want to or think about, giving homework handouts and creating homework Web sites so kids do not have to take as many books home. 
+PreProc  : Also >COMMA schools might want to or think about >COMMA giving homework handouts and creating homework Web sites so kids do not have to take as many books home >PERIOD <EOS 
+CLAUSE:
+  [Also (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [want (LEX)(V BASE)]
+
+  [to (LEX)(PREP)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [schools (root: school) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+    [about (LEX)(ADV)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [giving (root: give) (MOR)(N SINGULAR) (GER)]
+    [homework (?)(UNK(ENTITY UNKNOWN))]
+    [handouts (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [creating (root: create) (MOR)(N SINGULAR) (GER)]
+    [homework (?)(UNK(ENTITY UNKNOWN))]
+    [Web (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [creating (root: create) (MOR)(N SINGULAR) (GER)]
+    [homework (?)(UNK(ENTITY UNKNOWN))]
+    [Web (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [sites (root: site) (MOR)(V PRESENT)]
+    [so (LEX)(ADV)]
+
+  NP SEGMENT (DOBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [kids (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [do (LEX)(AUX) (V BASE)]
+    [not (LEX)(ADV)]
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [take (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT:
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+      [home (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

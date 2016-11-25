@@ -1,0 +1,1464 @@
+Original : History is getting ready to repeat itself. 
+PreProc  : History is getting ready to repeat itself >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [History (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [is (root: be) (LEX)(COP)]
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+    [ready (LEX)(ADV) (V BASE)]
+    [to (LEX)(INF)]
+    [repeat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [itself (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This summer, the Olympic Games will return to their birthplace--Greece. 
+PreProc  : This summer >COMMA the Olympic Games will return to their birthplace >DASH Greece >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [summer (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [return (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [their (LEX)(ADJ)]
+      [birthplace (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>DASH (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Greece (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This year's Summer Olympics will take place from August 13 through August 29 in Athens, the capital of Greece. 
+PreProc  : This @year@s Summer Olympics will take place from August &&13 through August &&29 in Athens >COMMA the capital of Greece >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [@year@s (LEX)(ADJ POSSESSIVE)]
+    [Summer (?)(UNK(ENTITY UNKNOWN))]
+    [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+    [place (LEX)(V BASE)]
+
+  PP SEGMENT-Time (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [August (LEX)(N SINGULAR(MONTH))]
+      [&&13 (LEX)(NUM)]
+
+
+  PP SEGMENT-Time (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT-Time:
+      [August (LEX)(N SINGULAR(MONTH))]
+      [&&29 (LEX)(NUM)]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [capital (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the capital
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Greece (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Summer Games are held every four years. 
+PreProc  : The Summer Games are held every &&4 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Summer (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  NP SEGMENT:
+    [every (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "This Olympic homecoming will be an opportunity to reawaken the true spirit and meaning of the Olympic Games," said an Athens organizing committee member. 
+PreProc  : >DQUOTE This Olympic homecoming will be an opportunity to reawaken the true spirit and meaning of the Olympic Games >COMMA >DQUOTE said an Athens organizing committee member >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [Olympic (LEX)(ADJ)]
+    [homecoming (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [opportunity (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [reawaken (root: awaken) (MOR)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [true (LEX)(ADJ)]
+    [spirit (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [meaning (root: mean) (MOR)(N SINGULAR) (GER)]
+
+Following PP attaches to: the true spirit and meaning
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympic (LEX)(ADJ)]
+      [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+    [Olympic (LEX)(ADJ)]
+    [homecoming (INF-MOR)(GER)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [Athens (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [organizing (root: organize) (MOR)(N SINGULAR) (GER)]
+    [committee (LEX)(N SINGULAR(HUMAN))]
+    [member (LEX)(N SINGULAR(HUMAN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Olympic Games date back more than 2,700 years. 
+PreProc  : The Olympic Games date back MORE_THAN &&2,700 years >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  NP SEGMENT:
+    [date (LEX)(N SINGULAR(TIME))]
+    [back (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [MORE_THAN (LEX)(ADJ)]
+    [&&2,700 (LEX)(NUM)]
+    [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They were first held in Olympia, an area west of Athens. 
+PreProc  : They were first held in Olympia >COMMA an area west of Athens >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [first (LEX)(ADJ)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Olympia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [an (LEX)(ART)]
+    [area (LEX)(N SINGULAR(LOCATION))]
+    [west (LEX)(ADJ) (N SINGULAR(LOCATION))]
+
+Following PP attaches to: an area west
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The first known Olympic competition included just one event-a 200-yard footrace. 
+PreProc  : The first known Olympic competition included just one event-a 200-yard footrace >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (INF-LEX)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [known (root: know) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Olympic (LEX)(ADJ)]
+    [competition (INF-MOR)(N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Olympic (LEX)(ADJ)]
+    [competition (INF-MOR)(N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [included (root: include) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [just (LEX)(ADJ) (ADV)]
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+    [event-a (?)(UNK(ENTITY UNKNOWN))]
+    [200-yard (?)(UNK(ENTITY UNKNOWN))]
+    [footrace (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Winning athletes were crowned with a wreath of olive leaves. 
+PreProc  : Winning athletes were crowned with a wreath of olive leaves >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Winning (root: win) (MOR)(GER) (N SINGULAR)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [crowned (root: crown) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [wreath (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: a wreath
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [olive (?)(UNK(ENTITY UNKNOWN))]
+      [leaves (LEX)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Over the years, more events were added, such as wrestling, discus throwing, and chariot racing. 
+PreProc  : Over the years >COMMA more events were added >COMMA SUCH_AS wrestling >COMMA discus throwing >COMMA and chariot racing >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [years (root: year) (MOR)(N PLURAL(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [more (LEX)(ADJ)]
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [added (root: add) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [SUCH_AS (LEX)(PREP)]
+    NP SEGMENT:
+      [wrestling (INF-MOR)(GER)]
+      [>COMMA (LEX)(PUNC)]
+      [discus (?)(UNK(ENTITY UNKNOWN))]
+      [throwing (root: throw) (MOR)(N SINGULAR) (GER)]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [chariot (?)(UNK(ENTITY UNKNOWN))]
+      [racing (root: race) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As times changed, the Olympics evolved. 
+PreProc  : As times changed >COMMA the Olympics evolved >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+
+  NP SEGMENT (SUBJ):
+    [times (root: time) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [changed (root: change) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [evolved (INF-MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In 1896, the first modern Olympic Games began in Athens. 
+PreProc  : In &&1896 >COMMA the first modern Olympic Games began in Athens >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1896 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [modern (LEX)(ADJ)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [began (root: begin) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At that time, 312 athletes from 13 countries competed in nine sports. 
+PreProc  : At that time >COMMA &&312 athletes from &&13 countries competed in &&9 sports >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [&&312 (LEX)(NUM)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [&&13 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [competed (root: compete) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&9 (LEX)(NUM)]
+      [sports (root: sport) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Now, more than a century later, 10,500 athletes from more than 200 countries will go for the gold. 
+PreProc  : Now >COMMA MORE_THAN a century later >COMMA &&10,500 athletes from MORE_THAN &&200 countries will go for the gold >PERIOD <EOS 
+CLAUSE:
+  [Now (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  [MORE_THAN (LEX)(ADJ)]
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [century (LEX)(N SINGULAR(TIME))]
+
+  [later (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [&&10,500 (LEX)(NUM)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [MORE_THAN (LEX)(ADJ)]
+      [&&200 (LEX)(NUM)]
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [go (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [gold (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The athletes will compete in 28 events, including baseball, gymnastics, swimming, and tennis. 
+PreProc  : The athletes will compete in &&28 events >COMMA including baseball >COMMA gymnastics >COMMA swimming >COMMA and tennis >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [athletes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [&&28 (LEX)(NUM)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [including (LEX)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [baseball (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [gymnastics (?)(UNK(ENTITY UNKNOWN))]
+    [>COMMA (LEX)(PUNC)]
+    [swimming (INF-MOR)(GER)]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [tennis (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Since 1896, the Olympic Games have journeyed around the world and have been by, or held in, many cities. 
+PreProc  : Since &&1896 >COMMA the Olympic Games have journeyed around the world and have been by >COMMA or held in >COMMA many cities >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1896 (LEX)(NUM)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [journeyed (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [been (root: be) (LEX)(COP)]
+
+  [by (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [Games (root: game) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [held (LEX)(V BASE)]
+
+  [in (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [cities (root: city) (MOR)(N PLURAL(CITY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In keeping with tradition, the Olympic torch was , or lit, this March in an ancient stadium in Olympia. 
+PreProc  : In keeping with tradition >COMMA the Olympic torch was >COMMA or lit >COMMA this March in an ancient stadium in Olympia >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [keeping (root: keep) (MOR)(N SINGULAR) (GER)]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [tradition (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lit (root: light) (LEX)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [March (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [ancient (LEX)(ADJ)]
+      [stadium (LEX)(N SINGULAR(BUILDING))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Olympia (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : , or worldwide, Olympic Torch Relay. 
+PreProc  : >COMMA or worldwide >COMMA Olympic Torch Relay >PERIOD <EOS 
+CLAUSE:
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  [worldwide (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Olympic (LEX)(ADJ)]
+    [Torch (LEX)(N SINGULAR(PHYSOBJ))]
+    [Relay (root: lay) (MOR)(N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is the first time in history that the Olympic torch will journey through all continents except Antarctica. 
+PreProc  : It is the first time in history that the Olympic torch will journey through all continents except Antarctica >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [time (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [history (LEX)(N SINGULAR(OTHER))]
+
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+
+  NP SEGMENT (DOBJ):
+    [journey (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+      [continents (root: continent) (MOR)(N PLURAL(LOCATION))]
+
+
+  [except (LEX)(ADV)]
+  NP SEGMENT-Location:
+    [Antarctica (LEX)(N SINGULAR(COUNTRY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The torch will travel nearly 48,000 miles before reaching the opening ceremonies in Athens. 
+PreProc  : The torch will travel nearly &&48,000 miles before reaching the opening ceremonies in Athens >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [travel (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [nearly (LEX)(ADJ) (ADV)]
+    [&&48,000 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [before (LEX)(PREP)]
+    NP SEGMENT:
+      [reaching (root: reach) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [opening (root: open) (MOR)(N SINGULAR) (GER)]
+    [ceremonies (root: ceremony) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : As runners carry the torch around the world, people in Athens are having a race of their own. 
+PreProc  : As runners carry the torch around the world >COMMA people in Athens are having a race of their own >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [As (LEX)(PREP)]
+    NP SEGMENT:
+      [runners (root: runner) (MOR)(N PLURAL(HUMAN))]
+
+
+  NP SEGMENT (SUBJ):
+    [runners (root: runner) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carry (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [torch (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [having (root: have) (LEX)(AUX) (V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [race (LEX)(N SINGULAR(OTHER))]
+
+  [of (LEX)(PREP)]
+  [their (LEX)(ADJ)]
+  [own (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : They are busy preparing for the estimated 5.3 million , or viewers, who are expected to flood the city in August. 
+PreProc  : They are busy preparing for the estimated &&5.3 million >COMMA or viewers >COMMA who are expected to flood the city in August >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [They (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [busy (LEX)(ADJ)]
+    [preparing (root: prepare) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [estimated (root: estimate) (MOR)(ADJ)]
+      [&&5.3 (LEX)(NUM)]
+      [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+      [>COMMA (LEX)(PUNC)]
+      [or (LEX)(CONJ)]
+      [viewers (root: view) (MOR)(N PLURAL)]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [estimated (root: estimate) (MOR)(ADJ)]
+    [&&5.3 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [>COMMA (LEX)(PUNC)]
+    [or (LEX)(CONJ)]
+    [viewers (root: view) (MOR)(N PLURAL)]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [expected (root: expect) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [flood (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [August (LEX)(N SINGULAR(MONTH))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Construction workers are feverishly working to finish building the . 
+PreProc  : Construction workers are feverishly working to finish building the >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Construction (LEX)(N SINGULAR(OTHER))]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [are (root: be) (LEX)(COP)]
+    [feverishly (root: feverish) (MOR)(ADV)]
+    [working (root: work) (MOR)(V PARTICIPLE)]
+    [to (LEX)(INF)]
+    [finish (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [building (LEX)(N SINGULAR(BUILDING))]
+
+  [the (LEX)(ART)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Those are the places where Olympic athletes will compete in different events. 
+PreProc  : Those are the places where Olympic athletes will compete in different events >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Those (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [places (root: place) (MOR)(N PLURAL(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Olympic (LEX)(ADJ)]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [different (LEX)(ADJ)]
+      [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At press time, the roof still had to be put on the Olympic Stadium. 
+PreProc  : At press time >COMMA the roof still had to be put on the Olympic Stadium >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [At (LEX)(PREP)]
+    NP SEGMENT:
+      [press (LEX)(N SINGULAR(OTHER))]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [roof (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [still (LEX)(ADV)]
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+    [to (LEX)(INF)]
+    [be (LEX)(COP)]
+    [put (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympic (LEX)(ADJ)]
+      [Stadium (LEX)(N SINGULAR(BUILDING))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is the site where the opening and closing ceremonies will be held. 
+PreProc  : That is the site where the opening and closing ceremonies will be held >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [site (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [opening (root: open) (MOR)(N SINGULAR) (GER)]
+    [and (LEX)(CONJ)]
+    [closing (root: close) (MOR)(N SINGULAR) (GER)]
+    [ceremonies (root: ceremony) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It is also where track-and-field events will take place. 
+PreProc  : It is also where track-and-field events will take place >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [also (LEX)(ADV)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [track-and-field (?)(UNK(ENTITY UNKNOWN))]
+    [events (root: event) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [take (LEX)(V BASE)]
+    [place (LEX)(V BASE)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Around the rest of the city, workers are completing a railway system and tearing up narrow roads to widen them for traffic. 
+PreProc  : Around the rest of the city >COMMA workers are completing a railway system and tearing up narrow roads to widen them for traffic >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [Around (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [rest (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: the rest
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [city (LEX)(N SINGULAR(CITY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [completing (root: complete) (MOR)(V PARTICIPLE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [railway (LEX)(N SINGULAR(VEHICLE))]
+    [system (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [tearing (root: tear) (MOR)(N SINGULAR) (GER)]
+
+  PP SEGMENT-Location (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [narrow (LEX)(ADJ)]
+      [roads (root: road) (MOR)(N PLURAL(LOCATION))]
+
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [widen (?)(UNK(ENTITY UNKNOWN))]
+
+
+  NP SEGMENT:
+    [them (LEX)(PN PLURAL(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [traffic (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hotels and restaurants are getting ready for an influx of tourists. 
+PreProc  : Hotels and restaurants are getting ready for an influx of tourists >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [Hotels (root: hotel) (MOR)(N PLURAL(BUILDING))]
+    [and (LEX)(CONJ)]
+    [restaurants (root: restaurant) (MOR)(N PLURAL(BUILDING))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [getting (root: get) (MOR)(V PARTICIPLE)]
+    [ready (LEX)(ADV) (V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [an (LEX)(ART)]
+      [influx (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+Following PP attaches to: an influx
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [tourists (root: tourist) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Topping the Olympic planners' list is making sure the city is secure for athletes and visitors. 
+PreProc  : Topping the Olympic @planners@ list is making sure the city is secure for athletes and visitors >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Topping (root: top) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [@planners@ (LEX)(ADJ POSSESSIVE)]
+    [list (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [@planners@ (LEX)(ADJ POSSESSIVE)]
+    [list (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  [sure (LEX)(ADJ)]
+  NP SEGMENT-Location:
+    [the (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [city (LEX)(N SINGULAR(CITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [secure (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [athletes (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [visitors (root: visitor) (MOR)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Some people are concerned that Athens might not be ready for the Olympics. 
+PreProc  : Some people are concerned that Athens might not be ready for the Olympics >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Some (LEX)(DET)]
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [concerned (root: concern) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [Athens (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [might (LEX)(AUX)]
+    [not (LEX)(ADV)]
+    [be (LEX)(COP)]
+    [ready (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But the Greek government was quick to reassure: "We will have everything ready when it matters. 
+PreProc  : But the Greek government was quick to reassure >COLON >DQUOTE We will have everything ready when it matters >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Greek (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [government (root: govern) (MOR)(N SINGULAR)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  ADJ SEGMENT:
+    [quick (LEX)(ADJ)]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [reassure (root: assure) (MOR)(V BASE)]
+
+  [>COLON (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [have (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  [ready (LEX)(ADJ)]
+
+CLAUSE:
+  [when (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [matters (root: matter) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : We will offer what the world expects of us." 
+PreProc  : We will offer what the world expects of us >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [offer (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [world (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [expects (root: expect) (MOR)(V PRESENT)]
+
+Following PP attaches to: expects
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [us (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : - The first modern Olympics are held in Athens, Greece. 
+PreProc  : >MINUS The first modern Olympics are held in Athens >COMMA Greece >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [modern (LEX)(ADJ)]
+    [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Athens (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)]
+      [Greece (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : - Women compete for the first time. 
+PreProc  : >MINUS Women compete for the first time >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Women (root: woman) (LEX)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : - Gold, silver, and bronze medals are awarded for the first time. 
+PreProc  : >MINUS Gold >COMMA silver >COMMA and bronze medals are awarded for the first time >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP-CONJ SEGMENT (SUBJ):
+    [Gold (LEX)(N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [silver (LEX)(ADJ) (N SINGULAR(PHYSOBJ))]
+    [>COMMA (LEX)(PUNC)]
+    [and (LEX)(CONJ)]
+    [bronze (?)(UNK(ENTITY UNKNOWN))]
+    [medals (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [awarded (root: award) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : - The first Winter Olympics are held, and the Olympic flame is introduced. 
+PreProc  : >MINUS The first Winter Olympics are held >COMMA and the Olympic flame is introduced >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [first (LEX)(ADJ)]
+    [Winter (?)(UNK(ENTITY UNKNOWN))]
+    [Olympics (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+    [held (LEX)(V BASE)]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [flame (LEX)(N SINGULAR(OTHER))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympic (LEX)(ADJ)]
+    [flame (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [introduced (root: introduce) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : - Female athletes from Afghanistan will compete for the first time. 
+PreProc  : >MINUS Female athletes from Afghanistan will compete for the first time >PERIOD <EOS 
+CLAUSE:
+  [>MINUS (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Female (LEX)(N SINGULAR(HUMAN))]
+    [athletes (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Afghanistan (LEX)(N SINGULAR(COUNTRY))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [will (LEX)(AUX)]
+    [compete (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [first (LEX)(ADJ)]
+      [time (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How do the Olympics promote friendship and unity among countries? 
+PreProc  : How do the Olympics promote friendship and unity among countries >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [do (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Olympics (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [promote (LEX)(V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [friendship (LEX)(N SINGULAR(OTHER))]
+    [and (LEX)(CONJ)]
+    [unity (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT-Location (PREP):
+    [among (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [countries (root: country) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

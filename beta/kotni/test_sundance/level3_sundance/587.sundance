@@ -1,0 +1,359 @@
+Original : news! 
+PreProc  : news >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [news (LEX)(N SINGULAR(MEDIA))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The worldÕs smallest snake just slithered into the record books. 
+PreProc  : The worldÕs smallest snake just slithered into the record books >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [worldÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [smallest (root: small) (MOR)(ADJ)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+  [just (LEX)(ADJ) (ADV)]
+  [slithered (INF-MOR)(ADJ)]
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [record (LEX)(N SINGULAR(OTHER))]
+      [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The tiny brown snake is less than 4 inches long. 
+PreProc  : The tiny brown snake is LESS_THAN &&4 inches long >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [brown (LEX)(ADJ)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [LESS_THAN (LEX)(ADJ)]
+    [&&4 (LEX)(NUM)]
+    [inches (?)(UNK(ENTITY UNKNOWN))]
+
+  [long (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Blair Hedges, a college professor, found the snake in Barbados. 
+PreProc  : Blair Hedges >COMMA a college professor >COMMA found the snake in Barbados >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Blair (?)(UNK(ENTITY UNKNOWN))]
+    [Hedges (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [college (LEX)(N SINGULAR(BUILDING))]
+    [professor (LEX)(N SINGULAR(HUMAN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Barbados (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That is an island in the Caribbean Sea. 
+PreProc  : That is an island in the Caribbean Sea >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [island (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Caribbean (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Sea (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The was under a rock. 
+PreProc  : The was under a rock >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [was (root: be) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [rock (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A reptile is an animal that crawls or slithers, has scales or bony plates, and lays eggs. 
+PreProc  : A reptile is an animal that crawls or slithers >COMMA has scales or bony plates >COMMA and lays eggs >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [reptile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [animal (LEX)(N SINGULAR(ANIMAL))]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP-CONJ SEGMENT (SUBJ):
+    [crawls (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [slithers (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [scales (root: scale) (MOR)(N PLURAL(OTHER))]
+    [or (LEX)(CONJ)]
+    [bony (root: bone) (MOR)(ADJ(PHYSOBJ))]
+    [plates (root: plate) (MOR)(N PLURAL(PHYSOBJ))]
+
+  [>COMMA (LEX)(PUNC)]
+  [and (LEX)(CONJ)]
+
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [crawls (?)(UNK(ENTITY UNKNOWN))]
+    [or (LEX)(CONJ)]
+    [slithers (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [lays (root: lay) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [eggs (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Reptiles are . 
+PreProc  : Reptiles are >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Reptiles (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : That means their body temperature depends on their environment. 
+PreProc  : That means their body temperature depends on their environment >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [That (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [means (root: mean) (LEX)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [their (LEX)(ADJ)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [their (LEX)(ADJ)]
+    [body (LEX)(N SINGULAR(HUMAN))]
+    [temperature (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [depends (root: depend) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [their (LEX)(ADJ)]
+      [environment (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The snake is toothpick-thin. 
+PreProc  : The snake is toothpick-thin >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [snake (LEX)(N SINGULAR(ANIMAL))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [toothpick-thin (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Ò[It] has stripes and little spots on the head, but itÕs very hard to see them,Ó Hedges told . 
+PreProc  : Ò[It >RBRACKET has stripes and little spots on the head >COMMA but itÕs very hard to see them,Ó Hedges told >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Ò[It (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [stripes (root: strip) (MOR)(N PLURAL(OTHER))]
+    [and (LEX)(CONJ)]
+    [little (LEX)(ADJ)]
+    [spots (root: spot) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [head (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [itÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [very (LEX)(ADV)]
+  [hard (LEX)(ADJ)]
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [see (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [them,Ó (?)(UNK(ENTITY UNKNOWN))]
+    [Hedges (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [told (root: tell) (LEX)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ÒYou have to use a microscope.Ó The reptile isnÕt HedgesÕs only ÒlittleÓ discovery. 
+PreProc  : ÒYou have to use a microscope.Ó The reptile isnÕt HedgesÕs only ÒlittleÓ discovery >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [ÒYou (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [have (LEX)(AUX) (V BASE)]
+    [to (LEX)(INF)]
+    [use (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [a (LEX)(ART)]
+    [microscope.Ó (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  NP SEGMENT (DOBJ):
+    [The (LEX)(ART)]
+    [reptile (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [isnÕt (?)(UNK(ENTITY UNKNOWN))]
+    [HedgesÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [only (LEX)(ADV)]
+  NP SEGMENT:
+    [ÒlittleÓ (?)(UNK(ENTITY UNKNOWN))]
+    [discovery (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The professor also found the worldÕs smallest frog and lizard. 
+PreProc  : The professor also found the worldÕs smallest frog and lizard >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [professor (LEX)(N SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [also (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP-CONJ SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [worldÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [smallest (root: small) (MOR)(ADJ)]
+    [frog (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [lizard (LEX)(N SINGULAR(ANIMAL))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

@@ -1,0 +1,841 @@
+Original : The Amazon River is the longest river in South America. 
+PreProc  : The Amazon River is the longest river in South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [longest (root: long) (MOR)(ADJ)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : It flows for 4,000 miles across the continent. 
+PreProc  : It flows for &&4,000 miles across the continent >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [It (LEX)(PN SINGULAR(ENTITY))]
+
+  NP SEGMENT:
+    [flows (root: flow) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&4,000 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT-Location (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [continent (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The location of the river's or beginning, was a mystery for centuries. 
+PreProc  : The location of the @river@s or beginning >COMMA was a mystery for centuries >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [The (LEX)(ART)]
+    [location (LEX)(N SINGULAR(LOCATION))]
+
+Following PP attaches to: The location
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@river@s (LEX)(N POSSESSIVE(ENTITY UNKNOWN))]
+      [or (LEX)(CONJ)]
+      [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [mystery (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [centuries (root: century) (MOR)(N PLURAL(TIME))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A team of explorers and geography experts recently found the tiny stream where the mighty river begins. 
+PreProc  : A team of explorers and geography experts recently found the tiny stream where the mighty river begins >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [explorers (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [geography (?)(UNK(ENTITY UNKNOWN))]
+      [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [found (root: find) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [tiny (LEX)(ADJ)]
+    [stream (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [mighty (LEX)(ADJ)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [begins (root: begin) (MOR)(V PRESENT)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : High on the Nevado Mismi, an 18,363-foot-high mountain in Peru, a stream trickles from the melting snow. 
+PreProc  : High on the Nevado Mismi >COMMA an 18,363-foot-high mountain in Peru >COMMA a stream trickles from the melting snow >PERIOD <EOS 
+CLAUSE:
+  [High (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [on (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Nevado (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Mismi (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location (SUBJ):
+    [an (LEX)(ART)]
+    [18,363-foot-high (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [mountain (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Peru (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [stream (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [trickles (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [melting (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [snow (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A team of 22 explorers and geography experts recently announced that this small stream is the source of the mighty Amazon River. 
+PreProc  : A team of &&22 explorers and geography experts recently announced that this small stream is the source of the mighty Amazon River >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: A team
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [&&22 (LEX)(NUM)]
+      [explorers (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [geography (?)(UNK(ENTITY UNKNOWN))]
+      [experts (root: expert) (MOR)(N PLURAL(HUMAN))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [recently (LEX)(ADV)]
+    [announced (root: announce) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [this (LEX)(DET)]
+    [small (LEX)(ADJ)]
+    [stream (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [source (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the source
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [mighty (LEX)(ADJ)]
+      [Amazon (?)(UNK(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The stream flows into the Apurimac (Ah-poo-REE-mahk) River, which is one of the many rivers that combine to form the Amazon. 
+PreProc  : The stream flows into the Apurimac >LPAREN Ah-poo-REE-mahk >RPAREN River >COMMA which is one of the many rivers that combine to form the Amazon >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [stream (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [flows (root: flow) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Apurimac (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>LPAREN (LEX)(PUNC)]
+  NP SEGMENT:
+    [Ah-poo-REE-mahk (?)(UNK(ENTITY UNKNOWN))]
+
+  [>RPAREN (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [rivers (root: river) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [one (LEX)(NUM) (N SINGULAR(OTHER))]
+
+Following PP attaches to: one
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [many (LEX)(ADJ) (N PLURAL(OTHER))]
+      [rivers (root: river) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [combine (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [form (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Andrew Pietowski, a high school math teacher in New York, led the team in search of the river's source. 
+PreProc  : Andrew Pietowski >COMMA a high school math teacher in NEW_YORK >COMMA led the team in search of the @river@s source >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Andrew (?)(UNK(ENTITY UNKNOWN))]
+    [Pietowski (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [high (LEX)(ADJ)]
+    [school (LEX)(N SINGULAR(BUILDING))]
+    [math (?)(UNK(ENTITY UNKNOWN))]
+    [teacher (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [NEW_YORK (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [led (root: lead) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [search (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: search
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@river@s (LEX)(ADJ POSSESSIVE)]
+      [source (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The team searched the Andes, a range of mountains that stretches the whole western length of South America. 
+PreProc  : The team searched the Andes >COMMA a range of mountains that stretches the whole western length of South America >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [team (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [searched (root: search) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [Andes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [range (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a range
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [range (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a range
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [mountains (root: mountain) (MOR)(N PLURAL(LOCATION))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [stretches (root: stretch) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [whole (LEX)(ADJ)]
+    [western (LEX)(ADJ)]
+    [length (?)(UNK(ENTITY UNKNOWN))]
+
+Following PP attaches to: the whole western length
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "Since the Amazon River has an end, there must be a beginning. 
+PreProc  : >DQUOTE Since the Amazon River has an end >COMMA there must be a beginning >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [Since (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [an (LEX)(ART)]
+    [end (LEX)(N SINGULAR(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [there (LEX)(PN)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [there (LEX)(PN)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [must (LEX)(AUX)]
+    [be (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [beginning (root: begin) (MOR)(GER) (N SINGULAR)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I wanted to know where it was," Pietowski said. 
+PreProc  : I wanted to know where it was >COMMA >DQUOTE Pietowski said >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [know (LEX)(V BASE)]
+
+
+CLAUSE:
+  [where (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Pietowski (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Pietowski (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : On its way across South America, the Amazon River flows through the largest in the world. 
+PreProc  : On its way across South America >COMMA the Amazon River flows through the largest in the world >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [On (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [way (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [across (LEX)(PREP)]
+    NP SEGMENT:
+      [South (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+      [America (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [River (LEX)(N SINGULAR(LOCATION))]
+    [flows (root: flow) (MOR)(N PLURAL(OTHER))]
+
+  [through (LEX)(PREP)]
+  [the (LEX)(ART)]
+  [largest (root: large) (MOR)(ADJ   )]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : A rain forest is a dense forest that has a lot of rainfall and warm temperatures all year round. 
+PreProc  : A rain forest is a dense forest that has a lot of rainfall and warm temperatures all year round >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [A (LEX)(ART)]
+    [rain (LEX)(N SINGULAR(OTHER))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [dense (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [dense (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [lot (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: a lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [rainfall (?)(UNK(ENTITY UNKNOWN))]
+      [and (LEX)(CONJ)]
+      [warm (LEX)(ADJ)]
+      [temperatures (?)(UNK(ENTITY UNKNOWN))]
+      [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+
+  NP SEGMENT:
+    [year (LEX)(N SINGULAR(YEAR))]
+
+  [round (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The Amazon rain forest is almost as big as the continent of Australia. 
+PreProc  : The Amazon rain forest is almost as big as the continent of Australia >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [almost (LEX)(ADV)]
+
+  [as (LEX)(PREP)]
+  [big (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [as (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [continent (LEX)(N SINGULAR(LOCATION))]
+
+
+Following PP attaches to: the continent
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Australia (LEX)(N SINGULAR(COUNTRY))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Scientists say about 80,000 different types of trees and plants can be found in the Amazon rain forest. 
+PreProc  : Scientists say about &&80,000 different types of trees and plants can be found in the Amazon rain forest >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Scientists (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [say (LEX)(V BASE(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [about (LEX)(ADV)]
+    [&&80,000 (LEX)(NUM)]
+    [different (LEX)(ADJ)]
+    [types (root: type) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: about &&80,000 different types
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [trees (root: tree) (MOR)(N PLURAL(PHYSOBJ))]
+      [and (LEX)(CONJ)]
+      [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [plants (root: plant) (MOR)(N PLURAL(BUILDING PHYSOBJ))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [can (LEX)(AUX)]
+    [be (LEX)(COP)]
+    [found (root: find) (LEX)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [rain (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [forest (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More kinds of fish live in the Amazon River than in the Atlantic Ocean. 
+PreProc  : More kinds of fish live in the Amazon River than in the Atlantic Ocean >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [More (LEX)(ADJ)]
+    [kinds (root: kind) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: More kinds
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [fish (LEX)(N SINGULAR(ANIMAL))]
+
+
+  [live (LEX)(ADJ)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  [than (LEX)(ADV)]
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Atlantic (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [Ocean (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The river flows through forests that are home to jaguars, armadillos, snakes, monkeys, crocodiles, and anteaters. 
+PreProc  : The river flows through forests that are home to jaguars >COMMA armadillos >COMMA snakes >COMMA monkeys >COMMA crocodiles >COMMA and anteaters >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+    [flows (root: flow) (MOR)(N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [forests (?)(UNK(ENTITY UNKNOWN))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [forests (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [home (LEX)(N SINGULAR(BUILDING))]
+
+  PP SEGMENT (PREP):
+    [to (LEX)(PREP)]
+    NP SEGMENT:
+      [jaguars (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [armadillos (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [snakes (root: snake) (MOR)(N PLURAL(ANIMAL))]
+      [>COMMA (LEX)(PUNC)]
+      [monkeys (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [crocodiles (?)(UNK(ENTITY UNKNOWN))]
+      [>COMMA (LEX)(PUNC)]
+      [and (LEX)(CONJ)]
+      [anteaters (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Along the river live about 170 different groups of native people. 
+PreProc  : Along the river live about &&170 different groups of native people >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT-Location (PREP):
+    [Along (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [river (LEX)(N SINGULAR(LOCATION))]
+
+
+  [live (LEX)(ADJ)]
+  [about (LEX)(ADV)]
+  NP SEGMENT (SUBJ):
+    [&&170 (LEX)(NUM)]
+    [different (LEX)(ADJ)]
+    [groups (root: group) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: &&170 different groups
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [native (LEX)(ADJ) (N SINGULAR(HUMAN))]
+      [people (root: person) (LEX)(N PLURAL(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Many areas of the Amazon River have never been explored. 
+PreProc  : Many areas of the Amazon River have never been explored >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [Many (LEX)(ADJ) (N PLURAL(OTHER))]
+    [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+Following PP attaches to: Many areas
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Amazon (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  VP SEGMENT (PASSIVE_VERB):
+    [have (LEX)(AUX) (V BASE)]
+    [never (LEX)(ADV)]
+    [been (root: be) (LEX)(COP)]
+    [explored (root: explore) (MOR)(V PAST)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Why do you think that is? 
+PreProc  : Why do you think that is >QUESTION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Why (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [do (LEX)(AUX) (V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [think (LEX)(V BASE)]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [you (LEX)(PN(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

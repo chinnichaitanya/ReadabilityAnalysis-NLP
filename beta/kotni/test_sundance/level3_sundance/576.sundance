@@ -1,0 +1,531 @@
+Original : Good-bye, Harry Potter! 
+PreProc  : Good-bye >COMMA Harry Potter >EXCLAMATION <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Good-bye (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [Harry (?)(UNK(ENTITY UNKNOWN))]
+    [Potter (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Hello, rats! 
+PreProc  : Hello >COMMA rats >EXCLAMATION <EOS 
+CLAUSE:
+  [Hello (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [rats (?)(UNK(ENTITY UNKNOWN))]
+
+  [>EXCLAMATION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In the film , actor Emma Watson plays a princess who , or makes friends with, a mouse. 
+PreProc  : In the film >COMMA actor Emma Watson plays a princess who >COMMA or makes friends with >COMMA a mouse >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [film (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [actor (?)(UNK(ENTITY UNKNOWN))]
+    [Emma (?)(UNK(ENTITY UNKNOWN))]
+    [Watson (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [plays (root: play) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [princess (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [a (LEX)(ART)]
+    [princess (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  [or (LEX)(CONJ)]
+  VP SEGMENT (ACTIVE_VERB):
+    [makes (root: make) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [friends (root: friend) (MOR)(N PLURAL(HUMAN))]
+
+  [with (LEX)(PREP)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [mouse (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Together, they try to defeat her castleÕs mean rats. 
+PreProc  : Together >COMMA they try to defeat her castleÕs mean rats >PERIOD <EOS 
+CLAUSE:
+  [Together (LEX)(ADV)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [they (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [try (LEX)(V BASE)]
+    [to (LEX)(INF)]
+    [defeat (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [castleÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [castleÕs (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [mean (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [rats (?)(UNK(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : student reporter Dayvon Snell interviewed Watson about the movie, which comes out this month. 
+PreProc  : student reporter Dayvon Snell interviewed Watson about the movie >COMMA which comes out this month >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [student (LEX)(N SINGULAR(HUMAN))]
+    [reporter (LEX)(N SINGULAR(HUMAN))]
+    [Dayvon (?)(UNK(ENTITY UNKNOWN))]
+    [Snell (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [interviewed (root: interview) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Watson (?)(UNK(ENTITY UNKNOWN))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [comes (root: come) (MOR)(V PRESENT)]
+
+  [out (LEX)]
+  NP SEGMENT:
+    [this (LEX)(DET)]
+    [month (LEX)(N SINGULAR(MONTH))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Tell me a little bit about your new movie. 
+PreProc  : Tell me a little bit about your new movie >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [Tell (LEX)(V BASE)]
+
+  NP SEGMENT (IOBJ):
+    [me (LEX)(PN SINGULAR(HUMAN))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [little (LEX)(ADJ)]
+    [bit (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [new (LEX)(ADJ)]
+      [movie (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : is ... about a mouse. 
+PreProc  : is >ELLIPSES about a mouse >PERIOD <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  PP SEGMENT (PREP):
+    [about (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [mouse (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : HeÕs got these ... [huge] ears, but what really sets him apart ... is [that] he has courage. 
+PreProc  : HeÕs got these >ELLIPSES >LBRACKET huge >RBRACKET ears >COMMA but what really sets him apart >ELLIPSES is >LBRACKET that >RBRACKET he has courage >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [HeÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [got (root: get) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [these (LEX)(DET)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [>LBRACKET (LEX)(PUNC)]
+  [huge (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [ears (root: ear) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  [but (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [what (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [really (root: real) (MOR)(ADV)]
+    [sets (root: set) (MOR)(V PRESENT)]
+
+  NP SEGMENT (DOBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  [apart (LEX)(ADJ)]
+  [>ELLIPSES (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [him (LEX)(PN SINGULAR(HUMAN))]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [he (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [has (root: have) (LEX)(AUX) (V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [courage (LEX)(N SINGULAR(OTHER))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : He falls in love with Princess Pea, who is my character. 
+PreProc  : He falls in love with Princess Pea >COMMA who is my character >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [He (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [falls (root: fall) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [love (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [Princess (?)(UNK(ENTITY UNKNOWN))]
+      [Pea (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Princess (?)(UNK(ENTITY UNKNOWN))]
+    [Pea (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  ADJ SEGMENT:
+    [my (LEX)(ADJ)]
+    [character (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : ... Despereaux ends up kind of saving the day. 
+PreProc  : >ELLIPSES Despereaux ends up kind of saving the day >PERIOD <EOS 
+CLAUSE:
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [Despereaux (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ends (root: end) (MOR)(V PRESENT)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [kind (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+Following PP attaches to: kind
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [saving (root: save) (MOR)(N SINGULAR) (GER)]
+
+
+  NP SEGMENT:
+    [the (LEX)(ART)]
+    [day (LEX)(N SINGULAR(DAY))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : How was making this movie different from your other projects? 
+PreProc  : How was making this movie different from your other projects >QUESTION <EOS 
+CLAUSE:
+  VP SEGMENT (ACTIVE_VERB):
+    [How (LEX)(ADV)]
+    [was (root: be) (LEX)(COP PAST)]
+    [making (root: make) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [this (LEX)(DET)]
+    [movie (LEX)(N SINGULAR(OTHER))]
+
+  [different (LEX)(ADJ)]
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [your (LEX)(ADJ)]
+      [other (LEX)(ADJ) (N SINGULAR(ENTITY))]
+      [projects (root: project) (MOR)(N PLURAL(OTHER))]
+
+
+  [>QUESTION (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : This is [my] first animated film ... so it was a completely new experience for me. 
+PreProc  : This is >LBRACKET my >RBRACKET first animated film >ELLIPSES so it was a completely new experience for me >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [This (LEX)(DET)]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>LBRACKET (LEX)(PUNC)]
+  [my (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [first (LEX)(ADJ)]
+    [animated (LEX)(ADJ)]
+    [film (LEX)(N SINGULAR(OTHER))]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  [so (LEX)(ADV)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [it (LEX)(PN SINGULAR(ENTITY))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [was (root: be) (LEX)(COP PAST)]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [completely (LEX)(ADV)]
+    [new (LEX)(ADJ)]
+    [experience (LEX)(N SINGULAR(OTHER))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [me (LEX)(PN SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : I had to [act out] everything I wanted to tell in the story through my voice. 
+PreProc  : I had to >LBRACKET act out >RBRACKET everything I wanted to tell in the story through my voice >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [had (root: have) (LEX)(AUX PAST) (V PAST)]
+
+  [to (LEX)(PREP)]
+  [>LBRACKET (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [act (LEX)(V BASE)]
+    [out (LEX)(PART) (ADV)]
+
+  [>RBRACKET (LEX)(PUNC)]
+  NP SEGMENT:
+    [everything (LEX)(N SINGULAR(OTHER))]
+
+  NP SEGMENT:
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [I (LEX)(PN SINGULAR(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [wanted (root: want) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [tell (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [story (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [through (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [voice (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The most inspiring person in my life is ... J. K. Rowling. 
+PreProc  : The most inspiring person in my life is >ELLIPSES J. K. Rowling >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+    [inspiring (root: inspire) (MOR)(N SINGULAR) (GER)]
+    [person (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [my (LEX)(ADJ)]
+      [life (LEX)(N SINGULAR(OTHER))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [>ELLIPSES (LEX)(PUNC)]
+  NP SEGMENT:
+    [J. (?)(UNK(ENTITY UNKNOWN))]
+    [K. (?)(UNK(ENTITY UNKNOWN))]
+    [Rowling (INF-MOR)(GER)]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : SheÕs so talented and so [smart]. 
+PreProc  : SheÕs so talented and so >LBRACKET smart >RBRACKET >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [SheÕs (?)(UNK(ENTITY UNKNOWN))]
+
+  [so (LEX)(ADV)]
+  [talented (LEX)(ADJ)]
+  [and (LEX)(CONJ)]
+  [so (LEX)(ADV)]
+  [>LBRACKET (LEX)(PUNC)]
+  [smart (LEX)(ADJ)]
+  [>RBRACKET (LEX)(PUNC)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Her books inspire people all over the world. 
+PreProc  : Her books inspire people all over the world >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Her (LEX)(ADJ) (N SINGULAR(HUMAN))]
+    [books (root: book) (MOR)(N PLURAL(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [inspire (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [people (root: person) (LEX)(N PLURAL(HUMAN))]
+    [all (LEX)(ADJ) (N PLURAL(OTHER))]
+
+  PP SEGMENT (PREP):
+    [over (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [world (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+

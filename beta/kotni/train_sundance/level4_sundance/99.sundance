@@ -1,0 +1,657 @@
+Original : In late November, an oil tanker carrying crude oil spilled half a million gallons of oil into the Mississippi River in Louisiana. 
+PreProc  : In late November >COMMA an oil tanker carrying crude oil spilled half a million gallons of oil into the Mississippi River in Louisiana >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [late (LEX)(ADJ(TIME))]
+      [November (LEX)(N SINGULAR(MONTH))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [an (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+    [tanker (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [carrying (root: carry) (LEX)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [crude (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [crude (LEX)(ADJ) (N SINGULAR(OTHER))]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [spilled (root: spill) (MOR)(V PAST)]
+
+  NP SEGMENT (IOBJ):
+    [half (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+  NP SEGMENT (DOBJ):
+    [a (LEX)(ART)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [gallons (root: gallon) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: a million gallons
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [Mississippi (LEX)(N SINGULAR(LOCATION))]
+      [River (LEX)(N SINGULAR(LOCATION))]
+
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Louisiana (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Sticky oil flowed from the ship into the river, which is often called the "Big Muddy." 
+PreProc  : Sticky oil flowed from the ship into the river >COMMA which is often called the >DQUOTE Big Muddy >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Sticky (root: stick) (MOR)(ADJ(PHYSOBJ))]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flowed (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [ship (LEX)(N SINGULAR(VEHICLE))]
+
+
+  PP SEGMENT-Location (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [river (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT-Location (SUBJ):
+    [the (LEX)(ART)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+
+  VP SEGMENT (PASSIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+    [often (LEX)(ADV)]
+    [called (root: call) (MOR)(V PAST)]
+
+  [the (LEX)(ART)]
+  [Big (LEX)(ADJ)]
+  [Muddy (LEX)(ADJ)]
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The oil spill closed the river for 26 miles. 
+PreProc  : The oil spill closed the river for &&26 miles >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+    [spill (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [closed (root: close) (MOR)(V PAST)]
+
+  NP SEGMENT-Location (DOBJ):
+    [the (LEX)(ART)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [&&26 (LEX)(NUM)]
+      [miles (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : About 567,000 gallons of oil gushed from six gashes in the tanker. 
+PreProc  : About &&567,000 gallons of oil gushed from &&6 gashes in the tanker >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [About (LEX)(ADV)]
+    [&&567,000 (LEX)(NUM)]
+    [gallons (root: gallon) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: About &&567,000 gallons
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  VP SEGMENT (ACTIVE_VERB):
+    [gushed (INF-MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [&&6 (LEX)(NUM)]
+      [gashes (?)(UNK(ENTITY UNKNOWN))]
+
+
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tanker (LEX)(N SINGULAR(VEHICLE))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The gashes were cut into the tanker after its engine exploded, causing the ship to run aground, about 60 miles south of New Orleans, Louisiana. 
+PreProc  : The gashes were cut into the tanker after its engine exploded >COMMA causing the ship to run aground >COMMA about &&60 miles south of New Orleans >COMMA Louisiana >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [gashes (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [were (root: be) (LEX)(COP PAST)]
+    [cut (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tanker (LEX)(N SINGULAR(VEHICLE))]
+
+
+  PP SEGMENT (PREP):
+    [after (LEX)(PREP)]
+    NP SEGMENT:
+      [its (LEX)(ADJ)]
+      [engine (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [engine (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [exploded (root: explode) (MOR)(V PAST)]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [its (LEX)(ADJ)]
+    [engine (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [causing (root: cause) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [ship (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (INFINITIVE):
+    [to (LEX)(INF)]
+    [run (LEX)(V BASE)]
+
+  ADJ SEGMENT:
+    [aground (LEX)(ADJ)]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [about (LEX)(ADV)]
+    [&&60 (LEX)(NUM)]
+    [miles (?)(UNK(ENTITY UNKNOWN))]
+    [south (LEX)(ADJ) (ADV) (N SINGULAR(LOCATION))]
+
+Following PP attaches to: about &&60 miles south
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [New (LEX)(ADJ)]
+      [Orleans (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Louisiana (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The oil flowed out until the tanker hit the bottom of the river. 
+PreProc  : The oil flowed out until the tanker hit the bottom of the river >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [flowed (INF-MOR)(V PAST)]
+    [out (LEX)(PART) (ADV)]
+
+  PP SEGMENT (PREP):
+    [until (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [tanker (LEX)(N SINGULAR(VEHICLE))]
+
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [tanker (LEX)(N SINGULAR(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [hit (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bottom (LEX)(N SINGULAR(OTHER))]
+
+Following PP attaches to: the bottom
+  PP SEGMENT-Location (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [river (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The river bottom apparently plugged the leaks, explained Virginia Miller, a spokesperson for the ship's operator. 
+PreProc  : The river bottom apparently plugged the leaks >COMMA explained Virginia Miller >COMMA a spokesperson for the @ship@s operator >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+    [bottom (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [apparently (LEX)(ADV)]
+    [plugged (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [leaks (root: leak) (MOR)(N PLURAL(OTHER))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [river (LEX)(N SINGULAR(LOCATION))]
+    [bottom (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [explained (root: explain) (MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [Virginia (LEX)(N SINGULAR(LOCATION))]
+    [Miller (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [spokesperson (LEX)(N SINGULAR(HUMAN))]
+
+  PP SEGMENT (PREP):
+    [for (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [@ship@s (LEX)(ADJ POSSESSIVE)]
+      [operator (LEX)(N SINGULAR(HUMAN))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : The oil spill is the largest in United States waters since 1989. 
+PreProc  : The oil spill is the largest in UNITED_STATES waters since &&1989 >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [The (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+    [spill (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [is (root: be) (LEX)(COP)]
+
+  [the (LEX)(ART)]
+  [largest (root: large) (MOR)(ADJ   )]
+  PP SEGMENT (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT:
+      [UNITED_STATES (LEX)(N SINGULAR(COUNTRY))]
+      [waters (root: water) (MOR)(N PLURAL(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [since (LEX)(PREP)]
+    NP SEGMENT:
+      [&&1989 (LEX)(NUM)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : In that year, the ran aground, spilling more than 11 million gallons of oil into Prince William Sound, Alaska. 
+PreProc  : In that year >COMMA the ran aground >COMMA spilling MORE_THAN &&11 million gallons of oil into Prince William Sound >COMMA Alaska >PERIOD <EOS 
+CLAUSE:
+  PP SEGMENT (PREP):
+    [In (LEX)(PREP)]
+    NP SEGMENT:
+      [that (LEX)(DET)]
+      [year (LEX)(N SINGULAR(YEAR))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [ran (root: run) (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+
+  [aground (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  VP SEGMENT (ACTIVE_VERB):
+    [spilling (root: spill) (MOR)(V PARTICIPLE)]
+
+  NP SEGMENT (DOBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&11 (LEX)(NUM)]
+    [million (LEX)(ADJ(DENOMINATION)) (N SINGULAR(DENOMINATION))]
+    [gallons (root: gallon) (MOR)(N PLURAL(OTHER))]
+
+Following PP attaches to: MORE_THAN &&11 million gallons
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  PP SEGMENT (PREP):
+    [into (LEX)(PREP)]
+    NP SEGMENT:
+      [Prince (?)(UNK(ENTITY UNKNOWN))]
+      [William (?)(UNK(ENTITY UNKNOWN))]
+      [Sound (LEX)(ADJ) (N SINGULAR(OTHER))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT-Location:
+    [Alaska (LEX)(N SINGULAR(LOCATION))]
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : Emergency crews scrambled to clean up the spill. 
+PreProc  : Emergency crews scrambled to clean up the spill >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [Emergency (LEX)(N SINGULAR(OTHER))]
+    [crews (root: crew) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [scrambled (INF-MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [clean (LEX)(V BASE)]
+
+  PP SEGMENT (PREP):
+    [up (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [spill (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : More than 100 workers and 30 ships tried to keep the oil from spreading. 
+PreProc  : MORE_THAN &&100 workers and &&30 ships tried to keep the oil from spreading >PERIOD <EOS 
+CLAUSE:
+  NP-CONJ SEGMENT (SUBJ):
+    [MORE_THAN (LEX)(ADJ)]
+    [&&100 (LEX)(NUM)]
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+    [and (LEX)(CONJ)]
+    [&&30 (LEX)(NUM)]
+    [ships (root: ship) (MOR)(N PLURAL(VEHICLE))]
+
+  VP SEGMENT (ACTIVE_INFINITIVE):
+    [tried (root: try) (MOR)(V PAST)]
+    [to (LEX)(INF)]
+    [keep (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+  PP SEGMENT (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT:
+      [spreading (root: spread) (MOR)(N SINGULAR) (GER)]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : At first, workers feared that the oil spill would harm wildlife that live in the river. 
+PreProc  : At first >COMMA workers feared that the oil spill would harm wildlife that live in the river >PERIOD <EOS 
+CLAUSE:
+  [At (LEX)(PREP)]
+  [first (LEX)(ADJ)]
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT (SUBJ):
+    [workers (root: worker) (MOR)(N PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [feared (root: fear) (MOR)(V PAST)]
+
+
+CLAUSE:
+  [that (LEX)(C_M)]
+  NP SEGMENT (SUBJ):
+    [the (LEX)(ART)]
+    [oil (LEX)(N SINGULAR(PHYSOBJ))]
+    [spill (LEX)(N SINGULAR(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [would (root: will) (LEX)(AUX)]
+    [harm (LEX)(V BASE)]
+
+  NP SEGMENT (DOBJ):
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [wildlife (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [live (LEX)(V BASE)]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [the (LEX)(ART)]
+      [river (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : But wind blew most of the oil away from those areas. 
+PreProc  : But wind blew most of the oil away from those areas >PERIOD <EOS 
+CLAUSE:
+  [But (LEX)(C_M)]
+  VP SEGMENT (ACTIVE_VERB):
+    [wind (LEX)(V BASE)]
+    [blew (root: blow) (LEX)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [most (LEX)(ADJ) (N PLURAL(OTHER))]
+
+Following PP attaches to: most
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [the (LEX)(ART)]
+      [oil (LEX)(N SINGULAR(PHYSOBJ))]
+
+
+  [away (LEX)(ADV)]
+  PP SEGMENT-Location (PREP):
+    [from (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [those (LEX)(DET)]
+      [areas (root: area) (MOR)(N PLURAL(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We dodged the bullet," said Jimmy Jenkins, a wildlife official in Louisiana. 
+PreProc  : >DQUOTE We dodged the bullet >COMMA >DQUOTE said Jimmy Jenkins >COMMA a wildlife official in Louisiana >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [dodged (INF-MOR)(V PAST)]
+
+  NP SEGMENT (DOBJ):
+    [the (LEX)(ART)]
+    [bullet (LEX)(N SINGULAR(WEAPON))]
+
+  [>COMMA (LEX)(PUNC)]
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [We (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [said (root: say) (LEX)(V PAST(COMMUNICATION_VERB))]
+
+  NP SEGMENT (DOBJ):
+    [Jimmy (?)(UNK(ENTITY UNKNOWN))]
+    [Jenkins (?)(UNK(ENTITY UNKNOWN))]
+
+  [>COMMA (LEX)(PUNC)]
+  NP SEGMENT:
+    [a (LEX)(ART)]
+    [wildlife (INF-LEX)(ADJ) (N(ENTITY UNKNOWN))]
+    [official (LEX)(ADJ) (N SINGULAR(HUMAN))]
+
+  PP SEGMENT-Location (PREP):
+    [in (LEX)(PREP)]
+    NP SEGMENT-Location:
+      [Louisiana (LEX)(N SINGULAR(LOCATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : "We're not looking at a whole lot of damage." 
+PreProc  : >DQUOTE WE ARE not looking at a whole lot of damage >PERIOD >DQUOTE <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [WE (LEX)(PN PLURAL(HUMAN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [ARE (root: be) (LEX)(COP)]
+    [not (LEX)(ADV)]
+    [looking (root: look) (MOR)(V PARTICIPLE)]
+
+  PP SEGMENT (PREP):
+    [at (LEX)(PREP)]
+    NP SEGMENT:
+      [a (LEX)(ART)]
+      [whole (LEX)(ADJ)]
+      [lot (LEX)(N SINGULAR(OTHER))]
+
+
+Following PP attaches to: a whole lot
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [damage (LEX)(N SINGULAR(OTHER))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
+Original : measures published under license with MetaMetrics, Inc. All trademarks and logos are property of Weekly Reader Corporation. 
+PreProc  : measures published under license with MetaMetrics >COMMA Inc. All trademarks and logos are property of Weekly Reader Corporation >PERIOD <EOS 
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [measures (root: measure) (MOR)(N PLURAL(OTHER))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [published (root: publish) (MOR)(V PAST)]
+
+  PP SEGMENT (PREP):
+    [under (LEX)(PREP)]
+    NP SEGMENT:
+      [license (LEX)(N SINGULAR(OTHER))]
+
+
+  PP SEGMENT (PREP):
+    [with (LEX)(PREP)]
+    NP SEGMENT:
+      [MetaMetrics (?)(UNK(ENTITY UNKNOWN))]
+
+
+  [>COMMA (LEX)(PUNC)]
+  NP-CONJ SEGMENT:
+    [Inc. (?)(UNK(ENTITY UNKNOWN))]
+    [All (LEX)(ADJ) (N PLURAL(OTHER))]
+    [trademarks (?)(UNK(ENTITY UNKNOWN))]
+    [and (LEX)(CONJ)]
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+
+CLAUSE:
+  NP SEGMENT (SUBJ):
+    [logos (?)(UNK(ENTITY UNKNOWN))]
+
+  VP SEGMENT (ACTIVE_VERB):
+    [are (root: be) (LEX)(COP)]
+
+  NP SEGMENT (DOBJ):
+    [property (LEX)(N SINGULAR(PHYSOBJ))]
+
+Following PP attaches to: property
+  PP SEGMENT (PREP):
+    [of (LEX)(PREP)]
+    NP SEGMENT:
+      [Weekly (LEX)(ADJ) (ADV) (N SINGULAR(MEDIA))]
+      [Reader (root: read) (MOR)(N SINGULAR)]
+      [Corporation (LEX)(N SINGULAR(ORGANIZATION))]
+
+
+  [>PERIOD (LEX)(PUNC)]
+  [<EOS (?)]
+
